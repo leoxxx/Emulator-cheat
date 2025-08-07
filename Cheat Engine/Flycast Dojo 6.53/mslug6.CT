@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"启用DEBUG菜单（在关卡中按两次D+E键开启）"</Description>
+      <DropDownList ReadOnly="1" DescriptionOnly="1">255:启用
+</DropDownList>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>flycast.exe+1C725E0</Address>
+      <Offsets>
+        <Offset>0C38693C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"色彩（全部调成255为最亮，即-1，等同于ディップ3第8项）"</Description>
+      <Options moRecursiveSetValue="1" moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <DropDownList>255:最大亮度
+</DropDownList>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"透明度（阿尔法通道）"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C6E83E3</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"红"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C6E83E2</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3</ID>
+          <Description>"绿"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C6E83E1</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"蓝"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C6E83E0</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"中下方显示"</Description>
+      <DropDownList ReadOnly="1" DescriptionOnly="1">0:不显示
+1:难度等级
+2:投币或免费（默认）
+3:重叠显示
+</DropDownList>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>flycast.exe+1C725E0</Address>
+      <Offsets>
+        <Offset>0C2EF837</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"停止选难度时间"</Description>
+      <DropDownList ReadOnly="1" DescriptionOnly="1">20:需要锁定
+</DropDownList>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>flycast.exe+1C725E0</Address>
+      <Offsets>
+        <Offset>0CE9F2F0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"停止选人时间"</Description>
+      <DropDownList ReadOnly="1" DescriptionOnly="1">20:需要锁定
+</DropDownList>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>flycast.exe+1C725E0</Address>
+      <Offsets>
+        <Offset>0CE9F2EC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"关卡中选人时间"</Description>
+      <DropDownList DescriptionOnly="1">9:9
+</DropDownList>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>flycast.exe+1C725E0</Address>
+      <Offsets>
+        <Offset>0C3D39F7</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"关卡时间"</Description>
+      <DropDownList DescriptionOnly="1">96:60
+</DropDownList>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>flycast.exe+1C725E0</Address>
+      <Offsets>
+        <Offset>0C3FB939</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>" 玩家1"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>12</ID>
+          <Description>"救出俘虏数大于99（如锁定，结算前须关闭，否则卡住）"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">1:99+
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0CE936B5</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"生命数"</Description>
+          <DropDownList DescriptionOnly="1">99:99
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C3D3B07</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>"武器（种类需要结合模组一起使用，否则某些枪打不出子弹）"</Description>
+          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>16</ID>
+              <Description>"模组"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1">0:手枪&amp;Z
+1:其它（除手枪、Z、2H之外）
+2:2H
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>flycast.exe+1C725E0</Address>
+              <Offsets>
+                <Offset>C3D3F29</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>14</ID>
+              <Description>"种类"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1">0:手枪
+2:S
+3:R
+4:F
+5:H
+6:L
+7:强S
+8:强R
+9:强F
+10:强H
+11:强L
+12:C
+13:I
+14:D
+15:G
+18:2H
+19:Z
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>flycast.exe+1C725E0</Address>
+              <Offsets>
+                <Offset>0C3D3F43</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"炸弹种类"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">1:手榴弹
+2:燃烧瓶
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C3D3F44</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"金币奖励（结合使用。只用奖励时间不减仅外观，无实际作用）"</Description>
+          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>19</ID>
+              <Description>"连击槽"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1">64:满
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>flycast.exe+1C725E0</Address>
+              <Offsets>
+                <Offset>0C3D3F5D</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>20</ID>
+              <Description>"奖励时间不减"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1">150:需要锁定
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>flycast.exe+1C725E0</Address>
+              <Offsets>
+                <Offset>0C3D3F5E</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>" 玩家2"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"救出俘虏数大于99（如锁定，结算前须关闭，否则卡住）"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">1:99+
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0CE936BD</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"生命数"</Description>
+          <DropDownList DescriptionOnly="1">99:99
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C3D3C07</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>24</ID>
+          <Description>"武器（种类需要结合模组一起使用，否则某些枪打不出子弹）"</Description>
+          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>25</ID>
+              <Description>"模组"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1">0:手枪&amp;Z
+1:其它（除手枪、Z、2H之外）
+2:2H
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>flycast.exe+1C725E0</Address>
+              <Offsets>
+                <Offset>C3D4019</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>26</ID>
+              <Description>"种类"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1">0:手枪
+2:S
+3:R
+4:F
+5:H
+6:L
+7:强S
+8:强R
+9:强F
+10:强H
+11:强L
+12:C
+13:I
+14:D
+15:G
+18:2H
+19:Z
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>flycast.exe+1C725E0</Address>
+              <Offsets>
+                <Offset>0C3D4033</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"炸弹种类"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">1:手榴弹
+2:燃烧瓶
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C3D4034</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"金币奖励（结合使用。只用奖励时间不减仅外观，无实际作用）"</Description>
+          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>29</ID>
+              <Description>"连击槽"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1">64:满
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>flycast.exe+1C725E0</Address>
+              <Offsets>
+                <Offset>0C3D404D</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>30</ID>
+              <Description>"奖励时间不减"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1">150:需要锁定
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>flycast.exe+1C725E0</Address>
+              <Offsets>
+                <Offset>0C3D404E</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"选人时间（锁定值最好不要超过950，不锁定值不要超过1000。系统判定9.XX秒之前不能按键）"</Description>
+      <DropDownList DescriptionOnly="1">950:9
+</DropDownList>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>flycast.exe+1C725E0</Address>
+      <Offsets>
+        <Offset>0C2040A8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"关卡时间"</Description>
+      <DropDownList DescriptionOnly="1">9899:99
+</DropDownList>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>flycast.exe+1C725E0</Address>
+      <Offsets>
+        <Offset>0C136324</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"玩家1"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3</ID>
+          <Description>"生命（标题画面过后才可开启，否则卡住）"</Description>
+          <DropDownList DescriptionOnly="1">5:5
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C136360</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>6</ID>
+          <Description>"体力"</Description>
+          <DropDownList DescriptionOnly="1">112:满
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C13A618</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>8</ID>
+          <Description>"子弹时间槽"</Description>
+          <DropDownList DescriptionOnly="1">231:满
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C136358</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>9</ID>
+          <Description>"无敌"</Description>
+          <DropDownList DescriptionOnly="1">18000:开启
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C13A932</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"玩家2"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>11</ID>
+          <Description>"生命（标题画面过后才可开启，否则卡住）"</Description>
+          <DropDownList DescriptionOnly="1">5:5
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C136364</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12</ID>
+          <Description>"体力"</Description>
+          <DropDownList DescriptionOnly="1">112:满
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C13AEBC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"子弹时间槽"</Description>
+          <DropDownList DescriptionOnly="1">231:满
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C13635C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"无敌"</Description>
+          <DropDownList DescriptionOnly="1">18000:开启
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C13B1D6</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

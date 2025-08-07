@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"选人时间（如锁定，选人完成后须立即关闭，否则卡住）"</Description>
+      <DropDownList DescriptionOnly="1">10:9（上限）
+</DropDownList>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>flycast.exe+1C725E0</Address>
+      <Offsets>
+        <Offset>0C00F338</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"关卡时间"</Description>
+      <DropDownList DescriptionOnly="1">100:99（上限）
+</DropDownList>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>flycast.exe+1C725E0</Address>
+      <Offsets>
+        <Offset>0C33F8DC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"玩家1"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"关卡中选人时间"</Description>
+          <DropDownList DescriptionOnly="1">10:8
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336D06</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"生命数"</Description>
+          <DropDownList DescriptionOnly="1">5:4
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336D08</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>30</ID>
+          <Description>"当前体力（值可不对应所选人物）"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">150:诸葛亮（最少）
+160:貂蝉
+200:张飞（最多）
+180:赵云
+170:吕双双
+185:关羽&amp;吕布
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C335FAC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"体力上限（值可不对应所选人物）"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">150:诸葛亮（最少）
+160:貂蝉
+200:张飞（最多）
+180:赵云
+170:吕双双
+185:关羽&amp;吕布
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336D0A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>32</ID>
+          <Description>"七星玉"</Description>
+          <DropDownList DescriptionOnly="1">6:5（上限）
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336D20</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>33</ID>
+          <Description>"当前转生槽（值可不对应所选人物）"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">185:诸葛亮（最多）
+145:貂蝉
+120:张飞&amp;吕布（最少）
+165:赵云
+130:吕双双
+140:关羽
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C33616C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>34</ID>
+          <Description>"转生槽上限（值可不对应所选人物）"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">185:诸葛亮（最多）
+145:貂蝉
+120:张飞&amp;吕布（最少）
+165:赵云
+130:吕双双
+140:关羽
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C33616E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>35</ID>
+          <Description>"转生中转生槽不减"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">185:需要锁定
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336D1A</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"玩家2"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>37</ID>
+          <Description>"关卡中选人时间"</Description>
+          <DropDownList DescriptionOnly="1">10:8
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336D4E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>38</ID>
+          <Description>"生命数"</Description>
+          <DropDownList DescriptionOnly="1">5:4
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336D50</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>39</ID>
+          <Description>"当前体力（值可不对应所选人物）"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">150:诸葛亮（最少）
+160:貂蝉
+200:张飞（最多）
+180:赵云
+170:吕双双
+185:关羽&amp;吕布
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336344</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>40</ID>
+          <Description>"体力上限（值可不对应所选人物）"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">150:诸葛亮（最少）
+160:貂蝉
+200:张飞（最多）
+180:赵云
+170:吕双双
+185:关羽&amp;吕布
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336D52</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>41</ID>
+          <Description>"七星玉"</Description>
+          <DropDownList DescriptionOnly="1">6:5（上限）
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336D68</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>42</ID>
+          <Description>"当前转生槽（值可不对应所选人物）"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">185:诸葛亮（最多）
+145:貂蝉
+120:张飞&amp;吕布（最少）
+165:赵云
+130:吕双双
+140:关羽
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336504</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>43</ID>
+          <Description>"转生槽上限（值可不对应所选人物）"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">185:诸葛亮（最多）
+145:貂蝉
+120:张飞&amp;吕布（最少）
+165:赵云
+130:吕双双
+140:关羽
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336506</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>44</ID>
+          <Description>"转生中转生槽不减"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1">185:需要锁定
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C336D62</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"测试用"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>7</ID>
+          <Description>"吕布人像（2=开，0=关）"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C321774</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"吕布人像（标题2，150=开，选人152=开）"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C321779</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>24</ID>
+          <Description>"锁定非0时报错"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C3297D0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"报错后的o地址"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>flycast.exe+1C725E0</Address>
+          <Offsets>
+            <Offset>0C3297C8</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
