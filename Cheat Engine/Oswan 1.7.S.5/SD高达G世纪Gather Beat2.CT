@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"DLC选关（需锁定）"</Description>
+      <DropDownList>30:逆襲のシャア
+31:メビウスの輪から
+32:忌まわしき記憶と共に
+33:戦士再び
+38:マフティー動乱
+</DropDownList>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>Oswan.exe+108CCC</Address>
+      <Offsets>
+        <Offset>177C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"战舰"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"1"</Description>
+          <DropDownList>12:ネェルアーガマ
+15:ラー・カイラム
+17:リーンホースJr.
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>Oswan.exe+108CCC</Address>
+          <Offsets>
+            <Offset>505</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>6</ID>
+          <Description>"2"</Description>
+          <DropDownList>12:ネェルアーガマ
+15:ラー・カイラム
+17:リーンホースJr.
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>Oswan.exe+108CCC</Address>
+          <Offsets>
+            <Offset>525</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>7</ID>
+          <Description>"3"</Description>
+          <DropDownList>12:ネェルアーガマ
+15:ラー・カイラム
+17:リーンホースJr.
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>Oswan.exe+108CCC</Address>
+          <Offsets>
+            <Offset>545</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"换机"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>11</ID>
+          <Description>"机体（自行调整偏移）"</Description>
+          <DropDownList>01:∀ガンダム（月光蝶）
+64:ターンX
+65:ターンX（月光蝶）
+66:タイタニア
+72:ナイチンゲール
+89:マスターガンダム
+A7:α·アジ－ル
+A8:Ξガンダム
+AF:ジオング（头）
+B4:ガンダムG3（损）
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>Oswan.exe+108CAC</Address>
+          <Offsets>
+            <Offset>25E2</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12</ID>
+          <Description>"搭乘人（自行调整偏移，机体地址+1）"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>Oswan.exe+108CAC</Address>
+          <Offsets>
+            <Offset>25E3</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"换人"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>"开关（自行调整偏移，人物地址-2）"</Description>
+          <DropDownList>00:开启
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>Oswan.exe+108CAC</Address>
+          <Offsets>
+            <Offset>1692</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"人物（自行调整偏移）"</Description>
+          <DropDownList>2A:ギレン
+60:東方不敗
+72:ハマーン
+BF:シャア
+C9:カミーユ(可HYPER化，需要搭乘Z)
+CE:ドモン（可明镜止水）
+DE:アレンビー（可SUPERMODE，需要搭乘诺贝尔）
+F5:ハマーン(ID变化)
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>Oswan.exe+108CAC</Address>
+          <Offsets>
+            <Offset>1694</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>16</ID>
+          <Description>"等级（自行调整偏移，人物地址+1）"</Description>
+          <DropDownList>1E:30级（满级）
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>Oswan.exe+108CAC</Address>
+          <Offsets>
+            <Offset>1695</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"SP值（自行调整偏移，人物地址+3）"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>Oswan.exe+108CAC</Address>
+          <Offsets>
+            <Offset>1697</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"经验值（自行调整偏移，人物地址+4）"</Description>
+          <DropDownList>99999:经验值满
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>Oswan.exe+108CAC</Address>
+          <Offsets>
+            <Offset>1698</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
