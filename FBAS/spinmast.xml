@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105015" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x1000B4" value="0x05"/>
+            <parameter cpu="0" address="0x105F62" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105FBD" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 对拖延时间落下的炸弹无效 ]"/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105F95" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="溜溜球">
+            <parameter cpu="0" address="0x105F55" value="0x04"/>
+        </option>
+        <option desc="火球">
+            <parameter cpu="0" address="0x105F55" value="0x08"/>
+        </option>
+        <option desc="冰锥">
+            <parameter cpu="0" address="0x105F55" value="0x0C"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x105F55" value="0x10"/>
+        </option>
+        <option desc="拳套">
+            <parameter cpu="0" address="0x105F55" value="0x14"/>
+        </option>
+        <option desc="雷弹">
+            <parameter cpu="0" address="0x105F55" value="0x18"/>
+        </option>
+        <option desc="双镖">
+            <parameter cpu="0" address="0x105F55" value="0x1C"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10503D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x1000B4" value="0x05"/>
+            <parameter cpu="0" address="0x106022" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10607D" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 对拖延时间落下的炸弹无效 ]"/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106055" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="溜溜球">
+            <parameter cpu="0" address="0x106015" value="0x24"/>
+        </option>
+        <option desc="火球">
+            <parameter cpu="0" address="0x106015" value="0x28"/>
+        </option>
+        <option desc="冰锥">
+            <parameter cpu="0" address="0x106015" value="0x2C"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x106015" value="0x30"/>
+        </option>
+        <option desc="拳套">
+            <parameter cpu="0" address="0x106015" value="0x34"/>
+        </option>
+        <option desc="雷弹">
+            <parameter cpu="0" address="0x106015" value="0x38"/>
+        </option>
+        <option desc="双镖">
+            <parameter cpu="0" address="0x106015" value="0x3C"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

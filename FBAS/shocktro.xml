@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="无限投币(AES)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108342" value="0x99"/>
+            <parameter cpu="0" address="0x108343" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108D01" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="[ AES用，须在标题画面出现前开启 ]"/>
+    <cheat desc="[ MVS可在机台设定中改 ]"/>
+	<cheat desc="选择参战人数" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x10FD8E" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x10FD8E" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x10FD8E" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x10FD8E" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x10FD8E" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x10FD8E" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x10FD8E" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x10FD8E" value="0x07"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100127" value="0xFF"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x100127" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001B5" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DBB" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="普通枪">
+            <parameter cpu="0" address="0x108DB9" value="0x00"/>
+        </option>
+        <option desc="重机枪">
+            <parameter cpu="0" address="0x108DB9" value="0x04"/>
+        </option>
+        <option desc="巴尔干机枪">
+            <parameter cpu="0" address="0x108DB9" value="0x08"/>
+        </option>
+        <option desc="3向枪">
+            <parameter cpu="0" address="0x108DB9" value="0x0C"/>
+        </option>
+        <option desc="坦克杀手">
+            <parameter cpu="0" address="0x108DB9" value="0x10"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0x108DB9" value="0x14"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x108DB9" value="0x18"/>
+        </option>
+        <option desc="导弹发射器">
+            <parameter cpu="0" address="0x108DB9" value="0x1C"/>
+        </option>
+        <option desc="爆炎枪">
+            <parameter cpu="0" address="0x108DB9" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108DC1" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108DC1" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108DC1" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108DC1" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108DC1" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108DC1" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108DC1" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108DC1" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色2 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108DC5" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108DC5" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108DC5" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108DC5" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108DC5" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108DC5" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108DC5" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108DC5" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色3 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108DC9" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108DC9" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108DC9" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108DC9" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108DC9" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108DC9" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108DC9" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108DC9" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色4 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108DCD" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108DCD" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108DCD" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108DCD" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108DCD" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108DCD" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108DCD" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108DCD" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色5 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108DD1" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108DD1" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108DD1" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108DD1" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108DD1" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108DD1" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108DD1" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108DD1" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色6 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108DD5" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108DD5" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108DD5" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108DD5" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108DD5" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108DD5" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108DD5" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108DD5" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色7 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108DD9" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108DD9" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108DD9" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108DD9" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108DD9" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108DD9" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108DD9" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108DD9" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色8 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108DDD" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108DDD" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108DDD" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108DDD" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108DDD" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108DDD" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108DDD" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108DDD" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DC3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色2 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DC7" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色3 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DCB" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色4 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DCF" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色5 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DD3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色6 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DD7" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色7 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DDB" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色8 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DDF" value="0x63"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102127" value="0xFF"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x102127" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021B5" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FBB" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="普通枪">
+            <parameter cpu="0" address="0x108FB9" value="0x00"/>
+        </option>
+        <option desc="重机枪">
+            <parameter cpu="0" address="0x108FB9" value="0x04"/>
+        </option>
+        <option desc="巴尔干机枪">
+            <parameter cpu="0" address="0x108FB9" value="0x08"/>
+        </option>
+        <option desc="3向枪">
+            <parameter cpu="0" address="0x108FB9" value="0x0C"/>
+        </option>
+        <option desc="坦克杀手">
+            <parameter cpu="0" address="0x108FB9" value="0x10"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0x108FB9" value="0x14"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x108FB9" value="0x18"/>
+        </option>
+        <option desc="导弹发射器">
+            <parameter cpu="0" address="0x108FB9" value="0x1C"/>
+        </option>
+        <option desc="爆炎枪">
+            <parameter cpu="0" address="0x108FB9" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108FC1" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108FC1" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108FC1" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108FC1" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108FC1" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108FC1" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108FC1" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108FC1" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色2 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108FC5" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108FC5" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108FC5" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108FC5" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108FC5" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108FC5" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108FC5" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108FC5" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色3 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108FC9" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108FC9" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108FC9" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108FC9" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108FC9" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108FC9" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108FC9" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108FC9" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色4 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108FCD" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108FCD" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108FCD" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108FCD" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108FCD" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108FCD" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108FCD" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108FCD" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色5 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108FD1" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108FD1" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108FD1" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108FD1" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108FD1" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108FD1" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108FD1" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108FD1" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色6 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108FD5" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108FD5" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108FD5" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108FD5" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108FD5" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108FD5" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108FD5" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108FD5" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色7 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108FD9" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108FD9" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108FD9" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108FD9" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108FD9" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108FD9" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108FD9" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108FD9" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择组队角色8 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0x108FDD" value="0x00"/>
+        </option>
+        <option desc="Milky">
+            <parameter cpu="0" address="0x108FDD" value="0x04"/>
+        </option>
+        <option desc="Loki">
+            <parameter cpu="0" address="0x108FDD" value="0x08"/>
+        </option>
+        <option desc="Southern Cross">
+            <parameter cpu="0" address="0x108FDD" value="0x0C"/>
+        </option>
+        <option desc="Marie Bee">
+            <parameter cpu="0" address="0x108FDD" value="0x10"/>
+        </option>
+        <option desc="Rio">
+            <parameter cpu="0" address="0x108FDD" value="0x14"/>
+        </option>
+        <option desc="Maru">
+            <parameter cpu="0" address="0x108FDD" value="0x18"/>
+        </option>
+        <option desc="Big Mama">
+            <parameter cpu="0" address="0x108FDD" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FC3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色2 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FC7" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色3 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FCB" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色4 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FCF" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色5 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FD3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色6 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FD7" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色7 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FDB" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹 组队角色8 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FDF" value="0x63"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE003D" value="0x09"/>
+            <parameter cpu="0" address="0xFE0045" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE2B94" value="0x09"/>
+            <parameter cpu="0" address="0xFE2B95" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3A2B4" value="0x60"/>
+            <parameter cpu="0" address="0x3CC58" value="0x60"/>
+            <parameter cpu="0" address="0x41BE6" value="0x60"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x3A2B4" value="0x6C"/>
+            <parameter cpu="0" address="0x3CC58" value="0x66"/>
+            <parameter cpu="0" address="0x41BE6" value="0x6C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限选人时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE3449" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="无限命数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE342F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE34F3" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE34FD" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 选项不对应人物是否有问题未知，但依然有效 ]"/>
+    <cheat desc="选择武器等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Doosan 1级">
+            <parameter cpu="0" address="0xFE33D9" value="0x00"/>
+            <parameter cpu="0" address="0xFE33DB" value="0x8E"/>
+            <parameter cpu="0" address="0xFE34AC" value="0xFF"/>
+            <parameter cpu="0" address="0xFE34AD" value="0xFF"/>
+        </option>
+        <option desc="Doosan 2级">
+            <parameter cpu="0" address="0xFE33D9" value="0x01"/>
+            <parameter cpu="0" address="0xFE33DB" value="0x8F"/>
+            <parameter cpu="0" address="0xFE34AC" value="0x00"/>
+            <parameter cpu="0" address="0xFE34AD" value="0x40"/>
+        </option>
+        <option desc="Doosan 3级">
+            <parameter cpu="0" address="0xFE33D9" value="0x02"/>
+            <parameter cpu="0" address="0xFE33DB" value="0x90"/>
+            <parameter cpu="0" address="0xFE34AC" value="0x00"/>
+            <parameter cpu="0" address="0xFE34AD" value="0x40"/>
+        </option>
+        <option desc="Sochun 1级">
+            <parameter cpu="0" address="0xFE33D9" value="0x00"/>
+            <parameter cpu="0" address="0xFE33DB" value="0xA0"/>
+            <parameter cpu="0" address="0xFE34AC" value="0xFF"/>
+            <parameter cpu="0" address="0xFE34AD" value="0xFF"/>
+        </option>
+        <option desc="Sochun 2级">
+            <parameter cpu="0" address="0xFE33D9" value="0x01"/>
+            <parameter cpu="0" address="0xFE33DB" value="0xA1"/>
+            <parameter cpu="0" address="0xFE34AC" value="0x00"/>
+            <parameter cpu="0" address="0xFE34AD" value="0x40"/>
+        </option>
+        <option desc="Sochun 3级">
+            <parameter cpu="0" address="0xFE33D9" value="0x02"/>
+            <parameter cpu="0" address="0xFE33DB" value="0xA2"/>
+            <parameter cpu="0" address="0xFE34AC" value="0x00"/>
+            <parameter cpu="0" address="0xFE34AD" value="0x40"/>
+        </option>
+        <option desc="Khan 1级">
+            <parameter cpu="0" address="0xFE33D9" value="0x00"/>
+            <parameter cpu="0" address="0xFE33DB" value="0x97"/>
+            <parameter cpu="0" address="0xFE34AC" value="0xFF"/>
+            <parameter cpu="0" address="0xFE34AD" value="0xFF"/>
+        </option>
+        <option desc="Khan 2级">
+            <parameter cpu="0" address="0xFE33D9" value="0x01"/>
+            <parameter cpu="0" address="0xFE33DB" value="0x98"/>
+            <parameter cpu="0" address="0xFE34AC" value="0x00"/>
+            <parameter cpu="0" address="0xFE34AD" value="0x40"/>
+        </option>
+        <option desc="Khan 3级">
+            <parameter cpu="0" address="0xFE33D9" value="0x02"/>
+            <parameter cpu="0" address="0xFE33DB" value="0x99"/>
+            <parameter cpu="0" address="0xFE34AC" value="0x00"/>
+            <parameter cpu="0" address="0xFE34AD" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1级">
+            <parameter cpu="0" address="0xFE34C7" value="0x01"/>
+            <parameter cpu="0" address="0xFE34C9" value="0x01"/>
+            <parameter cpu="0" address="0xFE34CB" value="0x01"/>
+            <parameter cpu="0" address="0xFE34CD" value="0x01"/>
+            <parameter cpu="0" address="0xFE34CF" value="0x01"/>
+            <parameter cpu="0" address="0xFE34D1" value="0x01"/>
+            <parameter cpu="0" address="0xFE34D3" value="0x01"/>
+            <parameter cpu="0" address="0xFE34D5" value="0x01"/>
+        </option>
+        <option desc="2级">
+            <parameter cpu="0" address="0xFE34C7" value="0x02"/>
+            <parameter cpu="0" address="0xFE34C9" value="0x02"/>
+            <parameter cpu="0" address="0xFE34CB" value="0x02"/>
+            <parameter cpu="0" address="0xFE34CD" value="0x02"/>
+            <parameter cpu="0" address="0xFE34CF" value="0x02"/>
+            <parameter cpu="0" address="0xFE34D1" value="0x02"/>
+            <parameter cpu="0" address="0xFE34D3" value="0x02"/>
+            <parameter cpu="0" address="0xFE34D5" value="0x02"/>
+        </option>
+        <option desc="3级">
+            <parameter cpu="0" address="0xFE34C7" value="0x03"/>
+            <parameter cpu="0" address="0xFE34C9" value="0x03"/>
+            <parameter cpu="0" address="0xFE34CB" value="0x03"/>
+            <parameter cpu="0" address="0xFE34CD" value="0x03"/>
+            <parameter cpu="0" address="0xFE34CF" value="0x03"/>
+            <parameter cpu="0" address="0xFE34D1" value="0x03"/>
+            <parameter cpu="0" address="0xFE34D3" value="0x03"/>
+            <parameter cpu="0" address="0xFE34D5" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限选人时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE3553" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="无限命数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE3539" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE35FD" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE3607" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 选项不对应人物是否有问题未知，但依然有效 ]"/>
+    <cheat desc="选择武器等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Doosan 1级">
+            <parameter cpu="0" address="0xFE33EF" value="0x00"/>
+            <parameter cpu="0" address="0xFE33F1" value="0x8E"/>
+            <parameter cpu="0" address="0xFE35B6" value="0xFF"/>
+            <parameter cpu="0" address="0xFE35B7" value="0xFF"/>
+        </option>
+        <option desc="Doosan 2级">
+            <parameter cpu="0" address="0xFE33EF" value="0x01"/>
+            <parameter cpu="0" address="0xFE33F1" value="0x8F"/>
+            <parameter cpu="0" address="0xFE35B6" value="0x00"/>
+            <parameter cpu="0" address="0xFE35B7" value="0x40"/>
+        </option>
+        <option desc="Doosan 3级">
+            <parameter cpu="0" address="0xFE33EF" value="0x02"/>
+            <parameter cpu="0" address="0xFE33F1" value="0x90"/>
+            <parameter cpu="0" address="0xFE35B6" value="0x00"/>
+            <parameter cpu="0" address="0xFE35B7" value="0x40"/>
+        </option>
+        <option desc="Sochun 1级">
+            <parameter cpu="0" address="0xFE33EF" value="0x00"/>
+            <parameter cpu="0" address="0xFE33F1" value="0xA0"/>
+            <parameter cpu="0" address="0xFE35B6" value="0xFF"/>
+            <parameter cpu="0" address="0xFE35B7" value="0xFF"/>
+        </option>
+        <option desc="Sochun 2级">
+            <parameter cpu="0" address="0xFE33EF" value="0x01"/>
+            <parameter cpu="0" address="0xFE33F1" value="0xA1"/>
+            <parameter cpu="0" address="0xFE35B6" value="0x00"/>
+            <parameter cpu="0" address="0xFE35B7" value="0x40"/>
+        </option>
+        <option desc="Sochun 3级">
+            <parameter cpu="0" address="0xFE33EF" value="0x02"/>
+            <parameter cpu="0" address="0xFE33F1" value="0xA2"/>
+            <parameter cpu="0" address="0xFE35B6" value="0x00"/>
+            <parameter cpu="0" address="0xFE35B7" value="0x40"/>
+        </option>
+        <option desc="Khan 1级">
+            <parameter cpu="0" address="0xFE33EF" value="0x00"/>
+            <parameter cpu="0" address="0xFE33F1" value="0x97"/>
+            <parameter cpu="0" address="0xFE35B6" value="0xFF"/>
+            <parameter cpu="0" address="0xFE35B7" value="0xFF"/>
+        </option>
+        <option desc="Khan 2级">
+            <parameter cpu="0" address="0xFE33EF" value="0x01"/>
+            <parameter cpu="0" address="0xFE33F1" value="0x98"/>
+            <parameter cpu="0" address="0xFE35B6" value="0x00"/>
+            <parameter cpu="0" address="0xFE35B7" value="0x40"/>
+        </option>
+        <option desc="Khan 3级">
+            <parameter cpu="0" address="0xFE33EF" value="0x02"/>
+            <parameter cpu="0" address="0xFE33F1" value="0x99"/>
+            <parameter cpu="0" address="0xFE35B6" value="0x00"/>
+            <parameter cpu="0" address="0xFE35B7" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1级">
+            <parameter cpu="0" address="0xFE35D1" value="0x01"/>
+            <parameter cpu="0" address="0xFE35D3" value="0x01"/>
+            <parameter cpu="0" address="0xFE35D5" value="0x01"/>
+            <parameter cpu="0" address="0xFE35D7" value="0x01"/>
+            <parameter cpu="0" address="0xFE35D9" value="0x01"/>
+            <parameter cpu="0" address="0xFE35DB" value="0x01"/>
+            <parameter cpu="0" address="0xFE35DD" value="0x01"/>
+            <parameter cpu="0" address="0xFE35DF" value="0x01"/>
+        </option>
+        <option desc="2级">
+            <parameter cpu="0" address="0xFE35D1" value="0x02"/>
+            <parameter cpu="0" address="0xFE35D3" value="0x02"/>
+            <parameter cpu="0" address="0xFE35D5" value="0x02"/>
+            <parameter cpu="0" address="0xFE35D7" value="0x02"/>
+            <parameter cpu="0" address="0xFE35D9" value="0x02"/>
+            <parameter cpu="0" address="0xFE35DB" value="0x02"/>
+            <parameter cpu="0" address="0xFE35DD" value="0x02"/>
+            <parameter cpu="0" address="0xFE35DF" value="0x02"/>
+        </option>
+        <option desc="3级">
+            <parameter cpu="0" address="0xFE35D1" value="0x03"/>
+            <parameter cpu="0" address="0xFE35D3" value="0x03"/>
+            <parameter cpu="0" address="0xFE35D5" value="0x03"/>
+            <parameter cpu="0" address="0xFE35D7" value="0x03"/>
+            <parameter cpu="0" address="0xFE35D9" value="0x03"/>
+            <parameter cpu="0" address="0xFE35DB" value="0x03"/>
+            <parameter cpu="0" address="0xFE35DD" value="0x03"/>
+            <parameter cpu="0" address="0xFE35DF" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8076" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用隐藏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="黛比罗特">
+            <parameter cpu="0" address="0xFF0C82" value="0x08"/>
+            <parameter cpu="0" address="0xFF8382" value="0x08"/>
+            <parameter cpu="0" address="0xFF8B82" value="0x08"/>
+        </option>
+        <option desc="豪鬼">
+            <parameter cpu="0" address="0xFF0C82" value="0x09"/>
+            <parameter cpu="0" address="0xFF8382" value="0x09"/>
+            <parameter cpu="0" address="0xFF8B82" value="0x09"/>
+        </option>
+        <option desc="火引弹">
+            <parameter cpu="0" address="0xFF0C82" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8382" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8B82" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 须依次选择才有效 ]"/>
+    <cheat desc="下一个钻石 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="第1次">
+            <parameter cpu="0" address="0xFF84F5" value="0x18"/>
+        </option>
+        <option desc="第2次">
+            <parameter cpu="0" address="0xFF84F5" value="0x31"/>
+        </option>
+        <option desc="第3次">
+            <parameter cpu="0" address="0xFF84F5" value="0x4A"/>
+        </option>
+        <option desc="第4次">
+            <parameter cpu="0" address="0xFF84F5" value="0x63"/>
+        </option>
+        <option desc="第5次">
+            <parameter cpu="0" address="0xFF84F5" value="0x7C"/>
+        </option>
+        <option desc="第6次">
+            <parameter cpu="0" address="0xFF84F5" value="0x95"/>
+        </option>
+        <option desc="第7次">
+            <parameter cpu="0" address="0xFF84F5" value="0xAE"/>
+        </option>
+        <option desc="第8次">
+            <parameter cpu="0" address="0xFF84F5" value="0xC7"/>
+        </option>
+        <option desc="第9次">
+            <parameter cpu="0" address="0xFF84F5" value="0xE0"/>
+        </option>
+        <option desc="第10次">
+            <parameter cpu="0" address="0xFF84F5" value="0xF9"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 非“无”选项开启后不关会直接堆满 ]"/>
+    <cheat desc="即将落下宝石数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF889E" value="0x00"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0xFF889E" value="0x14"/>
+        </option>
+        <option desc="40">
+            <parameter cpu="0" address="0xFF889E" value="0x28"/>
+        </option>
+        <option desc="60">
+            <parameter cpu="0" address="0xFF889E" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用隐藏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="黛比罗特">
+            <parameter cpu="0" address="0xFF0C86" value="0x08"/>
+            <parameter cpu="0" address="0xFF8782" value="0x08"/>
+            <parameter cpu="0" address="0xFF8C82" value="0x08"/>
+        </option>
+        <option desc="豪鬼">
+            <parameter cpu="0" address="0xFF0C86" value="0x09"/>
+            <parameter cpu="0" address="0xFF8782" value="0x09"/>
+            <parameter cpu="0" address="0xFF8C82" value="0x09"/>
+        </option>
+        <option desc="火引弹">
+            <parameter cpu="0" address="0xFF0C86" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8782" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8C82" value="0x0A"/>
+        </option>
+    </cheat>
+	<cheat desc="[ 须依次选择才有效 ]"/>
+    <cheat desc="下一个钻石 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="第1次">
+            <parameter cpu="0" address="0xFF88F5" value="0x18"/>
+        </option>
+        <option desc="第2次">
+            <parameter cpu="0" address="0xFF88F5" value="0x31"/>
+        </option>
+        <option desc="第3次">
+            <parameter cpu="0" address="0xFF88F5" value="0x4A"/>
+        </option>
+        <option desc="第4次">
+            <parameter cpu="0" address="0xFF88F5" value="0x63"/>
+        </option>
+        <option desc="第5次">
+            <parameter cpu="0" address="0xFF88F5" value="0x7C"/>
+        </option>
+        <option desc="第6次">
+            <parameter cpu="0" address="0xFF88F5" value="0x95"/>
+        </option>
+        <option desc="第7次">
+            <parameter cpu="0" address="0xFF88F5" value="0xAE"/>
+        </option>
+        <option desc="第8次">
+            <parameter cpu="0" address="0xFF88F5" value="0xC7"/>
+        </option>
+        <option desc="第9次">
+            <parameter cpu="0" address="0xFF88F5" value="0xE0"/>
+        </option>
+        <option desc="第10次">
+            <parameter cpu="0" address="0xFF88F5" value="0xF9"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 非“无”选项开启后不关会直接堆满 ]"/>
+    <cheat desc="即将落下宝石数 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF849E" value="0x00"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0xFF849E" value="0x14"/>
+        </option>
+        <option desc="40">
+            <parameter cpu="0" address="0xFF849E" value="0x28"/>
+        </option>
+        <option desc="60">
+            <parameter cpu="0" address="0xFF849E" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择区域" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF8091" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF8091" value="0x02"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF8091" value="0x04"/>
+        </option>
+        <option desc="大洋洲">
+            <parameter cpu="0" address="0xFF8091" value="0x06"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF8091" value="0x08"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF8091" value="0x0A"/>
+        </option>
+        <option desc="巴西">
+            <parameter cpu="0" address="0xFF8091" value="0x0C"/>
+        </option>
+    </cheat>
+</shufflecheat>

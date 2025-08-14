@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="[ 顺序是指进入战斗画面的顺序 ]"/>
+	<cheat desc="[ 如果在准备画面都按了开始 ]"/>
+	<cheat desc="[ 则为倒序，即21或4321 ]"/>
+	<cheat desc="免投币" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x0240" value="0x01"/>
+		</option>
+	</cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x027B" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x027B" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x027B" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x027B" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x027B" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x027B" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x027B" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x027B" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x027B" value="0x08"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x027B" value="0x09"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x027B" value="0x0A"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0x027B" value="0x0B"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0x027B" value="0x0C"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0x027B" value="0x0D"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0x027B" value="0x0E"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0x027B" value="0x0F"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0x027B" value="0x10"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0x027B" value="0x11"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0x027B" value="0x12"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0x027B" value="0x13"/>
+        </option>
+        <option desc="21">
+            <parameter cpu="0" address="0x027B" value="0x14"/>
+        </option>
+        <option desc="22">
+            <parameter cpu="0" address="0x027B" value="0x15"/>
+        </option>
+        <option desc="23">
+            <parameter cpu="0" address="0x027B" value="0x16"/>
+        </option>
+        <option desc="24">
+            <parameter cpu="0" address="0x027B" value="0x17"/>
+        </option>
+        <option desc="25">
+            <parameter cpu="0" address="0x027B" value="0x18"/>
+        </option>
+        <option desc="26">
+            <parameter cpu="0" address="0x027B" value="0x19"/>
+        </option>
+        <option desc="27">
+            <parameter cpu="0" address="0x027B" value="0x1A"/>
+        </option>
+        <option desc="28">
+            <parameter cpu="0" address="0x027B" value="0x1B"/>
+        </option>
+        <option desc="29">
+            <parameter cpu="0" address="0x027B" value="0x1C"/>
+        </option>
+        <option desc="30">
+            <parameter cpu="0" address="0x027B" value="0x1D"/>
+        </option>
+        <option desc="31">
+            <parameter cpu="0" address="0x027B" value="0x1E"/>
+        </option>
+        <option desc="32">
+            <parameter cpu="0" address="0x027B" value="0x1F"/>
+        </option>
+        <option desc="33">
+            <parameter cpu="0" address="0x027B" value="0x20"/>
+        </option>
+        <option desc="34">
+            <parameter cpu="0" address="0x027B" value="0x21"/>
+        </option>
+        <option desc="35">
+            <parameter cpu="0" address="0x027B" value="0x22"/>
+        </option>
+        <option desc="36">
+            <parameter cpu="0" address="0x027B" value="0x23"/>
+        </option>
+    </cheat>
+    <cheat desc="定住敌方" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x02E2" value="0x01"/>
+            <parameter cpu="0" address="0x02E4" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌大本营" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x02E7" value="0x65"/>
+			<parameter cpu="0" address="0x7CD0" value="0x14"/>
+			<parameter cpu="0" address="0x7CD4" value="0x14"/>
+			<parameter cpu="0" address="0x7CD8" value="0x14"/>
+			<parameter cpu="0" address="0x7CDC" value="0x14"/>
+			<parameter cpu="0" address="0x7D60" value="0x14"/>
+			<parameter cpu="0" address="0x7D6C" value="0x14"/>
+			<parameter cpu="0" address="0x7DF0" value="0x14"/>
+			<parameter cpu="0" address="0x7DFC" value="0x14"/>
+        </option>
+    </cheat>   
+    <cheat desc="我方被空袭" default="0">
+        <option desc="关闭"/>
+        <option desc="永不">
+            <parameter cpu="0" address="0x027C" value="0x45"/>
+            <parameter cpu="0" address="0x027D" value="0x00"/>
+        </option>
+        <option desc="立刻">
+            <parameter cpu="0" address="0x027C" value="0x00"/>
+            <parameter cpu="0" address="0x027D" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+	<cheat desc="[ 生效后须关闭，否则死时卡住 ]"/>  
+    <cheat desc="7条命 玩家1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0297" value="0x87"/>
+        </option>
+    </cheat>
+	<cheat desc="7条命 玩家2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0298" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 第1位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x43A6" value="0x9E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变更坦克时间 第1位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x43B6" value="0x08"/>
+			<parameter cpu="0" address="0x43B7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大连射弹数 第1位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x439A" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择坦克速度 第1位" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0x438A" value="0x00"/>
+        </option>
+        <option desc="加速1">
+            <parameter cpu="0" address="0x438A" value="0x01"/>
+        </option>
+        <option desc="加速2">
+            <parameter cpu="0" address="0x438A" value="0x02"/>
+        </option>
+        <option desc="加速3">
+            <parameter cpu="0" address="0x438A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择坦克类型 第1位" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0x43B2" value="0x00"/>
+        </option>
+        <option desc="正常（可破钢）">
+            <parameter cpu="0" address="0x43B2" value="0x01"/>
+        </option>
+        <option desc="4向射击">
+            <parameter cpu="0" address="0x43B2" value="0x02"/>
+        </option>
+        <option desc="重型">
+            <parameter cpu="0" address="0x43B2" value="0x03"/>
+        </option>
+        <option desc="双炮">
+            <parameter cpu="0" address="0x43B2" value="0x04"/>
+        </option>
+        <option desc="光波">
+            <parameter cpu="0" address="0x43B2" value="0x05"/>
+        </option>
+        <option desc="缩小">
+            <parameter cpu="0" address="0x43B2" value="0x06"/>
+        </option>
+        <option desc="缩小（可破钢）">
+            <parameter cpu="0" address="0x43B2" value="0x07"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无敌 第2位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x4326" value="0x9E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变更坦克时间 第2位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4336" value="0x08"/>
+			<parameter cpu="0" address="0x4337" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大连射弹数 第2位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x431A" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择坦克速度 第2位" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0x430A" value="0x00"/>
+        </option>
+        <option desc="加速1">
+            <parameter cpu="0" address="0x430A" value="0x01"/>
+        </option>
+        <option desc="加速2">
+            <parameter cpu="0" address="0x430A" value="0x02"/>
+        </option>
+        <option desc="加速3">
+            <parameter cpu="0" address="0x430A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择坦克类型 第2位" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0x4332" value="0x00"/>
+        </option>
+        <option desc="正常（可破钢）">
+            <parameter cpu="0" address="0x4332" value="0x01"/>
+        </option>
+        <option desc="4向射击">
+            <parameter cpu="0" address="0x4332" value="0x02"/>
+        </option>
+        <option desc="重型">
+            <parameter cpu="0" address="0x4332" value="0x03"/>
+        </option>
+        <option desc="双炮">
+            <parameter cpu="0" address="0x4332" value="0x04"/>
+        </option>
+        <option desc="光波">
+            <parameter cpu="0" address="0x4332" value="0x05"/>
+        </option>
+        <option desc="缩小">
+            <parameter cpu="0" address="0x4332" value="0x06"/>
+        </option>
+        <option desc="缩小（可破钢）">
+            <parameter cpu="0" address="0x4332" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="[ 以下是4P版专用 ]"/>
+    <cheat desc="[ 生效后须关闭，否则死时卡住 ]"/>
+	<cheat desc="7条命 玩家3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0299" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="7条命 玩家4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x029A" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 第3位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x42A6" value="0x9E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变更坦克时间 第3位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x42B6" value="0x08"/>
+			<parameter cpu="0" address="0x42B7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大连射弹数 第3位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x429A" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择坦克速度 第3位" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0x428A" value="0x00"/>
+        </option>
+        <option desc="加速1">
+            <parameter cpu="0" address="0x428A" value="0x01"/>
+        </option>
+        <option desc="加速2">
+            <parameter cpu="0" address="0x428A" value="0x02"/>
+        </option>
+        <option desc="加速3">
+            <parameter cpu="0" address="0x428A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择坦克类型 第3位" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0x42B2" value="0x00"/>
+        </option>
+        <option desc="正常（可破钢）">
+            <parameter cpu="0" address="0x42B2" value="0x01"/>
+        </option>
+        <option desc="4向射击">
+            <parameter cpu="0" address="0x42B2" value="0x02"/>
+        </option>
+        <option desc="重型">
+            <parameter cpu="0" address="0x42B2" value="0x03"/>
+        </option>
+        <option desc="双炮">
+            <parameter cpu="0" address="0x42B2" value="0x04"/>
+        </option>
+        <option desc="光波">
+            <parameter cpu="0" address="0x42B2" value="0x05"/>
+        </option>
+        <option desc="缩小">
+            <parameter cpu="0" address="0x42B2" value="0x06"/>
+        </option>
+        <option desc="缩小（可破钢）">
+            <parameter cpu="0" address="0x42B2" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 第4位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x4226" value="0x9E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变更坦克时间 第4位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4236" value="0x08"/>
+			<parameter cpu="0" address="0x4237" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大连射弹数 第4位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x421A" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择坦克速度 第4位" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0x420A" value="0x00"/>
+        </option>
+        <option desc="加速1">
+            <parameter cpu="0" address="0x420A" value="0x01"/>
+        </option>
+        <option desc="加速2">
+            <parameter cpu="0" address="0x420A" value="0x02"/>
+        </option>
+        <option desc="加速3">
+            <parameter cpu="0" address="0x420A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择坦克类型 第4位" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0x4232" value="0x00"/>
+        </option>
+        <option desc="正常（可破钢）">
+            <parameter cpu="0" address="0x4232" value="0x01"/>
+        </option>
+        <option desc="4向射击">
+            <parameter cpu="0" address="0x4232" value="0x02"/>
+        </option>
+        <option desc="重型">
+            <parameter cpu="0" address="0x4232" value="0x03"/>
+        </option>
+        <option desc="双炮">
+            <parameter cpu="0" address="0x4232" value="0x04"/>
+        </option>
+        <option desc="光波">
+            <parameter cpu="0" address="0x4232" value="0x05"/>
+        </option>
+        <option desc="缩小">
+            <parameter cpu="0" address="0x4232" value="0x06"/>
+        </option>
+        <option desc="缩小（可破钢）">
+            <parameter cpu="0" address="0x4232" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

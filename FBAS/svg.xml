@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18000118" value="0x09"/>
+            <parameter cpu="2" address="0x1800011C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="回合时间 (故事模式)" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="2" address="0x180000B0" value="0x64"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="2" address="0x180000B0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (训练模式)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x180000B6" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="[ 选人界面开，生效后须关闭 ]"/>
+    <cheat desc="[ 选圣神亚斯时如果中途有人来对战 ]"/>
+    <cheat desc="[ 需要在选人界面再选一次 ]"/>
+	<cheat desc="选择人物2 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="HIRO 2=魔妆觉醒希萝">
+			<parameter cpu="2" address="0x1803F754" value="0x00"/>
+			<parameter cpu="2" address="0x1803F768" value="0x00"/>
+		</option>
+		<option desc="JADOU 2=魔界兽贾杜">
+			<parameter cpu="2" address="0x1803F754" value="0x06"/>
+			<parameter cpu="2" address="0x1803F768" value="0x06"/>
+		</option>
+		<option desc="HOLY GOD EARTH=圣神亚斯">
+			<parameter cpu="2" address="0x1803F754" value="0x21"/>
+			<parameter cpu="2" address="0x1803F768" value="0x21"/>
+			<parameter cpu="2" address="0x18000188" value="0x0C"/>	
+		</option>
+	</cheat>
+	<cheat desc="选择体力 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="无限">
+			<parameter cpu="2" address="0x1801035E" value="0x40"/>
+			<parameter cpu="2" address="0x1801035F" value="0x02"/>
+		</option>
+		<option desc="耗尽">
+			<parameter cpu="2" address="0x1801035E" value="0x00"/>
+			<parameter cpu="2" address="0x1801035F" value="0x00"/>
+		</option>
+	</cheat>
+    <cheat desc="选择能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="2" address="0x18019851" value="0x03"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="2" address="0x18019851" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="萝洁无限魔法剑 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+           <parameter cpu="2" address="0x18019388" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 时之封印发动后才能开启，否则无法发动封印 ]"/>
+    <cheat desc="对敌无限时之封印时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18000265" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆炎觉醒时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+           <parameter cpu="2" address="0x1801978C" value="0x85"/>
+        </option>
+    </cheat>
+    <cheat desc="爆炎觉醒状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+           <parameter cpu="2" address="0x1800027A" value="0x01"/>
+        </option>
+        <option desc="强制关闭">
+           <parameter cpu="2" address="0x1800027A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="[ 选人界面开，生效后须关闭 ]"/>
+    <cheat desc="[ 选圣神亚斯时如果中途有人来对战 ]"/>
+    <cheat desc="[ 需要在选人界面再选一次 ]"/>
+	<cheat desc="选择人物2 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="HIRO 2=魔妆觉醒希萝">
+			<parameter cpu="2" address="0x1803F755" value="0x00"/>
+			<parameter cpu="2" address="0x1803F769" value="0x00"/>
+		</option>
+		<option desc="JADOU 2=魔界兽贾杜">
+			<parameter cpu="2" address="0x1803F755" value="0x06"/>
+			<parameter cpu="2" address="0x1803F769" value="0x06"/>
+		</option>
+		<option desc="HOLY GOD EARTH=圣神亚斯">
+			<parameter cpu="2" address="0x1803F755" value="0x21"/>
+			<parameter cpu="2" address="0x1803F769" value="0x21"/>
+			<parameter cpu="2" address="0x1800018C" value="0x0C"/>
+		</option>
+	</cheat>
+	<cheat desc="选择体力 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="无限">
+			<parameter cpu="2" address="0x1801049E" value="0x40"/>
+			<parameter cpu="2" address="0x1801049F" value="0x02"/>
+		</option>
+		<option desc="耗尽">
+			<parameter cpu="2" address="0x1801049E" value="0x00"/>
+			<parameter cpu="2" address="0x1801049F" value="0x00"/>
+		</option>
+	</cheat>
+    <cheat desc="选择能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="2" address="0x180198B5" value="0x03"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="2" address="0x180198B5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="萝洁无限魔法剑 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+           <parameter cpu="2" address="0x18019428" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 时之封印发动后才能开启，否则无法发动封印 ]"/>
+    <cheat desc="对敌无限时之封印时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18000264" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆炎觉醒时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+           <parameter cpu="2" address="0x180197F0" value="0x85"/>
+        </option>
+    </cheat>
+    <cheat desc="爆炎觉醒状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+           <parameter cpu="2" address="0x1800027B" value="0x01"/>
+        </option>
+        <option desc="强制关闭">
+           <parameter cpu="2" address="0x1800027B" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>
