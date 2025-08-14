@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="这个游戏的金手指推荐用unibios自带的"/>
+    <cheat desc="选择对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x00B9F8" value="0x1D"/>
+            <parameter cpu="0" address="0x00B9F9" value="0x7C"/>
+            <parameter cpu="0" address="0x00B9FA" value="0x00"/>
+            <parameter cpu="0" address="0x00B9FB" value="0x99"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x00B9F8" value="0x1D"/>
+            <parameter cpu="0" address="0x00B9F9" value="0x7C"/>
+            <parameter cpu="0" address="0x00B9FA" value="0x00"/>
+            <parameter cpu="0" address="0x00B9FB" value="0x00"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x00B9F8" value="0x83"/>
+            <parameter cpu="0" address="0x00B9F9" value="0x00"/>
+            <parameter cpu="0" address="0x00B9FA" value="0x1D"/>
+            <parameter cpu="0" address="0x00B9FB" value="0x41"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用隐藏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="曼托">
+            <parameter cpu="0" address="0x1050B8" value="0x08"/>
+        </option>
+        <option desc="机械兵">
+            <parameter cpu="0" address="0x1050B8" value="0x09"/>
+        </option>
+        <option desc="邪神斋">
+            <parameter cpu="0" address="0x1050B8" value="0x0A"/>
+        </option>
+        <option desc="魔龙">
+            <parameter cpu="0" address="0x1050B8" value="0x0B"/>
+        </option>
+    </cheat>	
+    <cheat desc="使用隐藏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="曼托">
+            <parameter cpu="0" address="0x1050B9" value="0x08"/>
+        </option>
+        <option desc="机械兵">
+            <parameter cpu="0" address="0x1050B9" value="0x09"/>
+        </option>
+        <option desc="邪神斋">
+            <parameter cpu="0" address="0x1050B9" value="0x0A"/>
+        </option>
+        <option desc="魔龙">
+            <parameter cpu="0" address="0x1050B9" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

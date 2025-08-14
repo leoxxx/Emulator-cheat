@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811E01" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x80B3EF" value="0x63"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x80B3EF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 选完人后须关闭，否则死机 ]"/>    
+    <cheat desc="无限选择角色时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81FE67" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 变更后下一局生效 ]"/>
+    <cheat desc="出招简化" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x17FC44" value="0x08"/>
+            <parameter cpu="0" address="0x17FC46" value="0x04"/>
+            <parameter cpu="0" address="0x17FC48" value="0x0D"/>
+            <parameter cpu="0" address="0x17FC4E" value="0x07"/>
+            <parameter cpu="0" address="0x17FC50" value="0x03"/>
+            <parameter cpu="0" address="0x17FC52" value="0x0D"/>
+            <parameter cpu="0" address="0x17FC5A" value="0x04"/>
+            <parameter cpu="0" address="0x17FC5C" value="0x0D"/>
+            <parameter cpu="0" address="0x17FC64" value="0x03"/>
+            <parameter cpu="0" address="0x17FC66" value="0x0D"/>
+            <parameter cpu="0" address="0x17FC92" value="0x04"/>
+            <parameter cpu="0" address="0x17FC94" value="0x0D"/>
+            <parameter cpu="0" address="0x17FC9A" value="0x03"/>
+            <parameter cpu="0" address="0x17FC9C" value="0x0D"/>
+            <parameter cpu="0" address="0x17FCA2" value="0x03"/>
+            <parameter cpu="0" address="0x17FCA4" value="0x0D"/>
+            <parameter cpu="0" address="0x17FCBE" value="0x02"/>
+            <parameter cpu="0" address="0x17FCC0" value="0x0D"/>
+            <parameter cpu="0" address="0x17FCD0" value="0x01"/>
+            <parameter cpu="0" address="0x17FCD2" value="0x0D"/>
+            <parameter cpu="0" address="0x17FCD8" value="0x01"/>
+            <parameter cpu="0" address="0x17FCDA" value="0x0D"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x17FC44" value="0x04"/>
+            <parameter cpu="0" address="0x17FC46" value="0x02"/>
+            <parameter cpu="0" address="0x17FC48" value="0x04"/>
+            <parameter cpu="0" address="0x17FC4E" value="0x03"/>
+            <parameter cpu="0" address="0x17FC50" value="0x02"/>
+            <parameter cpu="0" address="0x17FC52" value="0x03"/>
+            <parameter cpu="0" address="0x17FC5A" value="0x02"/>
+            <parameter cpu="0" address="0x17FC5C" value="0x07"/>
+            <parameter cpu="0" address="0x17FC64" value="0x02"/>
+            <parameter cpu="0" address="0x17FC66" value="0x08"/>
+            <parameter cpu="0" address="0x17FC92" value="0x02"/>
+            <parameter cpu="0" address="0x17FC94" value="0x08"/>
+            <parameter cpu="0" address="0x17FC9A" value="0x02"/>
+            <parameter cpu="0" address="0x17FC9C" value="0x07"/>
+            <parameter cpu="0" address="0x17FCA2" value="0x04"/>
+            <parameter cpu="0" address="0x17FCA4" value="0x08"/>
+            <parameter cpu="0" address="0x17FCBE" value="0x04"/>
+            <parameter cpu="0" address="0x17FCC0" value="0x02"/>
+            <parameter cpu="0" address="0x17FCD0" value="0x07"/>
+            <parameter cpu="0" address="0x17FCD2" value="0x02"/>
+            <parameter cpu="0" address="0x17FCD8" value="0x03"/>
+            <parameter cpu="0" address="0x17FCDA" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="可选Boss（上官羽处按→）" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x132A85" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 红气槽符合条件时依然会消耗 ]"/>
+    <cheat desc="超必杀无限制" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14EEF4" value="0x4E"/>
+            <parameter cpu="0" address="0x14EEF5" value="0x71"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x14EEF4" value="0x6D"/>
+            <parameter cpu="0" address="0x14EEF5" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 红气槽符合条件时依然会消耗 ]"/>
+    <cheat desc="换人无限制（依然消耗红气槽）" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14F215" value="0x00"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x14F215" value="0x34"/>
+        </option>
+    </cheat>            
+    <cheat desc=" "/>
+    <cheat desc="使用隐藏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="西域双怪">
+            <parameter cpu="0" address="0x80BFBC" value="0x0D"/>
+        </option>
+        <option desc="千幻邪魔">
+            <parameter cpu="0" address="0x80BFBC" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择血量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x811F80" value="0x01"/>
+            <parameter cpu="0" address="0x811F81" value="0x40"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x811F80" value="0x00"/>
+            <parameter cpu="0" address="0x811F81" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 开启后使用逆袭灭有延迟，关闭即可正常 ]"/>
+    <cheat desc="选择红气槽 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x811F85" value="0x78"/>
+            <parameter cpu="0" address="0x811F87" value="0x78"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x811F85" value="0x00"/>
+            <parameter cpu="0" address="0x811F87" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择蓝气槽 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x811F8B" value="0x78"/>
+            <parameter cpu="0" address="0x811F8D" value="0x78"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x811F8B" value="0x00"/>
+            <parameter cpu="0" address="0x811F8D" value="0x00"/>
+        </option>        
+    </cheat>
+    <cheat desc="无限逆袭灭时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8038BF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用隐藏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="西域双怪 PL2">
+            <parameter cpu="0" address="0x80C056" value="0x0D"/>
+        </option>
+        <option desc="千幻邪魔 PL2">
+            <parameter cpu="0" address="0x80C056" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择血量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x81213E" value="0x01"/>
+            <parameter cpu="0" address="0x81213F" value="0x40"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x81213E" value="0x00"/>
+            <parameter cpu="0" address="0x81213F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 开启后使用逆袭灭有延迟，关闭即可正常 ]"/>
+    <cheat desc="选择红气槽 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x812143" value="0x78"/>
+            <parameter cpu="0" address="0x812145" value="0x78"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x812143" value="0x00"/>
+            <parameter cpu="0" address="0x812145" value="0x00"/>
+        </option>        
+    </cheat>
+    <cheat desc="选择蓝气槽 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x812149" value="0x78"/>
+            <parameter cpu="0" address="0x81214B" value="0x78"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x812149" value="0x00"/>
+            <parameter cpu="0" address="0x81214B" value="0x00"/>
+        </option>        
+    </cheat>
+    <cheat desc="无限逆袭灭时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8038C3" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

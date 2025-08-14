@@ -1,0 +1,1052 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币(AES)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A812" value="0x99"/>
+            <parameter cpu="0" address="0x10A813" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x10A836" value="0x60"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x10A836" value="0x00"/>
+        </option>        
+    </cheat>
+    <cheat desc="允许使用隐藏角色" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E752" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择对方阵容" default="0">
+        <option desc="关闭"/>
+        <option desc="常规队伍">
+            <parameter cpu="0" address="0x10E750" value="0x00"/>
+        </option>
+        <option desc="变化1">
+            <parameter cpu="0" address="0x10E750" value="0x01"/>
+        </option>
+        <option desc="变化2">
+            <parameter cpu="0" address="0x10E750" value="0x02"/>
+        </option>
+        <option desc="变化3">
+            <parameter cpu="0" address="0x10E750" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前局数" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x10A7ED" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x10A7ED" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x10A7ED" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x10A7ED" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x10A7ED" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x10A7ED" value="0x05"/>
+        </option>
+    </cheat>
+	<cheat desc="选择背景" default="0">
+		<option desc="关闭"/>
+		<option desc="日本队">
+			<parameter cpu="0" address="0x10A7E8" value="0x00"/>
+		</option>
+		<option desc="饿狼队">
+			<parameter cpu="0" address="0x10A7E8" value="0x01"/>
+		</option>
+		<option desc="龙虎之拳队">
+			<parameter cpu="0" address="0x10A7E8" value="0x02"/>
+		</option>
+		<option desc="怒之队">
+			<parameter cpu="0" address="0x10A7E8" value="0x03"/>
+		</option>
+		<option desc="超能力队">
+			<parameter cpu="0" address="0x10A7E8" value="0x04"/>
+		</option>
+		<option desc="女性格斗家队">
+			<parameter cpu="0" address="0x10A7E8" value="0x05"/>
+		</option>
+		<option desc="韩国队">
+			<parameter cpu="0" address="0x10A7E8" value="0x06"/>
+		</option>
+		<option desc="八神庵队">
+			<parameter cpu="0" address="0x10A7E8" value="0x07"/>
+		</option>
+		<option desc="BOSS队">
+			<parameter cpu="0" address="0x10A7E8" value="0x08"/>
+		</option>
+		<option desc="神乐千鹤">
+			<parameter cpu="0" address="0x10A7E8" value="0x09"/>
+		</option>
+		<option desc="高尼茨(打赢后直接到结局)">
+			<parameter cpu="0" address="0x10A7E8" value="0x0A"/>
+		</option>
+	</cheat>    
+	<cheat desc=" "/>
+    <cheat desc="选择血量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108239" value="0x67"/>
+        </option>
+        <option desc="红血">
+            <parameter cpu="0" address="0x108239" value="0x20"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108239" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x1081E8" value="0x80"/>
+            <parameter cpu="0" address="0x1081EA" value="0x3C"/>
+            <parameter cpu="0" address="0x10824D" value="0x04"/>
+        </option>
+        <option desc="空">
+            <parameter cpu="0" address="0x1081E8" value="0x00"/>
+            <parameter cpu="0" address="0x1081EA" value="0x00"/>
+            <parameter cpu="0" address="0x10824D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="开局前可动 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E2" value="0x10"/>
+        </option>
+    </cheat>    
+	<cheat desc="超快速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10817A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="身体带电（关闭后碰到对手攻击后消失） PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E3" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="永不眩晕">
+            <parameter cpu="0" address="0x10823F" value="0x67"/>
+        </option>
+        <option desc="被打中即晕">
+            <parameter cpu="0" address="0x10823F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕前眩晕计量值 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="不减">
+            <parameter cpu="0" address="0x108244" value="0x10"/>
+        </option>
+        <option desc="清空">
+            <parameter cpu="0" address="0x108244" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="防御状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="永不崩防">
+            <parameter cpu="0" address="0x108247" value="0x67"/>
+        </option>
+        <option desc="总是崩防">
+            <parameter cpu="0" address="0x108247" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="崩防前防御计量值 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="不减">
+            <parameter cpu="0" address="0x10824C" value="0x10"/>
+        </option>
+        <option desc="清空">
+            <parameter cpu="0" address="0x10824C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 看结局用，实际人物不会变。单人无结局 ]"/>
+    <cheat desc="[ 选单人选项时会判定为以单人对战 ]"/> 
+    <cheat desc="[ 打电脑时，不要对对面使用该功能，可能会重启 ]"/> 
+	<cheat desc="选择队伍 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="日本队">
+			<parameter cpu="0" address="0x10A844" value="0x00"/>
+		</option>
+		<option desc="饿狼队">
+			<parameter cpu="0" address="0x10A844" value="0x01"/>
+		</option>
+		<option desc="龙虎之拳队">
+			<parameter cpu="0" address="0x10A844" value="0x02"/>
+		</option>
+		<option desc="怒之队">
+			<parameter cpu="0" address="0x10A844" value="0x03"/>
+		</option>
+		<option desc="超能力队">
+			<parameter cpu="0" address="0x10A844" value="0x04"/>
+		</option>
+		<option desc="女性格斗家队">
+			<parameter cpu="0" address="0x10A844" value="0x05"/>
+		</option>
+		<option desc="韩国队">
+			<parameter cpu="0" address="0x10A844" value="0x06"/>
+		</option>
+		<option desc="八神队">
+			<parameter cpu="0" address="0x10A844" value="0x07"/>
+		</option>
+		<option desc="BOSS队">
+			<parameter cpu="0" address="0x10A844" value="0x08"/>
+		</option>
+		<option desc="神乐千鹤(单人)">
+			<parameter cpu="0" address="0x10A844" value="0x09"/>
+		</option>
+		<option desc="高尼茨(单人)">
+			<parameter cpu="0" address="0x10A844" value="0x0A"/>
+		</option>
+		<option desc="超能力战士队">
+			<parameter cpu="0" address="0x10A844" value="0x0B"/>
+		</option>
+		<option desc="高尼茨队">
+			<parameter cpu="0" address="0x10A844" value="0x0C"/>
+		</option>
+		<option desc="随意">
+			<parameter cpu="0" address="0x10A844" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (A) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="草薙京">
+			<parameter cpu="0" address="0x10A846" value="0x00"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A846" value="0x01"/>
+		</option>
+		<option desc="大门五郎">
+			<parameter cpu="0" address="0x10A846" value="0x02"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A846" value="0x03"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A846" value="0x04"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A846" value="0x05"/>
+		</option>
+		<option desc="坂崎亮">
+			<parameter cpu="0" address="0x10A846" value="0x06"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A846" value="0x07"/>
+		</option>
+		<option desc="坂崎百合">
+			<parameter cpu="0" address="0x10A846" value="0x08"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A846" value="0x09"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A846" value="0x0A"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A846" value="0x0B"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A846" value="0x0C"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A846" value="0x0D"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A846" value="0x0E"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A846" value="0x0F"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A846" value="0x10"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A846" value="0x11"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A846" value="0x12"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A846" value="0x13"/>
+		</option>
+		<option desc="蔡宝奇">
+			<parameter cpu="0" address="0x10A846" value="0x14"/>
+		</option>
+		<option desc="八神庵">
+			<parameter cpu="0" address="0x10A846" value="0x15"/>
+		</option>
+		<option desc="麦卓">
+			<parameter cpu="0" address="0x10A846" value="0x16"/>
+		</option>
+		<option desc="薇思">
+			<parameter cpu="0" address="0x10A846" value="0x17"/>
+		</option>
+		<option desc="吉斯">
+			<parameter cpu="0" address="0x10A846" value="0x18"/>
+		</option>
+		<option desc="克劳萨">
+			<parameter cpu="0" address="0x10A846" value="0x19"/>
+		</option>
+		<option desc="比克">
+			<parameter cpu="0" address="0x10A846" value="0x1A"/>
+		</option>
+		<option desc="#神乐千鹤">
+			<parameter cpu="0" address="0x10A846" value="0x1B"/>
+		</option>
+		<option desc="#高尼茨">
+			<parameter cpu="0" address="0x10A846" value="0x1C"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (B) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="草薙京">
+			<parameter cpu="0" address="0x10A847" value="0x00"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A847" value="0x01"/>
+		</option>
+		<option desc="大门五郎">
+			<parameter cpu="0" address="0x10A847" value="0x02"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A847" value="0x03"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A847" value="0x04"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A847" value="0x05"/>
+		</option>
+		<option desc="坂崎亮">
+			<parameter cpu="0" address="0x10A847" value="0x06"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A847" value="0x07"/>
+		</option>
+		<option desc="坂崎百合">
+			<parameter cpu="0" address="0x10A847" value="0x08"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A847" value="0x09"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A847" value="0x0A"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A847" value="0x0B"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A847" value="0x0C"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A847" value="0x0D"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A847" value="0x0E"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A847" value="0x0F"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A847" value="0x10"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A847" value="0x11"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A847" value="0x12"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A847" value="0x13"/>
+		</option>
+		<option desc="蔡宝奇">
+			<parameter cpu="0" address="0x10A847" value="0x14"/>
+		</option>
+		<option desc="八神庵">
+			<parameter cpu="0" address="0x10A847" value="0x15"/>
+		</option>
+		<option desc="麦卓">
+			<parameter cpu="0" address="0x10A847" value="0x16"/>
+		</option>
+		<option desc="薇思">
+			<parameter cpu="0" address="0x10A847" value="0x17"/>
+		</option>
+		<option desc="吉斯">
+			<parameter cpu="0" address="0x10A847" value="0x18"/>
+		</option>
+		<option desc="克劳萨">
+			<parameter cpu="0" address="0x10A847" value="0x19"/>
+		</option>
+		<option desc="比克">
+			<parameter cpu="0" address="0x10A847" value="0x1A"/>
+		</option>
+		<option desc="#神乐千鹤">
+			<parameter cpu="0" address="0x10A847" value="0x1B"/>
+		</option>
+		<option desc="#高尼茨">
+			<parameter cpu="0" address="0x10A847" value="0x1C"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (C) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="草薙京">
+			<parameter cpu="0" address="0x10A848" value="0x00"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A848" value="0x01"/>
+		</option>
+		<option desc="大门五郎">
+			<parameter cpu="0" address="0x10A848" value="0x02"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A848" value="0x03"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A848" value="0x04"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A848" value="0x05"/>
+		</option>
+		<option desc="坂崎亮">
+			<parameter cpu="0" address="0x10A848" value="0x06"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A848" value="0x07"/>
+		</option>
+		<option desc="坂崎百合">
+			<parameter cpu="0" address="0x10A848" value="0x08"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A848" value="0x09"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A848" value="0x0A"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A848" value="0x0B"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A848" value="0x0C"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A848" value="0x0D"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A848" value="0x0E"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A848" value="0x0F"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A848" value="0x10"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A848" value="0x11"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A848" value="0x12"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A848" value="0x13"/>
+		</option>
+		<option desc="蔡宝奇">
+			<parameter cpu="0" address="0x10A848" value="0x14"/>
+		</option>
+		<option desc="八神庵">
+			<parameter cpu="0" address="0x10A848" value="0x15"/>
+		</option>
+		<option desc="麦卓">
+			<parameter cpu="0" address="0x10A848" value="0x16"/>
+		</option>
+		<option desc="薇思">
+			<parameter cpu="0" address="0x10A848" value="0x17"/>
+		</option>
+		<option desc="吉斯">
+			<parameter cpu="0" address="0x10A848" value="0x18"/>
+		</option>
+		<option desc="克劳萨">
+			<parameter cpu="0" address="0x10A848" value="0x19"/>
+		</option>
+		<option desc="比克">
+			<parameter cpu="0" address="0x10A848" value="0x1A"/>
+		</option>
+		<option desc="#神乐千鹤">
+			<parameter cpu="0" address="0x10A848" value="0x1B"/>
+		</option>
+		<option desc="#高尼茨">
+			<parameter cpu="0" address="0x10A848" value="0x1C"/>
+		</option>
+	</cheat>
+    <cheat desc="选择颜色 PL1 (A)" default="0">
+        <option desc="关闭"/>
+        <option desc="A 颜色">
+            <parameter cpu="0" address="0x10A849" value="0x00"/>
+        </option>
+        <option desc="D 颜色">
+            <parameter cpu="0" address="0x10A849" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择颜色 PL1 (B)" default="0">
+        <option desc="关闭"/>
+        <option desc="A 颜色">
+            <parameter cpu="0" address="0x10A84A" value="0x00"/>
+        </option>
+        <option desc="D 颜色">
+            <parameter cpu="0" address="0x10A84A" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择颜色 PL1 (C)" default="0">
+        <option desc="关闭"/>
+        <option desc="A 颜色">
+            <parameter cpu="0" address="0x10A84B" value="0x00"/>
+        </option>
+        <option desc="D 颜色">
+            <parameter cpu="0" address="0x10A84B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第一角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色 A">
+            <parameter cpu="0" address="0x10A84C" value="0x00"/>
+        </option>
+        <option desc="角色 B">
+            <parameter cpu="0" address="0x10A84C" value="0x01"/>
+        </option>
+        <option desc="角色 C">
+            <parameter cpu="0" address="0x10A84C" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第二角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色 A">
+            <parameter cpu="0" address="0x10A84D" value="0x00"/>
+        </option>
+        <option desc="角色 B">
+            <parameter cpu="0" address="0x10A84D" value="0x01"/>
+        </option>
+        <option desc="角色 C">
+            <parameter cpu="0" address="0x10A84D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第三角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色 A">
+            <parameter cpu="0" address="0x10A84E" value="0x00"/>
+        </option>
+        <option desc="角色 B">
+            <parameter cpu="0" address="0x10A84E" value="0x01"/>
+        </option>
+        <option desc="角色 C">
+            <parameter cpu="0" address="0x10A84E" value="0x02"/>
+        </option>
+    </cheat>    
+	<cheat desc=" "/>    
+    <cheat desc="选择血量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108439" value="0x67"/>
+        </option>
+        <option desc="红血">
+            <parameter cpu="0" address="0x108439" value="0x20"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108439" value="0x00"/>
+        </option>
+    </cheat>   
+    <cheat desc="选择能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x1083E8" value="0x80"/>
+            <parameter cpu="0" address="0x1083EA" value="0x3C"/>
+            <parameter cpu="0" address="0x10844D" value="0x04"/>
+        </option>
+        <option desc="空">
+            <parameter cpu="0" address="0x1083E8" value="0x00"/>
+            <parameter cpu="0" address="0x1083EA" value="0x00"/>
+            <parameter cpu="0" address="0x10844D" value="0x00"/>
+        </option>
+    </cheat> 
+    <cheat desc="开局前可动 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E2" value="0x10"/>
+        </option>
+    </cheat>      
+    <cheat desc="超快速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10837A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="身体带电（关闭后碰到对手攻击后消失） PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E3" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="永不眩晕">
+            <parameter cpu="0" address="0x10843F" value="0x67"/>
+        </option>
+        <option desc="被打中即晕">
+            <parameter cpu="0" address="0x10843F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕前眩晕计量值 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="不减">
+            <parameter cpu="0" address="0x108444" value="0x10"/>
+        </option>
+        <option desc="清空">
+            <parameter cpu="0" address="0x108444" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="防御状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="永不崩防">
+            <parameter cpu="0" address="0x108447" value="0x67"/>
+        </option>
+        <option desc="总是崩防">
+            <parameter cpu="0" address="0x108447" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="崩防前防御计量值 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="不减">
+            <parameter cpu="0" address="0x10844C" value="0x10"/>
+        </option>
+        <option desc="清空">
+            <parameter cpu="0" address="0x10844C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 看结局用，实际人物不会变。单人无结局 ]"/>
+    <cheat desc="[ 选单人选项时会判定为以单人对战 ]"/> 
+    <cheat desc="[ 打电脑时，不要对对面使用该功能，可能会重启 ]"/>
+	<cheat desc="选择队伍 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="日本队">
+			<parameter cpu="0" address="0x10A855" value="0x00"/>
+		</option>
+		<option desc="饿狼队">
+			<parameter cpu="0" address="0x10A855" value="0x01"/>
+		</option>
+		<option desc="龙虎之拳队">
+			<parameter cpu="0" address="0x10A855" value="0x02"/>
+		</option>
+		<option desc="怒之队">
+			<parameter cpu="0" address="0x10A855" value="0x03"/>
+		</option>
+		<option desc="超能力队">
+			<parameter cpu="0" address="0x10A855" value="0x04"/>
+		</option>
+		<option desc="女性格斗家队">
+			<parameter cpu="0" address="0x10A855" value="0x05"/>
+		</option>
+		<option desc="韩国队">
+			<parameter cpu="0" address="0x10A855" value="0x06"/>
+		</option>
+		<option desc="八神队">
+			<parameter cpu="0" address="0x10A855" value="0x07"/>
+		</option>
+		<option desc="BOSS队">
+			<parameter cpu="0" address="0x10A855" value="0x08"/>
+		</option>
+		<option desc="神乐千鹤(单人)">
+			<parameter cpu="0" address="0x10A855" value="0x09"/>
+		</option>
+		<option desc="高尼茨(单人)">
+			<parameter cpu="0" address="0x10A855" value="0x0A"/>
+		</option>
+		<option desc="超能力战士队">
+			<parameter cpu="0" address="0x10A855" value="0x0B"/>
+		</option>
+		<option desc="高尼茨队">
+			<parameter cpu="0" address="0x10A855" value="0x0C"/>
+		</option>
+		<option desc="随意">
+			<parameter cpu="0" address="0x10A855" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (A) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="草薙京">
+			<parameter cpu="0" address="0x10A857" value="0x00"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A857" value="0x01"/>
+		</option>
+		<option desc="大门五郎">
+			<parameter cpu="0" address="0x10A857" value="0x02"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A857" value="0x03"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A857" value="0x04"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A857" value="0x05"/>
+		</option>
+		<option desc="坂崎亮">
+			<parameter cpu="0" address="0x10A857" value="0x06"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A857" value="0x07"/>
+		</option>
+		<option desc="坂崎百合">
+			<parameter cpu="0" address="0x10A857" value="0x08"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A857" value="0x09"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A857" value="0x0A"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A857" value="0x0B"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A857" value="0x0C"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A857" value="0x0D"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A857" value="0x0E"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A857" value="0x0F"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A857" value="0x10"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A857" value="0x11"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A857" value="0x12"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A857" value="0x13"/>
+		</option>
+		<option desc="蔡宝奇">
+			<parameter cpu="0" address="0x10A857" value="0x14"/>
+		</option>
+		<option desc="八神庵">
+			<parameter cpu="0" address="0x10A857" value="0x15"/>
+		</option>
+		<option desc="麦卓">
+			<parameter cpu="0" address="0x10A857" value="0x16"/>
+		</option>
+		<option desc="薇思">
+			<parameter cpu="0" address="0x10A857" value="0x17"/>
+		</option>
+		<option desc="吉斯">
+			<parameter cpu="0" address="0x10A857" value="0x18"/>
+		</option>
+		<option desc="克劳萨">
+			<parameter cpu="0" address="0x10A857" value="0x19"/>
+		</option>
+		<option desc="比克">
+			<parameter cpu="0" address="0x10A857" value="0x1A"/>
+		</option>
+		<option desc="#神乐千鹤">
+			<parameter cpu="0" address="0x10A857" value="0x1B"/>
+		</option>
+		<option desc="#高尼茨">
+			<parameter cpu="0" address="0x10A857" value="0x1C"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (B) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="草薙京">
+			<parameter cpu="0" address="0x10A858" value="0x00"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A858" value="0x01"/>
+		</option>
+		<option desc="大门五郎">
+			<parameter cpu="0" address="0x10A858" value="0x02"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A858" value="0x03"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A858" value="0x04"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A858" value="0x05"/>
+		</option>
+		<option desc="坂崎亮">
+			<parameter cpu="0" address="0x10A858" value="0x06"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A858" value="0x07"/>
+		</option>
+		<option desc="坂崎百合">
+			<parameter cpu="0" address="0x10A858" value="0x08"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A858" value="0x09"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A858" value="0x0A"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A858" value="0x0B"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A858" value="0x0C"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A858" value="0x0D"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A858" value="0x0E"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A858" value="0x0F"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A858" value="0x10"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A858" value="0x11"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A858" value="0x12"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A858" value="0x13"/>
+		</option>
+		<option desc="蔡宝奇">
+			<parameter cpu="0" address="0x10A858" value="0x14"/>
+		</option>
+		<option desc="八神庵">
+			<parameter cpu="0" address="0x10A858" value="0x15"/>
+		</option>
+		<option desc="麦卓">
+			<parameter cpu="0" address="0x10A858" value="0x16"/>
+		</option>
+		<option desc="薇思">
+			<parameter cpu="0" address="0x10A858" value="0x17"/>
+		</option>
+		<option desc="吉斯">
+			<parameter cpu="0" address="0x10A858" value="0x18"/>
+		</option>
+		<option desc="克劳萨">
+			<parameter cpu="0" address="0x10A858" value="0x19"/>
+		</option>
+		<option desc="比克">
+			<parameter cpu="0" address="0x10A858" value="0x1A"/>
+		</option>
+		<option desc="#神乐千鹤">
+			<parameter cpu="0" address="0x10A858" value="0x1B"/>
+		</option>
+		<option desc="#高尼茨">
+			<parameter cpu="0" address="0x10A858" value="0x1C"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (C) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="草薙京">
+			<parameter cpu="0" address="0x10A859" value="0x00"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A859" value="0x01"/>
+		</option>
+		<option desc="大门五郎">
+			<parameter cpu="0" address="0x10A859" value="0x02"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A859" value="0x03"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A859" value="0x04"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A859" value="0x05"/>
+		</option>
+		<option desc="坂崎亮">
+			<parameter cpu="0" address="0x10A859" value="0x06"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A859" value="0x07"/>
+		</option>
+		<option desc="坂崎百合">
+			<parameter cpu="0" address="0x10A859" value="0x08"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A859" value="0x09"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A859" value="0x0A"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A859" value="0x0B"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A859" value="0x0C"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A859" value="0x0D"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A859" value="0x0E"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A859" value="0x0F"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A859" value="0x10"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A859" value="0x11"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A859" value="0x12"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A859" value="0x13"/>
+		</option>
+		<option desc="蔡宝奇">
+			<parameter cpu="0" address="0x10A859" value="0x14"/>
+		</option>
+		<option desc="八神庵">
+			<parameter cpu="0" address="0x10A859" value="0x15"/>
+		</option>
+		<option desc="麦卓">
+			<parameter cpu="0" address="0x10A859" value="0x16"/>
+		</option>
+		<option desc="薇思">
+			<parameter cpu="0" address="0x10A859" value="0x17"/>
+		</option>
+		<option desc="吉斯">
+			<parameter cpu="0" address="0x10A859" value="0x18"/>
+		</option>
+		<option desc="克劳萨">
+			<parameter cpu="0" address="0x10A859" value="0x19"/>
+		</option>
+		<option desc="比克">
+			<parameter cpu="0" address="0x10A859" value="0x1A"/>
+		</option>
+		<option desc="#神乐千鹤">
+			<parameter cpu="0" address="0x10A859" value="0x1B"/>
+		</option>
+		<option desc="#高尼茨">
+			<parameter cpu="0" address="0x10A859" value="0x1C"/>
+		</option>
+	</cheat>
+    <cheat desc="选择颜色 PL2 (A)" default="0">
+        <option desc="关闭"/>
+        <option desc="A 颜色">
+            <parameter cpu="0" address="0x10A85A" value="0x00"/>
+        </option>
+        <option desc="D 颜色">
+            <parameter cpu="0" address="0x10A85A" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择颜色 PL2 (B)" default="0">
+        <option desc="关闭"/>
+        <option desc="A 颜色">
+            <parameter cpu="0" address="0x10A85B" value="0x00"/>
+        </option>
+        <option desc="D 颜色">
+            <parameter cpu="0" address="0x10A85B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择颜色 PL2 (C)" default="0">
+        <option desc="关闭"/>
+        <option desc="A 颜色">
+            <parameter cpu="0" address="0x10A85C" value="0x00"/>
+        </option>
+        <option desc="D 颜色">
+            <parameter cpu="0" address="0x10A85C" value="0x01"/>
+        </option>
+    </cheat>	
+    <cheat desc="选择第一角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色 A">
+            <parameter cpu="0" address="0x10A85D" value="0x00"/>
+        </option>
+        <option desc="角色 B">
+            <parameter cpu="0" address="0x10A85D" value="0x01"/>
+        </option>
+        <option desc="角色 C">
+            <parameter cpu="0" address="0x10A85D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第二角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色 A">
+            <parameter cpu="0" address="0x10A85E" value="0x00"/>
+        </option>
+        <option desc="角色 B">
+            <parameter cpu="0" address="0x10A85E" value="0x01"/>
+        </option>
+        <option desc="角色 C">
+            <parameter cpu="0" address="0x10A85E" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第三角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色 A">
+            <parameter cpu="0" address="0x10A85F" value="0x00"/>
+        </option>
+        <option desc="角色 B">
+            <parameter cpu="0" address="0x10A85F" value="0x01"/>
+        </option>
+        <option desc="角色 C">
+            <parameter cpu="0" address="0x10A85F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>    
+    <cheat desc=" "/>
+    <cheat desc="[ 开启后出招优先级高于同指令的普通投 ]"/>
+    <cheat desc="[ 可按住其它攻击键后出同指令的普通投 ]"/>
+    <cheat desc="→或↑+拳或脚 出方向键蓄力技 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E33A" value="0x0C"/>
+            <parameter cpu="0" address="0x10E33C" value="0x0C"/>
+            <parameter cpu="0" address="0x10E342" value="0x0C"/>
+            <parameter cpu="0" address="0x10E33E" value="0x0C"/>
+            <parameter cpu="0" address="0x10E340" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="→或↑+拳或脚 出方向键蓄力技 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E534" value="0x0C"/>
+            <parameter cpu="0" address="0x10E536" value="0x0C"/>
+            <parameter cpu="0" address="0x10E53C" value="0x0C"/>
+            <parameter cpu="0" address="0x10E538" value="0x0C"/>
+            <parameter cpu="0" address="0x10E53A" value="0x0C"/>
+        </option>
+    </cheat>
+</shufflecheat>

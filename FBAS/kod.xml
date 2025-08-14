@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE084" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF0E49" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF0E49" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF0E49" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF0E49" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF0E49" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF0E49" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF0E49" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xFF0E49" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xFF0E49" value="0x08"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xFF0E49" value="0x09"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0xFF0E49" value="0x0A"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0xFF0E49" value="0x0B"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0xFF0E49" value="0x0C"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0xFF0E49" value="0x0D"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0xFF0E49" value="0x0E"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0xFF0E49" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 慎重使用，勿选错版本 ]"/>
+    <cheat desc="AB不扣血" default="0">
+        <option desc="关闭"/>
+        <option desc="910805版">
+            <parameter cpu="0" address="0x010053" value="0x00"/>
+            <parameter cpu="0" address="0x0100D9" value="0x00"/>
+            <parameter cpu="0" address="0x01014D" value="0x00"/>
+            <parameter cpu="0" address="0x0101B9" value="0x00"/>
+            <parameter cpu="0" address="0x010225" value="0x00"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x010053" value="0x08"/>
+            <parameter cpu="0" address="0x0100D9" value="0x08"/>
+            <parameter cpu="0" address="0x01014D" value="0x0A"/>
+            <parameter cpu="0" address="0x0101B9" value="0x08"/>
+            <parameter cpu="0" address="0x010225" value="0x0A"/>
+        </option>
+        <option desc="910910版">
+            <parameter cpu="0" address="0x0100A5" value="0x00"/>
+            <parameter cpu="0" address="0x01012B" value="0x00"/>
+            <parameter cpu="0" address="0x01019F" value="0x00"/>
+            <parameter cpu="0" address="0x01020B" value="0x00"/>
+            <parameter cpu="0" address="0x010277" value="0x00"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x0100A5" value="0x08"/>
+            <parameter cpu="0" address="0x01012B" value="0x08"/>
+            <parameter cpu="0" address="0x01019F" value="0x0A"/>
+            <parameter cpu="0" address="0x01020B" value="0x08"/>
+            <parameter cpu="0" address="0x010277" value="0x0A"/>
+        </option>
+        <option desc="910711版/修改版(kodh)">
+            <parameter cpu="0" address="0x00FB91" value="0x00"/>
+            <parameter cpu="0" address="0x00FC17" value="0x00"/>
+            <parameter cpu="0" address="0x00FC8B" value="0x00"/>
+            <parameter cpu="0" address="0x00FCF7" value="0x00"/>
+            <parameter cpu="0" address="0x00FD63" value="0x00"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x00FB91" value="0x08"/>
+            <parameter cpu="0" address="0x00FC17" value="0x08"/>
+            <parameter cpu="0" address="0x00FC8B" value="0x0A"/>
+            <parameter cpu="0" address="0x00FCF7" value="0x08"/>
+            <parameter cpu="0" address="0x00FD63" value="0x0A"/>
+        </option>
+        <option desc="910731版/盗版">
+			<parameter cpu="0" address="0x01001D" value="0x00"/>
+            <parameter cpu="0" address="0x0100A3" value="0x00"/>
+            <parameter cpu="0" address="0x010117" value="0x00"/>
+            <parameter cpu="0" address="0x010183" value="0x00"/>
+            <parameter cpu="0" address="0x0101EF" value="0x00"/>
+        </option>
+        <option desc="还原">
+			<parameter cpu="0" address="0x01001D" value="0x00"/>
+            <parameter cpu="0" address="0x0100A3" value="0x00"/>
+            <parameter cpu="0" address="0x010117" value="0x00"/>
+            <parameter cpu="0" address="0x010183" value="0x00"/>
+            <parameter cpu="0" address="0x0101EF" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+      <cheat desc="立即换人 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="精灵">
+            <parameter cpu="0" address="0xFF1290" value="0xF0"/>
+        </option>
+        <option desc="法师">
+            <parameter cpu="0" address="0xFF1290" value="0xF1"/>
+        </option>
+        <option desc="战士">
+            <parameter cpu="0" address="0xFF1290" value="0xF2"/>
+        </option>
+        <option desc="牧师">
+            <parameter cpu="0" address="0xFF1290" value="0xF3"/>
+        </option>
+        <option desc="矮人">
+            <parameter cpu="0" address="0xFF1290" value="0xF4"/>
+        </option>
+    </cheat> 
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF125D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF129B" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF128E" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="角色满级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF12A2" value="0x17"/>
+        </option>
+    </cheat>
+      <cheat desc="选择武器等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1">
+            <parameter cpu="0" address="0xFF12A3" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0xFF12A3" value="0x01"/>
+        </option>
+        <option desc="等级3">
+            <parameter cpu="0" address="0xFF12A3" value="0x02"/>
+        </option>
+        <option desc="等级4">
+            <parameter cpu="0" address="0xFF12A3" value="0x03"/>
+        </option>
+        <option desc="等级5">
+            <parameter cpu="0" address="0xFF12A3" value="0x04"/>
+        </option>
+        <option desc="等级6">
+            <parameter cpu="0" address="0xFF12A3" value="0x05"/>
+        </option>
+        <option desc="等级7">
+            <parameter cpu="0" address="0xFF12A3" value="0x06"/>
+        </option>
+        <option desc="等级8">
+            <parameter cpu="0" address="0xFF12A3" value="0x07"/>
+        </option>
+       </cheat> 
+  <cheat desc="选择辅助等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1">
+            <parameter cpu="0" address="0xFF12A4" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0xFF12A4" value="0x01"/>
+        </option>
+        <option desc="等级3">
+            <parameter cpu="0" address="0xFF12A4" value="0x02"/>
+        </option>
+        <option desc="等级4">
+            <parameter cpu="0" address="0xFF12A4" value="0x03"/>
+        </option>
+        <option desc="等级5">
+            <parameter cpu="0" address="0xFF12A4" value="0x04"/>
+        </option>
+        <option desc="等级6">
+            <parameter cpu="0" address="0xFF12A4" value="0x05"/>
+        </option>
+        <option desc="等级7">
+            <parameter cpu="0" address="0xFF12A4" value="0x06"/>
+        </option>
+        <option desc="等级8">
+            <parameter cpu="0" address="0xFF12A4" value="0x07"/>
+        </option>
+       </cheat> 
+    <cheat desc="有99999999经验值 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF12C2" value="0x99"/>
+            <parameter cpu="0" address="0xFF12C3" value="0x99"/>
+            <parameter cpu="0" address="0xFF12C4" value="0x99"/>
+            <parameter cpu="0" address="0xFF12C5" value="0x99"/>
+        </option>
+    </cheat>
+ <cheat desc="最大攻击力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF129D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大防御力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF129F" value="0x63"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+      <cheat desc="立即换人 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="精灵">
+            <parameter cpu="0" address="0xFF1390" value="0xF0"/>
+        </option>
+        <option desc="法师">
+            <parameter cpu="0" address="0xFF1390" value="0xF1"/>
+        </option>
+        <option desc="战士">
+            <parameter cpu="0" address="0xFF1390" value="0xF2"/>
+        </option>
+        <option desc="牧师">
+            <parameter cpu="0" address="0xFF1390" value="0xF3"/>
+        </option>
+        <option desc="矮人">
+            <parameter cpu="0" address="0xFF1390" value="0xF4"/>
+        </option>
+    </cheat> 
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF135D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF139B" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF138E" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="角色满级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF13A2" value="0x17"/>
+        </option>
+    </cheat>
+ <cheat desc="选择武器等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1">
+            <parameter cpu="0" address="0xFF13A3" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0xFF13A3" value="0x01"/>
+        </option>
+        <option desc="等级3">
+            <parameter cpu="0" address="0xFF13A3" value="0x02"/>
+        </option>
+        <option desc="等级4">
+            <parameter cpu="0" address="0xFF13A3" value="0x03"/>
+        </option>
+        <option desc="等级5">
+            <parameter cpu="0" address="0xFF13A3" value="0x04"/>
+        </option>
+        <option desc="等级6">
+            <parameter cpu="0" address="0xFF13A3" value="0x05"/>
+        </option>
+        <option desc="等级7">
+            <parameter cpu="0" address="0xFF13A3" value="0x06"/>
+        </option>
+        <option desc="等级8">
+            <parameter cpu="0" address="0xFF13A3" value="0x07"/>
+        </option>
+       </cheat> 
+  <cheat desc="选择辅助等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1">
+            <parameter cpu="0" address="0xFF13A4" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0xFF13A4" value="0x01"/>
+        </option>
+        <option desc="等级3">
+            <parameter cpu="0" address="0xFF13A4" value="0x02"/>
+        </option>
+        <option desc="等级4">
+            <parameter cpu="0" address="0xFF13A4" value="0x03"/>
+        </option>
+        <option desc="等级5">
+            <parameter cpu="0" address="0xFF13A4" value="0x04"/>
+        </option>
+        <option desc="等级6">
+            <parameter cpu="0" address="0xFF13A4" value="0x05"/>
+        </option>
+        <option desc="等级7">
+            <parameter cpu="0" address="0xFF13A4" value="0x06"/>
+        </option>
+        <option desc="等级8">
+            <parameter cpu="0" address="0xFF13A4" value="0x07"/>
+        </option>
+       </cheat> 
+    <cheat desc="有99999999经验值 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF13C2" value="0x99"/>
+            <parameter cpu="0" address="0xFF13C3" value="0x99"/>
+            <parameter cpu="0" address="0xFF13C4" value="0x99"/>
+            <parameter cpu="0" address="0xFF13C5" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="最大攻击力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF139D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大防御力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF139F" value="0x63"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+      <cheat desc="立即换人 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="精灵">
+            <parameter cpu="0" address="0xFF1490" value="0xF0"/>
+        </option>
+        <option desc="法师">
+            <parameter cpu="0" address="0xFF1490" value="0xF1"/>
+        </option>
+        <option desc="战士">
+            <parameter cpu="0" address="0xFF1490" value="0xF2"/>
+        </option>
+        <option desc="牧师">
+            <parameter cpu="0" address="0xFF1490" value="0xF3"/>
+        </option>
+        <option desc="矮人">
+            <parameter cpu="0" address="0xFF1490" value="0xF4"/>
+        </option>
+    </cheat> 
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF145D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF149B" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF148E" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="角色满级 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF14A2" value="0x17"/>
+        </option>
+    </cheat>
+<cheat desc="选择武器等级 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1">
+            <parameter cpu="0" address="0xFF14A3" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0xFF14A3" value="0x01"/>
+        </option>
+        <option desc="等级3">
+            <parameter cpu="0" address="0xFF14A3" value="0x02"/>
+        </option>
+        <option desc="等级4">
+            <parameter cpu="0" address="0xFF14A3" value="0x03"/>
+        </option>
+        <option desc="等级5">
+            <parameter cpu="0" address="0xFF14A3" value="0x04"/>
+        </option>
+        <option desc="等级6">
+            <parameter cpu="0" address="0xFF14A3" value="0x05"/>
+        </option>
+        <option desc="等级7">
+            <parameter cpu="0" address="0xFF14A3" value="0x06"/>
+        </option>
+        <option desc="等级8">
+            <parameter cpu="0" address="0xFF14A3" value="0x07"/>
+        </option>
+       </cheat> 
+  <cheat desc="选择辅助等级 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1">
+            <parameter cpu="0" address="0xFF14A4" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0xFF14A4" value="0x01"/>
+        </option>
+        <option desc="等级3">
+            <parameter cpu="0" address="0xFF14A4" value="0x02"/>
+        </option>
+        <option desc="等级4">
+            <parameter cpu="0" address="0xFF14A4" value="0x03"/>
+        </option>
+        <option desc="等级5">
+            <parameter cpu="0" address="0xFF14A4" value="0x04"/>
+        </option>
+        <option desc="等级6">
+            <parameter cpu="0" address="0xFF14A4" value="0x05"/>
+        </option>
+        <option desc="等级7">
+            <parameter cpu="0" address="0xFF14A4" value="0x06"/>
+        </option>
+        <option desc="等级8">
+            <parameter cpu="0" address="0xFF14A4" value="0x07"/>
+        </option>
+       </cheat> 
+    <cheat desc="有99999999经验值 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF14C2" value="0x99"/>
+            <parameter cpu="0" address="0xFF14C3" value="0x99"/>
+            <parameter cpu="0" address="0xFF14C4" value="0x99"/>
+            <parameter cpu="0" address="0xFF14C5" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="最大攻击力 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF149D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大防御力 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF149F" value="0x63"/>
+        </option>
+    </cheat>
+</shufflecheat>

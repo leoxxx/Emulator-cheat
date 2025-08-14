@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x1800C6BD" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="2" address="0x180001E4" value="0x63"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="2" address="0x180001E4" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择血量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="2" address="0x1800C87C" value="0x40"/>
+            <parameter cpu="2" address="0x1800C87E" value="0x40"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="2" address="0x1800C87C" value="0x00"/>
+            <parameter cpu="2" address="0x1800C87E" value="0x00"/>
+            <parameter cpu="2" address="0x1800C880" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限红气槽 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x1800C888" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="无限蓝气槽 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x1800C890" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择血量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="2" address="0x1800CAA0" value="0x40"/>
+            <parameter cpu="2" address="0x1800CAA2" value="0x40"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="2" address="0x1800CAA0" value="0x00"/>
+            <parameter cpu="2" address="0x1800CAA2" value="0x00"/>
+            <parameter cpu="2" address="0x1800CAA4" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限红气槽 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x1800CAAC" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="无限蓝气槽 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x1800CAB4" value="0x78"/>
+        </option>
+    </cheat>
+</shufflecheat>
