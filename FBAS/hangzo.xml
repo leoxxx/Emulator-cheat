@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3F0001" value="0x63"/>
+        </option>
+    </cheat>   
+    <cheat desc="一直不动不会出现GO标记" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x012A3A" value="0x60"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x012A3A" value="0x66"/>
+        </option>
+    </cheat>
+    <cheat desc="蓄力直接最大化" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01132F" value="0x01"/>
+            <parameter cpu="0" address="0x011337" value="0x02"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x01132F" value="0x40"/>
+            <parameter cpu="0" address="0x011337" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3F01C7" value="0x80"/>
+            <parameter cpu="0" address="0x3F0203" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3F00E5" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3F00E9" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限忍术 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3F00E7" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3F0267" value="0x80"/>
+            <parameter cpu="0" address="0x3F02A3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3F011D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3F0121" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限忍术 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3F011F" value="0x63"/>
+        </option>
+    </cheat>
+</shufflecheat>

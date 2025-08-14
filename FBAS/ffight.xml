@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF80AF" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8129" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF80BE" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF80BE" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF80BE" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF80BE" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF80BE" value="0x04"/>
+        </option>
+        <option desc="最终关">
+            <parameter cpu="0" address="0xFF80BE" value="0x05"/>
+        </option>        
+    </cheat>
+    <cheat desc="直接到结局（需要通过一关）" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF80C1" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀敌（BOSS除外）" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8701" value="0x00"/>
+            <parameter cpu="0" address="0xFF87C1" value="0x00"/>
+            <parameter cpu="0" address="0xFF8881" value="0x00"/>
+            <parameter cpu="0" address="0xFF8941" value="0x00"/>
+            <parameter cpu="0" address="0xFF8A01" value="0x00"/>
+            <parameter cpu="0" address="0xFF8AC1" value="0x00"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x00"/>
+            <parameter cpu="0" address="0xFF8C41" value="0x00"/>
+            <parameter cpu="0" address="0xFF8D01" value="0x00"/>
+            <parameter cpu="0" address="0xFF8DC1" value="0x00"/>
+            <parameter cpu="0" address="0xFF8E81" value="0x00"/>
+            <parameter cpu="0" address="0xFF8F41" value="0x00"/>
+            <parameter cpu="0" address="0xFF9001" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速杀BOSS" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9A80" value="0x00"/>
+            <parameter cpu="0" address="0xFF9A81" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="AB不扣血" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x00B33C" value="0x4E"/>
+            <parameter cpu="0" address="0x00B33D" value="0x71"/>
+            <parameter cpu="0" address="0x00B33E" value="0x4E"/>
+            <parameter cpu="0" address="0x00B33F" value="0x71"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x00B33C" value="0x51"/>
+            <parameter cpu="0" address="0x00B33D" value="0x6E"/>
+            <parameter cpu="0" address="0x00B33E" value="0x00"/>
+            <parameter cpu="0" address="0x00B33F" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>    
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85E8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8581" value="0x90"/>
+        </option>
+    </cheat>    
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85C9" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 凯最多5击；科迪最多4击；哈格最多3击 ]"/>
+    <cheat desc="[ 如果选择超出角色最多击数的选项，则相当于第1、2击 ]"/>
+    <cheat desc="攻击方式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="第1、2击">
+            <parameter cpu="0" address="0xFF860B" value="0x00"/>
+        </option>
+        <option desc="第3击（哈格的最后一击）">
+            <parameter cpu="0" address="0xFF860B" value="0x02"/>
+        </option>
+        <option desc="第4击（科迪的最后一击）">
+            <parameter cpu="0" address="0xFF860B" value="0x04"/>
+        </option>
+        <option desc="第5击（凯的最后一击）">
+            <parameter cpu="0" address="0xFF860B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8590" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="跳跃中可多次攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF860D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="凯">
+            <parameter cpu="0" address="0xFF857C" value="0x00"/>
+        </option>
+        <option desc="科迪">
+            <parameter cpu="0" address="0xFF857C" value="0x01"/>
+        </option>
+        <option desc="哈格">
+            <parameter cpu="0" address="0xFF857C" value="0x02"/>
+        </option>
+    </cheat>        
+    <cheat desc=" "/>  
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86A8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8641" value="0x90"/>
+        </option>
+    </cheat>    
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8689" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 凯最多5击；科迪最多4击；哈格最多3击 ]"/>
+    <cheat desc="[ 如果选择超出角色最多击数的选项，则相当于第1、2击 ]"/>
+    <cheat desc="攻击方式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="第1、2击">
+            <parameter cpu="0" address="0xFF86CB" value="0x00"/>
+        </option>
+        <option desc="第3击（哈格的最后一击）">
+            <parameter cpu="0" address="0xFF86CB" value="0x02"/>
+        </option>
+        <option desc="第4击（科迪的最后一击）">
+            <parameter cpu="0" address="0xFF86CB" value="0x04"/>
+        </option>
+        <option desc="第5击（凯的最后一击）">
+            <parameter cpu="0" address="0xFF86CB" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8650" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="跳跃中可多次攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86CD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="凯">
+            <parameter cpu="0" address="0xFF863C" value="0x00"/>
+        </option>
+        <option desc="科迪">
+            <parameter cpu="0" address="0xFF863C" value="0x01"/>
+        </option>
+        <option desc="哈格">
+            <parameter cpu="0" address="0xFF863C" value="0x02"/>
+        </option>
+    </cheat>      
+</shufflecheat>

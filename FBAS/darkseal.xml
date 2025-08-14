@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="立即杀死BOSS" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100B3B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100036" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100037" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="魔力槽满 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10003E" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10004B" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="获得所有装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100017" value="0x40"/>
+            <parameter cpu="0" address="0x100048" value="0x02"/>
+            <parameter cpu="0" address="0x100084" value="0x0A"/>
+            <parameter cpu="0" address="0x100086" value="0x0A"/>
+            <parameter cpu="0" address="0x100038" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法书 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10007A" value="0xFF"/>
+            <parameter cpu="0" address="0x10007B" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择魔法 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="火球">
+            <parameter cpu="0" address="0x10003A" value="0x04"/>
+        </option>
+        <option desc="雷云">
+            <parameter cpu="0" address="0x10003A" value="0x05"/>
+        </option>
+        <option desc="水柱">
+            <parameter cpu="0" address="0x10003A" value="0x06"/>
+        </option>
+        <option desc="光球">
+            <parameter cpu="0" address="0x10003A" value="0x07"/>
+        </option>
+        <option desc="猪">
+            <parameter cpu="0" address="0x10003A" value="0x08"/>
+        </option>
+        <option desc="龙卷风">
+            <parameter cpu="0" address="0x10003A" value="0x09"/>
+        </option>
+        <option desc="巨石">
+            <parameter cpu="0" address="0x10003A" value="0x0A"/>
+        </option>
+        <option desc="麻痹植物">
+            <parameter cpu="0" address="0x10003A" value="0x0B"/>
+        </option>
+        <option desc="铁球">
+            <parameter cpu="0" address="0x10003A" value="0x0C"/>
+        </option>
+        <option desc="美杜莎的头">
+            <parameter cpu="0" address="0x10003A" value="0x0D"/>
+        </option>
+        <option desc="鼠群">
+            <parameter cpu="0" address="0x10003A" value="0x0E"/>
+        </option>
+        <option desc="宝箱">
+            <parameter cpu="0" address="0x10003A" value="0x0F"/>
+        </option>
+        <option desc="随机变宝箱/猪">
+            <parameter cpu="0" address="0x10003A" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000B6" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000B7" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="魔力槽满 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000BE" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000CB" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="获得所有装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100097" value="0x40"/>
+            <parameter cpu="0" address="0x1000C8" value="0x02"/>
+            <parameter cpu="0" address="0x100106" value="0x0A"/>
+            <parameter cpu="0" address="0x100104" value="0x0A"/>
+            <parameter cpu="0" address="0x1000B8" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法书 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000FA" value="0xFF"/>
+            <parameter cpu="0" address="0x1000FB" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择魔法 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="火球">
+            <parameter cpu="0" address="0x1000BA" value="0x04"/>
+        </option>
+        <option desc="雷云">
+            <parameter cpu="0" address="0x1000BA" value="0x05"/>
+        </option>
+        <option desc="水柱">
+            <parameter cpu="0" address="0x1000BA" value="0x06"/>
+        </option>
+        <option desc="光球">
+            <parameter cpu="0" address="0x1000BA" value="0x07"/>
+        </option>
+        <option desc="猪">
+            <parameter cpu="0" address="0x1000BA" value="0x08"/>
+        </option>
+        <option desc="龙卷风">
+            <parameter cpu="0" address="0x1000BA" value="0x09"/>
+        </option>
+        <option desc="巨石">
+            <parameter cpu="0" address="0x1000BA" value="0x0A"/>
+        </option>
+        <option desc="麻痹植物">
+            <parameter cpu="0" address="0x1000BA" value="0x0B"/>
+        </option>
+        <option desc="铁球">
+            <parameter cpu="0" address="0x1000BA" value="0x0C"/>
+        </option>
+        <option desc="美杜莎的头">
+            <parameter cpu="0" address="0x1000BA" value="0x0D"/>
+        </option>
+        <option desc="鼠群">
+            <parameter cpu="0" address="0x1000BA" value="0x0E"/>
+        </option>
+        <option desc="宝箱">
+            <parameter cpu="0" address="0x1000BA" value="0x0F"/>
+        </option>
+        <option desc="随机变宝箱/猪">
+            <parameter cpu="0" address="0x1000BA" value="0x10"/>
+        </option>
+    </cheat>
+</shufflecheat>

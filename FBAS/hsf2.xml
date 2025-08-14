@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF830A" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF8BFC" value="0x99"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF8BFC" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF8367" value="0x90"/>
+            <parameter cpu="0" address="0xFF84F9" value="0x90"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF8367" value="0x00"/>
+            <parameter cpu="0" address="0xFF84F9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF85F0" value="0x30"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF85F0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 豪鬼只能用LP或MP或PPP确定，其它按键会贴图错误 ]"/>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="隆">
+            <parameter cpu="0" address="0xFF8667" value="0x00"/>
+        </option>
+        <option desc="本田">
+            <parameter cpu="0" address="0xFF8667" value="0x01"/>
+        </option>
+        <option desc="布兰卡">
+            <parameter cpu="0" address="0xFF8667" value="0x02"/>
+        </option>
+        <option desc="盖尔">
+            <parameter cpu="0" address="0xFF8667" value="0x03"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0xFF8667" value="0x04"/>
+        </option>
+        <option desc="春丽">
+            <parameter cpu="0" address="0xFF8667" value="0x05"/>
+        </option>
+        <option desc="桑吉尔夫">
+            <parameter cpu="0" address="0xFF8667" value="0x06"/>
+        </option>
+        <option desc="达尔西姆">
+            <parameter cpu="0" address="0xFF8667" value="0x07"/>
+        </option>
+        <option desc="拜森(日版维加)">
+            <parameter cpu="0" address="0xFF8667" value="0x08"/>
+        </option>
+        <option desc="沙加特">
+            <parameter cpu="0" address="0xFF8667" value="0x09"/>
+        </option>
+        <option desc="巴洛克(日版拜森)">
+            <parameter cpu="0" address="0xFF8667" value="0x0A"/>
+        </option>
+        <option desc="维加(日版巴洛克)">
+            <parameter cpu="0" address="0xFF8667" value="0x0B"/>
+        </option>
+        <option desc="嘉米">
+            <parameter cpu="0" address="0xFF8667" value="0x0C"/>
+        </option>
+        <option desc="猎鹰">
+            <parameter cpu="0" address="0xFF8667" value="0x0D"/>
+        </option>
+        <option desc="飞龙">
+            <parameter cpu="0" address="0xFF8667" value="0x0E"/>
+        </option>
+        <option desc="迪杰">
+            <parameter cpu="0" address="0xFF8667" value="0x0F"/>
+        </option>
+        <option desc="#豪鬼">
+            <parameter cpu="0" address="0xFF8667" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 非SUPERT及豪鬼勿用MP之后的选项，会贴图错误 ]"/>
+    <cheat desc="选择颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="LP">
+            <parameter cpu="0" address="0xFF8668" value="0x00"/>
+        </option>
+        <option desc="MP">
+            <parameter cpu="0" address="0xFF8668" value="0x01"/>
+        </option>
+        <option desc="HP">
+            <parameter cpu="0" address="0xFF8668" value="0x02"/>
+        </option>
+        <option desc="LK">
+            <parameter cpu="0" address="0xFF8668" value="0x03"/>
+        </option>
+        <option desc="MK">
+            <parameter cpu="0" address="0xFF8668" value="0x04"/>
+        </option>
+        <option desc="HK">
+            <parameter cpu="0" address="0xFF8668" value="0x05"/>
+        </option>
+        <option desc="开始">
+            <parameter cpu="0" address="0xFF8668" value="0x06"/>
+        </option>
+        <option desc="长按上述任意按键">
+            <parameter cpu="0" address="0xFF8668" value="0x07"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF8767" value="0x90"/>
+            <parameter cpu="0" address="0xFF88F9" value="0x90"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF8767" value="0x00"/>
+            <parameter cpu="0" address="0xFF88F9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF89F0" value="0x30"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF89F0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 豪鬼只能用LP或MP或PPP确定，其它按键会贴图错误 ]"/>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="隆">
+            <parameter cpu="0" address="0xFF8A67" value="0x00"/>
+        </option>
+        <option desc="本田">
+            <parameter cpu="0" address="0xFF8A67" value="0x01"/>
+        </option>
+        <option desc="布兰卡">
+            <parameter cpu="0" address="0xFF8A67" value="0x02"/>
+        </option>
+        <option desc="盖尔">
+            <parameter cpu="0" address="0xFF8A67" value="0x03"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0xFF8A67" value="0x04"/>
+        </option>
+        <option desc="春丽">
+            <parameter cpu="0" address="0xFF8A67" value="0x05"/>
+        </option>
+        <option desc="桑吉尔夫">
+            <parameter cpu="0" address="0xFF8A67" value="0x06"/>
+        </option>
+        <option desc="达尔西姆">
+            <parameter cpu="0" address="0xFF8A67" value="0x07"/>
+        </option>
+        <option desc="拜森(日版维加)">
+            <parameter cpu="0" address="0xFF8A67" value="0x08"/>
+        </option>
+        <option desc="沙加特">
+            <parameter cpu="0" address="0xFF8A67" value="0x09"/>
+        </option>
+        <option desc="巴洛克(日版拜森)">
+            <parameter cpu="0" address="0xFF8A67" value="0x0A"/>
+        </option>
+        <option desc="维加(日版巴洛克)">
+            <parameter cpu="0" address="0xFF8A67" value="0x0B"/>
+        </option>
+        <option desc="嘉米">
+            <parameter cpu="0" address="0xFF8A67" value="0x0C"/>
+        </option>
+        <option desc="猎鹰">
+            <parameter cpu="0" address="0xFF8A67" value="0x0D"/>
+        </option>
+        <option desc="飞龙">
+            <parameter cpu="0" address="0xFF8A67" value="0x0E"/>
+        </option>
+        <option desc="迪杰">
+            <parameter cpu="0" address="0xFF8A67" value="0x0F"/>
+        </option>
+        <option desc="#豪鬼">
+            <parameter cpu="0" address="0xFF8A67" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 非SUPERT及豪鬼勿用MP之后的选项，会贴图错误 ]"/>
+    <cheat desc="选择颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="LP">
+            <parameter cpu="0" address="0xFF8A68" value="0x00"/>
+        </option>
+        <option desc="MP">
+            <parameter cpu="0" address="0xFF8A68" value="0x01"/>
+        </option>
+        <option desc="HP">
+            <parameter cpu="0" address="0xFF8A68" value="0x02"/>
+        </option>
+        <option desc="LK">
+            <parameter cpu="0" address="0xFF8A68" value="0x03"/>
+        </option>
+        <option desc="MK">
+            <parameter cpu="0" address="0xFF8A68" value="0x04"/>
+        </option>
+        <option desc="HK">
+            <parameter cpu="0" address="0xFF8A68" value="0x05"/>
+        </option>
+        <option desc="开始">
+            <parameter cpu="0" address="0xFF8A68" value="0x06"/>
+        </option>
+        <option desc="长按上述任意按键">
+            <parameter cpu="0" address="0xFF8A68" value="0x07"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择区域码" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF82FB" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF82FB" value="0x02"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF82FB" value="0x04"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF82FB" value="0x06"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF82FB" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

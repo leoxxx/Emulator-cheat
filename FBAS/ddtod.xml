@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1-1">
+            <parameter cpu="0" address="0xFF8056" value="0x00"/>
+        </option>
+        <option desc="1-2A">
+            <parameter cpu="0" address="0xFF8056" value="0x06"/>
+        </option>
+        <option desc="1 Boss A">
+            <parameter cpu="0" address="0xFF8056" value="0x08"/>
+        </option>
+        <option desc="1-2B">
+            <parameter cpu="0" address="0xFF8056" value="0x01"/>
+        </option>
+        <option desc="1 Boss B">
+            <parameter cpu="0" address="0xFF8056" value="0x04"/>
+        </option>
+        <option desc="2-1">
+            <parameter cpu="0" address="0xFF8056" value="0x09"/>
+        </option>
+        <option desc="2-2A">
+            <parameter cpu="0" address="0xFF8056" value="0x0B"/>
+        </option>
+        <option desc="2 Boss A">
+            <parameter cpu="0" address="0xFF8056" value="0x0C"/>
+        </option>
+        <option desc="2-2B">
+            <parameter cpu="0" address="0xFF8056" value="0x10"/>
+        </option>
+        <option desc="2 Boss B">
+            <parameter cpu="0" address="0xFF8056" value="0x0F"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF8056" value="0x16"/>
+        </option>
+        <option desc="3 Boss">
+            <parameter cpu="0" address="0xFF8056" value="0x19"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF8056" value="0x1A"/>
+        </option>
+        <option desc="5A">
+            <parameter cpu="0" address="0xFF8056" value="0x24"/>
+        </option>
+        <option desc="5B">
+            <parameter cpu="0" address="0xFF8056" value="0x20"/>
+        </option>
+        <option desc="5C">
+            <parameter cpu="0" address="0xFF8056" value="0x1B"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF8056" value="0x26"/>
+        </option>
+        <option desc="6 Boss">
+            <parameter cpu="0" address="0xFF8056" value="0x33"/>
+        </option>
+        <option desc="7A">
+            <parameter cpu="0" address="0xFF8056" value="0x34"/>
+        </option>
+        <option desc="7B">
+            <parameter cpu="0" address="0xFF8056" value="0x39"/>
+        </option>
+        <option desc="7 Boss">
+            <parameter cpu="0" address="0xFF8056" value="0x3C"/>
+        </option>
+        <option desc="红龙">
+            <parameter cpu="0" address="0xFF8056" value="0x37"/>
+        </option>
+        <option desc="关卡7之后(限定时间)">
+            <parameter cpu="0" address="0xFF8056" value="0x36"/>
+        </option>
+        <option desc="关卡7之后(无限时间)">
+            <parameter cpu="0" address="0xFF8056" value="0x36"/>
+            <parameter cpu="0" address="0xFFC990" value="0x99"/>
+        </option>
+        <option desc="8A">
+            <parameter cpu="0" address="0xFF8056" value="0x3D"/>
+        </option>
+        <option desc="8 Boss">
+            <parameter cpu="0" address="0xFF8056" value="0x43"/>
+        </option>
+        <option desc="最终关">
+            <parameter cpu="0" address="0xFF8056" value="0x48"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8069" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钥匙" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF805C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择地区" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF807A" value="0x00"/>
+            <parameter cpu="0" address="0xFF807B" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF807A" value="0x01"/>
+            <parameter cpu="0" address="0xFF807B" value="0x01"/>
+        </option>
+        <option desc="阿根廷">
+            <parameter cpu="0" address="0xFF807A" value="0x02"/>
+            <parameter cpu="0" address="0xFF807B" value="0x02"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF807A" value="0x03"/>
+            <parameter cpu="0" address="0xFF807B" value="0x03"/>
+        </option>
+        <option desc="英国">
+            <parameter cpu="0" address="0xFF807A" value="0x04"/>
+            <parameter cpu="0" address="0xFF807B" value="0x04"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF807A" value="0x05"/>
+            <parameter cpu="0" address="0xFF807B" value="0x05"/>
+        </option>
+        <option desc="法国">
+            <parameter cpu="0" address="0xFF807A" value="0x06"/>
+            <parameter cpu="0" address="0xFF807B" value="0x06"/>
+        </option>
+        <option desc="德国">
+            <parameter cpu="0" address="0xFF807A" value="0x07"/>
+            <parameter cpu="0" address="0xFF807B" value="0x07"/>
+        </option>
+        <option desc="意大利">
+            <parameter cpu="0" address="0xFF807A" value="0x08"/>
+            <parameter cpu="0" address="0xFF807B" value="0x08"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF875D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="战士">
+            <parameter cpu="0" address="0xFF86CB" value="0x00"/>
+        </option>
+        <option desc="牧师">
+            <parameter cpu="0" address="0xFF86CB" value="0x01"/>
+        </option>
+        <option desc="精灵">
+            <parameter cpu="0" address="0xFF86CB" value="0x02"/>
+        </option>
+        <option desc="矮人">
+            <parameter cpu="0" address="0xFF86CB" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8719" value="0xA0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF874E" value="0x09"/>
+            <parameter cpu="0" address="0xFF874F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8491" value="0x16"/>
+            <parameter cpu="0" address="0xFF84A8" value="0x09"/>
+            <parameter cpu="0" address="0xFF84A9" value="0x09"/>
+            <parameter cpu="0" address="0xFF84AA" value="0x09"/>
+            <parameter cpu="0" address="0xFF84AB" value="0x09"/>
+            <parameter cpu="0" address="0xFF84AC" value="0x09"/>
+            <parameter cpu="0" address="0xFF84AD" value="0x09"/>
+            <parameter cpu="0" address="0xFF84AE" value="0x09"/>
+            <parameter cpu="0" address="0xFF84AF" value="0x09"/>
+            <parameter cpu="0" address="0xFF84B0" value="0x09"/>
+            <parameter cpu="0" address="0xFF84B1" value="0x09"/>
+            <parameter cpu="0" address="0xFF84B2" value="0x09"/>
+            <parameter cpu="0" address="0xFF84B3" value="0x09"/>
+            <parameter cpu="0" address="0xFF84B4" value="0x09"/>
+            <parameter cpu="0" address="0xFF84B5" value="0x09"/>
+            <parameter cpu="0" address="0xFF84B6" value="0x09"/>
+            <parameter cpu="0" address="0xFF84B7" value="0x09"/>
+            <parameter cpu="0" address="0xFF84B8" value="0x09"/>
+            <parameter cpu="0" address="0xFF84B9" value="0x09"/>
+            <parameter cpu="0" address="0xFF84BA" value="0x09"/>
+            <parameter cpu="0" address="0xFF84BB" value="0x09"/>
+            <parameter cpu="0" address="0xFF84BC" value="0x09"/>
+            <parameter cpu="0" address="0xFF84BD" value="0x09"/>
+            <parameter cpu="0" address="0xFF84BE" value="0x09"/>
+            <parameter cpu="0" address="0xFF84BF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="当前道具选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="飞刀">
+            <parameter cpu="0" address="0xFF8498" value="0x00"/>
+        </option>
+        <option desc="投锤">
+            <parameter cpu="0" address="0xFF8498" value="0x01"/>
+        </option>
+        <option desc="弓箭">
+            <parameter cpu="0" address="0xFF8498" value="0x02"/>
+        </option>
+        <option desc="燃烧瓶">
+            <parameter cpu="0" address="0xFF8498" value="0x03"/>
+        </option>
+        <option desc="魔法飞弹戒指">
+            <parameter cpu="0" address="0xFF8498" value="0x04"/>
+        </option>
+        <option desc="隐身戒指">
+            <parameter cpu="0" address="0xFF8498" value="0x05"/>
+        </option>
+        <option desc="火球戒指">
+            <parameter cpu="0" address="0xFF8498" value="0x06"/>
+        </option>
+        <option desc="闪电戒指">
+            <parameter cpu="0" address="0xFF8498" value="0x07"/>
+        </option>
+        <option desc="变形戒指">
+            <parameter cpu="0" address="0xFF8498" value="0x08"/>
+        </option>
+        <option desc="恒光戒指">
+            <parameter cpu="0" address="0xFF8498" value="0x09"/>
+        </option>
+        <option desc="治疗戒指">
+            <parameter cpu="0" address="0xFF8498" value="0x0A"/>
+        </option>
+        <option desc="治疗术(牧师)">
+            <parameter cpu="0" address="0xFF8498" value="0x0B"/>
+        </option>
+        <option desc="困身术(牧师)">
+            <parameter cpu="0" address="0xFF8498" value="0x0C"/>
+        </option>
+        <option desc="恒光术(牧师)">
+            <parameter cpu="0" address="0xFF8498" value="0x0D"/>
+        </option>
+        <option desc="变蛇术(牧师)">
+            <parameter cpu="0" address="0xFF8498" value="0x0E"/>
+        </option>
+        <option desc="强化术(牧师)">
+            <parameter cpu="0" address="0xFF8498" value="0x17"/>
+        </option>
+        <option desc="超度亡灵(牧师)">
+            <parameter cpu="0" address="0xFF8498" value="0x0F"/>
+        </option>
+        <option desc="魔法飞弹(精灵)">
+            <parameter cpu="0" address="0xFF8498" value="0x10"/>
+        </option>
+        <option desc="隐身术(精灵)">
+            <parameter cpu="0" address="0xFF8498" value="0x11"/>
+        </option>
+        <option desc="火球术(精灵)">
+            <parameter cpu="0" address="0xFF8498" value="0x12"/>
+        </option>
+        <option desc="冰风暴(精灵)">
+            <parameter cpu="0" address="0xFF8498" value="0x13"/>
+        </option>
+        <option desc="死云术(精灵)">
+            <parameter cpu="0" address="0xFF8498" value="0x14"/>
+        </option>
+        <option desc="变形术(精灵)">
+            <parameter cpu="0" address="0xFF8498" value="0x15"/>
+        </option>
+        <option desc="闪电术(精灵)">
+            <parameter cpu="0" address="0xFF8498" value="0x16"/>
+        </option>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF8498" value="0x18"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF885D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="战士">
+            <parameter cpu="0" address="0xFF87CB" value="0x00"/>
+        </option>
+        <option desc="牧师">
+            <parameter cpu="0" address="0xFF87CB" value="0x01"/>
+        </option>
+        <option desc="精灵">
+            <parameter cpu="0" address="0xFF87CB" value="0x02"/>
+        </option>
+        <option desc="矮人">
+            <parameter cpu="0" address="0xFF87CB" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8819" value="0xA0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF884E" value="0x09"/>
+            <parameter cpu="0" address="0xFF884F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84D1" value="0x16"/>
+            <parameter cpu="0" address="0xFF84E8" value="0x09"/>
+            <parameter cpu="0" address="0xFF84E9" value="0x09"/>
+            <parameter cpu="0" address="0xFF84EA" value="0x09"/>
+            <parameter cpu="0" address="0xFF84EB" value="0x09"/>
+            <parameter cpu="0" address="0xFF84EC" value="0x09"/>
+            <parameter cpu="0" address="0xFF84ED" value="0x09"/>
+            <parameter cpu="0" address="0xFF84EE" value="0x09"/>
+            <parameter cpu="0" address="0xFF84EF" value="0x09"/>
+            <parameter cpu="0" address="0xFF84F0" value="0x09"/>
+            <parameter cpu="0" address="0xFF84F1" value="0x09"/>
+            <parameter cpu="0" address="0xFF84F2" value="0x09"/>
+            <parameter cpu="0" address="0xFF84F3" value="0x09"/>
+            <parameter cpu="0" address="0xFF84F4" value="0x09"/>
+            <parameter cpu="0" address="0xFF84F5" value="0x09"/>
+            <parameter cpu="0" address="0xFF84F6" value="0x09"/>
+            <parameter cpu="0" address="0xFF84F7" value="0x09"/>
+            <parameter cpu="0" address="0xFF84F8" value="0x09"/>
+            <parameter cpu="0" address="0xFF84F9" value="0x09"/>
+            <parameter cpu="0" address="0xFF84FA" value="0x09"/>
+            <parameter cpu="0" address="0xFF84FB" value="0x09"/>
+            <parameter cpu="0" address="0xFF84FC" value="0x09"/>
+            <parameter cpu="0" address="0xFF84FD" value="0x09"/>
+            <parameter cpu="0" address="0xFF84FE" value="0x09"/>
+            <parameter cpu="0" address="0xFF84FF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="当前道具选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="匕首">
+            <parameter cpu="0" address="0xFF84D8" value="0x00"/>
+        </option>
+        <option desc="投锤">
+            <parameter cpu="0" address="0xFF84D8" value="0x01"/>
+        </option>
+        <option desc="弓箭">
+            <parameter cpu="0" address="0xFF84D8" value="0x02"/>
+        </option>
+        <option desc="燃烧瓶">
+            <parameter cpu="0" address="0xFF84D8" value="0x03"/>
+        </option>
+        <option desc="魔法飞弹戒指">
+            <parameter cpu="0" address="0xFF84D8" value="0x04"/>
+        </option>
+        <option desc="隐身戒指">
+            <parameter cpu="0" address="0xFF84D8" value="0x05"/>
+        </option>
+        <option desc="火球戒指">
+            <parameter cpu="0" address="0xFF84D8" value="0x06"/>
+        </option>
+        <option desc="闪电戒指">
+            <parameter cpu="0" address="0xFF84D8" value="0x07"/>
+        </option>
+        <option desc="变形戒指">
+            <parameter cpu="0" address="0xFF84D8" value="0x08"/>
+        </option>
+        <option desc="恒光戒指">
+            <parameter cpu="0" address="0xFF84D8" value="0x09"/>
+        </option>
+        <option desc="治疗戒指">
+            <parameter cpu="0" address="0xFF84D8" value="0x0A"/>
+        </option>
+        <option desc="治疗术(牧师)">
+            <parameter cpu="0" address="0xFF84D8" value="0x0B"/>
+        </option>
+        <option desc="困身术(牧师)">
+            <parameter cpu="0" address="0xFF84D8" value="0x0C"/>
+        </option>
+        <option desc="恒光术(牧师)">
+            <parameter cpu="0" address="0xFF84D8" value="0x0D"/>
+        </option>
+        <option desc="变蛇术(牧师)">
+            <parameter cpu="0" address="0xFF84D8" value="0x0E"/>
+        </option>
+        <option desc="强化术(牧师)">
+            <parameter cpu="0" address="0xFF84D8" value="0x17"/>
+        </option>
+        <option desc="超度亡灵(牧师)">
+            <parameter cpu="0" address="0xFF84D8" value="0x0F"/>
+        </option>
+        <option desc="魔法飞弹(精灵)">
+            <parameter cpu="0" address="0xFF84D8" value="0x10"/>
+        </option>
+        <option desc="隐身术(精灵)">
+            <parameter cpu="0" address="0xFF84D8" value="0x11"/>
+        </option>
+        <option desc="火球术(精灵)">
+            <parameter cpu="0" address="0xFF84D8" value="0x12"/>
+        </option>
+        <option desc="冰风暴(精灵)">
+            <parameter cpu="0" address="0xFF84D8" value="0x13"/>
+        </option>
+        <option desc="死云术(精灵)">
+            <parameter cpu="0" address="0xFF84D8" value="0x14"/>
+        </option>
+        <option desc="变形术(精灵)">
+            <parameter cpu="0" address="0xFF84D8" value="0x15"/>
+        </option>
+        <option desc="闪电术(精灵)">
+            <parameter cpu="0" address="0xFF84D8" value="0x16"/>
+        </option>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF84D8" value="0x18"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF895D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="战士">
+            <parameter cpu="0" address="0xFF88CB" value="0x00"/>
+        </option>
+        <option desc="牧师">
+            <parameter cpu="0" address="0xFF88CB" value="0x01"/>
+        </option>
+        <option desc="精灵">
+            <parameter cpu="0" address="0xFF88CB" value="0x02"/>
+        </option>
+        <option desc="矮人">
+            <parameter cpu="0" address="0xFF88CB" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8919" value="0xA0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF894E" value="0x09"/>
+            <parameter cpu="0" address="0xFF894F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8511" value="0x16"/>
+            <parameter cpu="0" address="0xFF8528" value="0x09"/>
+            <parameter cpu="0" address="0xFF8529" value="0x09"/>
+            <parameter cpu="0" address="0xFF852A" value="0x09"/>
+            <parameter cpu="0" address="0xFF852B" value="0x09"/>
+            <parameter cpu="0" address="0xFF852C" value="0x09"/>
+            <parameter cpu="0" address="0xFF852D" value="0x09"/>
+            <parameter cpu="0" address="0xFF852E" value="0x09"/>
+            <parameter cpu="0" address="0xFF852F" value="0x09"/>
+            <parameter cpu="0" address="0xFF8530" value="0x09"/>
+            <parameter cpu="0" address="0xFF8531" value="0x09"/>
+            <parameter cpu="0" address="0xFF8532" value="0x09"/>
+            <parameter cpu="0" address="0xFF8533" value="0x09"/>
+            <parameter cpu="0" address="0xFF8534" value="0x09"/>
+            <parameter cpu="0" address="0xFF8535" value="0x09"/>
+            <parameter cpu="0" address="0xFF8536" value="0x09"/>
+            <parameter cpu="0" address="0xFF8537" value="0x09"/>
+            <parameter cpu="0" address="0xFF8538" value="0x09"/>
+            <parameter cpu="0" address="0xFF8539" value="0x09"/>
+            <parameter cpu="0" address="0xFF853A" value="0x09"/>
+            <parameter cpu="0" address="0xFF853B" value="0x09"/>
+            <parameter cpu="0" address="0xFF853C" value="0x09"/>
+            <parameter cpu="0" address="0xFF853D" value="0x09"/>
+            <parameter cpu="0" address="0xFF853E" value="0x09"/>
+            <parameter cpu="0" address="0xFF853F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="当前道具选择 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="匕首">
+            <parameter cpu="0" address="0xFF8518" value="0x00"/>
+        </option>
+        <option desc="投锤">
+            <parameter cpu="0" address="0xFF8518" value="0x01"/>
+        </option>
+        <option desc="弓箭">
+            <parameter cpu="0" address="0xFF8518" value="0x02"/>
+        </option>
+        <option desc="燃烧瓶">
+            <parameter cpu="0" address="0xFF8518" value="0x03"/>
+        </option>
+        <option desc="魔法飞弹戒指">
+            <parameter cpu="0" address="0xFF8518" value="0x04"/>
+        </option>
+        <option desc="隐身戒指">
+            <parameter cpu="0" address="0xFF8518" value="0x05"/>
+        </option>
+        <option desc="火球戒指">
+            <parameter cpu="0" address="0xFF8518" value="0x06"/>
+        </option>
+        <option desc="闪电戒指">
+            <parameter cpu="0" address="0xFF8518" value="0x07"/>
+        </option>
+        <option desc="变形戒指">
+            <parameter cpu="0" address="0xFF8518" value="0x08"/>
+        </option>
+        <option desc="恒光戒指">
+            <parameter cpu="0" address="0xFF8518" value="0x09"/>
+        </option>
+        <option desc="治疗戒指">
+            <parameter cpu="0" address="0xFF8518" value="0x0A"/>
+        </option>
+        <option desc="治疗术(牧师)">
+            <parameter cpu="0" address="0xFF8518" value="0x0B"/>
+        </option>
+        <option desc="困身术(牧师)">
+            <parameter cpu="0" address="0xFF8518" value="0x0C"/>
+        </option>
+        <option desc="恒光术(牧师)">
+            <parameter cpu="0" address="0xFF8518" value="0x0D"/>
+        </option>
+        <option desc="变蛇术(牧师)">
+            <parameter cpu="0" address="0xFF8518" value="0x0E"/>
+        </option>
+        <option desc="强化术(牧师)">
+            <parameter cpu="0" address="0xFF8518" value="0x17"/>
+        </option>
+        <option desc="超度亡灵(牧师)">
+            <parameter cpu="0" address="0xFF8518" value="0x0F"/>
+        </option>
+        <option desc="魔法飞弹(精灵)">
+            <parameter cpu="0" address="0xFF8518" value="0x10"/>
+        </option>
+        <option desc="隐身术(精灵)">
+            <parameter cpu="0" address="0xFF8518" value="0x11"/>
+        </option>
+        <option desc="火球术(精灵)">
+            <parameter cpu="0" address="0xFF8518" value="0x12"/>
+        </option>
+        <option desc="冰风暴(精灵)">
+            <parameter cpu="0" address="0xFF8518" value="0x13"/>
+        </option>
+        <option desc="死云术(精灵)">
+            <parameter cpu="0" address="0xFF8518" value="0x14"/>
+        </option>
+        <option desc="变形术(精灵)">
+            <parameter cpu="0" address="0xFF8518" value="0x15"/>
+        </option>
+        <option desc="闪电术(精灵)">
+            <parameter cpu="0" address="0xFF8518" value="0x16"/>
+        </option>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF8518" value="0x18"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8A5D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="战士">
+            <parameter cpu="0" address="0xFF89CB" value="0x00"/>
+        </option>
+        <option desc="牧师">
+            <parameter cpu="0" address="0xFF89CB" value="0x01"/>
+        </option>
+        <option desc="精灵">
+            <parameter cpu="0" address="0xFF89CB" value="0x02"/>
+        </option>
+        <option desc="矮人">
+            <parameter cpu="0" address="0xFF89CB" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8A19" value="0xA0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8A4E" value="0x09"/>
+            <parameter cpu="0" address="0xFF8A4F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8551" value="0x16"/>
+            <parameter cpu="0" address="0xFF8568" value="0x09"/>
+            <parameter cpu="0" address="0xFF8569" value="0x09"/>
+            <parameter cpu="0" address="0xFF856A" value="0x09"/>
+            <parameter cpu="0" address="0xFF856B" value="0x09"/>
+            <parameter cpu="0" address="0xFF856C" value="0x09"/>
+            <parameter cpu="0" address="0xFF856D" value="0x09"/>
+            <parameter cpu="0" address="0xFF856E" value="0x09"/>
+            <parameter cpu="0" address="0xFF856F" value="0x09"/>
+            <parameter cpu="0" address="0xFF8570" value="0x09"/>
+            <parameter cpu="0" address="0xFF8571" value="0x09"/>
+            <parameter cpu="0" address="0xFF8572" value="0x09"/>
+            <parameter cpu="0" address="0xFF8573" value="0x09"/>
+            <parameter cpu="0" address="0xFF8574" value="0x09"/>
+            <parameter cpu="0" address="0xFF8575" value="0x09"/>
+            <parameter cpu="0" address="0xFF8576" value="0x09"/>
+            <parameter cpu="0" address="0xFF8577" value="0x09"/>
+            <parameter cpu="0" address="0xFF8578" value="0x09"/>
+            <parameter cpu="0" address="0xFF8579" value="0x09"/>
+            <parameter cpu="0" address="0xFF857A" value="0x09"/>
+            <parameter cpu="0" address="0xFF857B" value="0x09"/>
+            <parameter cpu="0" address="0xFF857C" value="0x09"/>
+            <parameter cpu="0" address="0xFF857D" value="0x09"/>
+            <parameter cpu="0" address="0xFF857E" value="0x09"/>
+            <parameter cpu="0" address="0xFF857F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="当前道具选择 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="匕首">
+            <parameter cpu="0" address="0xFF8558" value="0x00"/>
+        </option>
+        <option desc="投锤">
+            <parameter cpu="0" address="0xFF8558" value="0x01"/>
+        </option>
+        <option desc="弓箭">
+            <parameter cpu="0" address="0xFF8558" value="0x02"/>
+        </option>
+        <option desc="燃烧瓶">
+            <parameter cpu="0" address="0xFF8558" value="0x03"/>
+        </option>
+        <option desc="魔法飞弹戒指">
+            <parameter cpu="0" address="0xFF8558" value="0x04"/>
+        </option>
+        <option desc="隐身戒指">
+            <parameter cpu="0" address="0xFF8558" value="0x05"/>
+        </option>
+        <option desc="火球戒指">
+            <parameter cpu="0" address="0xFF8558" value="0x06"/>
+        </option>
+        <option desc="闪电戒指">
+            <parameter cpu="0" address="0xFF8558" value="0x07"/>
+        </option>
+        <option desc="变形戒指">
+            <parameter cpu="0" address="0xFF8558" value="0x08"/>
+        </option>
+        <option desc="恒光戒指">
+            <parameter cpu="0" address="0xFF8558" value="0x09"/>
+        </option>
+        <option desc="治疗戒指">
+            <parameter cpu="0" address="0xFF8558" value="0x0A"/>
+        </option>
+        <option desc="治疗术(牧师)">
+            <parameter cpu="0" address="0xFF8558" value="0x0B"/>
+        </option>
+        <option desc="困身术(牧师)">
+            <parameter cpu="0" address="0xFF8558" value="0x0C"/>
+        </option>
+        <option desc="恒光术(牧师)">
+            <parameter cpu="0" address="0xFF8558" value="0x0D"/>
+        </option>
+        <option desc="变蛇术(牧师)">
+            <parameter cpu="0" address="0xFF8558" value="0x0E"/>
+        </option>
+        <option desc="强化术(牧师)">
+            <parameter cpu="0" address="0xFF8558" value="0x17"/>
+        </option>
+        <option desc="超度亡灵(牧师)">
+            <parameter cpu="0" address="0xFF8558" value="0x0F"/>
+        </option>
+        <option desc="魔法飞弹(精灵)">
+            <parameter cpu="0" address="0xFF8558" value="0x10"/>
+        </option>
+        <option desc="隐身术(精灵)">
+            <parameter cpu="0" address="0xFF8558" value="0x11"/>
+        </option>
+        <option desc="火球术(精灵)">
+            <parameter cpu="0" address="0xFF8558" value="0x12"/>
+        </option>
+        <option desc="冰风暴(精灵)">
+            <parameter cpu="0" address="0xFF8558" value="0x13"/>
+        </option>
+        <option desc="死云术(精灵)">
+            <parameter cpu="0" address="0xFF8558" value="0x14"/>
+        </option>
+        <option desc="变形术(精灵)">
+            <parameter cpu="0" address="0xFF8558" value="0x15"/>
+        </option>
+        <option desc="闪电术(精灵)">
+            <parameter cpu="0" address="0xFF8558" value="0x16"/>
+        </option>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF8558" value="0x18"/>
+        </option>
+    </cheat>
+</shufflecheat>

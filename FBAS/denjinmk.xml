@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x110701" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 务必进入打投影敌的游戏关前 ]"/>
+    <cheat desc="[ 关闭无限时间，否则一会就死机 ]"/>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x11066A" value="0x31"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="1P 无限体力">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x110AF0" value="0x03"/>
+            <parameter cpu="0" address="0x110AF1" value="0x3F"/>
+            <parameter cpu="0" address="0x110AF2" value="0x03"/>
+            <parameter cpu="0" address="0x110AF3" value="0x3F"/>
+            <parameter cpu="0" address="0x110266" value="0x03"/>
+            <parameter cpu="0" address="0x110267" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="1P 无限能量">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x110AF4" value="0x03"/>
+            <parameter cpu="0" address="0x110AF5" value="0x3F"/>
+            <parameter cpu="0" address="0x110AF6" value="0x03"/>
+            <parameter cpu="0" address="0x110AF7" value="0x3F"/>
+            <parameter cpu="0" address="0x11026A" value="0x03"/>
+            <parameter cpu="0" address="0x11026B" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="1P 超必杀无红血限制" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x110B1F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="2P 无限体力">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x110C10" value="0x03"/>
+            <parameter cpu="0" address="0x110C11" value="0x3F"/>
+            <parameter cpu="0" address="0x110C12" value="0x03"/>
+            <parameter cpu="0" address="0x110C13" value="0x3F"/>
+            <parameter cpu="0" address="0x1102A6" value="0x03"/>
+            <parameter cpu="0" address="0x1102A7" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="2P 无限能量">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x110C14" value="0x03"/>
+            <parameter cpu="0" address="0x110C15" value="0x3F"/>
+            <parameter cpu="0" address="0x110C16" value="0x03"/>
+            <parameter cpu="0" address="0x110C17" value="0x3F"/>
+            <parameter cpu="0" address="0x1102AA" value="0x03"/>
+            <parameter cpu="0" address="0x1102AB" value="0x3F"/>
+        </option>
+    </cheat>    
+    <cheat desc="2P 超必杀无红血限制" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x110C3F" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>
