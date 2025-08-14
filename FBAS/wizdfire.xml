@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="拖时间不会出现特殊怪" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDCE78" value="0x0B"/>
+            <parameter cpu="0" address="0xFDCE79" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 从沙漠进入陵墓前须关闭，否则BOSS不出现， ]"/>
+    <cheat desc="[ 等BOSS出现后再开。不关闭无法打破柱子 ]"/>
+    <cheat desc="BOSS一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0xFDD605" value="0x00"/>
+            <parameter cpu="0" address="0xFDD685" value="0x00"/>
+            <parameter cpu="0" address="0xFDDD05" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD064" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD004" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="魔法槽满 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD030" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法书 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD031" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 效果依原有功能而定 ]"/>
+    <cheat desc="始终最大蓄力/直接出击连 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD02D" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD033" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 某些选项受伤后会变为其它选项 ]"/>
+    <cheat desc="[ 可能会引起选项错乱及死机 ]"/>
+    <cheat desc="[ 最好同时开启无敌 ]"/>
+    <cheat desc="变身为 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="骑士">
+            <parameter cpu="0" address="0xFDD050" value="0x00"/>
+        </option>
+        <option desc="魔法师">
+            <parameter cpu="0" address="0xFDD050" value="0x01"/>
+        </option>
+        <option desc="吟游诗人">
+            <parameter cpu="0" address="0xFDD050" value="0x02"/>
+        </option>
+        <option desc="矮人">
+            <parameter cpu="0" address="0xFDD050" value="0x03"/>
+        </option>
+        <option desc="精灵">
+            <parameter cpu="0" address="0xFDD050" value="0x04"/>
+        </option>
+        <option desc="天使">
+            <parameter cpu="0" address="0xFDD050" value="0x05"/>
+        </option>
+        <option desc="火蝾螈">
+            <parameter cpu="0" address="0xFDD050" value="0x06"/>
+        </option>
+        <option desc="独角兽">
+            <parameter cpu="0" address="0xFDD050" value="0x07"/>
+        </option>
+        <option desc="野人">
+            <parameter cpu="0" address="0xFDD050" value="0x08"/>
+        </option>
+        <option desc="仙女">
+            <parameter cpu="0" address="0xFDD050" value="0x09"/>
+        </option>
+        <option desc="火球">
+            <parameter cpu="0" address="0xFDD050" value="0x0A"/>
+        </option>
+        <option desc="雷云">
+            <parameter cpu="0" address="0xFDD050" value="0x0B"/>
+        </option>
+        <option desc="水柱">
+            <parameter cpu="0" address="0xFDD050" value="0x0C"/>
+        </option>
+        <option desc="龙卷风">
+            <parameter cpu="0" address="0xFDD050" value="0x0D"/>
+        </option>
+        <option desc="巨石">
+            <parameter cpu="0" address="0xFDD050" value="0x0E"/>
+        </option>
+        <option desc="美杜莎的头">
+            <parameter cpu="0" address="0xFDD050" value="0x0F"/>
+        </option>
+        <option desc="宝箱">
+            <parameter cpu="0" address="0xFDD050" value="0x10"/>
+        </option>
+        <option desc="猪">
+            <parameter cpu="0" address="0xFDD050" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD0E4" value="0x02"/>
+        </option>
+    </cheat>
+     <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD084" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="魔法槽满 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD0B0" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法书 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD0B1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 效果依原有功能而定 ]"/>
+    <cheat desc="始终最大蓄力/直接出击连 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD0AD" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD0B3" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 某些选项受伤后会变为其它选项 ]"/>
+    <cheat desc="[ 可能会引起选项错乱及死机 ]"/>
+    <cheat desc="[ 最好同时开启无敌 ]"/>
+    <cheat desc="变身为 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="骑士">
+            <parameter cpu="0" address="0xFDD0D0" value="0x00"/>
+        </option>
+        <option desc="魔法师">
+            <parameter cpu="0" address="0xFDD0D0" value="0x01"/>
+        </option>
+        <option desc="吟游诗人">
+            <parameter cpu="0" address="0xFDD0D0" value="0x02"/>
+        </option>
+        <option desc="矮人">
+            <parameter cpu="0" address="0xFDD0D0" value="0x03"/>
+        </option>
+        <option desc="精灵">
+            <parameter cpu="0" address="0xFDD0D0" value="0x04"/>
+        </option>
+        <option desc="天使">
+            <parameter cpu="0" address="0xFDD0D0" value="0x05"/>
+        </option>
+        <option desc="火蝾螈">
+            <parameter cpu="0" address="0xFDD0D0" value="0x06"/>
+        </option>
+        <option desc="独角兽">
+            <parameter cpu="0" address="0xFDD0D0" value="0x07"/>
+        </option>
+        <option desc="野人">
+            <parameter cpu="0" address="0xFDD0D0" value="0x08"/>
+        </option>
+        <option desc="仙女">
+            <parameter cpu="0" address="0xFDD0D0" value="0x09"/>
+        </option>
+        <option desc="火球">
+            <parameter cpu="0" address="0xFDD0D0" value="0x0A"/>
+        </option>
+        <option desc="雷云">
+            <parameter cpu="0" address="0xFDD0D0" value="0x0B"/>
+        </option>
+        <option desc="水柱">
+            <parameter cpu="0" address="0xFDD0D0" value="0x0C"/>
+        </option>
+        <option desc="龙卷风">
+            <parameter cpu="0" address="0xFDD0D0" value="0x0D"/>
+        </option>
+        <option desc="巨石">
+            <parameter cpu="0" address="0xFDD0D0" value="0x0E"/>
+        </option>
+        <option desc="美杜莎的头">
+            <parameter cpu="0" address="0xFDD0D0" value="0x0F"/>
+        </option>
+        <option desc="宝箱">
+            <parameter cpu="0" address="0xFDD0D0" value="0x10"/>
+        </option>
+        <option desc="猪">
+            <parameter cpu="0" address="0xFDD0D0" value="0x11"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,3016 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="[ wofch专用 ]"/>
+    <cheat desc="里模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF056A" value="0x01"/>
+        </option>
+    </cheat>
+	<cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF62F7" value="0x09"/>
+            <parameter cpu="0" address="0xFF6307" value="0x09"/>
+            <parameter cpu="0" address="0xFF6317" value="0x09"/>
+        </option>
+    </cheat>
+	<cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="第1关 博望坡之战-1 李典">
+            <parameter cpu="0" address="0xFF7F88" value="0x00"/>
+        </option>
+        <option desc="第2关 博望坡之战-2 夏侯惇">
+            <parameter cpu="0" address="0xFF7F88" value="0x01"/>
+        </option>
+        <option desc="奖励关1 宴席大餐">
+            <parameter cpu="0" address="0xFF7F88" value="0x02"/>
+        </option>
+        <option desc="第3关 新野城 许褚">
+            <parameter cpu="0" address="0xFF7F88" value="0x03"/>
+        </option>
+        <option desc="连廊战三美">
+            <parameter cpu="0" address="0xFF7F88" value="0x04"/>
+        </option>
+        <option desc="第4关 白河 曹仁">
+            <parameter cpu="0" address="0xFF7F88" value="0x05"/>
+        </option>
+        <option desc="第5关 长坂坡之战-1">
+            <parameter cpu="0" address="0xFF7F88" value="0x06"/>
+        </option>
+        <option desc="第5关 长坂坡之战-2 淳于导">
+            <parameter cpu="0" address="0xFF7F88" value="0x07"/>
+        </option>
+        <option desc="第6关 长板桥 夏侯杰/晏明">
+            <parameter cpu="0" address="0xFF7F88" value="0x08"/>
+        </option>
+        <option desc="奖励关2 摧毁曹操木人">
+            <parameter cpu="0" address="0xFF7F88" value="0x09"/>
+        </option>
+        <option desc="第7关 赤壁之战-1 张辽">
+            <parameter cpu="0" address="0xFF7F88" value="0x0A"/>
+        </option>
+        <option desc="第8关 赤壁之战-2 徐晃">
+            <parameter cpu="0" address="0xFF7F88" value="0x0B"/>
+        </option>
+        <option desc="第9关 华容道 吕布">
+            <parameter cpu="0" address="0xFF7F88" value="0x0C"/>
+        </option>
+        <option desc="决战曹操">
+            <parameter cpu="0" address="0xFF7F88" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="无限关卡时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF81B2" value="0x3B"/>
+            <parameter cpu="0" address="0xFF81B4" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选人时间" default="0">
+        <option desc="关闭"/>
+        <option desc="世界版&美版">
+            <parameter cpu="0" address="0xFF0212" value="0x17"/>
+            <parameter cpu="0" address="0xFF0213" value="0x6F"/>
+            <parameter cpu="0" address="0xFF56FB" value="0x01"/>
+            <parameter cpu="0" address="0xFF56FC" value="0x9A"/>
+        </option>
+        <option desc="亚洲版&日版">
+            <parameter cpu="0" address="0xFF021A" value="0x17"/>
+            <parameter cpu="0" address="0xFF021B" value="0x6F"/>
+            <parameter cpu="0" address="0xFF56FB" value="0x01"/>
+            <parameter cpu="0" address="0xFF56FC" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限BOSS时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF81DE" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 仅限CPS Changer版使用 ]"/>
+    <cheat desc="全屏攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x008200" value="0x60"/>
+            <parameter cpu="0" address="0x008201" value="0x5E"/>
+            <parameter cpu="0" address="0x0089A6" value="0x60"/>
+            <parameter cpu="0" address="0x0089A7" value="0x0C"/>
+            <parameter cpu="0" address="0x008B70" value="0x4E"/>
+            <parameter cpu="0" address="0x008B71" value="0x71"/>
+            <parameter cpu="0" address="0x008B76" value="0x4E"/>
+            <parameter cpu="0" address="0x008B77" value="0x71"/>
+            <parameter cpu="0" address="0x008B8A" value="0x4E"/>
+            <parameter cpu="0" address="0x008B8B" value="0x71"/>
+            <parameter cpu="0" address="0x008BAC" value="0x4E"/>
+            <parameter cpu="0" address="0x008BAD" value="0x71"/>
+            <parameter cpu="0" address="0x008BC8" value="0x60"/>
+            <parameter cpu="0" address="0x008BC9" value="0x02"/>
+            <parameter cpu="0" address="0x008BEE" value="0x60"/>
+            <parameter cpu="0" address="0x008BEF" value="0x02"/>
+            <parameter cpu="0" address="0x008BF6" value="0x60"/>
+            <parameter cpu="0" address="0x008BF7" value="0x02"/>
+            <parameter cpu="0" address="0x008C0E" value="0x60"/>
+            <parameter cpu="0" address="0x008C0F" value="0x02"/>
+            <parameter cpu="0" address="0x009424" value="0x60"/>
+            <parameter cpu="0" address="0x009425" value="0x0C"/>
+            <parameter cpu="0" address="0x009684" value="0x60"/>
+            <parameter cpu="0" address="0x009685" value="0x02"/>
+            <parameter cpu="0" address="0x009696" value="0x60"/>
+            <parameter cpu="0" address="0x009697" value="0x02"/>
+            <parameter cpu="0" address="0x0096BA" value="0x60"/>
+            <parameter cpu="0" address="0x0096BB" value="0x02"/>
+            <parameter cpu="0" address="0x0096D8" value="0x60"/>
+            <parameter cpu="0" address="0x0096D9" value="0x02"/>
+            <parameter cpu="0" address="0x009A70" value="0x4E"/>
+            <parameter cpu="0" address="0x009A71" value="0x71"/>
+            <parameter cpu="0" address="0x009ACA" value="0x60"/>
+            <parameter cpu="0" address="0x009ACB" value="0x02"/>
+            <parameter cpu="0" address="0x009AEE" value="0x60"/>
+            <parameter cpu="0" address="0x009AEF" value="0x02"/>
+            <parameter cpu="0" address="0x009B04" value="0x60"/>
+            <parameter cpu="0" address="0x009B05" value="0x02"/>
+            <parameter cpu="0" address="0x009C48" value="0x60"/>
+            <parameter cpu="0" address="0x009C49" value="0x06"/>
+            <parameter cpu="0" address="0x009D6E" value="0x60"/>
+            <parameter cpu="0" address="0x009D6F" value="0x02"/>
+            <parameter cpu="0" address="0x009D80" value="0x60"/>
+            <parameter cpu="0" address="0x009D81" value="0x02"/>
+            <parameter cpu="0" address="0x009DA4" value="0x60"/>
+            <parameter cpu="0" address="0x009DA5" value="0x02"/>
+            <parameter cpu="0" address="0x009DC2" value="0x60"/>
+            <parameter cpu="0" address="0x009DC3" value="0x02"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x008200" value="0x00"/>
+            <parameter cpu="0" address="0x008201" value="0x82"/>
+            <parameter cpu="0" address="0x0089A6" value="0x6F"/>
+            <parameter cpu="0" address="0x0089A7" value="0x18"/>
+            <parameter cpu="0" address="0x008B70" value="0x67"/>
+            <parameter cpu="0" address="0x008B71" value="0xD2"/>
+            <parameter cpu="0" address="0x008B76" value="0x66"/>
+            <parameter cpu="0" address="0x008B77" value="0x04"/>
+            <parameter cpu="0" address="0x008B8A" value="0x62"/>
+            <parameter cpu="0" address="0x008B8B" value="0xB8"/>
+            <parameter cpu="0" address="0x008BAC" value="0x26"/>
+            <parameter cpu="0" address="0x008BAD" value="0x4E"/>
+            <parameter cpu="0" address="0x008BC8" value="0x62"/>
+            <parameter cpu="0" address="0x008BC9" value="0x00"/>
+            <parameter cpu="0" address="0x008BEE" value="0x67"/>
+            <parameter cpu="0" address="0x008BEF" value="0x00"/>
+            <parameter cpu="0" address="0x008BF6" value="0x67"/>
+            <parameter cpu="0" address="0x008BF7" value="0x00"/>
+            <parameter cpu="0" address="0x008C0E" value="0x62"/>
+            <parameter cpu="0" address="0x008C0F" value="0x00"/>
+            <parameter cpu="0" address="0x009424" value="0x6F"/>
+            <parameter cpu="0" address="0x009425" value="0x18"/>
+            <parameter cpu="0" address="0x009684" value="0x67"/>
+            <parameter cpu="0" address="0x009685" value="0x00"/>
+            <parameter cpu="0" address="0x009696" value="0x62"/>
+            <parameter cpu="0" address="0x009697" value="0x00"/>
+            <parameter cpu="0" address="0x0096BA" value="0x62"/>
+            <parameter cpu="0" address="0x0096BB" value="0x00"/>
+            <parameter cpu="0" address="0x0096D8" value="0x62"/>
+            <parameter cpu="0" address="0x0096D9" value="0x00"/>
+            <parameter cpu="0" address="0x009A70" value="0x6F"/>
+            <parameter cpu="0" address="0x009A71" value="0x0C"/>
+            <parameter cpu="0" address="0x009ACA" value="0x67"/>
+            <parameter cpu="0" address="0x009ACB" value="0x00"/>
+            <parameter cpu="0" address="0x009AEE" value="0x62"/>
+            <parameter cpu="0" address="0x009AEF" value="0x00"/>
+            <parameter cpu="0" address="0x009B04" value="0x62"/>
+            <parameter cpu="0" address="0x009B05" value="0x00"/>
+            <parameter cpu="0" address="0x009C48" value="0x6F"/>
+            <parameter cpu="0" address="0x009C49" value="0x12"/>
+            <parameter cpu="0" address="0x009D6E" value="0x67"/>
+            <parameter cpu="0" address="0x009D6F" value="0x00"/>
+            <parameter cpu="0" address="0x009D80" value="0x62"/>
+            <parameter cpu="0" address="0x009D81" value="0x00"/>
+            <parameter cpu="0" address="0x009DA4" value="0x62"/>
+            <parameter cpu="0" address="0x009DA5" value="0x00"/>
+            <parameter cpu="0" address="0x009DC2" value="0x62"/>
+            <parameter cpu="0" address="0x009DC3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="马不会跑掉" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFF01F" value="0xE0"/>
+            <parameter cpu="0" address="0xFFF020" value="0x00"/>
+            <parameter cpu="0" address="0xFFF021" value="0xBE"/>
+            <parameter cpu="0" address="0xFFF022" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="所有敌人立即杀死" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFCADE" value="0xFF"/>
+            <parameter cpu="0" address="0xFFCBBE" value="0xFF"/>
+            <parameter cpu="0" address="0xFFCC9E" value="0xFF"/>
+            <parameter cpu="0" address="0xFFCD7E" value="0xFF"/>
+            <parameter cpu="0" address="0xFFCE5E" value="0xFF"/>
+            <parameter cpu="0" address="0xFFCF3E" value="0xFF"/>
+            <parameter cpu="0" address="0xFFD01E" value="0xFF"/>
+            <parameter cpu="0" address="0xFFD0FE" value="0xFF"/>
+            <parameter cpu="0" address="0xFFD1DE" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 开启后会使某些箱子乱跳 ]"/>
+    <cheat desc="张飞无限啃人" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBED6" value="0x09"/>
+            <parameter cpu="0" address="0xFFCBC6" value="0x49"/>
+            <parameter cpu="0" address="0xFFCCA6" value="0x49"/>
+            <parameter cpu="0" address="0xFFCD86" value="0x49"/>
+            <parameter cpu="0" address="0xFFD026" value="0x49"/>
+            <parameter cpu="0" address="0xFFD106" value="0x49"/>
+            <parameter cpu="0" address="0xFFD1E6" value="0x49"/>
+            <parameter cpu="0" address="0xFFDE66" value="0x49"/>
+            <parameter cpu="0" address="0xFFDF46" value="0x49"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 以下两个功能慎重使用，勿选错版本 ]"/>
+    <cheat desc="AB不扣血" default="0">
+        <option desc="关闭"/>
+        <option desc="世界版 921031">
+            <parameter cpu="0" address="0x01A21C" value="0x4E"/>
+            <parameter cpu="0" address="0x01A21D" value="0x71"/>
+            <parameter cpu="0" address="0x01A21E" value="0x4E"/>
+            <parameter cpu="0" address="0x01A21F" value="0x71"/>
+            <parameter cpu="0" address="0x01B02A" value="0x4E"/>
+            <parameter cpu="0" address="0x01B02B" value="0x71"/>
+            <parameter cpu="0" address="0x01B02C" value="0x4E"/>
+            <parameter cpu="0" address="0x01B02D" value="0x71"/>
+            <parameter cpu="0" address="0x01BE40" value="0x4E"/>
+            <parameter cpu="0" address="0x01BE41" value="0x71"/>
+            <parameter cpu="0" address="0x01BE42" value="0x4E"/>
+            <parameter cpu="0" address="0x01BE43" value="0x71"/>
+            <parameter cpu="0" address="0x01C80E" value="0x4E"/>
+            <parameter cpu="0" address="0x01C80F" value="0x71"/>
+            <parameter cpu="0" address="0x01C810" value="0x4E"/>
+            <parameter cpu="0" address="0x01C811" value="0x71"/>
+            <parameter cpu="0" address="0x01D20A" value="0x4E"/>
+            <parameter cpu="0" address="0x01D20B" value="0x71"/>
+            <parameter cpu="0" address="0x01D20C" value="0x4E"/>
+            <parameter cpu="0" address="0x01D20D" value="0x71"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x01A21C" value="0x5D"/>
+            <parameter cpu="0" address="0x01A21D" value="0x68"/>
+            <parameter cpu="0" address="0x01A21E" value="0x00"/>
+            <parameter cpu="0" address="0x01A21F" value="0x82"/>
+            <parameter cpu="0" address="0x01B02A" value="0x5D"/>
+            <parameter cpu="0" address="0x01B02B" value="0x68"/>
+            <parameter cpu="0" address="0x01B02C" value="0x00"/>
+            <parameter cpu="0" address="0x01B02D" value="0x82"/>
+            <parameter cpu="0" address="0x01BE40" value="0x5D"/>
+            <parameter cpu="0" address="0x01BE41" value="0x68"/>
+            <parameter cpu="0" address="0x01BE42" value="0x00"/>
+            <parameter cpu="0" address="0x01BE43" value="0x82"/>
+            <parameter cpu="0" address="0x01C80E" value="0x5D"/>
+            <parameter cpu="0" address="0x01C80F" value="0x68"/>
+            <parameter cpu="0" address="0x01C810" value="0x00"/>
+            <parameter cpu="0" address="0x01C811" value="0x82"/>
+            <parameter cpu="0" address="0x01D20A" value="0x5D"/>
+            <parameter cpu="0" address="0x01D20B" value="0x68"/>
+            <parameter cpu="0" address="0x01D20C" value="0x00"/>
+            <parameter cpu="0" address="0x01D20D" value="0x82"/>
+        </option>
+        <option desc="美版">
+            <parameter cpu="0" address="0x01A230" value="0x4E"/>
+            <parameter cpu="0" address="0x01A231" value="0x71"/>
+            <parameter cpu="0" address="0x01A232" value="0x4E"/>
+            <parameter cpu="0" address="0x01A233" value="0x71"/>
+            <parameter cpu="0" address="0x01B03E" value="0x4E"/>
+            <parameter cpu="0" address="0x01B03F" value="0x71"/>
+            <parameter cpu="0" address="0x01B040" value="0x4E"/>
+            <parameter cpu="0" address="0x01B041" value="0x71"/>
+            <parameter cpu="0" address="0x01BE54" value="0x4E"/>
+            <parameter cpu="0" address="0x01BE55" value="0x71"/>
+            <parameter cpu="0" address="0x01BE56" value="0x4E"/>
+            <parameter cpu="0" address="0x01BE57" value="0x71"/>
+            <parameter cpu="0" address="0x01C822" value="0x4E"/>
+            <parameter cpu="0" address="0x01C823" value="0x71"/>
+            <parameter cpu="0" address="0x01C824" value="0x4E"/>
+            <parameter cpu="0" address="0x01C825" value="0x71"/>
+            <parameter cpu="0" address="0x01D21E" value="0x4E"/>
+            <parameter cpu="0" address="0x01D21F" value="0x71"/>
+            <parameter cpu="0" address="0x01D220" value="0x4E"/>
+            <parameter cpu="0" address="0x01D221" value="0x71"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x01A230" value="0x5D"/>
+            <parameter cpu="0" address="0x01A231" value="0x68"/>
+            <parameter cpu="0" address="0x01A232" value="0x00"/>
+            <parameter cpu="0" address="0x01A233" value="0x82"/>
+            <parameter cpu="0" address="0x01B03E" value="0x5D"/>
+            <parameter cpu="0" address="0x01B03F" value="0x68"/>
+            <parameter cpu="0" address="0x01B040" value="0x00"/>
+            <parameter cpu="0" address="0x01B041" value="0x82"/>
+            <parameter cpu="0" address="0x01BE54" value="0x5D"/>
+            <parameter cpu="0" address="0x01BE55" value="0x68"/>
+            <parameter cpu="0" address="0x01BE56" value="0x00"/>
+            <parameter cpu="0" address="0x01BE57" value="0x82"/>
+            <parameter cpu="0" address="0x01C822" value="0x5D"/>
+            <parameter cpu="0" address="0x01C823" value="0x68"/>
+            <parameter cpu="0" address="0x01C824" value="0x00"/>
+            <parameter cpu="0" address="0x01C825" value="0x82"/>
+            <parameter cpu="0" address="0x01D21E" value="0x5D"/>
+            <parameter cpu="0" address="0x01D21F" value="0x68"/>
+            <parameter cpu="0" address="0x01D220" value="0x00"/>
+            <parameter cpu="0" address="0x01D221" value="0x82"/>
+        </option>
+        <option desc="CPS Changer版">
+            <parameter cpu="0" address="0x01B330" value="0x4E"/>
+            <parameter cpu="0" address="0x01B331" value="0x71"/>
+            <parameter cpu="0" address="0x01B332" value="0x4E"/>
+            <parameter cpu="0" address="0x01B333" value="0x71"/>
+            <parameter cpu="0" address="0x01C13E" value="0x4E"/>
+            <parameter cpu="0" address="0x01C13F" value="0x71"/>
+            <parameter cpu="0" address="0x01C140" value="0x4E"/>
+            <parameter cpu="0" address="0x01C141" value="0x71"/>
+            <parameter cpu="0" address="0x01CF54" value="0x4E"/>
+            <parameter cpu="0" address="0x01CF55" value="0x71"/>
+            <parameter cpu="0" address="0x01CF56" value="0x4E"/>
+            <parameter cpu="0" address="0x01CF57" value="0x71"/>
+            <parameter cpu="0" address="0x01D922" value="0x4E"/>
+            <parameter cpu="0" address="0x01D923" value="0x71"/>
+            <parameter cpu="0" address="0x01D924" value="0x4E"/>
+            <parameter cpu="0" address="0x01D925" value="0x71"/>
+            <parameter cpu="0" address="0x01E31E" value="0x4E"/>
+            <parameter cpu="0" address="0x01E31F" value="0x71"/>
+            <parameter cpu="0" address="0x01E320" value="0x4E"/>
+            <parameter cpu="0" address="0x01E321" value="0x71"/>
+            <parameter cpu="0" address="0x01F428" value="0x4E"/>
+            <parameter cpu="0" address="0x01F429" value="0x71"/>
+            <parameter cpu="0" address="0x01F42A" value="0x4E"/>
+            <parameter cpu="0" address="0x01F42B" value="0x71"/>
+            <parameter cpu="0" address="0x02040E" value="0x4E"/>
+            <parameter cpu="0" address="0x02040F" value="0x71"/>
+            <parameter cpu="0" address="0x020410" value="0x4E"/>
+            <parameter cpu="0" address="0x020411" value="0x71"/>
+            <parameter cpu="0" address="0x0216CC" value="0x4E"/>
+            <parameter cpu="0" address="0x0216CD" value="0x71"/>
+            <parameter cpu="0" address="0x0216CE" value="0x4E"/>
+            <parameter cpu="0" address="0x0216CF" value="0x71"/>
+            <parameter cpu="0" address="0x022252" value="0x4E"/>
+            <parameter cpu="0" address="0x022253" value="0x71"/>
+            <parameter cpu="0" address="0x022254" value="0x4E"/>
+            <parameter cpu="0" address="0x022255" value="0x71"/>
+            <parameter cpu="0" address="0x022E82" value="0x4E"/>
+            <parameter cpu="0" address="0x022E83" value="0x71"/>
+            <parameter cpu="0" address="0x022E84" value="0x4E"/>
+            <parameter cpu="0" address="0x022E85" value="0x71"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x01B330" value="0x5D"/>
+            <parameter cpu="0" address="0x01B331" value="0x68"/>
+            <parameter cpu="0" address="0x01B332" value="0x00"/>
+            <parameter cpu="0" address="0x01B333" value="0x82"/>
+            <parameter cpu="0" address="0x01C13E" value="0x5D"/>
+            <parameter cpu="0" address="0x01C13F" value="0x68"/>
+            <parameter cpu="0" address="0x01C140" value="0x00"/>
+            <parameter cpu="0" address="0x01C141" value="0x82"/>
+            <parameter cpu="0" address="0x01CF54" value="0x5D"/>
+            <parameter cpu="0" address="0x01CF55" value="0x68"/>
+            <parameter cpu="0" address="0x01CF56" value="0x00"/>
+            <parameter cpu="0" address="0x01CF57" value="0x82"/>
+            <parameter cpu="0" address="0x01D922" value="0x5D"/>
+            <parameter cpu="0" address="0x01D923" value="0x68"/>
+            <parameter cpu="0" address="0x01D924" value="0x00"/>
+            <parameter cpu="0" address="0x01D925" value="0x82"/>
+            <parameter cpu="0" address="0x01E31E" value="0x5D"/>
+            <parameter cpu="0" address="0x01E31F" value="0x68"/>
+            <parameter cpu="0" address="0x01E320" value="0x00"/>
+            <parameter cpu="0" address="0x01E321" value="0x82"/>
+            <parameter cpu="0" address="0x01F428" value="0x5D"/>
+            <parameter cpu="0" address="0x01F429" value="0x68"/>
+            <parameter cpu="0" address="0x01F42A" value="0x00"/>
+            <parameter cpu="0" address="0x01F42B" value="0x82"/>
+            <parameter cpu="0" address="0x02040E" value="0x5D"/>
+            <parameter cpu="0" address="0x02040F" value="0x68"/>
+            <parameter cpu="0" address="0x020410" value="0x00"/>
+            <parameter cpu="0" address="0x020411" value="0x82"/>
+            <parameter cpu="0" address="0x0216CC" value="0x5D"/>
+            <parameter cpu="0" address="0x0216CD" value="0x68"/>
+            <parameter cpu="0" address="0x0216CE" value="0x00"/>
+            <parameter cpu="0" address="0x0216CF" value="0x82"/>
+            <parameter cpu="0" address="0x022252" value="0x5D"/>
+            <parameter cpu="0" address="0x022253" value="0x68"/>
+            <parameter cpu="0" address="0x022254" value="0x00"/>
+            <parameter cpu="0" address="0x022255" value="0x82"/>
+            <parameter cpu="0" address="0x022E82" value="0x5D"/>
+            <parameter cpu="0" address="0x022E83" value="0x68"/>
+            <parameter cpu="0" address="0x022E84" value="0x00"/>
+            <parameter cpu="0" address="0x022E85" value="0x82"/>
+        </option>
+    </cheat>
+    <cheat desc="↓↑+A出张飞旋风大坐" default="0">
+        <option desc="关闭"/>
+        <option desc="世界版 921031">
+            <parameter cpu="0" address="0x01B427" value="0x92"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x01B427" value="0xAC"/>
+        </option>
+        <option desc="CPS Changer版">
+            <parameter cpu="0" address="0x01C53B" value="0x92"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x01C53B" value="0xAC"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 仅限世界版 921031 ]"/>
+    <cheat desc="张飞抓住敌人B·A到死" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01B718" value="0x4E"/>
+            <parameter cpu="0" address="0x01B719" value="0xF9"/>
+            <parameter cpu="0" address="0x01B71B" value="0x0E"/>
+            <parameter cpu="0" address="0x01B71C" value="0x68"/>
+            <parameter cpu="0" address="0x01B71D" value="0x80"/>
+            <parameter cpu="0" address="0x0E6880" value="0x4A"/>
+            <parameter cpu="0" address="0x0E6881" value="0x29"/>
+            <parameter cpu="0" address="0x0E6883" value="0x82"/>
+            <parameter cpu="0" address="0x0E6884" value="0x6B"/>
+            <parameter cpu="0" address="0x0E6885" value="0x0A"/>
+            <parameter cpu="0" address="0x0E6886" value="0x4E"/>
+            <parameter cpu="0" address="0x0E6887" value="0xF9"/>
+            <parameter cpu="0" address="0x0E688A" value="0x5F"/>
+            <parameter cpu="0" address="0x0E688B" value="0x7A"/>
+            <parameter cpu="0" address="0x0E6890" value="0x11"/>
+            <parameter cpu="0" address="0x0E6891" value="0x7C"/>
+            <parameter cpu="0" address="0x0E6893" value="0x08"/>
+            <parameter cpu="0" address="0x0E6895" value="0x2B"/>
+            <parameter cpu="0" address="0x0E6896" value="0x4E"/>
+            <parameter cpu="0" address="0x0E6897" value="0xF9"/>
+            <parameter cpu="0" address="0x0E689A" value="0x5F"/>
+            <parameter cpu="0" address="0x0E689B" value="0x7A"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x01B718" value="0x11"/>
+            <parameter cpu="0" address="0x01B719" value="0x7C"/>
+            <parameter cpu="0" address="0x01B71B" value="0x08"/>
+            <parameter cpu="0" address="0x01B71C" value="0x00"/>
+            <parameter cpu="0" address="0x01B71D" value="0x2B"/>
+            <parameter cpu="0" address="0x0E6880" value="0x00"/>
+            <parameter cpu="0" address="0x0E6881" value="0x00"/>
+            <parameter cpu="0" address="0x0E6883" value="0x00"/>
+            <parameter cpu="0" address="0x0E6884" value="0x00"/>
+            <parameter cpu="0" address="0x0E6885" value="0x00"/>
+            <parameter cpu="0" address="0x0E6886" value="0x00"/>
+            <parameter cpu="0" address="0x0E6887" value="0x00"/>
+            <parameter cpu="0" address="0x0E688A" value="0x00"/>
+            <parameter cpu="0" address="0x0E688B" value="0x00"/>
+            <parameter cpu="0" address="0x0E6890" value="0x00"/>
+            <parameter cpu="0" address="0x0E6891" value="0x00"/>
+            <parameter cpu="0" address="0x0E6893" value="0x00"/>
+            <parameter cpu="0" address="0x0E6895" value="0x00"/>
+            <parameter cpu="0" address="0x0E6896" value="0x00"/>
+            <parameter cpu="0" address="0x0E6897" value="0x00"/>
+            <parameter cpu="0" address="0x0E689A" value="0x00"/>
+            <parameter cpu="0" address="0x0E689B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="黄忠弓箭带火" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF91D6" value="0x01"/>
+            <parameter cpu="0" address="0xFF91D7" value="0xC0"/>
+            <parameter cpu="0" address="0xFF92B6" value="0x01"/>
+            <parameter cpu="0" address="0xFF92B7" value="0xC0"/>
+            <parameter cpu="0" address="0xFF9396" value="0x01"/>
+            <parameter cpu="0" address="0xFF9397" value="0xC0"/>
+            <parameter cpu="0" address="0xFF9476" value="0x01"/>
+            <parameter cpu="0" address="0xFF9477" value="0xC0"/>
+            <parameter cpu="0" address="0xFF9556" value="0x01"/>
+            <parameter cpu="0" address="0xFF9557" value="0xC0"/>
+            <parameter cpu="0" address="0xFF9636" value="0x01"/>
+            <parameter cpu="0" address="0xFF9637" value="0xC0"/>
+            <parameter cpu="0" address="0xFF9716" value="0x01"/>
+            <parameter cpu="0" address="0xFF9717" value="0xC0"/>
+            <parameter cpu="0" address="0xFF97F6" value="0x01"/>
+            <parameter cpu="0" address="0xFF97F7" value="0xC0"/>
+            <parameter cpu="0" address="0xFF98D6" value="0x01"/>
+            <parameter cpu="0" address="0xFF98D7" value="0xC0"/>
+            <parameter cpu="0" address="0xFF99B6" value="0x01"/>
+            <parameter cpu="0" address="0xFF99B7" value="0xC0"/>
+            <parameter cpu="0" address="0xFF9A96" value="0x01"/>
+            <parameter cpu="0" address="0xFF9A97" value="0xC0"/>
+            <parameter cpu="0" address="0xFF9B76" value="0x01"/>
+            <parameter cpu="0" address="0xFF9B77" value="0xC0"/>
+            <parameter cpu="0" address="0xFF9C56" value="0x01"/>
+            <parameter cpu="0" address="0xFF9C57" value="0xC0"/>
+            <parameter cpu="0" address="0xFF9D36" value="0x01"/>
+            <parameter cpu="0" address="0xFF9D37" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="黄忠弓箭橫飞" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF98A4" value="0x00"/>
+            <parameter cpu="0" address="0xFF98A5" value="0x00"/>
+            <parameter cpu="0" address="0xFF98A6" value="0x00"/>
+            <parameter cpu="0" address="0xFF98A7" value="0x00"/>
+            <parameter cpu="0" address="0xFF99A4" value="0x00"/>
+            <parameter cpu="0" address="0xFF99A5" value="0x00"/>
+            <parameter cpu="0" address="0xFF99A6" value="0x00"/>
+            <parameter cpu="0" address="0xFF99A7" value="0x00"/>
+            <parameter cpu="0" address="0xFF9A64" value="0x00"/>
+            <parameter cpu="0" address="0xFF9A65" value="0x00"/>
+            <parameter cpu="0" address="0xFF9A66" value="0x00"/>
+            <parameter cpu="0" address="0xFF9A67" value="0x00"/>
+            <parameter cpu="0" address="0xFF9B44" value="0x00"/>
+            <parameter cpu="0" address="0xFF9B45" value="0x00"/>
+            <parameter cpu="0" address="0xFF9B46" value="0x00"/>
+            <parameter cpu="0" address="0xFF9B47" value="0x00"/>
+            <parameter cpu="0" address="0xFF9C24" value="0x00"/>
+            <parameter cpu="0" address="0xFF9C25" value="0x00"/>
+            <parameter cpu="0" address="0xFF9C26" value="0x00"/>
+            <parameter cpu="0" address="0xFF9C27" value="0x00"/>
+            <parameter cpu="0" address="0xFF9D04" value="0x00"/>
+            <parameter cpu="0" address="0xFF9D05" value="0x00"/>
+            <parameter cpu="0" address="0xFF9D06" value="0x00"/>
+            <parameter cpu="0" address="0xFF9D07" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="地狱难度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFCAEC" value="0xF0"/>
+            <parameter cpu="0" address="0xFFCAED" value="0xF0"/>
+            <parameter cpu="0" address="0xFFCBCC" value="0xF0"/>
+            <parameter cpu="0" address="0xFFCBCD" value="0xF0"/>
+            <parameter cpu="0" address="0xFFCCAC" value="0xF0"/>
+            <parameter cpu="0" address="0xFFCCAD" value="0xF0"/>
+            <parameter cpu="0" address="0xFFCD8C" value="0xF0"/>
+            <parameter cpu="0" address="0xFFCD8D" value="0xF0"/>
+            <parameter cpu="0" address="0xFFCE6C" value="0xF0"/>
+            <parameter cpu="0" address="0xFFCE6D" value="0xF0"/>
+            <parameter cpu="0" address="0xFFCF4C" value="0xF0"/>
+            <parameter cpu="0" address="0xFFCF4D" value="0xF0"/>
+            <parameter cpu="0" address="0xFFD02C" value="0xF0"/>
+            <parameter cpu="0" address="0xFFD02D" value="0xF0"/>
+            <parameter cpu="0" address="0xFFD10C" value="0xF0"/>
+            <parameter cpu="0" address="0xFFD10D" value="0xF0"/>
+            <parameter cpu="0" address="0xFFD1EC" value="0xF0"/>
+            <parameter cpu="0" address="0xFFD1ED" value="0xF0"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="角色选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="关羽">
+            <parameter cpu="0" address="0xFFBE3D" value="0x00"/>
+        </option>
+        <option desc="张飞">
+            <parameter cpu="0" address="0xFFBE3D" value="0x01"/>
+        </option>
+        <option desc="赵云">
+            <parameter cpu="0" address="0xFFBE3D" value="0x02"/>
+        </option>
+        <option desc="黄忠">
+            <parameter cpu="0" address="0xFFBE3D" value="0x03"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0xFFBE3D" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有马 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBE7F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="骑马一直后退不掉头 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBED3" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF7F9B" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBE9F" value="0x68"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBE94" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 黄忠无效 ]"/>
+    <cheat desc="A攻击模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="始终第一击">
+            <parameter cpu="0" address="0xFFBECA" value="0x02"/>
+        </option>
+        <option desc="第二击倒地">
+            <parameter cpu="0" address="0xFFBECA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="抓住敌人后的A攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="可多打几下（仅杂兵）">
+            <parameter cpu="0" address="0xFFBED4" value="0x09"/>
+        </option>
+        <option desc="一击倒地">
+            <parameter cpu="0" address="0xFFBED4" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 三个按键都有效 ]"/>
+    <cheat desc="连发 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF7FBC" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBE51" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 打击效果为你最近一次的攻击，初始为A的第一击 ]"/>
+    <cheat desc="自动无动作攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBE4D" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="黄忠不间断射箭 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBECF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 投技、抓住人A及黄忠射箭无效 ]"/>
+    <cheat desc="武器拳 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="草薙拳">
+            <parameter cpu="0" address="0xFFBE96" value="0x09"/>
+            <parameter cpu="0" address="0xFFBE97" value="0x70"/>
+            <parameter cpu="0" address="0xFFBE98" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE99" value="0x00"/>
+        </option>
+        <option desc="青釭拳">
+            <parameter cpu="0" address="0xFFBE96" value="0x09"/>
+            <parameter cpu="0" address="0xFFBE97" value="0x90"/>
+            <parameter cpu="0" address="0xFFBE98" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE99" value="0x00"/>
+        </option>
+        <option desc="倚天拳">
+            <parameter cpu="0" address="0xFFBE96" value="0x09"/>
+            <parameter cpu="0" address="0xFFBE97" value="0xB0"/>
+            <parameter cpu="0" address="0xFFBE98" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE99" value="0x00"/>
+        </option>
+        <option desc="圣剑拳">
+            <parameter cpu="0" address="0xFFBE96" value="0x09"/>
+            <parameter cpu="0" address="0xFFBE97" value="0xD0"/>
+            <parameter cpu="0" address="0xFFBE98" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE99" value="0x00"/>
+        </option>
+        <option desc="村正拳">
+            <parameter cpu="0" address="0xFFBE96" value="0x09"/>
+            <parameter cpu="0" address="0xFFBE97" value="0xF0"/>
+            <parameter cpu="0" address="0xFFBE98" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE99" value="0x00"/>
+        </option>
+        <option desc="偃月拳">
+            <parameter cpu="0" address="0xFFBE96" value="0x0A"/>
+            <parameter cpu="0" address="0xFFBE97" value="0xF0"/>
+            <parameter cpu="0" address="0xFFBE98" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE99" value="0x00"/>
+        </option>
+        <option desc="斧拳">
+            <parameter cpu="0" address="0xFFBE96" value="0x0B"/>
+            <parameter cpu="0" address="0xFFBE97" value="0x10"/>
+            <parameter cpu="0" address="0xFFBE98" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE99" value="0x00"/>
+        </option>
+        <option desc="晕槌拳">
+            <parameter cpu="0" address="0xFFBE96" value="0x0B"/>
+            <parameter cpu="0" address="0xFFBE97" value="0x40"/>
+            <parameter cpu="0" address="0xFFBE98" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE99" value="0x00"/>
+        </option>
+        <option desc="铁锤拳">
+            <parameter cpu="0" address="0xFFBE96" value="0x0B"/>
+            <parameter cpu="0" address="0xFFBE97" value="0x50"/>
+            <parameter cpu="0" address="0xFFBE98" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE99" value="0x00"/>
+        </option>
+        <option desc="叉拳">
+            <parameter cpu="0" address="0xFFBE96" value="0x0B"/>
+            <parameter cpu="0" address="0xFFBE97" value="0x80"/>
+            <parameter cpu="0" address="0xFFBE98" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE99" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="角色选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="关羽">
+            <parameter cpu="0" address="0xFFBF1D" value="0x00"/>
+        </option>
+        <option desc="张飞">
+            <parameter cpu="0" address="0xFFBF1D" value="0x01"/>
+        </option>
+        <option desc="赵云">
+            <parameter cpu="0" address="0xFFBF1D" value="0x02"/>
+        </option>
+        <option desc="黄忠">
+            <parameter cpu="0" address="0xFFBF1D" value="0x03"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0xFFBF1D" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有马 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBF5F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="骑马一直后退不掉头 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBFB3" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF7F9C" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBF7F" value="0x68"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBF74" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 黄忠无效 ]"/>
+    <cheat desc="A攻击模式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="始终第一击">
+            <parameter cpu="0" address="0xFFBFAA" value="0x02"/>
+        </option>
+        <option desc="第二击倒地">
+            <parameter cpu="0" address="0xFFBFAA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="抓住敌人后的A攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="可多打几下（仅杂兵）">
+            <parameter cpu="0" address="0xFFBFB4" value="0x09"/>
+        </option>
+        <option desc="一击倒地">
+            <parameter cpu="0" address="0xFFBFB4" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 三个按键都有效 ]"/>
+    <cheat desc="连发 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF7FBE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBF31" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 打击效果为你最近一次的攻击，初始为A的第一击 ]"/>
+    <cheat desc="自动无动作攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBF2D" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="黄忠不间断射箭 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBFAF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 投技、抓住人A及黄忠射箭无效 ]"/>
+    <cheat desc="武器拳 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="草薙拳">
+            <parameter cpu="0" address="0xFFBF76" value="0x09"/>
+            <parameter cpu="0" address="0xFFBF77" value="0x70"/>
+            <parameter cpu="0" address="0xFFBF78" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF79" value="0x00"/>
+        </option>
+        <option desc="青釭拳">
+            <parameter cpu="0" address="0xFFBF76" value="0x09"/>
+            <parameter cpu="0" address="0xFFBF77" value="0x90"/>
+            <parameter cpu="0" address="0xFFBF78" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF79" value="0x00"/>
+        </option>
+        <option desc="倚天拳">
+            <parameter cpu="0" address="0xFFBF76" value="0x09"/>
+            <parameter cpu="0" address="0xFFBF77" value="0xB0"/>
+            <parameter cpu="0" address="0xFFBF78" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF79" value="0x00"/>
+        </option>
+        <option desc="圣剑拳">
+            <parameter cpu="0" address="0xFFBF76" value="0x09"/>
+            <parameter cpu="0" address="0xFFBF77" value="0xD0"/>
+            <parameter cpu="0" address="0xFFBF78" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF79" value="0x00"/>
+        </option>
+        <option desc="村正拳">
+            <parameter cpu="0" address="0xFFBF76" value="0x09"/>
+            <parameter cpu="0" address="0xFFBF77" value="0xF0"/>
+            <parameter cpu="0" address="0xFFBF78" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF79" value="0x00"/>
+        </option>
+        <option desc="偃月拳">
+            <parameter cpu="0" address="0xFFBF76" value="0x0A"/>
+            <parameter cpu="0" address="0xFFBF77" value="0xF0"/>
+            <parameter cpu="0" address="0xFFBF78" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF79" value="0x00"/>
+        </option>
+        <option desc="斧拳">
+            <parameter cpu="0" address="0xFFBF76" value="0x0B"/>
+            <parameter cpu="0" address="0xFFBF77" value="0x10"/>
+            <parameter cpu="0" address="0xFFBF78" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF79" value="0x00"/>
+        </option>
+        <option desc="晕槌拳">
+            <parameter cpu="0" address="0xFFBF76" value="0x0B"/>
+            <parameter cpu="0" address="0xFFBF77" value="0x40"/>
+            <parameter cpu="0" address="0xFFBF78" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF79" value="0x00"/>
+        </option>
+        <option desc="铁锤拳">
+            <parameter cpu="0" address="0xFFBF76" value="0x0B"/>
+            <parameter cpu="0" address="0xFFBF77" value="0x50"/>
+            <parameter cpu="0" address="0xFFBF78" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF79" value="0x00"/>
+        </option>
+        <option desc="叉拳">
+            <parameter cpu="0" address="0xFFBF76" value="0x0B"/>
+            <parameter cpu="0" address="0xFFBF77" value="0x80"/>
+            <parameter cpu="0" address="0xFFBF78" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF79" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="角色选择 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="关羽">
+            <parameter cpu="0" address="0xFFBFFD" value="0x00"/>
+        </option>
+        <option desc="张飞">
+            <parameter cpu="0" address="0xFFBFFD" value="0x01"/>
+        </option>
+        <option desc="赵云">
+            <parameter cpu="0" address="0xFFBFFD" value="0x02"/>
+        </option>
+        <option desc="黄忠">
+            <parameter cpu="0" address="0xFFBFFD" value="0x03"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0xFFBFFD" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有马 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC03F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="骑马一直后退不掉头 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC093" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF7F9D" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC05F" value="0x68"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC054" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 黄忠无效 ]"/>
+    <cheat desc="A攻击模式 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="始终第一击">
+            <parameter cpu="0" address="0xFFC08A" value="0x02"/>
+        </option>
+        <option desc="第二击倒地">
+            <parameter cpu="0" address="0xFFC08A" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="抓住敌人后的A攻击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="可多打几下（仅杂兵）">
+            <parameter cpu="0" address="0xFFC094" value="0x09"/>
+        </option>
+        <option desc="一击倒地">
+            <parameter cpu="0" address="0xFFC094" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 三个按键都有效 ]"/>
+    <cheat desc="连发 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF7FC0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="加速 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC011" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 打击效果为你最近一次的攻击，初始为A的第一击 ]"/>
+    <cheat desc="自动无动作攻击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC00D" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="黄忠不间断射箭 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC08F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 投技、抓住人A及黄忠射箭无效 ]"/>
+    <cheat desc="武器拳 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="草薙拳 PL3">
+            <parameter cpu="0" address="0xFFC056" value="0x09"/>
+            <parameter cpu="0" address="0xFFC057" value="0x70"/>
+            <parameter cpu="0" address="0xFFC058" value="0x00"/>
+            <parameter cpu="0" address="0xFFC059" value="0x00"/>
+        </option>
+        <option desc="青釭拳 PL3">
+            <parameter cpu="0" address="0xFFC056" value="0x09"/>
+            <parameter cpu="0" address="0xFFC057" value="0x90"/>
+            <parameter cpu="0" address="0xFFC058" value="0x00"/>
+            <parameter cpu="0" address="0xFFC059" value="0x00"/>
+        </option>
+        <option desc="倚天拳 PL3">
+            <parameter cpu="0" address="0xFFC056" value="0x09"/>
+            <parameter cpu="0" address="0xFFC057" value="0xB0"/>
+            <parameter cpu="0" address="0xFFC058" value="0x00"/>
+            <parameter cpu="0" address="0xFFC059" value="0x00"/>
+        </option>
+        <option desc="圣剑拳 PL3">
+            <parameter cpu="0" address="0xFFC056" value="0x09"/>
+            <parameter cpu="0" address="0xFFC057" value="0xD0"/>
+            <parameter cpu="0" address="0xFFC058" value="0x00"/>
+            <parameter cpu="0" address="0xFFC059" value="0x00"/>
+        </option>
+        <option desc="村正拳 PL3">
+            <parameter cpu="0" address="0xFFC056" value="0x09"/>
+            <parameter cpu="0" address="0xFFC057" value="0xF0"/>
+            <parameter cpu="0" address="0xFFC058" value="0x00"/>
+            <parameter cpu="0" address="0xFFC059" value="0x00"/>
+        </option>
+        <option desc="偃月拳 PL3">
+            <parameter cpu="0" address="0xFFC056" value="0x0A"/>
+            <parameter cpu="0" address="0xFFC057" value="0xF0"/>
+            <parameter cpu="0" address="0xFFC058" value="0x00"/>
+            <parameter cpu="0" address="0xFFC059" value="0x00"/>
+        </option>
+        <option desc="斧拳 PL3">
+            <parameter cpu="0" address="0xFFC056" value="0x0B"/>
+            <parameter cpu="0" address="0xFFC057" value="0x10"/>
+            <parameter cpu="0" address="0xFFC058" value="0x00"/>
+            <parameter cpu="0" address="0xFFC059" value="0x00"/>
+        </option>
+        <option desc="晕槌拳 PL3">
+            <parameter cpu="0" address="0xFFC056" value="0x0B"/>
+            <parameter cpu="0" address="0xFFC057" value="0x40"/>
+            <parameter cpu="0" address="0xFFC058" value="0x00"/>
+            <parameter cpu="0" address="0xFFC059" value="0x00"/>
+        </option>
+        <option desc="铁锤拳 PL3">
+            <parameter cpu="0" address="0xFFC056" value="0x0B"/>
+            <parameter cpu="0" address="0xFFC057" value="0x50"/>
+            <parameter cpu="0" address="0xFFC058" value="0x00"/>
+            <parameter cpu="0" address="0xFFC059" value="0x00"/>
+        </option>
+        <option desc="叉拳 PL3">
+            <parameter cpu="0" address="0xFFC056" value="0x0B"/>
+            <parameter cpu="0" address="0xFFC057" value="0x80"/>
+            <parameter cpu="0" address="0xFFC058" value="0x00"/>
+            <parameter cpu="0" address="0xFFC059" value="0x00"/>
+        </option>
+    </cheat>   
+    <cheat desc=" "/>
+    <cheat desc="选择敌兵A改换的角色" default="0">
+        <option desc="关闭"/>
+        <option desc="李典">
+            <parameter cpu="0" address="0xFFD17D" value="0x06"/>
+        </option>
+        <option desc="长匕首兵">
+            <parameter cpu="0" address="0xFFD17D" value="0x07"/>
+        </option>
+        <option desc="许褚">
+            <parameter cpu="0" address="0xFFD17D" value="0x08"/>
+        </option>
+        <option desc="小兵">
+            <parameter cpu="0" address="0xFFD17D" value="0x09"/>
+        </option>
+        <option desc="美铃">
+            <parameter cpu="0" address="0xFFD17D" value="0x0C"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0xFFD17D" value="0x0D"/>
+        </option>
+        <option desc="张辽">
+            <parameter cpu="0" address="0xFFD17D" value="0x0E"/>
+        </option>
+        <option desc="曹仁">
+            <parameter cpu="0" address="0xFFD17D" value="0x0F"/>
+        </option>
+        <option desc="赵氏">
+            <parameter cpu="0" address="0xFFD17D" value="0x10"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0xFFD17D" value="0x11"/>
+        </option>
+        <option desc="忍A">
+            <parameter cpu="0" address="0xFFD17D" value="0x12"/>
+        </option>
+        <option desc="美冴">
+            <parameter cpu="0" address="0xFFD17D" value="0x13"/>
+        </option>
+        <option desc="肥肥">
+            <parameter cpu="0" address="0xFFD17D" value="0x14"/>
+        </option>
+        <option desc="徐晃">
+            <parameter cpu="0" address="0xFFD17D" value="0x15"/>
+        </option>
+        <option desc="晏明">
+            <parameter cpu="0" address="0xFFD17D" value="0x16"/>
+        </option>
+        <option desc="针">
+            <parameter cpu="0" address="0xFFD17D" value="0x17"/>
+        </option>
+        <option desc="忍B">
+            <parameter cpu="0" address="0xFFD17D" value="0x18"/>
+        </option>
+        <option desc="淳于导">
+            <parameter cpu="0" address="0xFFD17D" value="0x1B"/>
+        </option>
+        <option desc="夏侯桀">
+            <parameter cpu="0" address="0xFFD17D" value="0x1C"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0xFFD17D" value="0x1D"/>
+        </option>
+        <option desc="弓箭兵">
+            <parameter cpu="0" address="0xFFD17D" value="0x1E"/>
+        </option>
+        <option desc="美美">
+            <parameter cpu="0" address="0xFFD17D" value="0x1F"/>
+        </option>
+        <option desc="夏侯恩">
+            <parameter cpu="0" address="0xFFD17D" value="0x2C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择敌兵B改换的角色" default="0">
+        <option desc="关闭"/>
+        <option desc="李典">
+            <parameter cpu="0" address="0xFFD09D" value="0x06"/>
+        </option>
+        <option desc="长匕首兵">
+            <parameter cpu="0" address="0xFFD09D" value="0x07"/>
+        </option>
+        <option desc="许褚">
+            <parameter cpu="0" address="0xFFD09D" value="0x08"/>
+        </option>
+        <option desc="小兵">
+            <parameter cpu="0" address="0xFFD09D" value="0x09"/>
+        </option>
+        <option desc="美铃">
+            <parameter cpu="0" address="0xFFD09D" value="0x0C"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0xFFD09D" value="0x0D"/>
+        </option>
+        <option desc="张辽">
+            <parameter cpu="0" address="0xFFD09D" value="0x0E"/>
+        </option>
+        <option desc="曹仁">
+            <parameter cpu="0" address="0xFFD09D" value="0x0F"/>
+        </option>
+        <option desc="赵氏">
+            <parameter cpu="0" address="0xFFD09D" value="0x10"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0xFFD09D" value="0x11"/>
+        </option>
+        <option desc="忍A">
+            <parameter cpu="0" address="0xFFD09D" value="0x12"/>
+        </option>
+        <option desc="美冴">
+            <parameter cpu="0" address="0xFFD09D" value="0x13"/>
+        </option>
+        <option desc="肥肥">
+            <parameter cpu="0" address="0xFFD09D" value="0x14"/>
+        </option>
+        <option desc="徐晃">
+            <parameter cpu="0" address="0xFFD09D" value="0x15"/>
+        </option>
+        <option desc="晏明">
+            <parameter cpu="0" address="0xFFD09D" value="0x16"/>
+        </option>
+        <option desc="针">
+            <parameter cpu="0" address="0xFFD09D" value="0x17"/>
+        </option>
+        <option desc="忍B">
+            <parameter cpu="0" address="0xFFD09D" value="0x18"/>
+        </option>
+        <option desc="淳于导">
+            <parameter cpu="0" address="0xFFD09D" value="0x1B"/>
+        </option>
+        <option desc="夏侯桀">
+            <parameter cpu="0" address="0xFFD09D" value="0x1C"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0xFFD09D" value="0x1D"/>
+        </option>
+        <option desc="弓箭兵">
+            <parameter cpu="0" address="0xFFD09D" value="0x1E"/>
+        </option>
+        <option desc="美美">
+            <parameter cpu="0" address="0xFFD09D" value="0x1F"/>
+        </option>
+        <option desc="夏侯恩">
+            <parameter cpu="0" address="0xFFD09D" value="0x2C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择敌兵C改换的角色" default="0">
+        <option desc="关闭"/>
+        <option desc="李典">
+            <parameter cpu="0" address="0xFFCFBD" value="0x06"/>
+        </option>
+        <option desc="长匕首兵">
+            <parameter cpu="0" address="0xFFCFBD" value="0x07"/>
+        </option>
+        <option desc="许褚">
+            <parameter cpu="0" address="0xFFCFBD" value="0x08"/>
+        </option>
+        <option desc="小兵">
+            <parameter cpu="0" address="0xFFCFBD" value="0x09"/>
+        </option>
+        <option desc="美铃">
+            <parameter cpu="0" address="0xFFCFBD" value="0x0C"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0xFFCFBD" value="0x0D"/>
+        </option>
+        <option desc="张辽">
+            <parameter cpu="0" address="0xFFCFBD" value="0x0E"/>
+        </option>
+        <option desc="曹仁">
+            <parameter cpu="0" address="0xFFCFBD" value="0x0F"/>
+        </option>
+        <option desc="赵氏">
+            <parameter cpu="0" address="0xFFCFBD" value="0x10"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0xFFCFBD" value="0x11"/>
+        </option>
+        <option desc="忍A">
+            <parameter cpu="0" address="0xFFCFBD" value="0x12"/>
+        </option>
+        <option desc="美冴">
+            <parameter cpu="0" address="0xFFCFBD" value="0x13"/>
+        </option>
+        <option desc="肥肥">
+            <parameter cpu="0" address="0xFFCFBD" value="0x14"/>
+        </option>
+        <option desc="徐晃">
+            <parameter cpu="0" address="0xFFCFBD" value="0x15"/>
+        </option>
+        <option desc="晏明">
+            <parameter cpu="0" address="0xFFCFBD" value="0x16"/>
+        </option>
+        <option desc="针">
+            <parameter cpu="0" address="0xFFCFBD" value="0x17"/>
+        </option>
+        <option desc="忍B">
+            <parameter cpu="0" address="0xFFCFBD" value="0x18"/>
+        </option>
+        <option desc="淳于导">
+            <parameter cpu="0" address="0xFFCFBD" value="0x1B"/>
+        </option>
+        <option desc="夏侯桀">
+            <parameter cpu="0" address="0xFFCFBD" value="0x1C"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0xFFCFBD" value="0x1D"/>
+        </option>
+        <option desc="弓箭兵">
+            <parameter cpu="0" address="0xFFCFBD" value="0x1E"/>
+        </option>
+        <option desc="美美">
+            <parameter cpu="0" address="0xFFCFBD" value="0x1F"/>
+        </option>
+        <option desc="夏侯恩">
+            <parameter cpu="0" address="0xFFCFBD" value="0x2C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择敌兵D改换的角色" default="0">
+        <option desc="关闭"/>
+        <option desc="李典">
+            <parameter cpu="0" address="0xFFCEDD" value="0x06"/>
+        </option>
+        <option desc="长匕首兵">
+            <parameter cpu="0" address="0xFFCEDD" value="0x07"/>
+        </option>
+        <option desc="许褚">
+            <parameter cpu="0" address="0xFFCEDD" value="0x08"/>
+        </option>
+        <option desc="小兵">
+            <parameter cpu="0" address="0xFFCEDD" value="0x09"/>
+        </option>
+        <option desc="美铃">
+            <parameter cpu="0" address="0xFFCEDD" value="0x0C"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0xFFCEDD" value="0x0D"/>
+        </option>
+        <option desc="张辽">
+            <parameter cpu="0" address="0xFFCEDD" value="0x0E"/>
+        </option>
+        <option desc="曹仁">
+            <parameter cpu="0" address="0xFFCEDD" value="0x0F"/>
+        </option>
+        <option desc="赵氏">
+            <parameter cpu="0" address="0xFFCEDD" value="0x10"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0xFFCEDD" value="0x11"/>
+        </option>
+        <option desc="忍A">
+            <parameter cpu="0" address="0xFFCEDD" value="0x12"/>
+        </option>
+        <option desc="美冴">
+            <parameter cpu="0" address="0xFFCEDD" value="0x13"/>
+        </option>
+        <option desc="肥肥">
+            <parameter cpu="0" address="0xFFCEDD" value="0x14"/>
+        </option>
+        <option desc="徐晃">
+            <parameter cpu="0" address="0xFFCEDD" value="0x15"/>
+        </option>
+        <option desc="晏明">
+            <parameter cpu="0" address="0xFFCEDD" value="0x16"/>
+        </option>
+        <option desc="针">
+            <parameter cpu="0" address="0xFFCEDD" value="0x17"/>
+        </option>
+        <option desc="忍B">
+            <parameter cpu="0" address="0xFFCEDD" value="0x18"/>
+        </option>
+        <option desc="淳于导">
+            <parameter cpu="0" address="0xFFCEDD" value="0x1B"/>
+        </option>
+        <option desc="夏侯桀">
+            <parameter cpu="0" address="0xFFCEDD" value="0x1C"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0xFFCEDD" value="0x1D"/>
+        </option>
+        <option desc="弓箭兵">
+            <parameter cpu="0" address="0xFFCEDD" value="0x1E"/>
+        </option>
+        <option desc="美美">
+            <parameter cpu="0" address="0xFFCEDD" value="0x1F"/>
+        </option>
+        <option desc="夏侯恩">
+            <parameter cpu="0" address="0xFFCEDD" value="0x2C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择敌兵E改换的角色" default="0">
+        <option desc="关闭"/>
+        <option desc="李典">
+            <parameter cpu="0" address="0xFFCDFD" value="0x06"/>
+        </option>
+        <option desc="长匕首兵">
+            <parameter cpu="0" address="0xFFCDFD" value="0x07"/>
+        </option>
+        <option desc="许褚">
+            <parameter cpu="0" address="0xFFCDFD" value="0x08"/>
+        </option>
+        <option desc="小兵">
+            <parameter cpu="0" address="0xFFCDFD" value="0x09"/>
+        </option>
+        <option desc="美铃">
+            <parameter cpu="0" address="0xFFCDFD" value="0x0C"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0xFFCDFD" value="0x0D"/>
+        </option>
+        <option desc="张辽">
+            <parameter cpu="0" address="0xFFCDFD" value="0x0E"/>
+        </option>
+        <option desc="曹仁">
+            <parameter cpu="0" address="0xFFCDFD" value="0x0F"/>
+        </option>
+        <option desc="赵氏">
+            <parameter cpu="0" address="0xFFCDFD" value="0x10"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0xFFCDFD" value="0x11"/>
+        </option>
+        <option desc="忍A">
+            <parameter cpu="0" address="0xFFCDFD" value="0x12"/>
+        </option>
+        <option desc="美冴">
+            <parameter cpu="0" address="0xFFCDFD" value="0x13"/>
+        </option>
+        <option desc="肥肥">
+            <parameter cpu="0" address="0xFFCDFD" value="0x14"/>
+        </option>
+        <option desc="徐晃">
+            <parameter cpu="0" address="0xFFCDFD" value="0x15"/>
+        </option>
+        <option desc="晏明">
+            <parameter cpu="0" address="0xFFCDFD" value="0x16"/>
+        </option>
+        <option desc="针">
+            <parameter cpu="0" address="0xFFCDFD" value="0x17"/>
+        </option>
+        <option desc="忍B">
+            <parameter cpu="0" address="0xFFCDFD" value="0x18"/>
+        </option>
+        <option desc="淳于导">
+            <parameter cpu="0" address="0xFFCDFD" value="0x1B"/>
+        </option>
+        <option desc="夏侯桀">
+            <parameter cpu="0" address="0xFFCDFD" value="0x1C"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0xFFCDFD" value="0x1D"/>
+        </option>
+        <option desc="弓箭兵">
+            <parameter cpu="0" address="0xFFCDFD" value="0x1E"/>
+        </option>
+        <option desc="美美">
+            <parameter cpu="0" address="0xFFCDFD" value="0x1F"/>
+        </option>
+        <option desc="夏侯恩">
+            <parameter cpu="0" address="0xFFCDFD" value="0x2C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择敌兵F改换的角色" default="0">
+        <option desc="关闭"/>
+        <option desc="李典">
+            <parameter cpu="0" address="0xFFCD1D" value="0x06"/>
+        </option>
+        <option desc="长匕首兵">
+            <parameter cpu="0" address="0xFFCD1D" value="0x07"/>
+        </option>
+        <option desc="许褚">
+            <parameter cpu="0" address="0xFFCD1D" value="0x08"/>
+        </option>
+        <option desc="小兵">
+            <parameter cpu="0" address="0xFFCD1D" value="0x09"/>
+        </option>
+        <option desc="美铃">
+            <parameter cpu="0" address="0xFFCD1D" value="0x0C"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0xFFCD1D" value="0x0D"/>
+        </option>
+        <option desc="张辽">
+            <parameter cpu="0" address="0xFFCD1D" value="0x0E"/>
+        </option>
+        <option desc="曹仁">
+            <parameter cpu="0" address="0xFFCD1D" value="0x0F"/>
+        </option>
+        <option desc="赵氏">
+            <parameter cpu="0" address="0xFFCD1D" value="0x10"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0xFFCD1D" value="0x11"/>
+        </option>
+        <option desc="忍A">
+            <parameter cpu="0" address="0xFFCD1D" value="0x12"/>
+        </option>
+        <option desc="美冴">
+            <parameter cpu="0" address="0xFFCD1D" value="0x13"/>
+        </option>
+        <option desc="肥肥">
+            <parameter cpu="0" address="0xFFCD1D" value="0x14"/>
+        </option>
+        <option desc="徐晃">
+            <parameter cpu="0" address="0xFFCD1D" value="0x15"/>
+        </option>
+        <option desc="晏明">
+            <parameter cpu="0" address="0xFFCD1D" value="0x16"/>
+        </option>
+        <option desc="针">
+            <parameter cpu="0" address="0xFFCD1D" value="0x17"/>
+        </option>
+        <option desc="忍B">
+            <parameter cpu="0" address="0xFFCD1D" value="0x18"/>
+        </option>
+        <option desc="淳于导">
+            <parameter cpu="0" address="0xFFCD1D" value="0x1B"/>
+        </option>
+        <option desc="夏侯桀">
+            <parameter cpu="0" address="0xFFCD1D" value="0x1C"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0xFFCD1D" value="0x1D"/>
+        </option>
+        <option desc="弓箭兵">
+            <parameter cpu="0" address="0xFFCD1D" value="0x1E"/>
+        </option>
+        <option desc="美美">
+            <parameter cpu="0" address="0xFFCD1D" value="0x1F"/>
+        </option>
+        <option desc="夏侯恩">
+            <parameter cpu="0" address="0xFFCD1D" value="0x2C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择敌兵G改换的角色" default="0">
+        <option desc="关闭"/>
+        <option desc="李典">
+            <parameter cpu="0" address="0xFFCC3D" value="0x06"/>
+        </option>
+        <option desc="长匕首兵">
+            <parameter cpu="0" address="0xFFCC3D" value="0x07"/>
+        </option>
+        <option desc="许褚">
+            <parameter cpu="0" address="0xFFCC3D" value="0x08"/>
+        </option>
+        <option desc="小兵">
+            <parameter cpu="0" address="0xFFCC3D" value="0x09"/>
+        </option>
+        <option desc="美铃">
+            <parameter cpu="0" address="0xFFCC3D" value="0x0C"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0xFFCC3D" value="0x0D"/>
+        </option>
+        <option desc="张辽">
+            <parameter cpu="0" address="0xFFCC3D" value="0x0E"/>
+        </option>
+        <option desc="曹仁">
+            <parameter cpu="0" address="0xFFCC3D" value="0x0F"/>
+        </option>
+        <option desc="赵氏">
+            <parameter cpu="0" address="0xFFCC3D" value="0x10"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0xFFCC3D" value="0x11"/>
+        </option>
+        <option desc="忍A">
+            <parameter cpu="0" address="0xFFCC3D" value="0x12"/>
+        </option>
+        <option desc="美冴">
+            <parameter cpu="0" address="0xFFCC3D" value="0x13"/>
+        </option>
+        <option desc="肥肥">
+            <parameter cpu="0" address="0xFFCC3D" value="0x14"/>
+        </option>
+        <option desc="徐晃">
+            <parameter cpu="0" address="0xFFCC3D" value="0x15"/>
+        </option>
+        <option desc="晏明">
+            <parameter cpu="0" address="0xFFCC3D" value="0x16"/>
+        </option>
+        <option desc="针">
+            <parameter cpu="0" address="0xFFCC3D" value="0x17"/>
+        </option>
+        <option desc="忍B">
+            <parameter cpu="0" address="0xFFCC3D" value="0x18"/>
+        </option>
+        <option desc="淳于导">
+            <parameter cpu="0" address="0xFFCC3D" value="0x1B"/>
+        </option>
+        <option desc="夏侯桀">
+            <parameter cpu="0" address="0xFFCC3D" value="0x1C"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0xFFCC3D" value="0x1D"/>
+        </option>
+        <option desc="弓箭兵">
+            <parameter cpu="0" address="0xFFCC3D" value="0x1E"/>
+        </option>
+        <option desc="美美">
+            <parameter cpu="0" address="0xFFCC3D" value="0x1F"/>
+        </option>
+        <option desc="夏侯恩">
+            <parameter cpu="0" address="0xFFCC3D" value="0x2C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择敌兵H改换的角色" default="0">
+        <option desc="关闭"/>
+        <option desc="李典">
+            <parameter cpu="0" address="0xFFCB5D" value="0x06"/>
+        </option>
+        <option desc="长匕首兵">
+            <parameter cpu="0" address="0xFFCB5D" value="0x07"/>
+        </option>
+        <option desc="许褚">
+            <parameter cpu="0" address="0xFFCB5D" value="0x08"/>
+        </option>
+        <option desc="小兵">
+            <parameter cpu="0" address="0xFFCB5D" value="0x09"/>
+        </option>
+        <option desc="美铃">
+            <parameter cpu="0" address="0xFFCB5D" value="0x0C"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0xFFCB5D" value="0x0D"/>
+        </option>
+        <option desc="张辽">
+            <parameter cpu="0" address="0xFFCB5D" value="0x0E"/>
+        </option>
+        <option desc="曹仁">
+            <parameter cpu="0" address="0xFFCB5D" value="0x0F"/>
+        </option>
+        <option desc="赵氏">
+            <parameter cpu="0" address="0xFFCB5D" value="0x10"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0xFFCB5D" value="0x11"/>
+        </option>
+        <option desc="忍A">
+            <parameter cpu="0" address="0xFFCB5D" value="0x12"/>
+        </option>
+        <option desc="美冴">
+            <parameter cpu="0" address="0xFFCB5D" value="0x13"/>
+        </option>
+        <option desc="肥肥">
+            <parameter cpu="0" address="0xFFCB5D" value="0x14"/>
+        </option>
+        <option desc="徐晃">
+            <parameter cpu="0" address="0xFFCB5D" value="0x15"/>
+        </option>
+        <option desc="晏明">
+            <parameter cpu="0" address="0xFFCB5D" value="0x16"/>
+        </option>
+        <option desc="针">
+            <parameter cpu="0" address="0xFFCB5D" value="0x17"/>
+        </option>
+        <option desc="忍B">
+            <parameter cpu="0" address="0xFFCB5D" value="0x18"/>
+        </option>
+        <option desc="淳于导">
+            <parameter cpu="0" address="0xFFCB5D" value="0x1B"/>
+        </option>
+        <option desc="夏侯桀">
+            <parameter cpu="0" address="0xFFCB5D" value="0x1C"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0xFFCB5D" value="0x1D"/>
+        </option>
+        <option desc="弓箭兵">
+            <parameter cpu="0" address="0xFFCB5D" value="0x1E"/>
+        </option>
+        <option desc="美美">
+            <parameter cpu="0" address="0xFFCB5D" value="0x1F"/>
+        </option>
+        <option desc="夏侯恩">
+            <parameter cpu="0" address="0xFFCB5D" value="0x2C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择敌兵I改换的角色" default="0">
+        <option desc="关闭"/>
+        <option desc="李典">
+            <parameter cpu="0" address="0xFFCA7D" value="0x06"/>
+        </option>
+        <option desc="长匕首兵">
+            <parameter cpu="0" address="0xFFCA7D" value="0x07"/>
+        </option>
+        <option desc="许褚">
+            <parameter cpu="0" address="0xFFCA7D" value="0x08"/>
+        </option>
+        <option desc="小兵">
+            <parameter cpu="0" address="0xFFCA7D" value="0x09"/>
+        </option>
+        <option desc="美铃">
+            <parameter cpu="0" address="0xFFCA7D" value="0x0C"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0xFFCA7D" value="0x0D"/>
+        </option>
+        <option desc="张辽">
+            <parameter cpu="0" address="0xFFCA7D" value="0x0E"/>
+        </option>
+        <option desc="曹仁">
+            <parameter cpu="0" address="0xFFCA7D" value="0x0F"/>
+        </option>
+        <option desc="赵氏">
+            <parameter cpu="0" address="0xFFCA7D" value="0x10"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0xFFCA7D" value="0x11"/>
+        </option>
+        <option desc="忍A">
+            <parameter cpu="0" address="0xFFCA7D" value="0x12"/>
+        </option>
+        <option desc="美冴">
+            <parameter cpu="0" address="0xFFCA7D" value="0x13"/>
+        </option>
+        <option desc="肥肥">
+            <parameter cpu="0" address="0xFFCA7D" value="0x14"/>
+        </option>
+        <option desc="徐晃">
+            <parameter cpu="0" address="0xFFCA7D" value="0x15"/>
+        </option>
+        <option desc="晏明">
+            <parameter cpu="0" address="0xFFCA7D" value="0x16"/>
+        </option>
+        <option desc="针">
+            <parameter cpu="0" address="0xFFCA7D" value="0x17"/>
+        </option>
+        <option desc="忍B">
+            <parameter cpu="0" address="0xFFCA7D" value="0x18"/>
+        </option>
+        <option desc="淳于导">
+            <parameter cpu="0" address="0xFFCA7D" value="0x1B"/>
+        </option>
+        <option desc="夏侯桀">
+            <parameter cpu="0" address="0xFFCA7D" value="0x1C"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0xFFCA7D" value="0x1D"/>
+        </option>
+        <option desc="弓箭兵">
+            <parameter cpu="0" address="0xFFCA7D" value="0x1E"/>
+        </option>
+        <option desc="美美">
+            <parameter cpu="0" address="0xFFCA7D" value="0x1F"/>
+        </option>
+        <option desc="夏侯恩">
+            <parameter cpu="0" address="0xFFCA7D" value="0x2C"/>
+        </option>
+    </cheat>
+    <cheat desc="击倒敌人模式" default="0">
+        <option desc="关闭"/>
+        <option desc="击飞">
+            <parameter cpu="0" address="0xFFCAF5" value="0x02"/>
+            <parameter cpu="0" address="0xFFCBD5" value="0x02"/>
+            <parameter cpu="0" address="0xFFCCB5" value="0x02"/>
+            <parameter cpu="0" address="0xFFCD95" value="0x02"/>
+            <parameter cpu="0" address="0xFFCE75" value="0x02"/>
+            <parameter cpu="0" address="0xFFCF55" value="0x02"/>
+            <parameter cpu="0" address="0xFFD035" value="0x02"/>
+            <parameter cpu="0" address="0xFFD115" value="0x02"/>
+            <parameter cpu="0" address="0xFFD1F5" value="0x02"/>
+        </option>
+        <option desc="摔飞">
+            <parameter cpu="0" address="0xFFCAF5" value="0x04"/>
+            <parameter cpu="0" address="0xFFCBD5" value="0x04"/>
+            <parameter cpu="0" address="0xFFCCB5" value="0x04"/>
+            <parameter cpu="0" address="0xFFCD95" value="0x04"/>
+            <parameter cpu="0" address="0xFFCE75" value="0x04"/>
+            <parameter cpu="0" address="0xFFCF55" value="0x04"/>
+            <parameter cpu="0" address="0xFFD035" value="0x04"/>
+            <parameter cpu="0" address="0xFFD115" value="0x04"/>
+            <parameter cpu="0" address="0xFFD1F5" value="0x04"/>
+        </option>
+        <option desc="火烧">
+            <parameter cpu="0" address="0xFFCAF5" value="0x06"/>
+            <parameter cpu="0" address="0xFFCBD5" value="0x06"/>
+            <parameter cpu="0" address="0xFFCCB5" value="0x06"/>
+            <parameter cpu="0" address="0xFFCD95" value="0x06"/>
+            <parameter cpu="0" address="0xFFCE75" value="0x06"/>
+            <parameter cpu="0" address="0xFFCF55" value="0x06"/>
+            <parameter cpu="0" address="0xFFD035" value="0x06"/>
+            <parameter cpu="0" address="0xFFD115" value="0x06"/>
+            <parameter cpu="0" address="0xFFD1F5" value="0x06"/>
+        </option>
+        <option desc="踹飞">
+            <parameter cpu="0" address="0xFFCAF5" value="0x0A"/>
+            <parameter cpu="0" address="0xFFCBD5" value="0x0A"/>
+            <parameter cpu="0" address="0xFFCCB5" value="0x0A"/>
+            <parameter cpu="0" address="0xFFCD95" value="0x0A"/>
+            <parameter cpu="0" address="0xFFCE75" value="0x0A"/>
+            <parameter cpu="0" address="0xFFCF55" value="0x0A"/>
+            <parameter cpu="0" address="0xFFD035" value="0x0A"/>
+            <parameter cpu="0" address="0xFFD115" value="0x0A"/>
+            <parameter cpu="0" address="0xFFD1F5" value="0x0A"/>
+        </option>
+        <option desc="切半">
+            <parameter cpu="0" address="0xFFCAF5" value="0x08"/>
+            <parameter cpu="0" address="0xFFCBD5" value="0x08"/>
+            <parameter cpu="0" address="0xFFCCB5" value="0x08"/>
+            <parameter cpu="0" address="0xFFCD95" value="0x08"/>
+            <parameter cpu="0" address="0xFFCE75" value="0x08"/>
+            <parameter cpu="0" address="0xFFCF55" value="0x08"/>
+            <parameter cpu="0" address="0xFFD035" value="0x08"/>
+            <parameter cpu="0" address="0xFFD115" value="0x08"/>
+            <parameter cpu="0" address="0xFFD1F5" value="0x08"/>
+        </option>
+        <option desc="全身粉碎">
+            <parameter cpu="0" address="0xFFCAF5" value="0x0C"/>
+            <parameter cpu="0" address="0xFFCBD5" value="0x0C"/>
+            <parameter cpu="0" address="0xFFCCB5" value="0x0C"/>
+            <parameter cpu="0" address="0xFFCD95" value="0x0C"/>
+            <parameter cpu="0" address="0xFFCE75" value="0x0C"/>
+            <parameter cpu="0" address="0xFFCF55" value="0x0C"/>
+            <parameter cpu="0" address="0xFFD035" value="0x0C"/>
+            <parameter cpu="0" address="0xFFD115" value="0x0C"/>
+            <parameter cpu="0" address="0xFFD1F5" value="0x0C"/>
+        </option>
+        <option desc="上半身粉碎">
+            <parameter cpu="0" address="0xFFCAF5" value="0x0E"/>
+            <parameter cpu="0" address="0xFFCBD5" value="0x0E"/>
+            <parameter cpu="0" address="0xFFCCB5" value="0x0E"/>
+            <parameter cpu="0" address="0xFFCD95" value="0x0E"/>
+            <parameter cpu="0" address="0xFFCE75" value="0x0E"/>
+            <parameter cpu="0" address="0xFFCF55" value="0x0E"/>
+            <parameter cpu="0" address="0xFFD035" value="0x0E"/>
+            <parameter cpu="0" address="0xFFD115" value="0x0E"/>
+            <parameter cpu="0" address="0xFFD1F5" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人的炸弹定时无限" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9E6E" value="0x06"/>
+            <parameter cpu="0" address="0xFF9F4E" value="0x06"/>
+            <parameter cpu="0" address="0xFFA02E" value="0x06"/>
+            <parameter cpu="0" address="0xFFA10E" value="0x06"/>
+            <parameter cpu="0" address="0xFFA1EE" value="0x06"/>
+            <parameter cpu="0" address="0xFFA2CE" value="0x06"/>
+            <parameter cpu="0" address="0xFFA3AE" value="0x06"/>
+            <parameter cpu="0" address="0xFFA48E" value="0x06"/>
+            <parameter cpu="0" address="0xFFA56E" value="0x06"/>
+            <parameter cpu="0" address="0xFFA64E" value="0x06"/>
+            <parameter cpu="0" address="0xFFA72E" value="0x06"/>
+            <parameter cpu="0" address="0xFFA80E" value="0x06"/>
+            <parameter cpu="0" address="0xFFA8EE" value="0x06"/>
+            <parameter cpu="0" address="0xFFA9CE" value="0x06"/>
+            <parameter cpu="0" address="0xFFAAAE" value="0x06"/>
+            <parameter cpu="0" address="0xFFAB8E" value="0x06"/>
+            <parameter cpu="0" address="0xFFAC6E" value="0x06"/>
+            <parameter cpu="0" address="0xFFAD4E" value="0x06"/>
+            <parameter cpu="0" address="0xFFAE2E" value="0x06"/>
+            <parameter cpu="0" address="0xFFAF0E" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="开箱出现" default="0">
+        <option desc="关闭"/>
+        <option desc="剑">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x00"/>
+        </option>
+        <option desc="村正">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x01"/>
+        </option>
+        <option desc="正宗">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x02"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x02"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x02"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x02"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x02"/>
+        </option>
+        <option desc="村雨">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x03"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x03"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x03"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x03"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x03"/>
+        </option>
+        <option desc="虎徹">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x04"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x04"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x04"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x04"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x04"/>
+        </option>
+        <option desc="菊一文字">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x05"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x05"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x05"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x05"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x05"/>
+        </option>
+        <option desc="飞龙">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x06"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x06"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x06"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x06"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x06"/>
+        </option>
+        <option desc="正国">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x07"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x07"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x07"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x07"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x07"/>
+        </option>
+        <option desc="青龙刀">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x08"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x08"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x08"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x08"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x08"/>
+        </option>
+        <option desc="大偃月刀">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x09"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x09"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x09"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x09"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x09"/>
+        </option>
+        <option desc="战斧">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x0A"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x0A"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x0A"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x0A"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x0A"/>
+        </option>
+        <option desc="斧">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x0B"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x0B"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x0B"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x0B"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x0B"/>
+        </option>
+        <option desc="木槌">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x0C"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x0C"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x0C"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x0C"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x0C"/>
+        </option>
+        <option desc="金槌">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x0D"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x0D"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x0D"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x0D"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x0D"/>
+        </option>
+        <option desc="狼牙棒">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x0E"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x0E"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x0E"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x0E"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x0E"/>
+        </option>
+        <option desc="真 狼牙棒">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x0F"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x0F"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x0F"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x0F"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x0F"/>
+        </option>
+        <option desc="小锤">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x10"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x10"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x10"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x10"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x10"/>
+        </option>
+        <option desc="小戟">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x11"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x11"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x11"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x11"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x11"/>
+        </option>
+        <option desc="匕首">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x12"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x12"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x12"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x12"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x12"/>
+        </option>
+        <option desc="娘刀">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x13"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x13"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x13"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x13"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x13"/>
+        </option>
+        <option desc="小刀">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x14"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x14"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x14"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x14"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x14"/>
+        </option>
+        <option desc="标枪？！">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x18"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x18"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x18"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x18"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x18"/>
+        </option>
+        <option desc="圣剑">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x19"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x19"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x19"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x19"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x19"/>
+        </option>
+        <option desc="草薙剑">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x1A"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x1A"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x1A"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x1A"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x1A"/>
+        </option>
+        <option desc="青釭剑">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x1B"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x1B"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x1B"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x1B"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x1B"/>
+        </option>
+        <option desc="火">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x1E"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x1E"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x1E"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x1E"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x1E"/>
+        </option>
+        <option desc="乳猪">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x30"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x30"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x30"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x30"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x30"/>
+        </option>
+        <option desc="北京烤鸭">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x01"/>
+        </option>
+        <option desc="龙虾">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x02"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x02"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x02"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x02"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x02"/>
+        </option>
+        <option desc="大鱼">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x03"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x03"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x03"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x03"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x03"/>
+        </option>
+        <option desc="一盘肉包">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x04"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x04"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x04"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x04"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x04"/>
+        </option>
+        <option desc="大量财宝">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x05"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x05"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x05"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x05"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x05"/>
+        </option>
+        <option desc="一些财宝">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x06"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x06"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x06"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x06"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x06"/>
+        </option>
+        <option desc="金币">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x07"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x07"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x07"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x07"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x07"/>
+        </option>
+        <option desc="书">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x08"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x08"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x08"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x08"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x08"/>
+        </option>
+        <option desc="卷轴">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x09"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x09"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x09"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x09"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x09"/>
+        </option>
+        <option desc="一个肉包">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x0B"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x0B"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x0B"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x0B"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x0B"/>
+        </option>
+        <option desc="鸡腿">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x0C"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x0C"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x0C"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x0C"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x0C"/>
+        </option>
+        <option desc="烤肉">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x0D"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x0D"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x0D"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x0D"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x0D"/>
+        </option>
+        <option desc="金质奖章">
+            <parameter cpu="0" address="0xFFDDB8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDDB9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDDBA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDDBB" value="0x0E"/>
+            <parameter cpu="0" address="0xFFDE78" value="0x24"/>
+            <parameter cpu="0" address="0xFFDE79" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE7A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDE7B" value="0x0E"/>
+            <parameter cpu="0" address="0xFFDF38" value="0x24"/>
+            <parameter cpu="0" address="0xFFDF39" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF3A" value="0x01"/>
+            <parameter cpu="0" address="0xFFDF3B" value="0x0E"/>
+            <parameter cpu="0" address="0xFFDFF8" value="0x24"/>
+            <parameter cpu="0" address="0xFFDFF9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFFA" value="0x01"/>
+            <parameter cpu="0" address="0xFFDFFB" value="0x0E"/>
+            <parameter cpu="0" address="0xFFE0B8" value="0x24"/>
+            <parameter cpu="0" address="0xFFE0B9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE0BA" value="0x01"/>
+            <parameter cpu="0" address="0xFFE0BB" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="增加敌人数量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF81AD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="总是有武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="大偃月刀">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="叉">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x02"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="剑">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x03"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="草薙剑">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x04"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="青釭剑">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x06"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="倚天剑">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x02"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x07"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="七星剑">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x07"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="圣剑">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x08"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="晕锤">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x03"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x02"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="木槌">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x03"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x06"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="狼牙棒">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x03"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x04"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="菊一文字">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x02"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="斧头">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x03"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+        <option desc="飞刀">
+            <parameter cpu="0" address="0xFFAF1C" value="0x81"/>
+            <parameter cpu="0" address="0xFFAF1D" value="0x01"/>
+            <parameter cpu="0" address="0xFFAF20" value="0x14"/>
+            <parameter cpu="0" address="0xFFAF3D" value="0x04"/>
+            <parameter cpu="0" address="0xFFAF3F" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF64" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF65" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF66" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF67" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF68" value="0x00"/>
+            <parameter cpu="0" address="0xFFAFA8" value="0xBE"/>
+            <parameter cpu="0" address="0xFFAFA9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFBEA8" value="0xAF"/>
+            <parameter cpu="0" address="0xFFBEA9" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 仅部分招式有效，开启后黄忠马上射不出箭 ]"/>
+    <cheat desc="攻击带剑气 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="红焰">
+            <parameter cpu="0" address="0xFFBE81" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE82" value="0x18"/>
+            <parameter cpu="0" address="0xFFBE83" value="0x04"/>
+        </option>
+        <option desc="蓝焰">
+            <parameter cpu="0" address="0xFFBE81" value="0x00"/>
+            <parameter cpu="0" address="0xFFBE82" value="0x18"/>
+            <parameter cpu="0" address="0xFFBE83" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 可能会使一些技能打不到人。黄忠仅增加跳起高度 ]"/>
+    <cheat desc="增加跳起及上升类技能高度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBE67" value="0xD0"/>
+        </option>
+    </cheat>
+    <cheat desc="张飞近身A出旋风大坐 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBEDD" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 人：A=↓↑+A ]"/>
+    <cheat desc="[ 马：A=←→+A;B=←→+B ]"/>
+    <cheat desc="[ 开启后无法主动下马 ]"/>
+    <cheat desc="直接出必杀技 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBECC" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="[ 仅部分招式有效，开启后黄忠马上射不出箭 ]"/>  
+    <cheat desc="攻击带剑气 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="红焰">
+            <parameter cpu="0" address="0xFFBF61" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF62" value="0x18"/>
+            <parameter cpu="0" address="0xFFBF63" value="0x04"/>
+        </option>
+        <option desc="蓝焰">
+            <parameter cpu="0" address="0xFFBF61" value="0x00"/>
+            <parameter cpu="0" address="0xFFBF62" value="0x18"/>
+            <parameter cpu="0" address="0xFFBF63" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 可能会使一些技能打不到人。黄忠仅增加跳起高度 ]"/>
+    <cheat desc="增加跳起及上升类技能高度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBF47" value="0xD0"/>
+        </option>
+    </cheat>
+    <cheat desc="张飞近身A出旋风大坐 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBFBD" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 人：A=↓↑+A ]"/>
+    <cheat desc="[ 马：A=←→+A;B=←→+B ]"/>
+    <cheat desc="[ 开启后无法主动下马 ]"/>
+    <cheat desc="直接出必杀技 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFBFAC" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="[ 仅部分招式有效，开启后黄忠马上射不出箭 ]"/>   
+    <cheat desc="攻击带剑气 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="红焰">
+            <parameter cpu="0" address="0xFFC041" value="0x00"/>
+            <parameter cpu="0" address="0xFFC042" value="0x18"/>
+            <parameter cpu="0" address="0xFFC043" value="0x04"/>
+        </option>
+        <option desc="蓝焰">
+            <parameter cpu="0" address="0xFFC041" value="0x00"/>
+            <parameter cpu="0" address="0xFFC042" value="0x18"/>
+            <parameter cpu="0" address="0xFFC043" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 可能会使一些技能打不到人。黄忠仅增加跳起高度 ]"/>
+    <cheat desc="增加跳起及上升类技能高度 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC027" value="0xD0"/>
+        </option>
+    </cheat>
+    <cheat desc="张飞近身A出旋风大坐 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC09D" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 人：A=↓↑+A ]"/>
+    <cheat desc="[ 马：A=←→+A;B=←→+B ]"/>
+    <cheat desc="[ 开启后无法主动下马 ]"/>
+    <cheat desc="直接出必杀技 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC08C" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

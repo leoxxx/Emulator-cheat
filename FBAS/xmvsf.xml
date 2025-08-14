@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF545F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF5008" value="0x99"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF5008" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="天启当前">
+            <parameter cpu="0" address="0xFF5113" value="0x00"/>
+        </option>
+        <option desc="公园里的对决">
+            <parameter cpu="0" address="0xFF5113" value="0x01"/>
+        </option>
+        <option desc="死亡谷">
+            <parameter cpu="0" address="0xFF5113" value="0x02"/>
+        </option>
+        <option desc="大瀑布">
+            <parameter cpu="0" address="0xFF5113" value="0x03"/>
+        </option>
+        <option desc="拳头寺">
+            <parameter cpu="0" address="0xFF5113" value="0x04"/>
+        </option>
+        <option desc="小山顶上">
+            <parameter cpu="0" address="0xFF5113" value="0x05"/>
+        </option>
+        <option desc="曼哈顿">
+            <parameter cpu="0" address="0xFF5113" value="0x06"/>
+        </option>
+        <option desc="熊熊烈火">
+            <parameter cpu="0" address="0xFF5113" value="0x07"/>
+        </option>
+        <option desc="代号红">
+            <parameter cpu="0" address="0xFF5113" value="0x08"/>
+        </option>
+        <option desc="死或生:机智问答">
+            <parameter cpu="0" address="0xFF5113" value="0x09"/>
+        </option>
+        <option desc="梅赫姆购物中心">
+            <parameter cpu="0" address="0xFF5113" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF5081" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF5081" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF5081" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF5081" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF5081" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF5081" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF5081" value="0x06"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+	<cheat desc="选择角色(第一个) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="金刚狼">
+			<parameter cpu="0" address="0xFF4053" value="0x00"/>
+		</option>
+		<option desc="镭射眼">
+			<parameter cpu="0" address="0xFF4053" value="0x02"/>
+		</option>
+		<option desc="暴风女">
+			<parameter cpu="0" address="0xFF4053" value="0x04"/>
+		</option>
+		<option desc="小淘气">
+			<parameter cpu="0" address="0xFF4053" value="0x06"/>
+		</option>
+		<option desc="牌皇">
+			<parameter cpu="0" address="0xFF4053" value="0x08"/>
+		</option>
+		<option desc="剑齿虎">
+			<parameter cpu="0" address="0xFF4053" value="0x0A"/>
+		</option>
+		<option desc="红坦克">
+			<parameter cpu="0" address="0xFF4053" value="0x0C"/>
+		</option>
+		<option desc="万磁王">
+			<parameter cpu="0" address="0xFF4053" value="0x0E"/>
+		</option>
+		<option desc="隆">
+			<parameter cpu="0" address="0xFF4053" value="0x12"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0xFF4053" value="0x14"/>
+		</option>
+		<option desc="春丽">
+			<parameter cpu="0" address="0xFF4053" value="0x16"/>
+		</option>
+		<option desc="达尔西姆">
+			<parameter cpu="0" address="0xFF4053" value="0x18"/>
+		</option>
+		<option desc="桑吉尔夫">
+			<parameter cpu="0" address="0xFF4053" value="0x1A"/>
+		</option>
+		<option desc="拜森(日版维加)">
+			<parameter cpu="0" address="0xFF4053" value="0x1C"/>
+		</option>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0xFF4053" value="0x1E"/>
+		</option>
+		<option desc="纳什">
+			<parameter cpu="0" address="0xFF4053" value="0x20"/>
+		</option>
+		<option desc="嘉米">
+			<parameter cpu="0" address="0xFF4053" value="0x22"/>
+		</option>
+		<option desc="少年街霸服装春丽">
+			<parameter cpu="0" address="0xFF4053" value="0x24"/>
+		</option>
+	</cheat>
+	<cheat desc="选择角色(第二个) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="金刚狼">
+			<parameter cpu="0" address="0xFF4853" value="0x00"/>
+		</option>
+		<option desc="镭射眼">
+			<parameter cpu="0" address="0xFF4853" value="0x02"/>
+		</option>
+		<option desc="暴风女">
+			<parameter cpu="0" address="0xFF4853" value="0x04"/>
+		</option>
+		<option desc="小淘气">
+			<parameter cpu="0" address="0xFF4853" value="0x06"/>
+		</option>
+		<option desc="牌皇">
+			<parameter cpu="0" address="0xFF4853" value="0x08"/>
+		</option>
+		<option desc="剑齿虎">
+			<parameter cpu="0" address="0xFF4853" value="0x0A"/>
+		</option>
+		<option desc="红坦克">
+			<parameter cpu="0" address="0xFF4853" value="0x0C"/>
+		</option>
+		<option desc="万磁王">
+			<parameter cpu="0" address="0xFF4853" value="0x0E"/>
+		</option>
+		<option desc="隆">
+			<parameter cpu="0" address="0xFF4853" value="0x12"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0xFF4853" value="0x14"/>
+		</option>
+		<option desc="春丽">
+			<parameter cpu="0" address="0xFF4853" value="0x16"/>
+		</option>
+		<option desc="达尔西姆">
+			<parameter cpu="0" address="0xFF4853" value="0x18"/>
+		</option>
+		<option desc="桑吉尔夫">
+			<parameter cpu="0" address="0xFF4853" value="0x1A"/>
+		</option>
+		<option desc="拜森(日版维加)">
+			<parameter cpu="0" address="0xFF4853" value="0x1C"/>
+		</option>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0xFF4853" value="0x1E"/>
+		</option>
+		<option desc="纳什">
+			<parameter cpu="0" address="0xFF4853" value="0x20"/>
+		</option>
+		<option desc="嘉米">
+			<parameter cpu="0" address="0xFF4853" value="0x22"/>
+		</option>
+		<option desc="少年街霸服装春丽">
+			<parameter cpu="0" address="0xFF4853" value="0x24"/>
+		</option>
+	</cheat>
+	<cheat desc="使用天启 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4053" value="0x10"/>
+            <parameter cpu="0" address="0xFF4853" value="0x10"/>
+            <parameter cpu="0" address="0xFF50B1" value="0x10"/>
+            <parameter cpu="0" address="0xFF50B3" value="0x10"/>
+            <parameter cpu="0" address="0xFF5113" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="由谁控制 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="玩家">
+            <parameter cpu="0" address="0xFF4003" value="0x01"/>
+        </option>
+        <option desc="电脑">
+            <parameter cpu="0" address="0xFF4003" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择体力(出战) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4211" value="0x90"/>
+            <parameter cpu="0" address="0xFF421B" value="0x90"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4211" value="0x00"/>
+            <parameter cpu="0" address="0xFF421B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择体力(待机) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4A11" value="0x90"/>
+            <parameter cpu="0" address="0xFF4A1B" value="0x90"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4A11" value="0x00"/>
+            <parameter cpu="0" address="0xFF4A1B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4213" value="0x90"/>
+            <parameter cpu="0" address="0xFF4214" value="0x03"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4213" value="0x00"/>
+            <parameter cpu="0" address="0xFF4214" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击残血 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4103" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF403F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="连锁连击无限制 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF40A7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="永不眩晕">
+            <parameter cpu="0" address="0xFF40B9" value="0x3C"/>
+        </option>
+        <option desc="被打就晕">
+            <parameter cpu="0" address="0xFF40B9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕恢复 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="立即恢复">
+            <parameter cpu="0" address="0xFF4139" value="0x01"/>
+        </option>
+        <option desc="永不恢复">
+            <parameter cpu="0" address="0xFF4139" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="自动防御 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4147" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 仅限镭射眼&春丽&嘉米 ]"/>
+    <cheat desc="无限多段跳 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4142" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 最后一个方向+拳/脚出招 ]"/>
+    <cheat desc="[ 转一圈的技能&瞬狱杀除外 ]"/>
+    <cheat desc="必杀技&超必杀技简易出招 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4180" value="0x04"/>
+            <parameter cpu="0" address="0xFF4188" value="0x04"/>
+            <parameter cpu="0" address="0xFF4190" value="0x04"/>
+            <parameter cpu="0" address="0xFF4198" value="0x04"/>
+            <parameter cpu="0" address="0xFF41A0" value="0x04"/>
+            <parameter cpu="0" address="0xFF41A8" value="0x04"/>
+            <parameter cpu="0" address="0xFF41B0" value="0x04"/>
+            <parameter cpu="0" address="0xFF41B8" value="0x04"/>
+            <parameter cpu="0" address="0xFF41C0" value="0x04"/>
+            <parameter cpu="0" address="0xFF41C8" value="0x08"/>
+            <parameter cpu="0" address="0xFF41D0" value="0x04"/>
+            <parameter cpu="0" address="0xFF41D8" value="0x04"/>
+            <parameter cpu="0" address="0xFF41F0" value="0x04"/>
+            <parameter cpu="0" address="0xFF5082" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="红坦克总是有力量增强效果 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4103" value="0x30"/>
+            <parameter cpu="0" address="0xFF4344" value="0x02"/>
+            <parameter cpu="0" address="0xFF4345" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="小淘气吸收了谁的能力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF4342" value="0xFF"/>
+            <parameter cpu="0" address="0xFF4343" value="0xFF"/>
+        </option>
+        <option desc="金刚狼 狂暴连爪">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x00"/>
+        </option>
+        <option desc="镭射眼 光子爆破">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x02"/>
+        </option>
+        <option desc="暴风女 台风">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x04"/>
+        </option>
+        <option desc="牌皇 动能牌">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x08"/>
+        </option>
+        <option desc="剑齿虎 狂暴爪">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x0A"/>
+        </option>
+        <option desc="红坦克 地震拳">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x0C"/>
+        </option>
+        <option desc="万磁王 超引力">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x0E"/>
+        </option>
+        <option desc="隆 波动拳">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x12"/>
+        </option>
+        <option desc="肯 升龙拳">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x14"/>
+        </option>
+        <option desc="春丽 气功拳">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x16"/>
+        </option>
+        <option desc="达尔西姆 瑜伽烈焰">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x18"/>
+        </option>
+        <option desc="桑吉尔夫 螺旋打桩机">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x1A"/>
+        </option>
+        <option desc="拜森(日版维加) 精神力弹">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x1C"/>
+        </option>
+        <option desc="豪鬼 斩空波动拳&瞬狱杀">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x1E"/>
+        </option>
+        <option desc="纳什 音速手刀">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x20"/>
+        </option>
+        <option desc="嘉米 螺旋箭">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x22"/>
+        </option>
+        <option desc="少年街霸服装春丽 气功拳">
+            <parameter cpu="0" address="0xFF4342" value="0x00"/>
+            <parameter cpu="0" address="0xFF4343" value="0x24"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+	<cheat desc="选择角色(第一个) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="金刚狼">
+			<parameter cpu="0" address="0xFF4453" value="0x00"/>
+		</option>
+		<option desc="镭射眼">
+			<parameter cpu="0" address="0xFF4453" value="0x02"/>
+		</option>
+		<option desc="暴风女">
+			<parameter cpu="0" address="0xFF4453" value="0x04"/>
+		</option>
+		<option desc="小淘气">
+			<parameter cpu="0" address="0xFF4453" value="0x06"/>
+		</option>
+		<option desc="牌皇">
+			<parameter cpu="0" address="0xFF4453" value="0x08"/>
+		</option>
+		<option desc="剑齿虎">
+			<parameter cpu="0" address="0xFF4453" value="0x0A"/>
+		</option>
+		<option desc="红坦克">
+			<parameter cpu="0" address="0xFF4453" value="0x0C"/>
+		</option>
+		<option desc="万磁王">
+			<parameter cpu="0" address="0xFF4453" value="0x0E"/>
+		</option>
+		<option desc="隆">
+			<parameter cpu="0" address="0xFF4453" value="0x12"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0xFF4453" value="0x14"/>
+		</option>
+		<option desc="春丽">
+			<parameter cpu="0" address="0xFF4453" value="0x16"/>
+		</option>
+		<option desc="达尔西姆">
+			<parameter cpu="0" address="0xFF4453" value="0x18"/>
+		</option>
+		<option desc="桑吉尔夫">
+			<parameter cpu="0" address="0xFF4453" value="0x1A"/>
+		</option>
+		<option desc="拜森(日版维加)">
+			<parameter cpu="0" address="0xFF4453" value="0x1C"/>
+		</option>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0xFF4453" value="0x1E"/>
+		</option>
+		<option desc="纳什">
+			<parameter cpu="0" address="0xFF4453" value="0x20"/>
+		</option>
+		<option desc="嘉米">
+			<parameter cpu="0" address="0xFF4453" value="0x22"/>
+		</option>
+		<option desc="少年街霸服装春丽">
+			<parameter cpu="0" address="0xFF4453" value="0x24"/>
+		</option>
+	</cheat>
+	<cheat desc="选择角色(第二个) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="金刚狼">
+			<parameter cpu="0" address="0xFF4C53" value="0x00"/>
+		</option>
+		<option desc="镭射眼">
+			<parameter cpu="0" address="0xFF4C53" value="0x02"/>
+		</option>
+		<option desc="暴风女">
+			<parameter cpu="0" address="0xFF4C53" value="0x04"/>
+		</option>
+		<option desc="小淘气">
+			<parameter cpu="0" address="0xFF4C53" value="0x06"/>
+		</option>
+		<option desc="牌皇">
+			<parameter cpu="0" address="0xFF4C53" value="0x08"/>
+		</option>
+		<option desc="剑齿虎">
+			<parameter cpu="0" address="0xFF4C53" value="0x0A"/>
+		</option>
+		<option desc="红坦克">
+			<parameter cpu="0" address="0xFF4C53" value="0x0C"/>
+		</option>
+		<option desc="万磁王">
+			<parameter cpu="0" address="0xFF4C53" value="0x0E"/>
+		</option>
+		<option desc="隆">
+			<parameter cpu="0" address="0xFF4C53" value="0x12"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0xFF4C53" value="0x14"/>
+		</option>
+		<option desc="春丽">
+			<parameter cpu="0" address="0xFF4C53" value="0x16"/>
+		</option>
+		<option desc="达尔西姆">
+			<parameter cpu="0" address="0xFF4C53" value="0x18"/>
+		</option>
+		<option desc="桑吉尔夫">
+			<parameter cpu="0" address="0xFF4C53" value="0x1A"/>
+		</option>
+		<option desc="拜森(日版维加)">
+			<parameter cpu="0" address="0xFF4C53" value="0x1C"/>
+		</option>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0xFF4C53" value="0x1E"/>
+		</option>
+		<option desc="纳什">
+			<parameter cpu="0" address="0xFF4C53" value="0x20"/>
+		</option>
+		<option desc="嘉米">
+			<parameter cpu="0" address="0xFF4C53" value="0x22"/>
+		</option>
+		<option desc="少年街霸服装春丽">
+			<parameter cpu="0" address="0xFF4C53" value="0x24"/>
+		</option>
+	</cheat>
+	<cheat desc="使用天启 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4453" value="0x10"/>
+            <parameter cpu="0" address="0xFF4C53" value="0x10"/>
+            <parameter cpu="0" address="0xFF50B5" value="0x10"/>
+            <parameter cpu="0" address="0xFF50B7" value="0x10"/>
+            <parameter cpu="0" address="0xFF5113" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="由谁控制 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="玩家">
+            <parameter cpu="0" address="0xFF4403" value="0x01"/>
+        </option>
+        <option desc="电脑">
+            <parameter cpu="0" address="0xFF4403" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择体力(出战) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4611" value="0x90"/>
+            <parameter cpu="0" address="0xFF461B" value="0x90"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4611" value="0x00"/>
+            <parameter cpu="0" address="0xFF461B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择体力(待机) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4E11" value="0x90"/>
+            <parameter cpu="0" address="0xFF4E1B" value="0x90"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4E11" value="0x00"/>
+            <parameter cpu="0" address="0xFF4E1B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4613" value="0x90"/>
+            <parameter cpu="0" address="0xFF4614" value="0x03"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4613" value="0x00"/>
+            <parameter cpu="0" address="0xFF4614" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击残血 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4503" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF443F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="连锁连击无限制 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF44A7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="永不眩晕">
+            <parameter cpu="0" address="0xFF44B9" value="0x3C"/>
+        </option>
+        <option desc="被打就晕">
+            <parameter cpu="0" address="0xFF44B9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕恢复 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="立即恢复">
+            <parameter cpu="0" address="0xFF4539" value="0x01"/>
+        </option>
+        <option desc="永不恢复">
+            <parameter cpu="0" address="0xFF4539" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="自动防御 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4547" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 仅限镭射眼&春丽&嘉米 ]"/>
+    <cheat desc="无限多段跳 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4542" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 最后一个方向+拳/脚出招 ]"/>
+    <cheat desc="[ 转一圈的技能&瞬狱杀除外 ]"/>
+    <cheat desc="必杀技&超必杀技简易出招 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4580" value="0x04"/>
+            <parameter cpu="0" address="0xFF4588" value="0x04"/>
+            <parameter cpu="0" address="0xFF4590" value="0x04"/>
+            <parameter cpu="0" address="0xFF4598" value="0x04"/>
+            <parameter cpu="0" address="0xFF45A0" value="0x04"/>
+            <parameter cpu="0" address="0xFF45A8" value="0x04"/>
+            <parameter cpu="0" address="0xFF45B0" value="0x04"/>
+            <parameter cpu="0" address="0xFF45B8" value="0x04"/>
+            <parameter cpu="0" address="0xFF45C0" value="0x04"/>
+            <parameter cpu="0" address="0xFF45C8" value="0x08"/>
+            <parameter cpu="0" address="0xFF45D0" value="0x04"/>
+            <parameter cpu="0" address="0xFF45D8" value="0x04"/>
+            <parameter cpu="0" address="0xFF45F0" value="0x04"/>
+            <parameter cpu="0" address="0xFF5482" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="红坦克总是有力量增强效果 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4503" value="0x30"/>
+            <parameter cpu="0" address="0xFF4744" value="0x02"/>
+            <parameter cpu="0" address="0xFF4745" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="小淘气吸收了谁的能力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF4742" value="0xFF"/>
+            <parameter cpu="0" address="0xFF4743" value="0xFF"/>
+        </option>
+        <option desc="金刚狼 狂暴连爪">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x00"/>
+        </option>
+        <option desc="镭射眼 光子爆破">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x02"/>
+        </option>
+        <option desc="暴风女 台风">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x04"/>
+        </option>
+        <option desc="牌皇 动能牌">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x08"/>
+        </option>
+        <option desc="剑齿虎 狂暴爪">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x0A"/>
+        </option>
+        <option desc="红坦克 地震拳">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x0C"/>
+        </option>
+        <option desc="万磁王 超引力">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x0E"/>
+        </option>
+        <option desc="隆 波动拳">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x12"/>
+        </option>
+        <option desc="肯 升龙拳">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x14"/>
+        </option>
+        <option desc="春丽 气功拳">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x16"/>
+        </option>
+        <option desc="达尔西姆 瑜伽烈焰">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x18"/>
+        </option>
+        <option desc="桑吉尔夫 螺旋打桩机">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x1A"/>
+        </option>
+        <option desc="拜森(日版维加) 精神力弹">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x1C"/>
+        </option>
+        <option desc="豪鬼 斩空波动拳&瞬狱杀">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x1E"/>
+        </option>
+        <option desc="纳什 音速手刀">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x20"/>
+        </option>
+        <option desc="嘉米 螺旋箭">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x22"/>
+        </option>
+        <option desc="少年街霸服装春丽 气功拳">
+            <parameter cpu="0" address="0xFF4742" value="0x00"/>
+            <parameter cpu="0" address="0xFF4743" value="0x24"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择区域" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF5479" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF5479" value="0x02"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF5479" value="0x04"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF5479" value="0x06"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF5479" value="0x08"/>
+        </option>
+        <option desc="巴西">
+            <parameter cpu="0" address="0xFF5479" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

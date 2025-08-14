@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4BDD" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4808" value="0x99"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4808" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 选阿瓦隆时必须有一方是万磁王才能开战 ]"/>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="蛮荒之地">
+            <parameter cpu="0" address="0xFF488F" value="0x00"/>
+        </option>
+        <option desc="月圆之夜">
+            <parameter cpu="0" address="0xFF488F" value="0x01"/>
+        </option>
+        <option desc="变种人狩猎">
+            <parameter cpu="0" address="0xFF488F" value="0x02"/>
+        </option>
+        <option desc="危境室">
+            <parameter cpu="0" address="0xFF488F" value="0x03"/>
+        </option>
+        <option desc="在黑鸟战机上">
+            <parameter cpu="0" address="0xFF488F" value="0x04"/>
+        </option> 
+        <option desc="海滩上的冰">
+            <parameter cpu="0" address="0xFF488F" value="0x05"/>
+        </option>
+		<option desc="莫乔世界">
+            <parameter cpu="0" address="0xFF488F" value="0x06"/>
+        </option>
+        <option desc="武士神社">
+            <parameter cpu="0" address="0xFF488F" value="0x07"/>
+        </option> 
+        <option desc="深海">
+            <parameter cpu="0" address="0xFF488F" value="0x08"/>
+        </option>
+        <option desc="吉诺沙">
+            <parameter cpu="0" address="0xFF488F" value="0x09"/>
+        </option>
+        <option desc="太空港">
+            <parameter cpu="0" address="0xFF488F" value="0x0A"/>
+        </option>
+        <option desc="阿瓦隆">
+            <parameter cpu="0" address="0xFF488F" value="0x0B"/>
+        </option>              
+    </cheat>
+    <cheat desc="[ 不含手动模式和未接关 ]"/>
+    <cheat desc="达成豪鬼乱入条件" default="0">
+        <option desc="关闭"/>
+        <option desc="1P">
+            <parameter cpu="0" address="0xFF41D8" value="0x0A"/>
+            <parameter cpu="0" address="0xFF41D9" value="0x06"/>
+            <parameter cpu="0" address="0xFF41DA" value="0x0A"/>
+            <parameter cpu="0" address="0xFF41DB" value="0x0A"/>
+            <parameter cpu="0" address="0xFF45D8" value="0x00"/>
+            <parameter cpu="0" address="0xFF45D9" value="0x00"/>
+            <parameter cpu="0" address="0xFF45DA" value="0x00"/>
+            <parameter cpu="0" address="0xFF45DB" value="0x0A"/>
+            <parameter cpu="0" address="0xFF41AE" value="0x63"/>
+        </option>
+        <option desc="2P">
+            <parameter cpu="0" address="0xFF41D8" value="0x00"/>
+            <parameter cpu="0" address="0xFF41D9" value="0x00"/>
+            <parameter cpu="0" address="0xFF41DA" value="0x00"/>
+            <parameter cpu="0" address="0xFF41DB" value="0x0A"/>
+            <parameter cpu="0" address="0xFF45D8" value="0x0A"/>
+            <parameter cpu="0" address="0xFF45D9" value="0x06"/>
+            <parameter cpu="0" address="0xFF45DA" value="0x0A"/>
+            <parameter cpu="0" address="0xFF45DB" value="0x0A"/>
+            <parameter cpu="0" address="0xFF45AE" value="0x63"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+	<cheat desc="选择游戏角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="金刚狼">
+			<parameter cpu="0" address="0xFF4051" value="0x00"/>
+		</option>
+		<option desc="灵蝶">
+			<parameter cpu="0" address="0xFF4051" value="0x02"/>
+		</option>
+		<option desc="钢力士">
+			<parameter cpu="0" address="0xFF4051" value="0x04"/>
+		</option>
+		<option desc="镭射眼">
+			<parameter cpu="0" address="0xFF4051" value="0x06"/>
+		</option>
+		<option desc="暴风女">
+			<parameter cpu="0" address="0xFF4051" value="0x08"/>
+		</option>
+		<option desc="冰人">
+			<parameter cpu="0" address="0xFF4051" value="0x0A"/>
+		</option>
+		<option desc="螺旋女">
+			<parameter cpu="0" address="0xFF4051" value="0x0C"/>
+		</option>
+		<option desc="银武士">
+			<parameter cpu="0" address="0xFF4051" value="0x0E"/>
+		</option>
+		<option desc="红色欧米伽">
+			<parameter cpu="0" address="0xFF4051" value="0x10"/>
+		</option>
+		<option desc="哨兵机器人">
+			<parameter cpu="0" address="0xFF4051" value="0x12"/>
+		</option>
+		<option desc="#红坦克">
+			<parameter cpu="0" address="0xFF4051" value="0x14"/>
+		</option>
+		<option desc="#万磁王">
+			<parameter cpu="0" address="0xFF4051" value="0x16"/>
+		</option>
+		<option desc="#豪鬼">
+			<parameter cpu="0" address="0xFF4051" value="0x18"/>
+		</option>
+	</cheat>
+	<cheat desc="由谁控制 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="玩家">
+            <parameter cpu="0" address="0xFF4003" value="0x01"/>
+        </option>
+        <option desc="电脑">
+            <parameter cpu="0" address="0xFF4003" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4191" value="0x8F"/>
+        </option>
+        <option desc="直接被KO">
+            <parameter cpu="0" address="0xFF4191" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4195" value="0x8E"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4195" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会昏晕 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF40FD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF403F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 仅万磁王&风暴女&哨兵机器人有效 ]"/>
+    <cheat desc="飞行时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF40DA" value="0x03"/>
+            <parameter cpu="0" address="0xFF40DB" value="0x85"/>
+        </option>
+        <option desc="结束">
+            <parameter cpu="0" address="0xFF40DA" value="0x00"/>
+            <parameter cpu="0" address="0xFF40DB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限二段跳 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="镭射眼">
+            <parameter cpu="0" address="0xFF4306" value="0x00"/>
+        </option>
+        <option desc="灵蝶">
+            <parameter cpu="0" address="0xFF4316" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="钢力士总是有超级装甲 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0xFF4321" value="0x08"/>
+            <parameter cpu="0" address="0xFF4322" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="哨兵机器人等离子风暴等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1">
+            <parameter cpu="0" address="0xFF4308" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0xFF4308" value="0x01"/>
+        </option>
+        <option desc="等级3">
+            <parameter cpu="0" address="0xFF4308" value="0x02"/>
+        </option>
+        <option desc="最大">
+            <parameter cpu="0" address="0xFF4308" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="哨兵机器人等离子风暴不会停 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF400B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="银武士分身时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4304" value="0x02"/>
+            <parameter cpu="0" address="0xFF4305" value="0x55"/>
+        </option>
+        <option desc="结束">
+            <parameter cpu="0" address="0xFF4304" value="0xFF"/>
+            <parameter cpu="0" address="0xFF4305" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="银武士斗气属性 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="雷">
+            <parameter cpu="0" address="0xFF430B" value="0x01"/>
+        </option>
+        <option desc="冰">
+            <parameter cpu="0" address="0xFF430B" value="0x02"/>
+        </option>
+        <option desc="炎">
+            <parameter cpu="0" address="0xFF430B" value="0x03"/>
+        </option>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF430B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="螺旋女总是有力量之舞效果 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4108" value="0x0A"/>
+            <parameter cpu="0" address="0xFF4109" value="0x06"/>
+            <parameter cpu="0" address="0xFF4305" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="螺旋女总是有速度之舞效果 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF40D8" value="0x01"/>
+            <parameter cpu="0" address="0xFF431B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="螺旋女总是有无形之舞效果 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4046" value="0x00"/>
+            <parameter cpu="0" address="0xFF4301" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="螺旋女总是有变形效果 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4309" value="0x01"/>
+            <parameter cpu="0" address="0xFF430B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="金刚狼狂战士冲击时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4300" value="0x02"/>
+            <parameter cpu="0" address="0xFF4301" value="0x57"/>
+        </option>
+        <option desc="结束">
+            <parameter cpu="0" address="0xFF4300" value="0x00"/>
+            <parameter cpu="0" address="0xFF4301" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+	<cheat desc="选择游戏角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="金刚狼">
+			<parameter cpu="0" address="0xFF4451" value="0x00"/>
+		</option>
+		<option desc="灵蝶">
+			<parameter cpu="0" address="0xFF4451" value="0x02"/>
+		</option>
+		<option desc="钢力士">
+			<parameter cpu="0" address="0xFF4451" value="0x04"/>
+		</option>
+		<option desc="镭射眼">
+			<parameter cpu="0" address="0xFF4451" value="0x06"/>
+		</option>
+		<option desc="暴风女">
+			<parameter cpu="0" address="0xFF4451" value="0x08"/>
+		</option>
+		<option desc="冰人">
+			<parameter cpu="0" address="0xFF4451" value="0x0A"/>
+		</option>
+		<option desc="螺旋女">
+			<parameter cpu="0" address="0xFF4451" value="0x0C"/>
+		</option>
+		<option desc="银武士">
+			<parameter cpu="0" address="0xFF4451" value="0x0E"/>
+		</option>
+		<option desc="红色欧米伽">
+			<parameter cpu="0" address="0xFF4451" value="0x10"/>
+		</option>
+		<option desc="哨兵机器人">
+			<parameter cpu="0" address="0xFF4451" value="0x12"/>
+		</option>
+		<option desc="#红坦克">
+			<parameter cpu="0" address="0xFF4451" value="0x14"/>
+		</option>
+		<option desc="#万磁王">
+			<parameter cpu="0" address="0xFF4451" value="0x16"/>
+		</option>
+		<option desc="#豪鬼">
+			<parameter cpu="0" address="0xFF4451" value="0x18"/>
+		</option>
+	</cheat>
+	<cheat desc="由谁控制 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="玩家">
+            <parameter cpu="0" address="0xFF4403" value="0x01"/>
+        </option>
+        <option desc="电脑">
+            <parameter cpu="0" address="0xFF4403" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4591" value="0x8F"/>
+        </option>
+        <option desc="直接被KO">
+            <parameter cpu="0" address="0xFF4591" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4595" value="0x8E"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4595" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会昏晕 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF44FD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF443F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 仅万磁王&风暴女&哨兵机器人有效 ]"/>
+    <cheat desc="飞行时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF44DA" value="0x03"/>
+            <parameter cpu="0" address="0xFF44DB" value="0x85"/>
+        </option>
+        <option desc="结束">
+            <parameter cpu="0" address="0xFF44DA" value="0x00"/>
+            <parameter cpu="0" address="0xFF44DB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限二段跳 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="镭射眼">
+            <parameter cpu="0" address="0xFF4706" value="0x00"/>
+        </option>
+        <option desc="灵蝶">
+            <parameter cpu="0" address="0xFF4716" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="钢力士总是有超级装甲 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="有">
+			<parameter cpu="0" address="0xFF4721" value="0x08"/>
+            <parameter cpu="0" address="0xFF4722" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="哨兵机器人等离子风暴等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1">
+            <parameter cpu="0" address="0xFF4708" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0xFF4708" value="0x01"/>
+        </option>
+        <option desc="等级3">
+            <parameter cpu="0" address="0xFF4708" value="0x02"/>
+        </option>
+        <option desc="最大">
+            <parameter cpu="0" address="0xFF4708" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="哨兵机器人等离子风暴不会停 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF440B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="银武士分身时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4704" value="0x02"/>
+            <parameter cpu="0" address="0xFF4705" value="0x55"/>
+        </option>
+        <option desc="结束">
+            <parameter cpu="0" address="0xFF4704" value="0xFF"/>
+            <parameter cpu="0" address="0xFF4705" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="银武士斗气属性 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="雷">
+            <parameter cpu="0" address="0xFF470B" value="0x01"/>
+        </option>
+        <option desc="冰">
+            <parameter cpu="0" address="0xFF470B" value="0x02"/>
+        </option>
+        <option desc="炎">
+            <parameter cpu="0" address="0xFF470B" value="0x03"/>
+        </option>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF470B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="螺旋女总是有力量之舞效果 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4508" value="0x0A"/>
+            <parameter cpu="0" address="0xFF4509" value="0x06"/>
+            <parameter cpu="0" address="0xFF4705" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="螺旋女总是有速度之舞效果 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF44D8" value="0x01"/>
+            <parameter cpu="0" address="0xFF471B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="螺旋女总是有无形之舞效果 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4446" value="0x00"/>
+            <parameter cpu="0" address="0xFF4701" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="螺旋女总是有变形效果 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4709" value="0x01"/>
+            <parameter cpu="0" address="0xFF470B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="金刚狼狂战士冲击时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4700" value="0x02"/>
+            <parameter cpu="0" address="0xFF4701" value="0x57"/>
+        </option>
+        <option desc="结束">
+            <parameter cpu="0" address="0xFF4700" value="0x00"/>
+            <parameter cpu="0" address="0xFF4701" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择区域" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF4BF7" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF4BF7" value="0x02"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF4BF7" value="0x04"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF4BF7" value="0x06"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF4BF7" value="0x08"/>
+        </option>
+        <option desc="巴西">
+            <parameter cpu="0" address="0xFF4BF7" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>
