@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x28E73F" value="0x63"/>
+            <parameter cpu="0" address="0x28E743" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限战斗时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x28DED6" value="0x03"/>
+            <parameter cpu="0" address="0x28DED7" value="0xE7"/>
+            <parameter cpu="0" address="0x28DEDB" value="0x3B"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x29ECEA" value="0x08"/>
+            <parameter cpu="0" address="0x29ECEB" value="0x00"/>
+            <parameter cpu="0" address="0x29EF86" value="0x08"/>
+            <parameter cpu="0" address="0x29EF87" value="0x00"/>
+            <parameter cpu="0" address="0x29EF8F" value="0x1F"/>
+            <parameter cpu="0" address="0x29EF92" value="0x90"/>
+            <parameter cpu="0" address="0x29EF93" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29ECF3" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29ED0E" value="0x03"/>
+            <parameter cpu="0" address="0x29ED0F" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="一蓄即满(法师不可) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29F4AB" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 死后或转场后生效，法师勿用 ]"/>  
+    <cheat desc="选择武器等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1级">
+            <parameter cpu="0" address="0x29ED13" value="0x00"/>
+        </option>
+        <option desc="2级">
+            <parameter cpu="0" address="0x29ED13" value="0x01"/>
+        </option>
+        <option desc="3级">
+            <parameter cpu="0" address="0x29ED13" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="特殊魔法等级1">
+            <parameter cpu="0" address="0x29F55F" value="0x09"/>
+            <parameter cpu="0" address="0x29F563" value="0x09"/>
+            <parameter cpu="0" address="0x29F567" value="0x09"/>
+            <parameter cpu="0" address="0x29F56B" value="0x01"/>
+            <parameter cpu="0" address="0x29F56F" value="0x01"/>
+            <parameter cpu="0" address="0x29F573" value="0x01"/>
+            <parameter cpu="0" address="0x29F577" value="0x01"/>
+            <parameter cpu="0" address="0x29F57B" value="0x01"/>
+        </option>
+        <option desc="特殊魔法等级2">
+            <parameter cpu="0" address="0x29F55F" value="0x09"/>
+            <parameter cpu="0" address="0x29F563" value="0x09"/>
+            <parameter cpu="0" address="0x29F567" value="0x09"/>
+            <parameter cpu="0" address="0x29F56B" value="0x02"/>
+            <parameter cpu="0" address="0x29F56F" value="0x02"/>
+            <parameter cpu="0" address="0x29F573" value="0x02"/>
+            <parameter cpu="0" address="0x29F577" value="0x02"/>
+            <parameter cpu="0" address="0x29F57B" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择通用魔法 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="火球">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x00"/>
+        </option>
+        <option desc="旋风">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x01"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x02"/>
+        </option>
+        <option desc="回旋斧">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x30"/>
+        </option>
+        <option desc="跳舞机">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x31"/>
+        </option>
+        <option desc="蛮牛冲锋">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x32"/>
+        </option>
+        <option desc="圆木攻击">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x33"/>
+        </option>        
+    </cheat>
+    <cheat desc="选择勇士专用魔法 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="焰石召唤">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x10"/>
+        </option>
+        <option desc="焚天烈焰">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x11"/>
+        </option>
+        <option desc="恢复术">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="选择战士专用魔法 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="魔法箭雨">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 变形术使用后会使杂兵无敌 ]"/>  
+    <cheat desc="选择刺客专用魔法 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="霹雳弹">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x10"/>
+        </option>
+        <option desc="变形术(有问题)">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x11"/>
+        </option>
+        <option desc="强化术">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="选择法师专用魔法 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="能量球">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x10"/>
+        </option>
+        <option desc="巨人之手">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x11"/>
+        </option>
+        <option desc="分身术">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x12"/>
+        </option>
+        <option desc="困身术">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x13"/>
+        </option>
+        <option desc="冰风暴">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x14"/>
+        </option>
+        <option desc="流星雨">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x15"/>
+        </option>
+        <option desc="金龙擎天">
+            <parameter cpu="0" address="0x29F4F7" value="0x06"/>
+            <parameter cpu="0" address="0x29F59F" value="0x16"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29F7FE" value="0x08"/>
+            <parameter cpu="0" address="0x29F7FF" value="0x00"/>
+            <parameter cpu="0" address="0x29FA9A" value="0x08"/>
+            <parameter cpu="0" address="0x29FA9B" value="0x00"/>
+            <parameter cpu="0" address="0x29FAA3" value="0x1F"/>
+            <parameter cpu="0" address="0x29FAA6" value="0x90"/>
+            <parameter cpu="0" address="0x29FAA7" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29F807" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29F822" value="0x03"/>
+            <parameter cpu="0" address="0x29F823" value="0xE7"/>
+        </option>
+    </cheat>   
+    <cheat desc="一蓄即满(法师不可) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29FFBF" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 死后或转场后生效，法师勿用 ]"/> 
+    <cheat desc="选择武器等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1级">
+            <parameter cpu="0" address="0x29F827" value="0x00"/>
+        </option>
+        <option desc="2级">
+            <parameter cpu="0" address="0x29F827" value="0x01"/>
+        </option>
+        <option desc="3级">
+            <parameter cpu="0" address="0x29F827" value="0x02"/>
+        </option>
+    </cheat>    
+    <cheat desc="无限魔法 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="特殊魔法等级1">
+            <parameter cpu="0" address="0x2A0073" value="0x09"/>
+            <parameter cpu="0" address="0x2A0077" value="0x09"/>
+            <parameter cpu="0" address="0x2A007B" value="0x09"/>
+            <parameter cpu="0" address="0x2A007F" value="0x01"/>
+            <parameter cpu="0" address="0x2A0083" value="0x01"/>
+            <parameter cpu="0" address="0x2A0087" value="0x01"/>
+            <parameter cpu="0" address="0x2A008B" value="0x01"/>
+            <parameter cpu="0" address="0x2A008F" value="0x01"/>
+        </option>
+        <option desc="特殊魔法等级2">
+            <parameter cpu="0" address="0x2A0073" value="0x09"/>
+            <parameter cpu="0" address="0x2A0077" value="0x09"/>
+            <parameter cpu="0" address="0x2A007B" value="0x09"/>
+            <parameter cpu="0" address="0x2A007F" value="0x02"/>
+            <parameter cpu="0" address="0x2A0083" value="0x02"/>
+            <parameter cpu="0" address="0x2A0087" value="0x02"/>
+            <parameter cpu="0" address="0x2A008B" value="0x02"/>
+            <parameter cpu="0" address="0x2A008F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择通用魔法 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="火球">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x00"/>
+        </option>
+        <option desc="旋风">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x01"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x02"/>
+        </option>
+        <option desc="回旋斧">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x30"/>
+        </option>
+        <option desc="跳舞机">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x31"/>
+        </option>
+        <option desc="蛮牛冲锋">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x32"/>
+        </option>
+        <option desc="圆木攻击">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x33"/>
+        </option>
+    </cheat>
+    <cheat desc="选择勇士专用魔法 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="焰石召唤">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x10"/>
+        </option>
+        <option desc="焚天烈焰">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x11"/>
+        </option>
+        <option desc="恢复术">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="选择战士专用魔法 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="魔法箭雨">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 变形术使用后会使杂兵无敌 ]"/> 
+    <cheat desc="选择刺客专用魔法 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="霹雳弹">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x10"/>
+        </option>
+        <option desc="变形术(有问题)">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x11"/>
+        </option>
+        <option desc="强化术">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="选择法师专用魔法 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="能量球">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x10"/>
+        </option>
+        <option desc="巨人之手">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x11"/>
+        </option>
+        <option desc="分身术">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x12"/>
+        </option>
+        <option desc="困身术">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x13"/>
+        </option>
+        <option desc="冰风暴">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x14"/>
+        </option>
+        <option desc="流星雨">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x15"/>
+        </option>
+        <option desc="金龙擎天">
+            <parameter cpu="0" address="0x2A000B" value="0x06"/>
+            <parameter cpu="0" address="0x2A00B3" value="0x16"/>
+        </option>
+    </cheat>
+</shufflecheat>

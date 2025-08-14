@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x40000A" value="0x99"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x40000A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限角色选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x400006" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="最大总分" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x402C52" value="0x3B"/>
+            <parameter cpu="0" address="0x402C53" value="0x9A"/>
+            <parameter cpu="0" address="0x402C54" value="0xC9"/>
+            <parameter cpu="0" address="0x402C55" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x40364D" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x40364D" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x40364D" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x40364D" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x40364D" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x40364D" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x40364D" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x40364D" value="0x08"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x40390F" value="0xEF"/>
+            <parameter cpu="0" address="0x403911" value="0xEF"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x40390F" value="0x00"/>
+            <parameter cpu="0" address="0x403911" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="YASHAOU">
+            <parameter cpu="0" address="0x403913" value="0x51"/>
+        </option>
+        <option desc="LIGHTNING,ALICE">
+            <parameter cpu="0" address="0x403913" value="0x43"/>
+        </option>
+        <option desc="ROSE,GOAT,FOOTEE,TAROS,两个BOSS">
+            <parameter cpu="0" address="0x403913" value="0x36"/>
+        </option>
+        <option desc="ZAM-B">
+            <parameter cpu="0" address="0x403913" value="0x27"/>
+        </option>
+    </cheat>
+    <cheat desc="最小能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x403913" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x404489" value="0x01"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0x404489" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择BOSS PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="CURFUE">
+            <parameter cpu="0" address="0x403DD1" value="0x08"/>
+        </option>
+        <option desc="S.GEIST">
+            <parameter cpu="0" address="0x403DD1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 武器状态修改仅限YASHAOU ]"/>
+    <cheat desc="[ LIGHTNING,GOAT,ZAM-B ]"/>
+    <cheat desc="[ 其他角色使用会死机 ]"/>
+    <cheat desc="武器状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="有武器">
+            <parameter cpu="0" address="0x4037FD" value="0x00"/>
+        </option>
+        <option desc="没武器">
+            <parameter cpu="0" address="0x4037FD" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="99连击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是">
+            <parameter cpu="0" address="0x4041E7" value="0x62"/>
+        </option>
+        <option desc="没有连击计数">
+            <parameter cpu="0" address="0x4041E7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="99连击战胜结算分 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x406431" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="对战99连胜 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4041E4" value="0x99"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x4046C3" value="0xEF"/>
+            <parameter cpu="0" address="0x4046C5" value="0xEF"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x4046C3" value="0x00"/>
+            <parameter cpu="0" address="0x4046C5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="YASHAOU">
+            <parameter cpu="0" address="0x4046C7" value="0x51"/>
+        </option>
+        <option desc="LIGHTNING,ALICE">
+            <parameter cpu="0" address="0x4046C7" value="0x43"/>
+        </option>
+        <option desc="ROSE,GOAT,FOOTEE,TAROS,两个BOSS">
+            <parameter cpu="0" address="0x4046C7" value="0x36"/>
+        </option>
+        <option desc="ZAM-B">
+            <parameter cpu="0" address="0x4046C7" value="0x27"/>
+        </option>
+    </cheat>
+    <cheat desc="最小能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4046C7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40523D" value="0x01"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0x40523D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择BOSS PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="CURFUE">
+            <parameter cpu="0" address="0x404B85" value="0x08"/>
+        </option>
+        <option desc="S.GEIST">
+            <parameter cpu="0" address="0x404B85" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 武器状态修改仅限YASHAOU ]"/>
+    <cheat desc="[ LIGHTNING,GOAT,ZAM-B ]"/>
+    <cheat desc="[ 其他角色使用会死机 ]"/>
+    <cheat desc="武器状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="有武器">
+            <parameter cpu="0" address="0x4045B1" value="0x00"/>
+        </option>
+        <option desc="没武器">
+            <parameter cpu="0" address="0x4045B1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="99连击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是">
+            <parameter cpu="0" address="0x40470B" value="0x62"/>
+        </option>
+        <option desc="没有连击计数">
+            <parameter cpu="0" address="0x40470B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="99连击战胜结算分 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x406433" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="对战99连胜 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x404F98" value="0x99"/>
+        </option>
+    </cheat>
+</shufflecheat>
