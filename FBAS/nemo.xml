@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8524" value="0x59"/>
+            <parameter cpu="0" address="0xFF8525" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF8515" value="0x00"/>
+            <parameter cpu="0" address="0xFF8DAE" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF8515" value="0x02"/>
+            <parameter cpu="0" address="0xFF8DAE" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF8515" value="0x03"/>
+            <parameter cpu="0" address="0xFF8DAE" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF8515" value="0x05"/>
+            <parameter cpu="0" address="0xFF8DAE" value="0x02"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF8515" value="0x06"/>
+            <parameter cpu="0" address="0xFF8DAE" value="0x02"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF8515" value="0x07"/>
+            <parameter cpu="0" address="0xFF8DAE" value="0x02"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF8515" value="0x08"/>
+            <parameter cpu="0" address="0xFF8DAE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8398" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF838F" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF838C" value="0x01"/>
+            <parameter cpu="0" address="0xFF838D" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="火力升级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="等级 1">
+            <parameter cpu="0" address="0xFF83B0" value="0x00"/>
+        </option>
+        <option desc="等级 2">
+            <parameter cpu="0" address="0xFF83B0" value="0x01"/>
+        </option>
+        <option desc="等级 3">
+            <parameter cpu="0" address="0xFF83B0" value="0x02"/>
+        </option>
+        <option desc="等级 4">
+            <parameter cpu="0" address="0xFF83B0" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="踩死敌人必加9000分并掉落物品 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8332" value="0x20"/>
+            <parameter cpu="0" address="0xFF833F" value="0x33"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8498" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF848F" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF848C" value="0x01"/>
+            <parameter cpu="0" address="0xFF848D" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="火力升级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="等级 1">
+            <parameter cpu="0" address="0xFF84B0" value="0x00"/>
+        </option>
+        <option desc="等级 2">
+            <parameter cpu="0" address="0xFF84B0" value="0x01"/>
+        </option>
+        <option desc="等级 3">
+            <parameter cpu="0" address="0xFF84B0" value="0x02"/>
+        </option>
+        <option desc="等级 4">
+            <parameter cpu="0" address="0xFF84B0" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="踩死敌人必加9000分并掉落物品 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8432" value="0x20"/>
+            <parameter cpu="0" address="0xFF843F" value="0x33"/>
+        </option>
+    </cheat>
+</shufflecheat>

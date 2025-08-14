@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="第1关">
+            <parameter cpu="0" address="0x10B005" value="0x00"/>
+        </option>
+        <option desc="原始時代">
+            <parameter cpu="0" address="0x10B005" value="0x01"/>
+        </option>
+        <option desc="埃及時代">
+            <parameter cpu="0" address="0x10B005" value="0x02"/>
+        </option>
+        <option desc="三国時代">
+            <parameter cpu="0" address="0x10B005" value="0x03"/>
+        </option>
+        <option desc="日本战国時代">
+            <parameter cpu="0" address="0x10B005" value="0x04"/>
+        </option>
+        <option desc="第2次世界大战">
+            <parameter cpu="0" address="0x10B005" value="0x05"/>
+        </option>
+        <option desc="最终关">
+            <parameter cpu="0" address="0x10B005" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="C键不扣血" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01EE24" value="0x4E"/>
+            <parameter cpu="0" address="0x01EE25" value="0x71"/>
+            <parameter cpu="0" address="0x01EE26" value="0x4E"/>
+            <parameter cpu="0" address="0x01EE27" value="0x71"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x01EE24" value="0xD1"/>
+            <parameter cpu="0" address="0x01EE25" value="0x6C"/>
+            <parameter cpu="0" address="0x01EE26" value="0x60"/>
+            <parameter cpu="0" address="0x01EE27" value="0x30"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x106028" value="0x07"/>
+            <parameter cpu="0" address="0x106029" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106030" value="0x02"/>
+            <parameter cpu="0" address="0x106031" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000C0" value="0x35"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变身 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10603D" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是喷火 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10601E" value="0x02"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x106128" value="0x07"/>
+            <parameter cpu="0" address="0x106129" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106130" value="0x02"/>
+            <parameter cpu="0" address="0x106131" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001C0" value="0x35"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变身 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10613D" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是喷火 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10611E" value="0x02"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="[ 开打前勿开，结算时须关闭 ]"/>
+    <cheat desc="无限对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10022E" value="0x09"/>
+            <parameter cpu="0" address="0x10022F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选人时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108D42" value="0x09"/>
+            <parameter cpu="0" address="0x108D43" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="超神拳技无限制" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01708B" value="0x01"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x01708B" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择隐藏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="贝希摩斯">
+            <parameter cpu="0" address="0x108D4C" value="0x08"/>
+        </option>
+        <option desc="伊莉丝">
+            <parameter cpu="0" address="0x108D4C" value="0x09"/>
+        </option>
+        <option desc="路西法">
+            <parameter cpu="0" address="0x108D4C" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 投技除外 ]"/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01CD01" value="0x32"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x01CD01" value="0x34"/>
+        </option>
+    </cheat>
+    <cheat desc="天变地异能力一蓄即满 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10909F" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能力属性 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="火">
+            <parameter cpu="0" address="0x1090A9" value="0x00"/>
+            <parameter cpu="0" address="0x1090AA" value="0x00"/>
+            <parameter cpu="0" address="0x1090AB" value="0x00"/>
+        </option>
+        <option desc="水">
+            <parameter cpu="0" address="0x1090A9" value="0x01"/>
+            <parameter cpu="0" address="0x1090AA" value="0x01"/>
+            <parameter cpu="0" address="0x1090AB" value="0x01"/>
+        </option>
+        <option desc="风">
+            <parameter cpu="0" address="0x1090A9" value="0x02"/>
+            <parameter cpu="0" address="0x1090AA" value="0x02"/>
+            <parameter cpu="0" address="0x1090AB" value="0x02"/>
+        </option>
+        <option desc="雷">
+            <parameter cpu="0" address="0x1090A9" value="0x03"/>
+            <parameter cpu="0" address="0x1090AA" value="0x03"/>
+            <parameter cpu="0" address="0x1090AB" value="0x03"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择隐藏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="贝希摩斯">
+            <parameter cpu="0" address="0x108D4D" value="0x08"/>
+        </option>
+        <option desc="伊莉丝">
+            <parameter cpu="0" address="0x108D4D" value="0x09"/>
+        </option>
+        <option desc="路西法">
+            <parameter cpu="0" address="0x108D4D" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 投技除外 ]"/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01CD1D" value="0x32"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x01CD1D" value="0x34"/>
+        </option>
+    </cheat>
+    <cheat desc="天变地异能力一蓄即满 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109377" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能力属性 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="火">
+            <parameter cpu="0" address="0x109381" value="0x00"/>
+            <parameter cpu="0" address="0x109382" value="0x00"/>
+            <parameter cpu="0" address="0x109383" value="0x00"/>
+        </option>
+        <option desc="水">
+            <parameter cpu="0" address="0x109381" value="0x01"/>
+            <parameter cpu="0" address="0x109382" value="0x01"/>
+            <parameter cpu="0" address="0x109383" value="0x01"/>
+        </option>
+        <option desc="风">
+            <parameter cpu="0" address="0x109381" value="0x02"/>
+            <parameter cpu="0" address="0x109382" value="0x02"/>
+            <parameter cpu="0" address="0x109383" value="0x02"/>
+        </option>
+        <option desc="雷">
+            <parameter cpu="0" address="0x109381" value="0x03"/>
+            <parameter cpu="0" address="0x109382" value="0x03"/>
+            <parameter cpu="0" address="0x109383" value="0x03"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

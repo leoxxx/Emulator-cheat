@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="无限投币(AES)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x100004" value="0x99"/>
+			<parameter cpu="0" address="0x100005" value="0x99"/>
+		</option>
+	</cheat>
+    <cheat desc="选择对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x106B11" value="0x63"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x106B11" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限角色选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106BDE" value="0x09"/>
+            <parameter cpu="0" address="0x106BDF" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x106909" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x106909" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x106909" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x106909" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x106909" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x106909" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x106909" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x106909" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x106909" value="0x08"/>
+        </option>
+    </cheat>
+	<cheat desc="选择背景" default="0">
+		<option desc="关闭"/>
+		<option desc="桑娅/吉米">
+			<parameter cpu="0" address="0x106B97" value="0x00"/>
+		</option>
+		<option desc="佩佩/普帕">
+			<parameter cpu="0" address="0x106B97" value="0x01"/>
+		</option>
+		<option desc="卡桑德拉/奥尼">
+			<parameter cpu="0" address="0x106B97" value="0x02"/>
+		</option>
+		<option desc="比利/琳">
+			<parameter cpu="0" address="0x106B97" value="0x03"/>
+		</option>
+		<option desc="爱丽丝/埃里阿斯">
+			<parameter cpu="0" address="0x106B97" value="0x04"/>
+		</option>
+		<option desc="拉度尔/安妮">
+			<parameter cpu="0" address="0x106B97" value="0x05"/>
+		</option>
+		<option desc="阿布波">
+			<parameter cpu="0" address="0x106B97" value="0x06"/>
+		</option>
+		<option desc="琼斯/金刚">
+			<parameter cpu="0" address="0x106B97" value="0x07"/>
+		</option>
+		<option desc="约翰">
+			<parameter cpu="0" address="0x106B97" value="0x08"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="选择第一个角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="比利">
+			<parameter cpu="0" address="0x106BE3" value="0x00"/>
+		</option>
+		<option desc="琳">
+			<parameter cpu="0" address="0x106BE3" value="0x01"/>
+		</option>
+		<option desc="拉度尔">
+			<parameter cpu="0" address="0x106BE3" value="0x02"/>
+		</option>
+		<option desc="安妮">
+			<parameter cpu="0" address="0x106BE3" value="0x03"/>
+		</option>
+		<option desc="卡桑德拉">
+			<parameter cpu="0" address="0x106BE3" value="0x04"/>
+		</option>
+		<option desc="奥尼">
+			<parameter cpu="0" address="0x106BE3" value="0x05"/>
+		</option>
+		<option desc="佩佩">
+			<parameter cpu="0" address="0x106BE3" value="0x06"/>
+		</option>
+		<option desc="普帕">
+			<parameter cpu="0" address="0x106BE3" value="0x07"/>
+		</option>
+		<option desc="爱丽丝">
+			<parameter cpu="0" address="0x106BE3" value="0x08"/>
+		</option>
+		<option desc="埃里阿斯">
+			<parameter cpu="0" address="0x106BE3" value="0x09"/>
+		</option>
+		<option desc="琼斯">
+			<parameter cpu="0" address="0x106BE3" value="0x0A"/>
+		</option>
+		<option desc="金刚">
+			<parameter cpu="0" address="0x106BE3" value="0x0B"/>
+		</option>
+		<option desc="索尼娅">
+			<parameter cpu="0" address="0x106BE3" value="0x0C"/>
+		</option>
+		<option desc="吉米">
+			<parameter cpu="0" address="0x106BE3" value="0x0D"/>
+		</option>
+		<option desc="阿布波">
+			<parameter cpu="0" address="0x106BE3" value="0x0E"/>
+		</option>
+		<option desc="约翰">
+			<parameter cpu="0" address="0x106BE3" value="0x0F"/>
+		</option>
+	</cheat>
+    <cheat desc="选择第一角色颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="颜色 A">
+            <parameter cpu="0" address="0x106BE5" value="0x00"/>
+        </option>
+        <option desc="颜色 B">
+            <parameter cpu="0" address="0x106BE5" value="0x01"/>
+        </option>
+        <option desc="颜色 C">
+            <parameter cpu="0" address="0x106BE5" value="0x02"/>
+        </option>
+        <option desc="颜色 D">
+            <parameter cpu="0" address="0x106BE5" value="0x03"/>
+        </option>
+    </cheat>
+	<cheat desc="选择第二个角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="比利">
+			<parameter cpu="0" address="0x106BE7" value="0x00"/>
+		</option>
+		<option desc="琳">
+			<parameter cpu="0" address="0x106BE7" value="0x01"/>
+		</option>
+		<option desc="拉度尔">
+			<parameter cpu="0" address="0x106BE7" value="0x02"/>
+		</option>
+		<option desc="安妮">
+			<parameter cpu="0" address="0x106BE7" value="0x03"/>
+		</option>
+		<option desc="卡桑德拉">
+			<parameter cpu="0" address="0x106BE7" value="0x04"/>
+		</option>
+		<option desc="奥尼">
+			<parameter cpu="0" address="0x106BE7" value="0x05"/>
+		</option>
+		<option desc="佩佩">
+			<parameter cpu="0" address="0x106BE7" value="0x06"/>
+		</option>
+		<option desc="普帕">
+			<parameter cpu="0" address="0x106BE7" value="0x07"/>
+		</option>
+		<option desc="爱丽丝">
+			<parameter cpu="0" address="0x106BE7" value="0x08"/>
+		</option>
+		<option desc="埃里阿斯">
+			<parameter cpu="0" address="0x106BE7" value="0x09"/>
+		</option>
+		<option desc="琼斯">
+			<parameter cpu="0" address="0x106BE7" value="0x0A"/>
+		</option>
+		<option desc="金刚">
+			<parameter cpu="0" address="0x106BE7" value="0x0B"/>
+		</option>
+		<option desc="索尼娅">
+			<parameter cpu="0" address="0x106BE7" value="0x0C"/>
+		</option>
+		<option desc="吉米">
+			<parameter cpu="0" address="0x106BE7" value="0x0D"/>
+		</option>
+		<option desc="阿布波">
+			<parameter cpu="0" address="0x106BE7" value="0x0E"/>
+		</option>
+		<option desc="约翰">
+			<parameter cpu="0" address="0x106BE7" value="0x0F"/>
+		</option>
+	</cheat>
+    <cheat desc="选择第二角色颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="颜色 A">
+            <parameter cpu="0" address="0x106BE9" value="0x00"/>
+        </option>
+        <option desc="颜色 B">
+            <parameter cpu="0" address="0x106BE9" value="0x01"/>
+        </option>
+        <option desc="颜色 C">
+            <parameter cpu="0" address="0x106BE9" value="0x02"/>
+        </option>
+        <option desc="颜色 D">
+            <parameter cpu="0" address="0x106BE9" value="0x03"/>
+        </option>
+    </cheat>
+	<cheat desc="[ 体力耗尽生效后不关会卡住 ]"/>
+    <cheat desc="选择体力(出战) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x1024CF" value="0xB4"/>
+            <parameter cpu="0" address="0x1024D3" value="0xB4"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x1024CF" value="0x00"/>
+            <parameter cpu="0" address="0x1024D3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择体力(待机) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x1027BF" value="0xB4"/>
+            <parameter cpu="0" address="0x1027C3" value="0xB4"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x1027BF" value="0x00"/>
+            <parameter cpu="0" address="0x1027C3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+			<parameter cpu="0" address="0x1024E0" value="0x01"/>
+            <parameter cpu="0" address="0x1024E1" value="0x68"/>
+            <parameter cpu="0" address="0x1024E2" value="0x01"/>
+            <parameter cpu="0" address="0x1024E3" value="0x68"/>
+        </option>
+        <option desc="没有">
+            <parameter cpu="0" address="0x1024E2" value="0x00"/>
+            <parameter cpu="0" address="0x1024E3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 只剩一人时勿换人，会卡住 ]"/>
+    <cheat desc="换人状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="始终可以">
+            <parameter cpu="0" address="0x1024E5" value="0x28"/>
+        </option>
+        <option desc="始终不能">
+            <parameter cpu="0" address="0x1024E5" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+	<cheat desc="选择第一个角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="比利">
+			<parameter cpu="0" address="0x106BF1" value="0x00"/>
+		</option>
+		<option desc="琳">
+			<parameter cpu="0" address="0x106BF1" value="0x01"/>
+		</option>
+		<option desc="拉度尔">
+			<parameter cpu="0" address="0x106BF1" value="0x02"/>
+		</option>
+		<option desc="安妮">
+			<parameter cpu="0" address="0x106BF1" value="0x03"/>
+		</option>
+		<option desc="卡桑德拉">
+			<parameter cpu="0" address="0x106BF1" value="0x04"/>
+		</option>
+		<option desc="奥尼">
+			<parameter cpu="0" address="0x106BF1" value="0x05"/>
+		</option>
+		<option desc="佩佩">
+			<parameter cpu="0" address="0x106BF1" value="0x06"/>
+		</option>
+		<option desc="普帕">
+			<parameter cpu="0" address="0x106BF1" value="0x07"/>
+		</option>
+		<option desc="爱丽丝">
+			<parameter cpu="0" address="0x106BF1" value="0x08"/>
+		</option>
+		<option desc="埃里阿斯">
+			<parameter cpu="0" address="0x106BF1" value="0x09"/>
+		</option>
+		<option desc="琼斯">
+			<parameter cpu="0" address="0x106BF1" value="0x0A"/>
+		</option>
+		<option desc="金刚">
+			<parameter cpu="0" address="0x106BF1" value="0x0B"/>
+		</option>
+		<option desc="索尼娅">
+			<parameter cpu="0" address="0x106BF1" value="0x0C"/>
+		</option>
+		<option desc="吉米">
+			<parameter cpu="0" address="0x106BF1" value="0x0D"/>
+		</option>
+		<option desc="阿布波">
+			<parameter cpu="0" address="0x106BF1" value="0x0E"/>
+		</option>
+		<option desc="约翰">
+			<parameter cpu="0" address="0x106BF1" value="0x0F"/>
+		</option>
+	</cheat>
+	<cheat desc="选择第一个角色颜色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="颜色 A">
+			<parameter cpu="0" address="0x106BF3" value="0x00"/>
+		</option>
+		<option desc="颜色 B">
+			<parameter cpu="0" address="0x106BF3" value="0x01"/>
+		</option>
+		<option desc="颜色 C">
+			<parameter cpu="0" address="0x106BF3" value="0x02"/>
+		</option>
+		<option desc="颜色 D">
+			<parameter cpu="0" address="0x106BF3" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="选择第二个角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="比利">
+			<parameter cpu="0" address="0x106BF5" value="0x00"/>
+		</option>
+		<option desc="琳">
+			<parameter cpu="0" address="0x106BF5" value="0x01"/>
+		</option>
+		<option desc="拉度尔">
+			<parameter cpu="0" address="0x106BF5" value="0x02"/>
+		</option>
+		<option desc="安妮">
+			<parameter cpu="0" address="0x106BF5" value="0x03"/>
+		</option>
+		<option desc="卡桑德拉">
+			<parameter cpu="0" address="0x106BF5" value="0x04"/>
+		</option>
+		<option desc="奥尼">
+			<parameter cpu="0" address="0x106BF5" value="0x05"/>
+		</option>
+		<option desc="佩佩">
+			<parameter cpu="0" address="0x106BF5" value="0x06"/>
+		</option>
+		<option desc="普帕">
+			<parameter cpu="0" address="0x106BF5" value="0x07"/>
+		</option>
+		<option desc="爱丽丝">
+			<parameter cpu="0" address="0x106BF5" value="0x08"/>
+		</option>
+		<option desc="埃里阿斯">
+			<parameter cpu="0" address="0x106BF5" value="0x09"/>
+		</option>
+		<option desc="琼斯">
+			<parameter cpu="0" address="0x106BF5" value="0x0A"/>
+		</option>
+		<option desc="金刚">
+			<parameter cpu="0" address="0x106BF5" value="0x0B"/>
+		</option>
+		<option desc="索尼娅">
+			<parameter cpu="0" address="0x106BF5" value="0x0C"/>
+		</option>
+		<option desc="吉米">
+			<parameter cpu="0" address="0x106BF5" value="0x0D"/>
+		</option>
+		<option desc="阿布波">
+			<parameter cpu="0" address="0x106BF5" value="0x0E"/>
+		</option>
+		<option desc="约翰">
+			<parameter cpu="0" address="0x106BF5" value="0x0F"/>
+		</option>
+	</cheat>
+    <cheat desc="选择第二角色颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="颜色 A">
+            <parameter cpu="0" address="0x106BF7" value="0x00"/>
+        </option>
+        <option desc="颜色 B">
+            <parameter cpu="0" address="0x106BF7" value="0x01"/>
+        </option>
+        <option desc="颜色 C">
+            <parameter cpu="0" address="0x106BF7" value="0x02"/>
+        </option>
+        <option desc="颜色 D">
+            <parameter cpu="0" address="0x106BF7" value="0x03"/>
+        </option>
+    </cheat>
+	<cheat desc="[ 体力耗尽生效后不关会卡住 ]"/>
+    <cheat desc="选择体力(出战) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x102357" value="0xB4"/>
+            <parameter cpu="0" address="0x10235B" value="0xB4"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x102357" value="0x00"/>
+            <parameter cpu="0" address="0x10235B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择体力(待机) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x102647" value="0xB4"/>
+            <parameter cpu="0" address="0x10264B" value="0xB4"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x102647" value="0x00"/>
+            <parameter cpu="0" address="0x10264B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+			<parameter cpu="0" address="0x102368" value="0x01"/>
+            <parameter cpu="0" address="0x102369" value="0x68"/>
+            <parameter cpu="0" address="0x10236A" value="0x01"/>
+            <parameter cpu="0" address="0x10236B" value="0x68"/>
+        </option>
+        <option desc="没有">
+            <parameter cpu="0" address="0x10236A" value="0x00"/>
+            <parameter cpu="0" address="0x10236B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 只剩一人时勿换人，会卡住 ]"/>
+    <cheat desc="换人状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="始终可以">
+            <parameter cpu="0" address="0x10236D" value="0x28"/>
+        </option>
+        <option desc="始终不能">
+            <parameter cpu="0" address="0x10236D" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无法破坏的障碍物" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103DC7" value="0x02"/>
+            <parameter cpu="0" address="0x103F3F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

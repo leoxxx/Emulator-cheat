@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C021" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 须在选人界面之前开启 ]"/>
+    <cheat desc="Boss可选" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C007" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="直接Boss战" default="0">
+        <option desc="关闭"/>
+        <option desc="兰丸">
+            <parameter cpu="0" address="0x10C017" value="0x0A"/>
+        </option>
+        <option desc="信长">
+            <parameter cpu="0" address="0x10C017" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 可发动真息吹，但无法维持状态 ]"/>
+    <cheat desc="能量槽始终MAX状态" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x005963" value="0xD0"/>
+            <parameter cpu="0" address="0x0059A7" value="0xD1"/>
+            <parameter cpu="0" address="0x006F57" value="0x00"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x005963" value="0x34"/>
+            <parameter cpu="0" address="0x0059A7" value="0x34"/>
+            <parameter cpu="0" address="0x006F57" value="0x60"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x100050" value="0xD0"/>
+        </option>
+        <option desc="红血闪烁">
+            <parameter cpu="0" address="0x100050" value="0x34"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x100050" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 会消退，消退时需关闭 ]"/>
+    <cheat desc="选择能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x1000AE" value="0x60"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x1000AE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="始终真息吹状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000AE" value="0x60"/>
+            <parameter cpu="0" address="0x1000AC" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是持有武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100088" value="0x03"/>
+        </option>
+    </cheat>
+	<cheat desc="使用BOSS角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="兰丸">
+			<parameter cpu="0" address="0x10C044" value="0x0A"/>
+		</option>
+		<option desc="信长">
+			<parameter cpu="0" address="0x10C044" value="0x0B"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x101050" value="0xD0"/>
+        </option>
+        <option desc="红血闪烁">
+            <parameter cpu="0" address="0x101050" value="0x34"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x101050" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 会消退，消退时需关闭 ]"/>
+    <cheat desc="选择能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x1010AE" value="0x60"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x1010AE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="始终真息吹状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1010AE" value="0x60"/>
+            <parameter cpu="0" address="0x1010AC" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是持有武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101088" value="0x03"/>
+        </option>
+    </cheat>
+	<cheat desc="使用BOSS角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="兰丸">
+			<parameter cpu="0" address="0x10C084" value="0x0A"/>
+		</option>
+		<option desc="信长">
+			<parameter cpu="0" address="0x10C084" value="0x0B"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>
