@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="金手指推荐用unibios自带的"/>
+    <cheat desc="模拟器-游戏-跳线设置-BIOS设置为unibios"/>
+    <cheat desc="游戏中同时按下ABC和开始键"/>
+    <cheat desc="菜单第一行CHEAT DATABASE就是金手指"/>
+    <cheat desc=" "/>
+    <cheat desc="选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x100A08" value="0x99"/>
+            <parameter cpu="0" address="0x100A09" value="0x99"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x100A08" value="0x00"/>
+            <parameter cpu="0" address="0x100A09" value="0x00"/>
+        </option>
+        <option desc="电脑停止不动">
+            <parameter cpu="0" address="0x100A08" value="0x00"/>
+            <parameter cpu="0" address="0x100A09" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是第一局" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100A8E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="奖励关完美过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100C0E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="直接BOSS战" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100A93" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="霸王丸">
+            <parameter cpu="0" address="0x10100B" value="0x00"/>
+        </option>
+        <option desc="娜可露露">
+            <parameter cpu="0" address="0x10100B" value="0x01"/>
+        </option>
+        <option desc="服部半藏">
+            <parameter cpu="0" address="0x10100B" value="0x02"/>
+        </option>
+        <option desc="加尔福特">
+            <parameter cpu="0" address="0x10100B" value="0x03"/>
+        </option>
+        <option desc="王虎">
+            <parameter cpu="0" address="0x10100B" value="0x04"/>
+        </option>
+        <option desc="橘右京">
+            <parameter cpu="0" address="0x10100B" value="0x05"/>
+        </option>
+        <option desc="千两狂死郎">
+            <parameter cpu="0" address="0x10100B" value="0x06"/>
+        </option>
+        <option desc="不知火幻庵">
+            <parameter cpu="0" address="0x10100B" value="0x07"/>
+        </option>
+        <option desc="地震">
+            <parameter cpu="0" address="0x10100B" value="0x08"/>
+        </option>
+        <option desc="柳生十兵卫">
+            <parameter cpu="0" address="0x10100B" value="0x09"/>
+        </option>
+        <option desc="塔姆塔姆">
+            <parameter cpu="0" address="0x10100B" value="0x0A"/>
+        </option>
+        <option desc="夏洛特">
+            <parameter cpu="0" address="0x10100B" value="0x0B"/>
+        </option>
+        <option desc="天草四郎时贞">
+            <parameter cpu="0" address="0x10100B" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="霸王丸">
+            <parameter cpu="0" address="0x10102B" value="0x00"/>
+        </option>
+        <option desc="娜可露露">
+            <parameter cpu="0" address="0x10102B" value="0x01"/>
+        </option>
+        <option desc="服部半藏">
+            <parameter cpu="0" address="0x10102B" value="0x02"/>
+        </option>
+        <option desc="加尔福特">
+            <parameter cpu="0" address="0x10102B" value="0x03"/>
+        </option>
+        <option desc="王虎">
+            <parameter cpu="0" address="0x10102B" value="0x04"/>
+        </option>
+        <option desc="橘右京">
+            <parameter cpu="0" address="0x10102B" value="0x05"/>
+        </option>
+        <option desc="千两狂死郎">
+            <parameter cpu="0" address="0x10102B" value="0x06"/>
+        </option>
+        <option desc="不知火幻庵">
+            <parameter cpu="0" address="0x10102B" value="0x07"/>
+        </option>
+        <option desc="地震">
+            <parameter cpu="0" address="0x10102B" value="0x08"/>
+        </option>
+        <option desc="柳生十兵卫">
+            <parameter cpu="0" address="0x10102B" value="0x09"/>
+        </option>
+        <option desc="塔姆塔姆">
+            <parameter cpu="0" address="0x10102B" value="0x0A"/>
+        </option>
+        <option desc="夏洛特">
+            <parameter cpu="0" address="0x10102B" value="0x0B"/>
+        </option>
+        <option desc="天草四郎时贞">
+            <parameter cpu="0" address="0x10102B" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

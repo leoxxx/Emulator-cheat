@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="金手指推荐用unibios自带的"/>
+    <cheat desc="模拟器-游戏-跳线设置-BIOS设置为unibios"/>
+    <cheat desc="游戏中同时按下ABC和开始键"/>
+    <cheat desc="菜单第一行CHEAT DATABASE就是金手指"/>
+    <cheat desc=" "/>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100AC6" value="0x98"/>
+            <parameter cpu="0" address="0x100AC7" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="骸流岛 傍晚">
+            <parameter cpu="0" address="0x100AD9" value="0x00"/>
+        </option>
+        <option desc="虾夷 夏">
+            <parameter cpu="0" address="0x100AD9" value="0x01"/>
+        </option>
+        <option desc="出羽 落日">
+            <parameter cpu="0" address="0x100AD9" value="0x02"/>
+        </option>
+        <option desc="圣弗朗西斯科">
+            <parameter cpu="0" address="0x100AD9" value="0x03"/>
+        </option>
+        <option desc="西安 咸阳寺">
+            <parameter cpu="0" address="0x100AD9" value="0x04"/>
+        </option>
+        <option desc="骸流岛 夜晚">
+            <parameter cpu="0" address="0x100AD9" value="0x05"/>
+        </option>
+        <option desc="江户 狂死郞千本樱">
+            <parameter cpu="0" address="0x100AD9" value="0x06"/>
+        </option>
+        <option desc="鬼哭岛 素材等待中">
+            <parameter cpu="0" address="0x100AD9" value="0x07"/>
+        </option>
+        <option desc="德克萨斯 太平洋铁路">
+            <parameter cpu="0" address="0x100AD9" value="0x08"/>
+        </option>
+        <option desc="陆奥 初冬">
+            <parameter cpu="0" address="0x100AD9" value="0x09"/>
+        </option>
+        <option desc="凡尔塞宫 玛尔斯厅">
+            <parameter cpu="0" address="0x100AD9" value="0x0B"/>
+        </option>
+        <option desc="三方原 叶月">
+            <parameter cpu="0" address="0x100AD9" value="0x0C"/>
+        </option>
+        <option desc="丛林地狱 湿地">
+            <parameter cpu="0" address="0x100AD9" value="0x0D"/>
+        </option>
+        <option desc="普鲁士王国 钢铁骑士团">
+            <parameter cpu="0" address="0x100AD9" value="0x0E"/>
+        </option>
+        <option desc="飞騨 枯华院">
+            <parameter cpu="0" address="0x100AD9" value="0x0F"/>
+        </option>
+        <option desc="恐山 魔界降临">
+            <parameter cpu="0" address="0x100AD9" value="0x10"/>
+        </option>
+        <option desc="喜马拉雅山脉">
+            <parameter cpu="0" address="0x100AD9" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x100AEE" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x100AEE" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x100AEE" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x100AEE" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x100AEE" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x100AEE" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x100AEE" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x100AEE" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x100AEE" value="0x08"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x100AEE" value="0x09"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x100AEE" value="0x0A"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0x100AEE" value="0x0B"/>
+        </option>
+        <option desc="罗将神水姬">
+            <parameter cpu="0" address="0x100AEE" value="0x0C"/>
+        </option>
+        <option desc="黑子">
+            <parameter cpu="0" address="0x100AEE" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用隐藏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="罗将神水姬">
+            <parameter cpu="0" address="0x100D0B" value="0x10"/>
+        </option>
+        <option desc="黑子">
+            <parameter cpu="0" address="0x100D0B" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 开启后下一关生效 ]"/>
+    <cheat desc="是否持有武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="是">
+            <parameter cpu="0" address="0x103E34" value="0x00"/>
+        </option>
+        <option desc="否">
+            <parameter cpu="0" address="0x103E34" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="BC出天霸封神斩 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108019" value="0x11"/>
+            <parameter cpu="0" address="0x10801B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="三连杀后续只按斩即可连招 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10804D" value="0x03"/>
+            <parameter cpu="0" address="0x10804F" value="0x03"/>
+            <parameter cpu="0" address="0x108051" value="0x03"/>
+            <parameter cpu="0" address="0x108053" value="0x03"/>
+            <parameter cpu="0" address="0x108055" value="0x03"/>
+            <parameter cpu="0" address="0x108057" value="0x03"/>
+            <parameter cpu="0" address="0x108065" value="0x03"/>
+            <parameter cpu="0" address="0x108067" value="0x03"/>
+            <parameter cpu="0" address="0x108069" value="0x03"/>
+            <parameter cpu="0" address="0x10806B" value="0x03"/>
+            <parameter cpu="0" address="0x10806D" value="0x03"/>
+            <parameter cpu="0" address="0x10806F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="虎首后续招式不用按方向 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10802D" value="0x03"/>
+            <parameter cpu="0" address="0x10802F" value="0x03"/>
+            <parameter cpu="0" address="0x108031" value="0x05"/>
+            <parameter cpu="0" address="0x108033" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用隐藏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="罗将神水姬">
+            <parameter cpu="0" address="0x100D1B" value="0x10"/>
+        </option>
+        <option desc="黑子">
+            <parameter cpu="0" address="0x100D1B" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 开启后下一关生效 ]"/>
+    <cheat desc="是否持有武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="是">
+            <parameter cpu="0" address="0x104074" value="0x00"/>
+        </option>
+        <option desc="否">
+            <parameter cpu="0" address="0x104074" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="BC出天霸封神斩 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108099" value="0x11"/>
+            <parameter cpu="0" address="0x10809B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="三连杀后续只按斩即可连招 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1080CD" value="0x03"/>
+            <parameter cpu="0" address="0x1080CF" value="0x03"/>
+            <parameter cpu="0" address="0x1080D1" value="0x03"/>
+            <parameter cpu="0" address="0x1080D3" value="0x03"/>
+            <parameter cpu="0" address="0x1080D5" value="0x03"/>
+            <parameter cpu="0" address="0x1080D7" value="0x03"/>
+            <parameter cpu="0" address="0x1080E5" value="0x03"/>
+            <parameter cpu="0" address="0x1080E7" value="0x03"/>
+            <parameter cpu="0" address="0x1080E9" value="0x03"/>
+            <parameter cpu="0" address="0x1080EB" value="0x03"/>
+            <parameter cpu="0" address="0x1080ED" value="0x03"/>
+            <parameter cpu="0" address="0x1080EF" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="虎首后续招式不用按方向 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1080AD" value="0x03"/>
+            <parameter cpu="0" address="0x1080AF" value="0x03"/>
+            <parameter cpu="0" address="0x1080B1" value="0x05"/>
+            <parameter cpu="0" address="0x1080B3" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

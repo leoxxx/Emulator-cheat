@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001AF" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102CF3" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 开启后不能捡道具 ]"/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D1D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成忍者时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D5F" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成天狗时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D60" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成忍犬时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D61" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择增强效果 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0x102D29" value="0x00"/>
+        </option>
+        <option desc="蓝球">
+            <parameter cpu="0" address="0x102D29" value="0x01"/>
+        </option>
+        <option desc="粉球">
+            <parameter cpu="0" address="0x102D29" value="0x02"/>
+        </option>
+        <option desc="黄球">
+            <parameter cpu="0" address="0x102D29" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="永久增强效果 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D1E" value="0x10"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001B1" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102DF3" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 开启后不能捡道具 ]"/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102E1D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成忍者时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102E5F" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成天狗时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102E60" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成忍犬时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102E61" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择增强效果 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0x102E29" value="0x00"/>
+        </option>
+        <option desc="蓝球">
+            <parameter cpu="0" address="0x102E29" value="0x01"/>
+        </option>
+        <option desc="粉球">
+            <parameter cpu="0" address="0x102E29" value="0x02"/>
+        </option>
+        <option desc="黄球">
+            <parameter cpu="0" address="0x102E29" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="永久增强效果 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102E1E" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="无限投币(AES)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10831E" value="0x04"/>
+			<parameter cpu="0" address="0x10831F" value="0x04"/>
+		</option>
+	</cheat>
+    <cheat desc="[ 完全版无效 ]"/>
+    <cheat desc="模式选择" default="0">
+        <option desc="关闭"/>
+        <option desc="分尸模式">
+            <parameter cpu="0" address="0x10E011" value="0x02"/>
+        </option>
+        <option desc="血腥模式">
+            <parameter cpu="0" address="0x10E011" value="0x01"/>
+        </option>	
+        <option desc="正常模式">
+            <parameter cpu="0" address="0x10E011" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x10836A" value="0x91"/>
+            <parameter cpu="0" address="0x10836B" value="0x3C"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x10836A" value="0x00"/>
+            <parameter cpu="0" address="0x10836B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="骸流岛 昼">
+            <parameter cpu="0" address="0x108B4D" value="0x00"/>
+        </option>
+        <option desc="骸流岛 夜">
+            <parameter cpu="0" address="0x108B4D" value="0x01"/>
+        </option>
+        <option desc="日本桥 昼">
+            <parameter cpu="0" address="0x108B4D" value="0x02"/>
+        </option>
+        <option desc="日本桥 夕">
+            <parameter cpu="0" address="0x108B4D" value="0x03"/>
+        </option>
+        <option desc="黒子道场 昼">
+            <parameter cpu="0" address="0x108B4D" value="0x04"/>
+        </option>
+        <option desc="黒子道场 夜">
+            <parameter cpu="0" address="0x108B4D" value="0x05"/>
+        </option>
+        <option desc="小浜 岩山">
+            <parameter cpu="0" address="0x108B4D" value="0x08"/>
+        </option>
+        <option desc="堂崎 古寺">
+            <parameter cpu="0" address="0x108B4D" value="0x09"/>
+        </option>
+        <option desc="天草城 处刑场">
+            <parameter cpu="0" address="0x108B4D" value="0x0A"/>
+        </option>
+        <option desc="骏府 富士见间">
+            <parameter cpu="0" address="0x108B4D" value="0x0B"/>
+        </option>
+        <option desc="清 千年大佛">
+            <parameter cpu="0" address="0x108B4D" value="0x0C"/>
+        </option>
+        <option desc="琉球王国 首里城">
+            <parameter cpu="0" address="0x108B4D" value="0x0D"/>
+        </option>
+        <option desc="佐渡 外道的巣">
+            <parameter cpu="0" address="0x108B4D" value="0x0E"/>
+        </option>
+        <option desc="黄泉原 合战场">
+            <parameter cpu="0" address="0x108B4D" value="0x12"/>
+        </option>
+        <option desc="恐山 地狱神社">
+            <parameter cpu="0" address="0x108B4D" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="第一关">
+            <parameter cpu="0" address="0x10836C" value="0x00"/>
+        </option>
+        <option desc="第二关">
+            <parameter cpu="0" address="0x10836C" value="0x01"/>
+        </option>
+        <option desc="第三关">
+            <parameter cpu="0" address="0x10836C" value="0x02"/>
+        </option>
+        <option desc="第四关">
+            <parameter cpu="0" address="0x10836C" value="0x03"/>
+        </option>
+        <option desc="第五关">
+            <parameter cpu="0" address="0x10836C" value="0x04"/>
+        </option>
+        <option desc="第六关">
+            <parameter cpu="0" address="0x10836C" value="0x05"/>
+        </option>
+        <option desc="天草四郎时贞">
+            <parameter cpu="0" address="0x10836C" value="0x06"/>
+        </option>
+        <option desc="壬无月斩红郎">
+            <parameter cpu="0" address="0x10836C" value="0x07"/>
+        </option>
+        <option desc="凶国日轮守我旺">
+            <parameter cpu="0" address="0x10836C" value="0x08"/>
+        </option>
+        <option desc="罗将神水姬">
+            <parameter cpu="0" address="0x10836C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 以下两个功能慎重使用，勿选错版本 ]"/>
+    <cheat desc="无条件出武器击飞技|一闪|绝命奥义" default="0">
+        <option desc="关闭"/>
+        <option desc="原版">
+            <parameter cpu="0" address="0x08C5E6" value="0x60"/>
+            <parameter cpu="0" address="0x08CCE8" value="0x60"/>
+            <parameter cpu="0" address="0x08D396" value="0x60"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x08C5E6" value="0x67"/>
+            <parameter cpu="0" address="0x08CCE8" value="0x66"/>
+            <parameter cpu="0" address="0x08D396" value="0x66"/>
+        </option>
+        <option desc="完全版">
+            <parameter cpu="0" address="0x09520A" value="0x60"/>
+            <parameter cpu="0" address="0x095918" value="0x60"/>
+            <parameter cpu="0" address="0x095FCE" value="0x60"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x09520A" value="0x67"/>
+            <parameter cpu="0" address="0x095918" value="0x66"/>
+            <parameter cpu="0" address="0x095FCE" value="0x66"/>
+        </option>
+    </cheat>
+    <cheat desc="↓↓+BC直接出七太刀" default="0">
+        <option desc="关闭"/>
+        <option desc="原版">
+            <parameter cpu="0" address="0x08D95E" value="0x4E"/>
+            <parameter cpu="0" address="0x08D95F" value="0x71"/>
+            <parameter cpu="0" address="0x08DA93" value="0x60"/>
+            <parameter cpu="0" address="0x09015F" value="0x02"/>
+            <parameter cpu="0" address="0x090163" value="0x02"/>
+            <parameter cpu="0" address="0x090167" value="0x00"/>
+            <parameter cpu="0" address="0x09016B" value="0x00"/>
+            <parameter cpu="0" address="0x09016F" value="0x00"/>
+            <parameter cpu="0" address="0x090173" value="0x00"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x08D95E" value="0x66"/>
+            <parameter cpu="0" address="0x08D95F" value="0x16"/>
+            <parameter cpu="0" address="0x08DA93" value="0x00"/>
+            <parameter cpu="0" address="0x09015F" value="0x08"/>
+            <parameter cpu="0" address="0x090163" value="0x0A"/>
+            <parameter cpu="0" address="0x090167" value="0x02"/>
+            <parameter cpu="0" address="0x09016B" value="0x06"/>
+            <parameter cpu="0" address="0x09016F" value="0x04"/>
+            <parameter cpu="0" address="0x090173" value="0x08"/>
+        </option>
+        <option desc="完全版">
+            <parameter cpu="0" address="0x09659C" value="0x4E"/>
+            <parameter cpu="0" address="0x09659D" value="0x71"/>
+            <parameter cpu="0" address="0x0966D1" value="0x60"/>
+            <parameter cpu="0" address="0x098D9D" value="0x02"/>
+            <parameter cpu="0" address="0x098DA1" value="0x02"/>
+            <parameter cpu="0" address="0x098DA5" value="0x00"/>
+            <parameter cpu="0" address="0x098DA9" value="0x00"/>
+            <parameter cpu="0" address="0x098DAD" value="0x00"/>
+            <parameter cpu="0" address="0x098DB1" value="0x00"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x09659C" value="0x66"/>
+            <parameter cpu="0" address="0x09659D" value="0x16"/>
+            <parameter cpu="0" address="0x0966D1" value="0x00"/>
+            <parameter cpu="0" address="0x098D9D" value="0x08"/>
+            <parameter cpu="0" address="0x098DA1" value="0x0A"/>
+            <parameter cpu="0" address="0x098DA5" value="0x02"/>
+            <parameter cpu="0" address="0x098DA9" value="0x06"/>
+            <parameter cpu="0" address="0x098DAD" value="0x04"/>
+            <parameter cpu="0" address="0x098DB1" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="角色选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="霸王丸">
+            <parameter cpu="0" address="0x108322" value="0x00"/>
+        </option>
+        <option desc="娜可露露">
+            <parameter cpu="0" address="0x108322" value="0x01"/>
+        </option>
+        <option desc="莉姆露露">
+            <parameter cpu="0" address="0x108322" value="0x02"/>
+        </option>
+        <option desc="服部半藏">
+            <parameter cpu="0" address="0x108322" value="0x03"/>
+        </option>
+        <option desc="加尔福特">
+            <parameter cpu="0" address="0x108322" value="0x04"/>
+        </option>
+        <option desc="千两狂死郎">
+            <parameter cpu="0" address="0x108322" value="0x05"/>
+        </option>
+        <option desc="橘右京">
+            <parameter cpu="0" address="0x108322" value="0x06"/>
+        </option>
+        <option desc="牙神幻十郎">
+            <parameter cpu="0" address="0x108322" value="0x07"/>
+        </option>
+        <option desc="首斩破沙罗">
+            <parameter cpu="0" address="0x108322" value="0x08"/>
+        </option>
+        <option desc="绯雨闲丸">
+            <parameter cpu="0" address="0x108322" value="0x09"/>
+        </option>
+        <option desc="花讽院骸罗">
+            <parameter cpu="0" address="0x108322" value="0x0A"/>
+        </option>
+        <option desc="天草四郎时贞">
+            <parameter cpu="0" address="0x108322" value="0x0B"/>
+        </option>
+        <option desc="柳生十兵卫">
+            <parameter cpu="0" address="0x108322" value="0x0C"/>
+        </option>
+        <option desc="壬无月斩红郎">
+            <parameter cpu="0" address="0x108322" value="0x0D"/>
+        </option>
+        <option desc="夏洛特">
+            <parameter cpu="0" address="0x108322" value="0x0E"/>
+        </option>
+        <option desc="塔姆塔姆">
+            <parameter cpu="0" address="0x108322" value="0x0F"/>
+        </option>
+        <option desc="凤间火月">
+            <parameter cpu="0" address="0x108322" value="0x10"/>
+        </option>
+        <option desc="凤间苍月">
+            <parameter cpu="0" address="0x108322" value="0x11"/>
+        </option>
+        <option desc="罗刹丸">
+            <parameter cpu="0" address="0x108322" value="0x12"/>
+        </option>
+        <option desc="蕾拉">
+            <parameter cpu="0" address="0x108322" value="0x13"/>
+        </option>
+        <option desc="炎邪">
+            <parameter cpu="0" address="0x108322" value="0x14"/>
+        </option>
+        <option desc="水邪">
+            <parameter cpu="0" address="0x108322" value="0x15"/>
+        </option>
+        <option desc="德川庆寅">
+            <parameter cpu="0" address="0x108322" value="0x16"/>
+        </option>
+        <option desc="刘云飞">
+            <parameter cpu="0" address="0x108322" value="0x17"/>
+        </option>
+        <option desc="真镜名弥娜">
+            <parameter cpu="0" address="0x108322" value="0x18"/>
+        </option>
+        <option desc="妖怪腐外道">
+            <parameter cpu="0" address="0x108322" value="0x19"/>
+        </option>
+        <option desc="凶国日轮守我旺">
+            <parameter cpu="0" address="0x108322" value="0x1A"/>
+        </option>
+        <option desc="罗将神水姬">
+            <parameter cpu="0" address="0x108322" value="0x1B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108445" value="0x7D"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108445" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="剑气无限 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1085F8" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="怒槽选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x10844E" value="0x40"/>
+        </option>
+        <option desc="为0">
+            <parameter cpu="0" address="0x10844E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="可无限爆怒 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10855A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="爆怒时间无限 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108554" value="0x82"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 回收型及连续型无效 ]"/>
+    <cheat desc="飞行道具未消失仍可出 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1084B8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无之境地可满血发动 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1085FE" value="0x7E"/>
+        </option>
+    </cheat>
+    <cheat desc="武器状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="持有">
+            <parameter cpu="0" address="0x10841F" value="0x02"/>
+        </option>
+        <option desc="掉落">
+            <parameter cpu="0" address="0x10841F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="解锁七太刀 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10860B" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 立即生效，但不显示火球 ]"/>
+    <cheat desc="始终灾炎3级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108538" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无条件出天杀太岁 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10860A" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="天机七曜 水～土 无限连 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10860C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="死神的迎接始终有箭 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108609" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="天/地弓心不蓄力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109475" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="角色选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="霸王丸">
+            <parameter cpu="0" address="0x108323" value="0x00"/>
+        </option>
+        <option desc="娜可露露">
+            <parameter cpu="0" address="0x108323" value="0x01"/>
+        </option>
+        <option desc="莉姆露露">
+            <parameter cpu="0" address="0x108323" value="0x02"/>
+        </option>
+        <option desc="服部半藏">
+            <parameter cpu="0" address="0x108323" value="0x03"/>
+        </option>
+        <option desc="加尔福特">
+            <parameter cpu="0" address="0x108323" value="0x04"/>
+        </option>
+        <option desc="千两狂死郎">
+            <parameter cpu="0" address="0x108323" value="0x05"/>
+        </option>
+        <option desc="橘右京">
+            <parameter cpu="0" address="0x108323" value="0x06"/>
+        </option>
+        <option desc="牙神幻十郎">
+            <parameter cpu="0" address="0x108323" value="0x07"/>
+        </option>
+        <option desc="首斩破沙罗">
+            <parameter cpu="0" address="0x108323" value="0x08"/>
+        </option>
+        <option desc="绯雨闲丸">
+            <parameter cpu="0" address="0x108323" value="0x09"/>
+        </option>
+        <option desc="花讽院骸罗">
+            <parameter cpu="0" address="0x108323" value="0x0A"/>
+        </option>
+        <option desc="天草四郎时贞">
+            <parameter cpu="0" address="0x108323" value="0x0B"/>
+        </option>
+        <option desc="柳生十兵卫">
+            <parameter cpu="0" address="0x108323" value="0x0C"/>
+        </option>
+        <option desc="壬无月斩红郎">
+            <parameter cpu="0" address="0x108323" value="0x0D"/>
+        </option>
+        <option desc="夏洛特">
+            <parameter cpu="0" address="0x108323" value="0x0E"/>
+        </option>
+        <option desc="塔姆塔姆">
+            <parameter cpu="0" address="0x108323" value="0x0F"/>
+        </option>
+        <option desc="凤间火月">
+            <parameter cpu="0" address="0x108323" value="0x10"/>
+        </option>
+        <option desc="凤间苍月">
+            <parameter cpu="0" address="0x108323" value="0x11"/>
+        </option>
+        <option desc="罗刹丸">
+            <parameter cpu="0" address="0x108323" value="0x12"/>
+        </option>
+        <option desc="蕾拉">
+            <parameter cpu="0" address="0x108323" value="0x13"/>
+        </option>
+        <option desc="炎邪">
+            <parameter cpu="0" address="0x108323" value="0x14"/>
+        </option>
+        <option desc="水邪">
+            <parameter cpu="0" address="0x108323" value="0x15"/>
+        </option>
+        <option desc="德川庆寅">
+            <parameter cpu="0" address="0x108323" value="0x16"/>
+        </option>
+        <option desc="刘云飞">
+            <parameter cpu="0" address="0x108323" value="0x17"/>
+        </option>
+        <option desc="真镜名弥娜">
+            <parameter cpu="0" address="0x108323" value="0x18"/>
+        </option>
+        <option desc="妖怪腐外道">
+            <parameter cpu="0" address="0x108323" value="0x19"/>
+        </option>
+        <option desc="凶国日轮守我旺">
+            <parameter cpu="0" address="0x108323" value="0x1A"/>
+        </option>
+        <option desc="罗将神水姬">
+            <parameter cpu="0" address="0x108323" value="0x1B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108655" value="0x7D"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108655" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="剑气无限 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108808" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="怒槽选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x10865E" value="0x40"/>
+        </option>
+        <option desc="为0">
+            <parameter cpu="0" address="0x10865E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="可无限爆怒 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10876A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="爆怒时间无限 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108764" value="0x82"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 回收型及连续型无效 ]"/>
+    <cheat desc="飞行道具未消失仍可出 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1086C8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无之境地可满血发动 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10880E" value="0x7E"/>
+        </option>
+    </cheat>
+    <cheat desc="武器状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="持有">
+            <parameter cpu="0" address="0x10862F" value="0x02"/>
+        </option>
+        <option desc="掉落">
+            <parameter cpu="0" address="0x10862F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="解锁七太刀 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10881B" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 立即生效，但不显示火球 ]"/>
+    <cheat desc="始终灾炎3级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108748" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无条件出天杀太岁 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10881A" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="天机七曜 水～土 无限连 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10881C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="死神的迎接始终有箭 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108819" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="天/地弓心不蓄力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109479" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>
