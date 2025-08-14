@@ -1,0 +1,4643 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="对战时间" default="0">
+		<option desc="关闭"/>
+		<option desc="无限">
+			<parameter cpu="0" address="0xFF4808" value="0x99"/>
+		</option>
+		<option desc="耗尽">
+			<parameter cpu="0" address="0xFF4808" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="选关" default="0">
+		<option desc="关闭"/>
+		<option desc="1">
+			<parameter cpu="0" address="0xFF4881" value="0x00"/>
+		</option>
+		<option desc="2">
+			<parameter cpu="0" address="0xFF4881" value="0x01"/>
+		</option>
+		<option desc="3">
+			<parameter cpu="0" address="0xFF4881" value="0x02"/>
+		</option>
+		<option desc="4">
+			<parameter cpu="0" address="0xFF4881" value="0x03"/>
+		</option>
+		<option desc="5">
+			<parameter cpu="0" address="0xFF4881" value="0x04"/>
+		</option>
+		<option desc="6">
+			<parameter cpu="0" address="0xFF4881" value="0x05"/>
+		</option>
+		<option desc="天启">
+			<parameter cpu="0" address="0xFF4881" value="0x06"/>
+		</option>
+		<option desc="机械豪鬼（打完结局）">
+			<parameter cpu="0" address="0xFF4881" value="0x07"/>
+		</option>
+		<option desc="天启（打完结局）">
+			<parameter cpu="0" address="0xFF4881" value="0x08"/>
+		</option>		
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="[ 日版最好别用 ]"/>	
+	<cheat desc="[ 选非日区会屏蔽掉宪麻吕，效果会写入NVRAM ]"/>
+	<cheat desc="[ 即使改回日区或关闭也不能还原 ]"/>
+	<cheat desc="[ 解决方法： ]"/>
+	<cheat desc="[ 1、使用“还原宪麻吕”功能并重启游戏 ]"/>
+	<cheat desc="[ 看到选人画面还原后退出游戏， ]"/>
+	<cheat desc="[ 以确保NVRAM保存成功 ]"/>
+	<cheat desc="[ 2、退出模拟器，删除NVRAM文件 ]"/>
+    <cheat desc="选择区域" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF4C8F" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF4C8F" value="0x02"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF4C8F" value="0x04"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF4C8F" value="0x06"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF4C8F" value="0x08"/>
+        </option>
+        <option desc="巴西">
+            <parameter cpu="0" address="0xFF4C8F" value="0x0A"/>
+        </option>
+    </cheat>
+	<cheat desc="[ 仅限日版，需要重启游戏 ]"/>
+	<cheat desc="还原宪麻吕" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFFBD7" value="0x01"/>
+			<parameter cpu="0" address="0xFFFF31" value="0x01"/>
+		</option>							
+	</cheat>    
+	<cheat desc="[ 仅限日区 ]"/>
+	<cheat desc="第6关乱入角色" default="0">
+		<option desc="关闭"/>
+		<option desc="机械桑吉尔夫&维加">
+			<parameter cpu="0" address="0xFF4888" value="0x05"/>
+			<parameter cpu="0" address="0xFF4889" value="0x02"/>
+			<parameter cpu="0" address="0xFF488A" value="0x00"/>
+		</option>		
+		<option desc="晒黑的樱&豪鬼">
+			<parameter cpu="0" address="0xFF4888" value="0x05"/>
+			<parameter cpu="0" address="0xFF4889" value="0x04"/>
+			<parameter cpu="0" address="0xFF488A" value="0x00"/>
+		</option>
+		<option desc="影子纳什&维加">
+			<parameter cpu="0" address="0xFF4888" value="0x06"/>
+			<parameter cpu="0" address="0xFF4889" value="0x06"/>
+			<parameter cpu="0" address="0xFF488A" value="0x00"/>
+		</option>				
+	</cheat>	
+	<cheat desc=" "/>
+	<cheat desc="[ 战斗时的顺序，不随战斗中交换变化 ]"/>
+	<cheat desc="选择体力（第一位） PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="无限">
+			<parameter cpu="0" address="0xFF3A51" value="0x90"/>
+			<parameter cpu="0" address="0xFF3A5B" value="0x90"/>
+		</option>
+		<option desc="耗尽">
+			<parameter cpu="0" address="0xFF3A51" value="0x00"/>
+			<parameter cpu="0" address="0xFF3A5B" value="0x00"/>
+		</option>		
+	</cheat>
+	<cheat desc="选择体力（第二位） PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="无限">
+			<parameter cpu="0" address="0xFF4251" value="0x90"/>
+			<parameter cpu="0" address="0xFF425B" value="0x90"/>
+		</option>
+		<option desc="耗尽">
+			<parameter cpu="0" address="0xFF4251" value="0x00"/>
+			<parameter cpu="0" address="0xFF425B" value="0x00"/>
+		</option>		
+	</cheat>
+	<cheat desc="无限能量 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3A54" value="0x03"/>
+			<parameter cpu="0" address="0xFF4254" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="使用天启 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3853" value="0x00"/>
+			<parameter cpu="0" address="0xFF4053" value="0x00"/>
+			<parameter cpu="0" address="0xFF48B1" value="0x00"/>
+			<parameter cpu="0" address="0xFF48B3" value="0x00"/>
+			<parameter cpu="0" address="0xFF4913" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="选择第一个角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="镭射眼">
+			<parameter cpu="0" address="0xFF3853" value="0x02"/>
+		</option>
+		<option desc="美国队长">
+			<parameter cpu="0" address="0xFF3853" value="0x04"/>
+		</option>
+		<option desc="浩克">
+			<parameter cpu="0" address="0xFF3853" value="0x06"/>
+		</option>
+		<option desc="金刚狼">
+			<parameter cpu="0" address="0xFF3853" value="0x08"/>
+		</option>
+		<option desc="眼魔">
+			<parameter cpu="0" address="0xFF3853" value="0x0A"/>
+		</option>
+		<option desc="红色欧米茄">
+			<parameter cpu="0" address="0xFF3853" value="0x0C"/>
+		</option>
+		<option desc="蜘蛛侠">
+			<parameter cpu="0" address="0xFF3853" value="0x0E"/>
+		</option>
+		<option desc="黑心">
+			<parameter cpu="0" address="0xFF3853" value="0x10"/>
+		</option>
+		<option desc="隆">
+			<parameter cpu="0" address="0xFF3853" value="0x12"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0xFF3853" value="0x14"/>
+		</option>
+		<option desc="春丽">
+			<parameter cpu="0" address="0xFF3853" value="0x16"/>
+		</option>
+		<option desc="达尔西姆">
+			<parameter cpu="0" address="0xFF3853" value="0x18"/>
+		</option>
+		<option desc="桑吉尔夫">
+			<parameter cpu="0" address="0xFF3853" value="0x1A"/>
+		</option>
+		<option desc="拜森(日版维加)">
+			<parameter cpu="0" address="0xFF3853" value="0x1C"/>
+		</option>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0xFF3853" value="0x1E"/>
+		</option>
+		<option desc="春日野樱">
+			<parameter cpu="0" address="0xFF3853" value="0x20"/>
+		</option>
+		<option desc="火引弹">
+			<parameter cpu="0" address="0xFF3853" value="0x24"/>
+		</option>
+		<option desc="宪麻吕">
+			<parameter cpu="0" address="0xFF3853" value="0x22"/>
+		</option>
+		<option desc="#机械豪鬼#">
+			<parameter cpu="0" address="0xFF3853" value="0x26"/>
+		</option>
+		<option desc="#机械桑吉尔夫#">
+			<parameter cpu="0" address="0xFF3853" value="0x28"/>
+		</option>
+		<option desc="#晒黑的樱#">
+			<parameter cpu="0" address="0xFF3853" value="0x2A"/>
+		</option>
+		<option desc="#影子纳什#">
+			<parameter cpu="0" address="0xFF3853" value="0x2C"/>
+		</option>
+		<option desc="#美国密探#">
+			<parameter cpu="0" address="0xFF3853" value="0x2E"/>
+		</option>
+		<option desc="#墨菲斯托#">
+			<parameter cpu="0" address="0xFF3853" value="0x30"/>
+		</option>
+		<option desc="#装甲蜘蛛侠#">
+			<parameter cpu="0" address="0xFF3853" value="0x32"/>
+		</option>
+	</cheat>
+	<cheat desc="选择第二个角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="镭射眼">
+			<parameter cpu="0" address="0xFF4053" value="0x02"/>
+		</option>
+		<option desc="美国队长">
+			<parameter cpu="0" address="0xFF4053" value="0x04"/>
+		</option>
+		<option desc="浩克">
+			<parameter cpu="0" address="0xFF4053" value="0x06"/>
+		</option>
+		<option desc="金刚狼">
+			<parameter cpu="0" address="0xFF4053" value="0x08"/>
+		</option>
+		<option desc="眼魔">
+			<parameter cpu="0" address="0xFF4053" value="0x0A"/>
+		</option>
+		<option desc="红色欧米茄">
+			<parameter cpu="0" address="0xFF4053" value="0x0C"/>
+		</option>
+		<option desc="蜘蛛侠">
+			<parameter cpu="0" address="0xFF4053" value="0x0E"/>
+		</option>
+		<option desc="黑心">
+			<parameter cpu="0" address="0xFF4053" value="0x10"/>
+		</option>
+		<option desc="隆">
+			<parameter cpu="0" address="0xFF4053" value="0x12"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0xFF4053" value="0x14"/>
+		</option>
+		<option desc="春丽">
+			<parameter cpu="0" address="0xFF4053" value="0x16"/>
+		</option>
+		<option desc="达尔西姆">
+			<parameter cpu="0" address="0xFF4053" value="0x18"/>
+		</option>
+		<option desc="桑吉尔夫">
+			<parameter cpu="0" address="0xFF4053" value="0x1A"/>
+		</option>
+		<option desc="拜森(日版维加)">
+			<parameter cpu="0" address="0xFF4053" value="0x1C"/>
+		</option>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0xFF4053" value="0x1E"/>
+		</option>
+		<option desc="春日野樱">
+			<parameter cpu="0" address="0xFF4053" value="0x20"/>
+		</option>
+		<option desc="火引弹">
+			<parameter cpu="0" address="0xFF4053" value="0x24"/>
+		</option>
+		<option desc="宪麻吕">
+			<parameter cpu="0" address="0xFF4053" value="0x22"/>
+		</option>
+		<option desc="#机械豪鬼#">
+			<parameter cpu="0" address="0xFF4053" value="0x26"/>
+		</option>
+		<option desc="#机械桑吉尔夫#">
+			<parameter cpu="0" address="0xFF4053" value="0x28"/>
+		</option>
+		<option desc="#晒黑的樱#">
+			<parameter cpu="0" address="0xFF4053" value="0x2A"/>
+		</option>
+		<option desc="#影子纳什#">
+			<parameter cpu="0" address="0xFF4053" value="0x2C"/>
+		</option>
+		<option desc="#美国密探#">
+			<parameter cpu="0" address="0xFF4053" value="0x2E"/>
+		</option>
+		<option desc="#墨菲斯托#">
+			<parameter cpu="0" address="0xFF4053" value="0x30"/>
+		</option>
+		<option desc="#装甲蜘蛛侠#">
+			<parameter cpu="0" address="0xFF4053" value="0x32"/>
+		</option>
+	</cheat>
+	<cheat desc="加速 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF383F" value="0x01"/>
+			<parameter cpu="0" address="0xFF403F" value="0x01"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="[ 战斗时的顺序，不随战斗中交换变化 ]"/>
+	<cheat desc="选择体力（第一位） PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="无限">
+			<parameter cpu="0" address="0xFF3E51" value="0x90"/>
+			<parameter cpu="0" address="0xFF3E5B" value="0x90"/>
+		</option>
+		<option desc="耗尽">
+			<parameter cpu="0" address="0xFF3E51" value="0x00"/>
+			<parameter cpu="0" address="0xFF3E5B" value="0x00"/>
+		</option>		
+	</cheat>
+	<cheat desc="选择体力（第二位） PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="无限">
+			<parameter cpu="0" address="0xFF4651" value="0x90"/>
+			<parameter cpu="0" address="0xFF465B" value="0x90"/>
+		</option>
+		<option desc="耗尽">
+			<parameter cpu="0" address="0xFF4651" value="0x00"/>
+			<parameter cpu="0" address="0xFF465B" value="0x00"/>
+		</option>		
+	</cheat>
+	<cheat desc="无限能量 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3E54" value="0x03"/>
+			<parameter cpu="0" address="0xFF4654" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="使用天启 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C53" value="0x00"/>
+			<parameter cpu="0" address="0xFF4453" value="0x00"/>
+			<parameter cpu="0" address="0xFF48B5" value="0x00"/>
+			<parameter cpu="0" address="0xFF48B7" value="0x00"/>
+			<parameter cpu="0" address="0xFF4913" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="选择第一个角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="镭射眼">
+			<parameter cpu="0" address="0xFF3C53" value="0x02"/>
+		</option>
+		<option desc="美国队长">
+			<parameter cpu="0" address="0xFF3C53" value="0x04"/>
+		</option>
+		<option desc="浩克">
+			<parameter cpu="0" address="0xFF3C53" value="0x06"/>
+		</option>
+		<option desc="金刚狼">
+			<parameter cpu="0" address="0xFF3C53" value="0x08"/>
+		</option>
+		<option desc="眼魔">
+			<parameter cpu="0" address="0xFF3C53" value="0x0A"/>
+		</option>
+		<option desc="红色欧米茄">
+			<parameter cpu="0" address="0xFF3C53" value="0x0C"/>
+		</option>
+		<option desc="蜘蛛侠">
+			<parameter cpu="0" address="0xFF3C53" value="0x0E"/>
+		</option>
+		<option desc="黑心">
+			<parameter cpu="0" address="0xFF3C53" value="0x10"/>
+		</option>
+		<option desc="隆">
+			<parameter cpu="0" address="0xFF3C53" value="0x12"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0xFF3C53" value="0x14"/>
+		</option>
+		<option desc="春丽">
+			<parameter cpu="0" address="0xFF3C53" value="0x16"/>
+		</option>
+		<option desc="达尔西姆">
+			<parameter cpu="0" address="0xFF3C53" value="0x18"/>
+		</option>
+		<option desc="桑吉尔夫">
+			<parameter cpu="0" address="0xFF3C53" value="0x1A"/>
+		</option>
+		<option desc="拜森(日版维加)">
+			<parameter cpu="0" address="0xFF3C53" value="0x1C"/>
+		</option>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0xFF3C53" value="0x1E"/>
+		</option>
+		<option desc="春日野樱">
+			<parameter cpu="0" address="0xFF3C53" value="0x20"/>
+		</option>
+		<option desc="火引弹">
+			<parameter cpu="0" address="0xFF3C53" value="0x24"/>
+		</option>
+		<option desc="宪麻吕">
+			<parameter cpu="0" address="0xFF3C53" value="0x22"/>
+		</option>
+		<option desc="#机械豪鬼#">
+			<parameter cpu="0" address="0xFF3C53" value="0x26"/>
+		</option>
+		<option desc="#机械桑吉尔夫#">
+			<parameter cpu="0" address="0xFF3C53" value="0x28"/>
+		</option>
+		<option desc="#晒黑的樱#">
+			<parameter cpu="0" address="0xFF3C53" value="0x2A"/>
+		</option>
+		<option desc="#影子纳什#">
+			<parameter cpu="0" address="0xFF3C53" value="0x2C"/>
+		</option>
+		<option desc="#美国密探#">
+			<parameter cpu="0" address="0xFF3C53" value="0x2E"/>
+		</option>
+		<option desc="#墨菲斯托#">
+			<parameter cpu="0" address="0xFF3C53" value="0x30"/>
+		</option>
+		<option desc="#装甲蜘蛛侠#">
+			<parameter cpu="0" address="0xFF3C53" value="0x32"/>
+		</option>
+	</cheat>
+	<cheat desc="选择第二个角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="镭射眼">
+			<parameter cpu="0" address="0xFF4453" value="0x02"/>
+		</option>
+		<option desc="美国队长">
+			<parameter cpu="0" address="0xFF4453" value="0x04"/>
+		</option>
+		<option desc="浩克">
+			<parameter cpu="0" address="0xFF4453" value="0x06"/>
+		</option>
+		<option desc="金刚狼">
+			<parameter cpu="0" address="0xFF4453" value="0x08"/>
+		</option>
+		<option desc="眼魔">
+			<parameter cpu="0" address="0xFF4453" value="0x0A"/>
+		</option>
+		<option desc="红色欧米茄">
+			<parameter cpu="0" address="0xFF4453" value="0x0C"/>
+		</option>
+		<option desc="蜘蛛侠">
+			<parameter cpu="0" address="0xFF4453" value="0x0E"/>
+		</option>
+		<option desc="黑心">
+			<parameter cpu="0" address="0xFF4453" value="0x10"/>
+		</option>
+		<option desc="隆">
+			<parameter cpu="0" address="0xFF4453" value="0x12"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0xFF4453" value="0x14"/>
+		</option>
+		<option desc="春丽">
+			<parameter cpu="0" address="0xFF4453" value="0x16"/>
+		</option>
+		<option desc="达尔西姆">
+			<parameter cpu="0" address="0xFF4453" value="0x18"/>
+		</option>
+		<option desc="桑吉尔夫">
+			<parameter cpu="0" address="0xFF4453" value="0x1A"/>
+		</option>
+		<option desc="拜森(日版维加)">
+			<parameter cpu="0" address="0xFF4453" value="0x1C"/>
+		</option>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0xFF4453" value="0x1E"/>
+		</option>
+		<option desc="春日野樱">
+			<parameter cpu="0" address="0xFF4453" value="0x20"/>
+		</option>
+		<option desc="火引弹">
+			<parameter cpu="0" address="0xFF4453" value="0x24"/>
+		</option>
+		<option desc="宪麻吕">
+			<parameter cpu="0" address="0xFF4453" value="0x22"/>
+		</option>
+		<option desc="#机械豪鬼#">
+			<parameter cpu="0" address="0xFF4453" value="0x26"/>
+		</option>
+		<option desc="#机械桑吉尔夫#">
+			<parameter cpu="0" address="0xFF4453" value="0x28"/>
+		</option>
+		<option desc="#晒黑的樱#">
+			<parameter cpu="0" address="0xFF4453" value="0x2A"/>
+		</option>
+		<option desc="#影子纳什#">
+			<parameter cpu="0" address="0xFF4453" value="0x2C"/>
+		</option>
+		<option desc="#美国密探#">
+			<parameter cpu="0" address="0xFF4453" value="0x2E"/>
+		</option>
+		<option desc="#墨菲斯托#">
+			<parameter cpu="0" address="0xFF4453" value="0x30"/>
+		</option>
+		<option desc="#装甲蜘蛛侠#">
+			<parameter cpu="0" address="0xFF4453" value="0x32"/>
+		</option>
+	</cheat>
+	<cheat desc="加速 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C3F" value="0x01"/>
+			<parameter cpu="0" address="0xFF443F" value="0x01"/>
+		</option>
+	</cheat>	
+	<cheat desc=" "/>
+	<cheat desc=">>> 底下是添加的作弊码 <<<"/>
+	<cheat desc=" "/>
+	<cheat desc="[ 容易出招 PL1 ]"/>
+	<cheat desc="→+HP+HK出合体超必杀 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39F0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39F1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41F0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41F1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 镭射眼 (第一角色) ]"/>
+	<cheat desc="→+P出光子爆破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↓+PP出超光子爆破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP终极光子爆破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出飞升勾拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="K出断颈落 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x08"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>										
+	</cheat>
+	<cheat desc="↓+P出光子冲击波 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="P出疾速拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x08"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出镭射眼踢 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 镭射眼 (第二角色) ]"/>
+	<cheat desc="→+P出光子爆破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↓+PP出超光子爆破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP终极光子爆破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出飞升勾拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="K出断颈落 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x08"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>		
+	</cheat>
+	<cheat desc="↓+P出光子冲击波 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="P出疾速拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x08"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出镭射眼踢 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 美国队长 (第一角色) ]"/>
+	<cheat desc="↘+PP出终极星条旗 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出最终审判 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出终极突击星尘 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出星条旗 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出盾牌斩击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出突击星尘 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出侧手翻 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x08"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>						
+	</cheat>
+	<cheat desc="[ 美国队长 (第二角色) ]"/>
+	<cheat desc="↘+PP出终极星条旗 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出最终审判 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出终极突击星尘 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出星条旗 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出盾牌斩击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出突击星尘 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出侧手翻 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x08"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 浩克 (第一角色) ]"/>
+	<cheat desc="K出伽马冲撞 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x08"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出伽马压杀 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出伽马龙卷 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x08"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+K出纵向伽马冲撞 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出伽马波 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出伽马砰击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 浩克 (第二角色) ]"/>
+	<cheat desc="K出伽马冲撞 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x08"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出伽马压杀 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出伽马龙卷 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x08"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+K出纵向伽马冲撞 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出伽马波 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出伽马砰击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 金刚狼 (第一角色) ]"/>
+	<cheat desc="↘+KK出狂暴掌握 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+PP X兵器 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出狂暴连爪X PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出旋风爪 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出狂暴连爪 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出狂暴掌握 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 金刚狼 (第二角色) ]"/>
+	<cheat desc="↘+KK出狂暴掌握 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+PP X兵器 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出狂暴连爪X PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出旋风爪 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出狂暴连爪 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出狂暴掌握 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 眼魔 (第一角色) ]"/>
+	<cheat desc="P出神秘凝视 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x08"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="K出神秘粉碎 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x08"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出夺去生命 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x08"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出混沌次元 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出究极神秘粉碎 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 眼魔 (第二角色) ]"/>
+	<cheat desc="P出神秘凝视 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x08"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="K出神秘粉碎 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x08"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出夺去生命 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x08"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出混沌次元 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出究极神秘粉碎 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 红色欧米茄 (第一角色) ]"/>
+	<cheat desc="→+PP出欧米茄毁灭 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出卡本纳合金缠绕 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出欧米茄冲击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出卡本纳合金粉碎 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 红色欧米茄 (第二角色) ]"/>
+	<cheat desc="→+PP出欧米茄毁灭 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出卡本纳合金缠绕 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出欧米茄冲击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出卡本纳合金粉碎 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 蜘蛛侠 (第一角色) ]"/>
+	<cheat desc="↘+P出蜘蛛刺 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出蛛丝球 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出蛛丝秋千 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出蛛丝投 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x08"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出极限蜘蛛侠 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出爬虫突击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 蜘蛛侠 (第二角色) ]"/>
+	<cheat desc="↘+P出蜘蛛刺 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出蛛丝球 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出蛛丝秋千 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出蛛丝投 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x08"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出极限蜘蛛侠 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出爬虫突击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 黑心 (第一角色) ]"/>
+	<cheat desc="→+PP出世界末日 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出黑暗之心 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出黑暗雷暴 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x08"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出地狱 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x08"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出审判日 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 黑心 (第二角色) ]"/>
+	<cheat desc="→+PP出世界末日 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出黑暗之心 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出黑暗雷暴 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x08"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出地狱 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x08"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出审判日 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 隆 (第一角色) ]"/>
+	<cheat desc="→+P出波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出升龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷旋风脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出真空波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出真空龙卷旋风脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出真空升龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 隆 (第二角色) ]"/>
+	<cheat desc="→+P出波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出升龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷旋风脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出真空波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出真空龙卷旋风脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出真空升龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 肯 (第一角色) ]"/>
+	<cheat desc="→+P出波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出升龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷旋风脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出升龙裂破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出神龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出疾风迅雷脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 肯 (第二角色) ]"/>
+	<cheat desc="→+P出波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出升龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷旋风脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出升龙裂破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出神龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出疾风迅雷脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 春丽 (第一角色) ]"/>
+	<cheat desc="→+P出气功拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x08"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出天升脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出旋圆蹴 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x08"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出气功掌 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出千裂脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+KK出霸山天升脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 春丽 (第二角色) ]"/>
+	<cheat desc="→+P出气功拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x08"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出天升脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出旋圆蹴 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x08"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出气功掌 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出千裂脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+KK出霸山天升脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 达尔西姆 (第一角色) ]"/>
+	<cheat desc="→+P出瑜伽火球 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出瑜伽烈焰 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x08"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出瑜伽爆炎 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x08"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↙/↘+PPP/KKK出瑜伽瞬移 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出瑜伽炼狱 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B9" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39D1" value="0x0A"/>
+		</option>
+	</cheat>	
+	<cheat desc="→+KK出瑜伽脚鞑 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出浮游 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 达尔西姆 (第二角色) ]"/>
+	<cheat desc="→+P出瑜伽火球 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出瑜伽烈焰 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x08"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出瑜伽爆炎 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x08"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↙/↘+PPP/KKK出瑜伽瞬移 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>	
+	<cheat desc="→+PP出瑜伽炼狱 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B9" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41D1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出瑜伽脚鞑 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出浮游 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 桑吉尔夫 (第一角色) ]"/>
+	<cheat desc="↘+P出碎金掌 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="P出螺旋打桩 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x08"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出飞行炸弹摔（远）/原子爆摔（近） PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x08"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="PP出终极原子爆摔 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x08"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出空中俄式扣篮 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 桑吉尔夫 (第二角色) ]"/>
+	<cheat desc="↘+P出碎金掌 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="P出螺旋打桩 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x08"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出飞行炸弹摔（远）/原子爆摔（近） PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x08"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="PP出终极原子爆摔 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x08"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出空中俄式扣篮 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 拜森(日版维加) (第一角色) ]"/>
+	<cheat desc="→+P出精神力弹 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x08"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出双膝爆 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x08"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P/K出恶鹰降临 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+K出朝首踏压 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+P出逆魔破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出梦魇膝爆 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出精神力冲击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出精神力场 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39C0" value="0x08"/>
+			<parameter cpu="0" address="0xFF39C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出浮游 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 拜森(日版维加) (第二角色) ]"/>
+	<cheat desc="→+P出精神力弹 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x08"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出双膝爆 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x08"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P/K出恶鹰降临 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+K出朝首踏压 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+P出逆魔破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出梦魇膝爆 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出精神力冲击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出精神力场 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41C0" value="0x08"/>
+			<parameter cpu="0" address="0xFF41C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出浮游 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 豪鬼 (第一角色) ]"/>
+	<cheat desc="→+P出豪波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出豪升龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷斩空脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出斩空波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出灭杀豪波动 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↙/↘+PPP/KKK出阿修罗闪空 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出天魔豪斩空 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="HP出瞬狱杀 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39C8" value="0x08"/>
+			<parameter cpu="0" address="0xFF39C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出灭杀豪升龙 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39D1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出天魔空刃脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3BA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3BA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 豪鬼 (第二角色) ]"/>
+	<cheat desc="→+P出豪波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出豪升龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷斩空脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出斩空波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出灭杀豪波动 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↙/↘+PPP/KKK出阿修罗闪空 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出天魔豪斩空 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="HP出瞬狱杀 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41C8" value="0x08"/>
+			<parameter cpu="0" address="0xFF41C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出灭杀豪升龙 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41D1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出天魔空刃脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF43A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF43A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 春日野樱 (第一角色) ]"/>
+	<cheat desc="→+P出咲樱拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出春风脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出乱樱 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出真空波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出春一番 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 春日野樱 (第二角色) ]"/>
+	<cheat desc="→+P出咲樱拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出春风脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出乱樱 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出真空波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出春一番 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 宪麻吕 (第一角色) ]"/>
+	<cheat desc="→+PP出超凡奇迹宝藏 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出超奇异便签 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出终极杂耍个人记忆 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出强力转臂 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+PP出终极冠军飞跃 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出名人搏击跳跃 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 宪麻吕 (第二角色) ]"/>
+	<cheat desc="→+PP出超凡奇迹宝藏 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出超奇异便签 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出终极杂耍个人记忆 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出强力转臂 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+PP出终极冠军飞跃 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出名人搏击跳跃 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 火引弹 (第一角色) ]"/>
+	<cheat desc="→+P出我道拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出晃龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出断空脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出震空我道拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出晃龙烈火 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出必胜无赖拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出前转挑衅&←+P出后转挑衅 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+开始键出挑衅传说 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39C0" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39C1" value="0x0A"/>
+		</option>
+	</cheat>	
+	<cheat desc="LP出汉道 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39C8" value="0x08"/>
+			<parameter cpu="0" address="0xFF39C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出高级签名 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39D1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 火引弹 (第二角色) ]"/>
+	<cheat desc="→+P出我道拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出晃龙拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出断空脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出震空我道拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出晃龙烈火 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出必胜无赖拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出前转挑衅&←+P出后转挑衅 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+开始键出挑衅传说 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41C0" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41C1" value="0x0A"/>
+		</option>
+	</cheat>	
+	<cheat desc="LP出汉道 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41C8" value="0x08"/>
+			<parameter cpu="0" address="0xFF41C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出高级签名 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41D1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 机械桑吉尔夫 (第一角色) ]"/>
+	<cheat desc="P出螺旋打桩 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x08"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出飞行炸弹摔（远）/原子爆摔（近） PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x08"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="PP出终极原子爆摔 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x08"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出空中俄式扣篮 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出伏特加火焰 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="KK出西伯利亚暴风雪 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39C0" value="0x08"/>
+			<parameter cpu="0" address="0xFF39C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 机械桑吉尔夫 (第二角色) ]"/>
+	<cheat desc="P出螺旋打桩 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x08"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出飞行炸弹摔（远）/原子爆摔（近） PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x08"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="PP出终极原子爆摔 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x08"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出空中俄式扣篮 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出伏特加火焰 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="KK出西伯利亚暴风雪 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41C0" value="0x08"/>
+			<parameter cpu="0" address="0xFF41C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 晒黑的樱 (第一角色) ]"/>
+	<cheat desc="↘+P出咲樱拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x04"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出春风脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出乱樱 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="HP出春狱杀 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x08"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出春一番 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出真空波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39B9" value="0x0A"/>
+		</option>
+	</cheat>	
+	<cheat desc="↘+PPP/KKK出阿修罗闪空 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39D1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 晒黑的樱 (第二角色) ]"/>
+	<cheat desc="↘+P出咲樱拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x04"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出春风脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出乱樱 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="HP出春狱杀 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x08"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出春一番 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出真空波动拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+PPP/KKK出阿修罗闪空 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41D1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 影子纳什 (第一角色) ]"/>
+	<cheat desc="P出音速爆击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3980" value="0x08"/>
+			<parameter cpu="0" address="0xFF3981" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+K出筋斗踢 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3988" value="0x04"/>
+			<parameter cpu="0" address="0xFF3989" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出音速爆破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3990" value="0x04"/>
+			<parameter cpu="0" address="0xFF3991" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出筋斗审判 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3998" value="0x04"/>
+			<parameter cpu="0" address="0xFF3999" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出交叉急袭 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出月面宙返割 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF39A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出最终使命 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF39B0" value="0x0A"/>
+			<parameter cpu="0" address="0xFF39B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 影子纳什 (第二角色) ]"/>
+	<cheat desc="P出音速爆击 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4180" value="0x08"/>
+			<parameter cpu="0" address="0xFF4181" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+K出筋斗踢 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4188" value="0x04"/>
+			<parameter cpu="0" address="0xFF4189" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出音速爆破 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4190" value="0x04"/>
+			<parameter cpu="0" address="0xFF4191" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出筋斗审判 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4198" value="0x04"/>
+			<parameter cpu="0" address="0xFF4199" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出交叉急袭 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出月面宙返割 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF41A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出最终使命 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF41B0" value="0x0A"/>
+			<parameter cpu="0" address="0xFF41B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="[ 容易出招 PL2 ]"/>
+	<cheat desc="→+HP+HK出合体超必杀 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CF0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CF1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45F0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45F1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 镭射眼 (第一角色) ]"/>
+	<cheat desc="→+P出光子爆破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↓+PP出超光子爆破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP终极光子爆破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出飞升勾拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="K出断颈落 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↓+P光子冲击波 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="P疾速拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K镭射眼踢 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 镭射眼 (第二角色) ]"/>
+	<cheat desc="→+P出光子爆破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↓+PP出超光子爆破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP终极光子爆破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出飞升勾拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="K出断颈落 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x08"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↓+P光子冲击波 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="P疾速拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x08"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K镭射眼踢 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 美国队长 (第一角色) ]"/>
+	<cheat desc="↘+PP出终极星条旗 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出最终审判 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出终极突击星尘 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出星条旗 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出盾牌斩击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出突击星尘 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出侧手翻 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 美国队长 (第二角色) ]"/>
+	<cheat desc="↘+PP出终极星条旗 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出最终审判 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出终极突击星尘 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出星条旗 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出盾牌斩击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出突击星尘 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出侧手翻 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x08"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 浩克 (第一角色) ]"/>
+	<cheat desc="K出伽马冲撞 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出伽马压杀 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出伽马龙卷 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="K出纵向伽马冲撞 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出伽马波 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出伽马砰击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 浩克 (第二角色) ]"/>
+	<cheat desc="K出伽马冲撞 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x08"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出伽马压杀 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出伽马龙卷 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x08"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+K出纵向伽马冲撞 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出伽马波 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出伽马砰击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 金刚狼 (第一角色) ]"/>
+	<cheat desc="↘+KK出狂暴掌握 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+PP X兵器 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出狂暴连爪X PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出旋风爪 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出狂暴连爪 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出狂暴掌握 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 金刚狼 (第二角色) ]"/>
+	<cheat desc="↘+KK出狂暴掌握 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+PP X兵器 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出狂暴连爪X PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出旋风爪 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出狂暴连爪 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出狂暴掌握 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 眼魔 (第一角色) ]"/>
+	<cheat desc="P出神秘凝视 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="K出神秘粉碎 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出夺去生命 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出混沌次元 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出究极神秘粉碎 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 眼魔 (第二角色) ]"/>
+	<cheat desc="P出神秘凝视 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x08"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="K出神秘粉碎 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x08"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出夺去生命 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x08"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出混沌次元 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出究极神秘粉碎 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 红色欧米茄 (第一角色) ]"/>
+	<cheat desc="→+PP出欧米茄毁灭 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出卡本纳合金缠绕 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出欧米茄冲击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出卡本纳合金粉碎 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 红色欧米茄 (第二角色) ]"/>
+	<cheat desc="→+PP出欧米茄毁灭 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出卡本纳合金缠绕 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出欧米茄冲击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出卡本纳合金粉碎 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 蜘蛛侠 (第一角色) ]"/>
+	<cheat desc="↘+P出蜘蛛刺 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出蛛丝球 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出蛛丝秋千 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出蛛丝投 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出极限蜘蛛侠 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出爬虫突击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 蜘蛛侠 (第二角色) ]"/>
+	<cheat desc="↘+P出蜘蛛刺 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出蛛丝球 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出蛛丝秋千 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出蛛丝投 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x08"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出极限蜘蛛侠 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出爬虫突击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 黑心 (第一角色) ]"/>
+	<cheat desc="→+PP出世界末日 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出黑暗之心 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出黑暗雷暴 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出地狱 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出审判日 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 黑心 (第二角色) ]"/>
+	<cheat desc="→+PP出世界末日 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出黑暗之心 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出黑暗雷暴 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x08"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出地狱 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x08"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出审判日 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 隆 (第一角色) ]"/>
+	<cheat desc="→+P出波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出升龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷旋风脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出真空波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出真空龙卷旋风脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出真空升龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 隆 (第二角色) ]"/>
+	<cheat desc="→+P出波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出升龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷旋风脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出真空波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出真空龙卷旋风脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出真空升龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 肯 (第一角色) ]"/>
+	<cheat desc="→+P出波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出升龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷旋风脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出升龙裂破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出神龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出疾风迅雷脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CC8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CC9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 肯 (第二角色) ]"/>
+	<cheat desc="→+P出波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出升龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷旋风脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出升龙裂破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出神龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出疾风迅雷脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 春丽 (第一角色) ]"/>
+	<cheat desc="→+P出气功拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出天升脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出旋圆蹴 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出气功掌 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出千裂脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+KK出霸山天升脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 春丽 (第二角色) ]"/>
+	<cheat desc="→+P出气功拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x08"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出天升脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出旋圆蹴 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x08"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出气功掌 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出千裂脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+KK出霸山天升脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 达尔西姆 (第一角色) ]"/>
+	<cheat desc="→+P出瑜伽火球 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出瑜伽烈焰 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出瑜伽爆炎 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↙/↘+PPP/KKK出瑜伽瞬移 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CB0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>	
+	<cheat desc="→+PP出瑜伽炼狱 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB9" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CD0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CD1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出瑜伽脚鞑 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CC0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CC1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出浮游 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CC8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CC9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 达尔西姆 (第二角色) ]"/>
+	<cheat desc="→+P出瑜伽火球 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出瑜伽烈焰 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x08"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出瑜伽爆炎 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x08"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↙/↘+PPP/KKK出瑜伽瞬移 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>	
+	<cheat desc="→+PP出瑜伽炼狱 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B9" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45D1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出瑜伽脚鞑 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出浮游 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 桑吉尔夫 (第一角色) ]"/>
+	<cheat desc="↘+P出碎金掌 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="P出螺旋打桩 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出飞行炸弹摔（远）/原子爆摔（近） PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="PP出终极原子爆摔 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出空中俄式扣篮 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 桑吉尔夫 (第二角色) ]"/>
+	<cheat desc="↘+P出碎金掌 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="P出螺旋打桩 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x08"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出飞行炸弹摔（远）/原子爆摔（近） PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x08"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="PP出终极原子爆摔 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x08"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出空中俄式扣篮 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 拜森(日版维加) (第一角色) ]"/>
+	<cheat desc="→+P出精神力弹 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出双膝爆 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P/K出恶鹰降临 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+K出朝首踏压 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+P出逆魔破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出梦魇膝爆 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出精神力冲击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出精神力场 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CC0" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CC1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出浮游 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CC8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CC9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 拜森(日版维加) (第二角色) ]"/>
+	<cheat desc="→+P出精神力弹 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x08"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出双膝爆 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x08"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P/K出恶鹰降临 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+K出朝首踏压 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+P出逆魔破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出梦魇膝爆 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出精神力冲击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出精神力场 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45C0" value="0x08"/>
+			<parameter cpu="0" address="0xFF45C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出浮游 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 豪鬼 (第一角色) ]"/>
+	<cheat desc="→+P出豪波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出豪升龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷斩空脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出斩空波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出灭杀豪波动 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↙/↘+PPP/KKK出阿修罗闪空 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CB8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出天魔豪斩空 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CC0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CC1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="HP出瞬狱杀 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CC8" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CC9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出灭杀豪升龙 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CD0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CD1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出天魔空刃脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3EA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3EA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 豪鬼 (第二角色) ]"/>
+	<cheat desc="→+P出豪波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出豪升龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出龙卷斩空脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出斩空波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出灭杀豪波动 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↙/↘+PPP/KKK出阿修罗闪空 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出天魔豪斩空 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="HP出瞬狱杀 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45C8" value="0x08"/>
+			<parameter cpu="0" address="0xFF45C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出灭杀豪升龙 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45D1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出天魔空刃脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF47A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF47A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 春日野樱 (第一角色) ]"/>
+	<cheat desc="→+P出咲樱拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CC8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CC9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出春风脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CC0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CC1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出乱樱 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出真空波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出春一番 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 春日野樱 (第二角色) ]"/>
+	<cheat desc="→+P出咲樱拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出春风脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+P出波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出乱樱 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+PP出真空波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出春一番 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 宪麻吕 (第一角色) ]"/>
+	<cheat desc="→+PP出超凡奇迹宝藏 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出超奇异便签 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出终极杂耍个人记忆 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出强力转臂 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+PP出终极冠军飞跃 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出名人搏击跳跃 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 宪麻吕 (第二角色) ]"/>
+	<cheat desc="→+PP出超凡奇迹宝藏 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出超奇异便签 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出终极杂耍个人记忆 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出强力转臂 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+PP出终极冠军飞跃 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出名人搏击跳跃 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 火引弹 (第一角色) ]"/>
+	<cheat desc="→+P出我道拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出晃龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出断空脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出震空我道拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出晃龙烈火 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出必胜无赖拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出前转挑衅&←+P出后转挑衅 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CB8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+开始键出挑衅传说 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CC0" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CC1" value="0x0A"/>
+		</option>
+	</cheat>	
+	<cheat desc="LP出汉道 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CC8" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CC9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出高级签名 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CD0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CD1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 火引弹 (第二角色) ]"/>
+	<cheat desc="→+P出我道拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+P出晃龙拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出断空脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出震空我道拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出晃龙烈火 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出必胜无赖拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出前转挑衅&←+P出后转挑衅 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+开始键出挑衅传说 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45C0" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45C1" value="0x0A"/>
+		</option>
+	</cheat>	
+	<cheat desc="LP出汉道 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45C8" value="0x08"/>
+			<parameter cpu="0" address="0xFF45C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出高级签名 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45D1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 机械桑吉尔夫 (第一角色) ]"/>
+	<cheat desc="P出螺旋打桩 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出飞行炸弹摔（远）/原子爆摔（近） PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="PP出终极原子爆摔 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出空中俄式扣篮 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出伏特加火焰 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="KK出西伯利亚暴风雪 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CC0" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CC1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 机械桑吉尔夫 (第二角色) ]"/>
+	<cheat desc="P出螺旋打桩 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x08"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出飞行炸弹摔（远）/原子爆摔（近） PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x08"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="PP出终极原子爆摔 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x08"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+K出空中俄式扣篮 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出伏特加火焰 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="KK出西伯利亚暴风雪 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45C0" value="0x08"/>
+			<parameter cpu="0" address="0xFF45C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 晒黑的樱 (第一角色) ]"/>
+	<cheat desc="→+P出咲樱拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CC8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CC9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出春风脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CC0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CC1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出乱樱 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="HP出春狱杀 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x08"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出春一番 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出真空波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CB9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+PPP/KKK出阿修罗闪空 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CD0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CD1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 晒黑的樱 (第二角色) ]"/>
+	<cheat desc="→+P出咲樱拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x04"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45C8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45C9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+K出春风脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45C0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45C1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+P出波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出乱樱 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="HP出春狱杀 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x08"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出春一番 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出真空波动拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45B9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↘+PPP/KKK出阿修罗闪空 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45D0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45D1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 影子纳什 (第一角色) ]"/>
+	<cheat desc="P出音速爆击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C80" value="0x08"/>
+			<parameter cpu="0" address="0xFF3C81" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+K出筋斗踢 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C88" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C89" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出音速爆破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C90" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C91" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出筋斗审判 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3C98" value="0x04"/>
+			<parameter cpu="0" address="0xFF3C99" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出交叉急袭 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA0" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出月面宙返割 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CA8" value="0x04"/>
+			<parameter cpu="0" address="0xFF3CA9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出最终使命 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF3CB0" value="0x0A"/>
+			<parameter cpu="0" address="0xFF3CB1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 影子纳什 (第二角色) ]"/>
+	<cheat desc="P出音速爆击 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4580" value="0x08"/>
+			<parameter cpu="0" address="0xFF4581" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="↑+K出筋斗踢 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4588" value="0x04"/>
+			<parameter cpu="0" address="0xFF4589" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出音速爆破 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4590" value="0x04"/>
+			<parameter cpu="0" address="0xFF4591" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="←+KK出筋斗审判 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF4598" value="0x04"/>
+			<parameter cpu="0" address="0xFF4599" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+KK出交叉急袭 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A0" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A1" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+K出月面宙返割 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45A8" value="0x04"/>
+			<parameter cpu="0" address="0xFF45A9" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="→+PP出最终使命 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF45B0" value="0x0A"/>
+			<parameter cpu="0" address="0xFF45B1" value="0x0A"/>
+		</option>
+	</cheat>
+</shufflecheat>

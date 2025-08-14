@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0xFF0F68" value="0x09"/>
+            <parameter cpu="0" address="0xFF0F69" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF0F64" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF0F64" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF0F64" value="0x03"/>
+        </option>
+        <option desc="4-1">
+            <parameter cpu="0" address="0xFF0F64" value="0x04"/>
+        </option>
+        <option desc="4-2">
+            <parameter cpu="0" address="0xFF0F64" value="0x05"/>
+        </option>
+        <option desc="4-3">
+            <parameter cpu="0" address="0xFF0F64" value="0x06"/>
+        </option>
+        <option desc="4-4">
+            <parameter cpu="0" address="0xFF0F64" value="0x07"/>
+        </option>
+        <option desc="4-5">
+            <parameter cpu="0" address="0xFF0F64" value="0x08"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF0F64" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF147B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF14AB" value="0x70"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF14D3" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF149B" value="0xB4"/>
+        </option>
+    </cheat>
+    <cheat desc="跳跃鞋 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF14B2" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="剑的等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="等级 1">
+            <parameter cpu="0" address="0xFF14BF" value="0x00"/>
+        </option>
+        <option desc="等级 2">
+            <parameter cpu="0" address="0xFF14BF" value="0x01"/>
+        </option>
+        <option desc="等级 3">
+            <parameter cpu="0" address="0xFF14BF" value="0x02"/>
+        </option>
+        <option desc="等级 4">
+            <parameter cpu="0" address="0xFF14BF" value="0x03"/>
+        </option>
+        <option desc="等级 5">
+            <parameter cpu="0" address="0xFF14BF" value="0x04"/>
+        </option>
+        <option desc="等级 6">
+            <parameter cpu="0" address="0xFF14BF" value="0x05"/>
+        </option>
+        <option desc="等级 7">
+            <parameter cpu="0" address="0xFF14BF" value="0x06"/>
+        </option>
+        <option desc="等级 8">
+            <parameter cpu="0" address="0xFF14BF" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="魔法类型 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="红宝珠">
+            <parameter cpu="0" address="0xFF14B4" value="0x04"/>
+        </option>
+        <option desc="黄宝珠">
+            <parameter cpu="0" address="0xFF14B4" value="0x06"/>
+        </option>
+        <option desc="蓝宝珠">
+            <parameter cpu="0" address="0xFF14B4" value="0x08"/>
+        </option>
+        <option desc="绿宝珠">
+            <parameter cpu="0" address="0xFF14B4" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="辅助道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF14B3" value="0x00"/>
+        </option>
+        <option desc="飞行">
+            <parameter cpu="0" address="0xFF14B3" value="0x01"/>
+        </option>
+        <option desc="潜水">
+            <parameter cpu="0" address="0xFF14B3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF153B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF156B" value="0x70"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1593" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF155B" value="0xB4"/>
+        </option>
+    </cheat>
+    <cheat desc="跳跃鞋 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1572" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="剑的等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="等级 1">
+            <parameter cpu="0" address="0xFF157F" value="0x00"/>
+        </option>
+        <option desc="等级 2">
+            <parameter cpu="0" address="0xFF157F" value="0x01"/>
+        </option>
+        <option desc="等级 3">
+            <parameter cpu="0" address="0xFF157F" value="0x02"/>
+        </option>
+        <option desc="等级 4">
+            <parameter cpu="0" address="0xFF157F" value="0x03"/>
+        </option>
+        <option desc="等级 5">
+            <parameter cpu="0" address="0xFF157F" value="0x04"/>
+        </option>
+        <option desc="等级 6">
+            <parameter cpu="0" address="0xFF157F" value="0x05"/>
+        </option>
+        <option desc="等级 7">
+            <parameter cpu="0" address="0xFF157F" value="0x06"/>
+        </option>
+        <option desc="等级 8">
+            <parameter cpu="0" address="0xFF157F" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="魔法类型 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="红宝珠">
+            <parameter cpu="0" address="0xFF1574" value="0x04"/>
+        </option>
+        <option desc="黄宝珠">
+            <parameter cpu="0" address="0xFF1574" value="0x06"/>
+        </option>
+        <option desc="蓝宝珠">
+            <parameter cpu="0" address="0xFF1574" value="0x08"/>
+        </option>
+        <option desc="绿宝珠 ">
+            <parameter cpu="0" address="0xFF1574" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="辅助道具 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF1573" value="0x00"/>
+        </option>
+        <option desc="飞行">
+            <parameter cpu="0" address="0xFF1573" value="0x01"/>
+        </option>
+        <option desc="潜水">
+            <parameter cpu="0" address="0xFF1573" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

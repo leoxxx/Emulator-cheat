@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x10B90B" value="0x3C"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x10B90B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选人时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10B9DF" value="0xFF"/>
+            <parameter cpu="0" address="0x10B9E0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="可选【龙吼】角色" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10B9DC" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="到最后一关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10B0E1" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="秋叶原">
+            <parameter cpu="0" address="0x10B135" value="0x00"/>
+        </option>
+        <option desc="体育场（吉他女）">
+            <parameter cpu="0" address="0x10B135" value="0x01"/>
+        </option>
+        <option desc="酒吧">
+            <parameter cpu="0" address="0x10B135" value="0x02"/>
+        </option>
+        <option desc="仪式森林">
+            <parameter cpu="0" address="0x10B135" value="0x03"/>
+        </option>
+        <option desc="体育场（游戏玩家）">
+            <parameter cpu="0" address="0x10B135" value="0x04"/>
+        </option>
+        <option desc="体育场（粉衣女）">
+            <parameter cpu="0" address="0x10B135" value="0x05"/>
+        </option>
+        <option desc="体育场（外星人）">
+            <parameter cpu="0" address="0x10B135" value="0x06"/>
+        </option>
+        <option desc="体育场（红围巾男）">
+            <parameter cpu="0" address="0x10B135" value="0x07"/>
+        </option>
+        <option desc="体育场（胖子乐队）">
+            <parameter cpu="0" address="0x10B135" value="0x08"/>
+        </option>
+        <option desc="体育场（茜茜公主）">
+            <parameter cpu="0" address="0x10B135" value="0x09"/>
+        </option>
+        <option desc="走廊（过场背景）">
+            <parameter cpu="0" address="0x10B135" value="0x0A"/>
+        </option>
+        <option desc="等候室（安妮）">
+            <parameter cpu="0" address="0x10B135" value="0x0B"/>
+        </option>
+        <option desc="等候室（怀特）">
+            <parameter cpu="0" address="0x10B135" value="0x0C"/>
+        </option>
+        <option desc="等候室（陈念）">
+            <parameter cpu="0" address="0x10B135" value="0x0D"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x103069" value="0xC8"/>
+            <parameter cpu="0" address="0x10306B" value="0xC8"/>
+            <parameter cpu="0" address="0x10306F" value="0xC8"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x10306F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x10307D" value="0xF0"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x10307D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用隐藏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="琼斯先生">
+            <parameter cpu="0" address="0x102225" value="0x0F"/>
+            <parameter cpu="0" address="0x10B81F" value="0x10"/>
+            <parameter cpu="0" address="0x10B823" value="0x10"/>
+        </option>
+        <option desc="琳·贝克">
+            <parameter cpu="0" address="0x102225" value="0x11"/>
+            <parameter cpu="0" address="0x10B81F" value="0x11"/>
+            <parameter cpu="0" address="0x10B823" value="0x11"/>
+        </option>
+        <option desc="埃利亚斯·帕特里克">
+            <parameter cpu="0" address="0x102225" value="0x10"/>
+            <parameter cpu="0" address="0x10B81F" value="0x12"/>
+            <parameter cpu="0" address="0x10B823" value="0x12"/>
+        </option>
+        <option desc="吉米">
+            <parameter cpu="0" address="0x102225" value="0x12"/>
+            <parameter cpu="0" address="0x10B81F" value="0x13"/>
+            <parameter cpu="0" address="0x10B823" value="0x13"/>
+        </option>
+         <option desc="茜茜公主">
+            <parameter cpu="0" address="0x10B81F" value="0x0F"/>
+            <parameter cpu="0" address="0x10B823" value="0x0F"/>
+        </option>       
+    </cheat>
+    <cheat desc="总是SSS级评价 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10B84D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限二重跳 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103087" value="0x01"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x102E9D" value="0xC8"/>
+            <parameter cpu="0" address="0x102E9F" value="0xC8"/>
+            <parameter cpu="0" address="0x102EA3" value="0xC8"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x102EA3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x102EB1" value="0xF0"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x102EB1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用隐藏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="琼斯先生">
+            <parameter cpu="0" address="0x1024E5" value="0x0F"/>
+            <parameter cpu="0" address="0x10B84F" value="0x10"/>
+            <parameter cpu="0" address="0x10B853" value="0x10"/>
+        </option>
+        <option desc="琳·贝克">
+            <parameter cpu="0" address="0x1024E5" value="0x11"/>
+            <parameter cpu="0" address="0x10B84F" value="0x11"/>
+            <parameter cpu="0" address="0x10B853" value="0x11"/>
+        </option>
+        <option desc="埃利亚斯·帕特里克">
+            <parameter cpu="0" address="0x1024E5" value="0x10"/>
+            <parameter cpu="0" address="0x10B84F" value="0x12"/>
+            <parameter cpu="0" address="0x10B853" value="0x12"/>
+        </option>
+        <option desc="吉米">
+            <parameter cpu="0" address="0x1024E5" value="0x12"/>
+            <parameter cpu="0" address="0x10B84F" value="0x13"/>
+            <parameter cpu="0" address="0x10B853" value="0x13"/>
+        </option>
+        <option desc="茜茜公主">
+            <parameter cpu="0" address="0x10B84F" value="0x0F"/>
+            <parameter cpu="0" address="0x10B853" value="0x0F"/>
+        </option>        
+    </cheat>
+    <cheat desc="总是SSS级评价 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10B87D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限二重跳 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102EBB" value="0x01"/>
+        </option>
+    </cheat>  
+</shufflecheat>

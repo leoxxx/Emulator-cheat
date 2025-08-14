@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0xFFFF4A" value="0x99"/>
+            <parameter cpu="0" address="0xFFFF4B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFFA8A6" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFFA8A6" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFFA8A6" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFFA8A6" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFFA8A6" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFFA8A6" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFFA8A6" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xFFA8A6" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xFFA8A6" value="0x08"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xFFA8A6" value="0x09"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0xFFA8A6" value="0x0A"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0xFFA8A6" value="0x0B"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0xFFA8A6" value="0x0C"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0xFFA8A6" value="0x0D"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0xFFA8A6" value="0x0E"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0xFFA8A6" value="0x0F"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0xFFA8A6" value="0x10"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0xFFA8A6" value="0x11"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0xFFA8A6" value="0x12"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0xFFA8A6" value="0x13"/>
+        </option>
+        <option desc="21">
+            <parameter cpu="0" address="0xFFA8A6" value="0x14"/>
+        </option>
+        <option desc="22">
+            <parameter cpu="0" address="0xFFA8A6" value="0x15"/>
+        </option>
+        <option desc="23">
+            <parameter cpu="0" address="0xFFA8A6" value="0x16"/>
+        </option>
+        <option desc="24">
+            <parameter cpu="0" address="0xFFA8A6" value="0x17"/>
+        </option>
+        <option desc="25">
+            <parameter cpu="0" address="0xFFA8A6" value="0x18"/>
+        </option>
+        <option desc="26">
+            <parameter cpu="0" address="0xFFA8A6" value="0x19"/>
+        </option>
+        <option desc="27">
+            <parameter cpu="0" address="0xFFA8A6" value="0x1A"/>
+        </option>
+        <option desc="28">
+            <parameter cpu="0" address="0xFFA8A6" value="0x1B"/>
+        </option>
+        <option desc="29">
+            <parameter cpu="0" address="0xFFA8A6" value="0x1C"/>
+        </option>
+        <option desc="30">
+            <parameter cpu="0" address="0xFFA8A6" value="0x1D"/>
+        </option>
+        <option desc="31">
+            <parameter cpu="0" address="0xFFA8A6" value="0x1E"/>
+        </option>
+        <option desc="32">
+            <parameter cpu="0" address="0xFFA8A6" value="0x1F"/>
+        </option>
+        <option desc="33">
+            <parameter cpu="0" address="0xFFA8A6" value="0x20"/>
+        </option>
+        <option desc="34">
+            <parameter cpu="0" address="0xFFA8A6" value="0x21"/>
+        </option>
+        <option desc="35">
+            <parameter cpu="0" address="0xFFA8A6" value="0x22"/>
+        </option>
+        <option desc="36">
+            <parameter cpu="0" address="0xFFA8A6" value="0x23"/>
+        </option>
+        <option desc="37">
+            <parameter cpu="0" address="0xFFA8A6" value="0x24"/>
+        </option>
+        <option desc="38">
+            <parameter cpu="0" address="0xFFA8A6" value="0x25"/>
+        </option>
+        <option desc="39">
+            <parameter cpu="0" address="0xFFA8A6" value="0x26"/>
+        </option>
+        <option desc="40">
+            <parameter cpu="0" address="0xFFA8A6" value="0x27"/>
+        </option>
+        <option desc="41">
+            <parameter cpu="0" address="0xFFA8A6" value="0x28"/>
+        </option>
+        <option desc="42">
+            <parameter cpu="0" address="0xFFA8A6" value="0x29"/>
+        </option>
+        <option desc="43">
+            <parameter cpu="0" address="0xFFA8A6" value="0x2A"/>
+        </option>
+        <option desc="44">
+            <parameter cpu="0" address="0xFFA8A6" value="0x2B"/>
+        </option>
+        <option desc="45">
+            <parameter cpu="0" address="0xFFA8A6" value="0x2C"/>
+        </option>
+        <option desc="46">
+            <parameter cpu="0" address="0xFFA8A6" value="0x2D"/>
+        </option>
+        <option desc="47">
+            <parameter cpu="0" address="0xFFA8A6" value="0x2E"/>
+        </option>
+        <option desc="48">
+            <parameter cpu="0" address="0xFFA8A6" value="0x2F"/>
+        </option>
+        <option desc="49">
+            <parameter cpu="0" address="0xFFA8A6" value="0x30"/>
+        </option>
+        <option desc="50">
+            <parameter cpu="0" address="0xFFA8A6" value="0x31"/>
+        </option>
+        <option desc="51">
+            <parameter cpu="0" address="0xFFA8A6" value="0x32"/>
+        </option>
+        <option desc="52">
+            <parameter cpu="0" address="0xFFA8A6" value="0x33"/>
+        </option>
+        <option desc="53">
+            <parameter cpu="0" address="0xFFA8A6" value="0x34"/>
+        </option>
+        <option desc="54">
+            <parameter cpu="0" address="0xFFA8A6" value="0x35"/>
+        </option>
+        <option desc="55">
+            <parameter cpu="0" address="0xFFA8A6" value="0x36"/>
+        </option>
+        <option desc="56">
+            <parameter cpu="0" address="0xFFA8A6" value="0x37"/>
+        </option>
+        <option desc="57">
+            <parameter cpu="0" address="0xFFA8A6" value="0x38"/>
+        </option>
+        <option desc="58">
+            <parameter cpu="0" address="0xFFA8A6" value="0x39"/>
+        </option>
+        <option desc="59">
+            <parameter cpu="0" address="0xFFA8A6" value="0x3A"/>
+        </option>
+        <option desc="60">
+            <parameter cpu="0" address="0xFFA8A6" value="0x3B"/>
+        </option>
+        <option desc="61">
+            <parameter cpu="0" address="0xFFA8A6" value="0x3C"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限魔杖时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA9BC" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 (玩家) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA98C" value="0x1F"/>
+            <parameter cpu="0" address="0xFFA98D" value="0x40"/>
+            <parameter cpu="0" address="0xFFA98E" value="0x1F"/>
+            <parameter cpu="0" address="0xFFA98F" value="0x40"/>
+        </option>
+    </cheat>   
+    <cheat desc="无限体力 (伙伴) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB7BB" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 会掉血，但不会死 ]"/>    
+    <cheat desc="无敌 (玩家) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA9E0" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 受到一次伤害后生效 ]"/>
+    <cheat desc="无敌 (伙伴) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB7C5" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钥匙 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA9E9" value="0x09"/>
+            <parameter cpu="0" address="0xFFA9EA" value="0x09"/>
+            <parameter cpu="0" address="0xFFA9EB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓄力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA9CA" value="0x60"/>
+            <parameter cpu="0" address="0xFFA9CB" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB5A5" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="最大护盾等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB6A5" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="中毒无效 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA9E3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 伙伴变更或转场时生效 ]"/>
+    <cheat desc="最大伙伴等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB7A5" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 需要有伙伴，转场后显示正常 ]"/>
+    <cheat desc="选择伙伴 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFFA9E7" value="0x00"/>
+            <parameter cpu="0" address="0xFFB7A1" value="0x00"/>
+        </option>
+        <option desc="忍者">
+            <parameter cpu="0" address="0xFFA9E7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB7A1" value="0x00"/>
+        </option>
+        <option desc="巨人">
+            <parameter cpu="0" address="0xFFA9E7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB7A1" value="0x02"/>
+        </option>
+        <option desc="牧师">
+            <parameter cpu="0" address="0xFFA9E7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB7A1" value="0x04"/>
+        </option>
+        <option desc="魔法师">
+            <parameter cpu="0" address="0xFFA9E7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB7A1" value="0x06"/>
+        </option>
+        <option desc="亚马逊女战士">
+            <parameter cpu="0" address="0xFFA9E7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB7A1" value="0x08"/>
+        </option>
+        <option desc="骑士">
+            <parameter cpu="0" address="0xFFA9E7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB7A1" value="0x0A"/>
+        </option>
+        <option desc="盗贼">
+            <parameter cpu="0" address="0xFFA9E7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB7A1" value="0x0C"/>
+        </option>
+        <option desc="蜥蜴人">
+            <parameter cpu="0" address="0xFFA9E7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB7A1" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择魔法装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFFA9F6" value="0x00"/>
+        </option>
+        <option desc="金色罐子">
+            <parameter cpu="0" address="0xFFA9F6" value="0x01"/>
+        </option>
+        <option desc="镞石(无效)">
+            <parameter cpu="0" address="0xFFA9F6" value="0x02"/>
+        </option>
+        <option desc="太阳石">
+            <parameter cpu="0" address="0xFFA9F6" value="0x03"/>
+        </option>
+        <option desc="魔法杖(无效)">
+            <parameter cpu="0" address="0xFFA9F6" value="0x04"/>
+        </option>
+        <option desc="项链">
+            <parameter cpu="0" address="0xFFA9F6" value="0x05"/>
+        </option>
+        <option desc="护手">
+            <parameter cpu="0" address="0xFFA9F6" value="0x06"/>
+        </option>
+        <option desc="卷轴">
+            <parameter cpu="0" address="0xFFA9F6" value="0x07"/>
+        </option>
+        <option desc="王冠">
+            <parameter cpu="0" address="0xFFA9F6" value="0x08"/>
+        </option>
+        <option desc="钻戒">
+            <parameter cpu="0" address="0xFFA9F6" value="0x09"/>
+        </option>
+        <option desc="水晶球">
+            <parameter cpu="0" address="0xFFA9F6" value="0x0A"/>
+        </option>
+        <option desc="魔法药">
+            <parameter cpu="0" address="0xFFA9F6" value="0x0B"/>
+        </option>
+        <option desc="10000点石头(无效)">
+            <parameter cpu="0" address="0xFFA9F6" value="0x0C"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限魔杖时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAA7C" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 (玩家) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAA4C" value="0x1F"/>
+            <parameter cpu="0" address="0xFFAA4D" value="0x40"/>
+            <parameter cpu="0" address="0xFFAA4E" value="0x1F"/>
+            <parameter cpu="0" address="0xFFAA4F" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 (伙伴) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB8BB" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 会掉血，但不会死 ]"/>   
+    <cheat desc="无敌 (玩家) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAAA0" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 受到一次伤害后生效 ]"/>
+    <cheat desc="无敌 (伙伴) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB8C5" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钥匙 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAAA9" value="0x09"/>
+            <parameter cpu="0" address="0xFFAAAA" value="0x09"/>
+            <parameter cpu="0" address="0xFFAAAB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓄力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAA8A" value="0x60"/>
+            <parameter cpu="0" address="0xFFAA8B" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB625" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="最大护盾等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB725" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="中毒无效 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAAA3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 伙伴变更或转场时生效 ]"/>
+    <cheat desc="最大伙伴等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB8A5" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 需要有伙伴，转场后显示正常 ]"/>
+    <cheat desc="选择伙伴 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFFAAA7" value="0x00"/>
+            <parameter cpu="0" address="0xFFB8A1" value="0x00"/>
+        </option>
+        <option desc="忍者">
+            <parameter cpu="0" address="0xFFAAA7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB8A1" value="0x00"/>
+        </option>
+        <option desc="巨人">
+            <parameter cpu="0" address="0xFFAAA7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB8A1" value="0x02"/>
+        </option>
+        <option desc="牧师">
+            <parameter cpu="0" address="0xFFAAA7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB8A1" value="0x04"/>
+        </option>
+        <option desc="魔法师">
+            <parameter cpu="0" address="0xFFAAA7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB8A1" value="0x06"/>
+        </option>
+        <option desc="亚马逊女战士">
+            <parameter cpu="0" address="0xFFAAA7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB8A1" value="0x08"/>
+        </option>
+        <option desc="骑士">
+            <parameter cpu="0" address="0xFFAAA7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB8A1" value="0x0A"/>
+        </option>
+        <option desc="盗贼">
+            <parameter cpu="0" address="0xFFAAA7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB8A1" value="0x0C"/>
+        </option>
+        <option desc="蜥蜴人">
+            <parameter cpu="0" address="0xFFAAA7" value="0x01"/>
+            <parameter cpu="0" address="0xFFB8A1" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择魔法装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFFA9F6" value="0x00"/>
+        </option>
+        <option desc="金色罐子">
+            <parameter cpu="0" address="0xFFA9F6" value="0x01"/>
+        </option>
+        <option desc="镞石(无效)">
+            <parameter cpu="0" address="0xFFA9F6" value="0x02"/>
+        </option>
+        <option desc="太阳石">
+            <parameter cpu="0" address="0xFFA9F6" value="0x03"/>
+        </option>
+        <option desc="魔法杖(无效)">
+            <parameter cpu="0" address="0xFFA9F6" value="0x04"/>
+        </option>
+        <option desc="项链">
+            <parameter cpu="0" address="0xFFA9F6" value="0x05"/>
+        </option>
+        <option desc="护手">
+            <parameter cpu="0" address="0xFFA9F6" value="0x06"/>
+        </option>
+        <option desc="卷轴">
+            <parameter cpu="0" address="0xFFA9F6" value="0x07"/>
+        </option>
+        <option desc="王冠">
+            <parameter cpu="0" address="0xFFA9F6" value="0x08"/>
+        </option>
+        <option desc="钻戒">
+            <parameter cpu="0" address="0xFFA9F6" value="0x09"/>
+        </option>
+        <option desc="水晶球">
+            <parameter cpu="0" address="0xFFA9F6" value="0x0A"/>
+        </option>
+        <option desc="魔法药">
+            <parameter cpu="0" address="0xFFA9F6" value="0x0B"/>
+        </option>
+        <option desc="10000点石头(无效)">
+            <parameter cpu="0" address="0xFFA9F6" value="0x0C"/>
+        </option>
+    </cheat>
+</shufflecheat>

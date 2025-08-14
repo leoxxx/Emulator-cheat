@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D67E" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限角色选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10095E" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 选人画面之前勿开，换场景时生效 ]"/>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="第1关">
+            <parameter cpu="0" address="0x10D680" value="0x00"/>
+        </option>
+        <option desc="第2关">
+            <parameter cpu="0" address="0x10D680" value="0x01"/>
+        </option>
+        <option desc="第3关">
+            <parameter cpu="0" address="0x10D680" value="0x02"/>
+        </option>
+        <option desc="第4关">
+            <parameter cpu="0" address="0x10D680" value="0x03"/>
+        </option>
+        <option desc="第5关">
+            <parameter cpu="0" address="0x10D680" value="0x04"/>
+        </option>
+        <option desc="结局">
+            <parameter cpu="0" address="0x10D680" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择血的颜色" default="0">
+        <option desc="关闭"/>
+        <option desc="无色">
+            <parameter cpu="0" address="0x10FD92" value="0x00"/>
+        </option>
+        <option desc="红色">
+            <parameter cpu="0" address="0x10FD92" value="0x01"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="角色选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="MARCO">
+            <parameter cpu="0" address="0x100A40" value="0x00"/>
+        </option>
+        <option desc="TARMA">
+            <parameter cpu="0" address="0x100A40" value="0x01"/>
+        </option>
+        <option desc="ERI">
+            <parameter cpu="0" address="0x100A40" value="0x02"/>
+        </option>
+        <option desc="FIO">
+            <parameter cpu="0" address="0x100A40" value="0x03"/>
+        </option>
+    </cheat>	
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100A41" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D45C" value="0xFF"/>
+            <parameter cpu="0" address="0x10D45D" value="0xFF"/>
+        </option>
+    </cheat>    
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D457" value="0x63"/>
+            <parameter cpu="0" address="0x10DCDF" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="手榴弹">
+            <parameter cpu="0" address="0x10D456" value="0x01"/>
+        </option>
+        <option desc="燃烧瓶">
+            <parameter cpu="0" address="0x10D456" value="0x02"/>
+        </option>
+        <option desc="石头">
+            <parameter cpu="0" address="0x10D456" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x100D19" value="0x40"/>
+            <parameter cpu="0" address="0x100D49" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 结算前不关闭会死机 ]"/>
+    <cheat desc="救出99个俘虏 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10DDDD" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 需结合选择武器一同使用 ]"/>
+    <cheat desc="胖子子弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100D56" value="0x01"/>
+        </option>       
+        <option desc="恢复正常">
+            <parameter cpu="0" address="0x100D56" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 吃其它武器前不关闭2H会开不了枪 ]"/>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="手枪">
+			<parameter cpu="0" address="0x100D58" value="0x00"/>
+            <parameter cpu="0" address="0x10D454" value="0x00"/>
+        </option>
+        <option desc="S">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x02"/>
+        </option>
+        <option desc="R">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x03"/>
+        </option>
+        <option desc="F">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x04"/>
+        </option>
+        <option desc="H">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x05"/>
+        </option>
+        <option desc="L">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x06"/>
+        </option>
+        <option desc="大S">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x07"/>
+        </option>
+        <option desc="大R">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x08"/>
+        </option>
+        <option desc="大F">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x09"/>
+        </option>
+        <option desc="大H">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x0A"/>
+        </option>
+        <option desc="大L">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x0B"/>
+        </option>
+        <option desc="C">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x0C"/>
+        </option>
+        <option desc="I">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x0D"/>
+        </option>
+        <option desc="D">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x0E"/>
+        </option>
+        <option desc="G">
+			<parameter cpu="0" address="0x100D58" value="0x01"/>
+            <parameter cpu="0" address="0x10D454" value="0x0F"/>
+        </option>                
+        <option desc="2H">
+			<parameter cpu="0" address="0x100D58" value="0x02"/>
+            <parameter cpu="0" address="0x10D454" value="0x12"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="角色选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="MARCO">
+            <parameter cpu="0" address="0x100B04" value="0x00"/>
+        </option>
+        <option desc="TARMA">
+            <parameter cpu="0" address="0x100B04" value="0x01"/>
+        </option>
+        <option desc="ERI">
+            <parameter cpu="0" address="0x100B04" value="0x02"/>
+        </option>
+        <option desc="FIO">
+            <parameter cpu="0" address="0x100B04" value="0x03"/>
+        </option>
+    </cheat>	
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100B05" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D46C" value="0xFF"/>
+            <parameter cpu="0" address="0x10D46D" value="0xFF"/>
+        </option>
+    </cheat>    
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D467" value="0x63"/>
+            <parameter cpu="0" address="0x10DD0B" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="手榴弹">
+            <parameter cpu="0" address="0x10D466" value="0x01"/>
+        </option>
+        <option desc="燃烧瓶">
+            <parameter cpu="0" address="0x10D466" value="0x02"/>
+        </option>
+        <option desc="石头">
+            <parameter cpu="0" address="0x10D466" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x100E09" value="0x40"/>
+            <parameter cpu="0" address="0x100E39" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 结算前不关闭会死机 ]"/>
+    <cheat desc="救出99个俘虏 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10DDE5" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 需结合选择武器一同使用 ]"/> 
+    <cheat desc="胖子子弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100E46" value="0x01"/>
+        </option>
+        <option desc="恢复正常">
+            <parameter cpu="0" address="0x100E46" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 吃其它武器前不关闭2H会开不了枪 ]"/>    
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="手枪">
+			<parameter cpu="0" address="0x100E48" value="0x00"/>
+            <parameter cpu="0" address="0x10D464" value="0x00"/>
+        </option>
+        <option desc="S">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x02"/>
+        </option>
+        <option desc="R">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x03"/>
+        </option>
+        <option desc="F">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x04"/>
+        </option>
+        <option desc="H">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x05"/>
+        </option>
+        <option desc="L">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x06"/>
+        </option>
+        <option desc="大S">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x07"/>
+        </option>
+        <option desc="大R">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x08"/>
+        </option>
+        <option desc="大F">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x09"/>
+        </option>
+        <option desc="大H">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x0A"/>
+        </option>
+        <option desc="大L">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x0B"/>
+        </option>
+        <option desc="C">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x0C"/>
+        </option>
+        <option desc="I">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x0D"/>
+        </option>
+        <option desc="D">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x0E"/>
+        </option>
+        <option desc="G">
+			<parameter cpu="0" address="0x100E48" value="0x01"/>
+            <parameter cpu="0" address="0x10D464" value="0x0F"/>
+        </option>                
+        <option desc="2H">
+			<parameter cpu="0" address="0x100E48" value="0x02"/>
+            <parameter cpu="0" address="0x10D464" value="0x12"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="[ 须在游戏标题画面出现前开启 ]"/>
+    <cheat desc="开启DEBUG菜单（AES）" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10FE80" value="0x31"/>
+        </option>             
+    </cheat> 	
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

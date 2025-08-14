@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106E93" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x10E3B7" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x10E3B7" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x10E3B7" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x10E3B7" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x10E3B7" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x10E3B7" value="0x05"/>
+        </option>
+    </cheat>    
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100377" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1004C2" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1004C0" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100485" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无间隔扔炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1004C1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无间隔射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1004C4" value="0x00"/>
+        </option>
+    </cheat>   
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="手枪">
+            <parameter cpu="0" address="0x1004B1" value="0x00"/>
+        </option>
+        <option desc="S">
+            <parameter cpu="0" address="0x1004B1" value="0x01"/>
+        </option>
+        <option desc="F">
+            <parameter cpu="0" address="0x1004B1" value="0x02"/>
+        </option>
+        <option desc="R">
+            <parameter cpu="0" address="0x1004B1" value="0x03"/>
+        </option>
+        <option desc="H">
+            <parameter cpu="0" address="0x1004B1" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="救出99个俘虏 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106F4D" value="0x63"/>
+        </option>
+    </cheat>   
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100417" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100562" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100560" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100525" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无间隔扔炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100561" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无间隔射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100564" value="0x00"/>
+        </option>
+    </cheat>   
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="手枪 PL2">
+            <parameter cpu="0" address="0x100551" value="0x00"/>
+        </option>
+        <option desc="S">
+            <parameter cpu="0" address="0x100551" value="0x01"/>
+        </option>
+        <option desc="F">
+            <parameter cpu="0" address="0x100551" value="0x02"/>
+        </option>
+        <option desc="R">
+            <parameter cpu="0" address="0x100551" value="0x03"/>
+        </option>
+        <option desc="H">
+            <parameter cpu="0" address="0x100551" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="救出99个俘虏 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106F4F" value="0x63"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+	<cheat desc="[ 下面4个功能是坦克用的 ]"/>
+    <cheat desc="无限气油" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1005E7" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限加农炮" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100610" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1005C5" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无间隔发射加农炮" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10060E" value="0x00"/>
+            <parameter cpu="0" address="0x10060F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

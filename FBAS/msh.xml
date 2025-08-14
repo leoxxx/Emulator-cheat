@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4808" value="0x99"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4808" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF4850" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF4850" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF4850" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF4850" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF4850" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF4850" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF4850" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xFF4850" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="蜘蛛侠">
+            <parameter cpu="0" address="0xFF4893" value="0x00"/>
+        </option>
+        <option desc="美国队长">
+            <parameter cpu="0" address="0xFF4893" value="0x01"/>
+        </option>
+        <option desc="浩克">
+            <parameter cpu="0" address="0xFF4893" value="0x02"/>
+        </option>
+        <option desc="钢铁侠">
+            <parameter cpu="0" address="0xFF4893" value="0x03"/>
+        </option>
+        <option desc="金刚狼">
+            <parameter cpu="0" address="0xFF4893" value="0x04"/>
+        </option>        
+        <option desc="灵蝶">
+            <parameter cpu="0" address="0xFF4893" value="0x05"/>
+        </option>        
+        <option desc="黑心">
+            <parameter cpu="0" address="0xFF4893" value="0x06"/>
+        </option>
+        <option desc="眼魔">
+            <parameter cpu="0" address="0xFF4893" value="0x07"/>
+        </option>              
+        <option desc="红坦克">
+            <parameter cpu="0" address="0xFF4893" value="0x08"/>
+        </option>
+        <option desc="万磁王">
+            <parameter cpu="0" address="0xFF4893" value="0x09"/>
+        </option>
+        <option desc="毁灭博士">
+            <parameter cpu="0" address="0xFF4893" value="0x0A"/>
+        </option>
+        <option desc="灭霸">
+            <parameter cpu="0" address="0xFF4893" value="0x0B"/>
+        </option>                
+    </cheat>        
+	<cheat desc=" "/>
+    <cheat desc="选择体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4191" value="0x90"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4191" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4195" value="0x90"/>
+            <parameter cpu="0" address="0xFF4198" value="0x03"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4195" value="0x00"/>
+            <parameter cpu="0" address="0xFF4198" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无法通常攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF406A" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="蜘蛛侠">
+            <parameter cpu="0" address="0xFF4051" value="0x00"/>
+        </option>
+        <option desc="美国队长">
+            <parameter cpu="0" address="0xFF4051" value="0x02"/>
+        </option>
+        <option desc="浩克">
+            <parameter cpu="0" address="0xFF4051" value="0x04"/>
+        </option>
+        <option desc="钢铁侠">
+            <parameter cpu="0" address="0xFF4051" value="0x06"/>
+        </option>
+        <option desc="金刚狼">
+            <parameter cpu="0" address="0xFF4051" value="0x08"/>
+        </option>
+        <option desc="灵蝶">
+            <parameter cpu="0" address="0xFF4051" value="0x0A"/>
+        </option>
+        <option desc="黑心">
+            <parameter cpu="0" address="0xFF4051" value="0x0C"/>
+        </option>
+        <option desc="眼魔">
+            <parameter cpu="0" address="0xFF4051" value="0x0E"/>
+        </option>
+        <option desc="红坦克">
+            <parameter cpu="0" address="0xFF4051" value="0x10"/>
+        </option>
+        <option desc="万磁王">
+            <parameter cpu="0" address="0xFF4051" value="0x12"/>
+        </option>
+        <option desc="毁灭博士">
+            <parameter cpu="0" address="0xFF4051" value="0x14"/>
+        </option>
+        <option desc="灭霸">
+            <parameter cpu="0" address="0xFF4051" value="0x16"/>
+        </option>
+        <option desc="安妮塔">
+            <parameter cpu="0" address="0xFF4051" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="无限宝石时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4150" value="0x70"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0xFF4150" value="0x00"/>
+        </option>        
+    </cheat>
+    <cheat desc="[ 原本无多段跳的角色无效 ]"/>
+    <cheat desc="无限多段跳 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4144" value="0x00"/>
+        </option>      
+    </cheat>
+    <cheat desc="加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF40D8" value="0x01"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0xFF40D8" value="0x00"/>
+        </option>        
+    </cheat>
+    <cheat desc="宝石位置 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF41B6" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF41B6" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF41B6" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF41B6" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF41B6" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF41B6" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF41B6" value="0xFF"/>
+        </option>        
+    </cheat>
+    <cheat desc="宝石位置 2 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF41B7" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF41B7" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF41B7" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF41B7" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF41B7" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF41B7" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF41B7" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石位置 3 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF41B8" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF41B8" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF41B8" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF41B8" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF41B8" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF41B8" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF41B8" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石位置 4 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF41B9" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF41B9" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF41B9" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF41B9" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF41B9" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF41B9" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF41B9" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石位置 5 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF41BA" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF41BA" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF41BA" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF41BA" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF41BA" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF41BA" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF41BA" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石位置 6 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF41BB" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF41BB" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF41BB" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF41BB" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF41BB" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF41BB" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF41BB" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 选“在手”时无法扔出 ]"/>
+    <cheat desc="美国队长的盾 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="在手">
+            <parameter cpu="0" address="0xFF4304" value="0x00"/>
+        </option>
+        <option desc="脱手">
+            <parameter cpu="0" address="0xFF4304" value="0x01"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4591" value="0x90"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4591" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF4595" value="0x90"/>
+            <parameter cpu="0" address="0xFF4598" value="0x03"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF4595" value="0x00"/>
+            <parameter cpu="0" address="0xFF4598" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无法通常攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF446A" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="蜘蛛侠">
+            <parameter cpu="0" address="0xFF4451" value="0x00"/>
+        </option>
+        <option desc="美国队长">
+            <parameter cpu="0" address="0xFF4451" value="0x02"/>
+        </option>
+        <option desc="浩克">
+            <parameter cpu="0" address="0xFF4451" value="0x04"/>
+        </option>
+        <option desc="钢铁侠">
+            <parameter cpu="0" address="0xFF4451" value="0x06"/>
+        </option>
+        <option desc="金刚狼">
+            <parameter cpu="0" address="0xFF4451" value="0x08"/>
+        </option>
+        <option desc="灵蝶">
+            <parameter cpu="0" address="0xFF4451" value="0x0A"/>
+        </option>
+        <option desc="黑心">
+            <parameter cpu="0" address="0xFF4451" value="0x0C"/>
+        </option>
+        <option desc="眼魔">
+            <parameter cpu="0" address="0xFF4451" value="0x0E"/>
+        </option>
+        <option desc="红坦克">
+            <parameter cpu="0" address="0xFF4451" value="0x10"/>
+        </option>
+        <option desc="万磁王">
+            <parameter cpu="0" address="0xFF4451" value="0x12"/>
+        </option>
+        <option desc="毁灭博士">
+            <parameter cpu="0" address="0xFF4451" value="0x14"/>
+        </option>
+        <option desc="灭霸">
+            <parameter cpu="0" address="0xFF4451" value="0x16"/>
+        </option>
+        <option desc="安妮塔">
+            <parameter cpu="0" address="0xFF4451" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="无限宝石时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4550" value="0x70"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0xFF4550" value="0x00"/>
+        </option>      
+    </cheat>
+    <cheat desc="[ 原本无多段跳的角色无效 ]"/>
+    <cheat desc="无限多段跳 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4544" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF44D8" value="0x01"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0xFF44D8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石位置 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF45B6" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF45B6" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF45B6" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF45B6" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF45B6" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF45B6" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF45B6" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石位置 2 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF45B7" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF45B7" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF45B7" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF45B7" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF45B7" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF45B7" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF45B7" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石位置 3 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF45B8" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF45B8" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF45B8" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF45B8" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF45B8" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF45B8" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF45B8" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石位置 4 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF45B9" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF45B9" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF45B9" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF45B9" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF45B9" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF45B9" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF45B9" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石位置 5 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF45BA" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF45BA" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF45BA" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF45BA" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF45BA" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF45BA" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF45BA" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石位置 6 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="力量宝石">
+            <parameter cpu="0" address="0xFF45BB" value="0x00"/>
+        </option>
+        <option desc="时间宝石">
+            <parameter cpu="0" address="0xFF45BB" value="0x02"/>
+        </option>        
+		<option desc="空间宝石">
+            <parameter cpu="0" address="0xFF45BB" value="0x04"/>
+        </option>
+        <option desc="灵魂宝石">
+            <parameter cpu="0" address="0xFF45BB" value="0x06"/>
+        </option>
+        <option desc="现实宝石">
+            <parameter cpu="0" address="0xFF45BB" value="0x08"/>
+        </option>
+        <option desc="心灵宝石">
+            <parameter cpu="0" address="0xFF45BB" value="0x0A"/>
+        </option>        
+        <option desc="没有宝石">
+            <parameter cpu="0" address="0xFF45BB" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 选“在手”时无法扔出 ]"/>
+    <cheat desc="美国队长的盾 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="在手">
+            <parameter cpu="0" address="0xFF4704" value="0x00"/>
+        </option>
+        <option desc="脱手">
+            <parameter cpu="0" address="0xFF4704" value="0x01"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择区域" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF4C23" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF4C23" value="0x02"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF4C23" value="0x04"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF4C23" value="0x06"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF4C23" value="0x08"/>
+        </option>
+        <option desc="巴西">
+            <parameter cpu="0" address="0xFF4C23" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>
