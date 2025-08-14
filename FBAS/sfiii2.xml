@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2008528" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20142ED" value="0x79"/>
+        </option>
+    </cheat>
+    <cheat desc="可选豪鬼" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2015588" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x2010167" value="0x64"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x2010167" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择评判结果" default="0">
+        <option desc="关闭"/>
+        <option desc="1P赢">
+            <parameter cpu="0" address="0x201016F" value="0x00"/>
+            <parameter cpu="0" address="0x2010170" value="0x01"/>
+        </option>
+        <option desc="2P赢">
+            <parameter cpu="0" address="0x201016F" value="0x01"/>
+            <parameter cpu="0" address="0x2010170" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc="选择背景" default="0">
+		<option desc="关闭"/>
+		<option desc="埃及 隐藏的神殿">
+			<parameter cpu="0" address="0x20142E7" value="0x00"/>
+		</option>		
+		<option desc="美国 楼顶">
+			<parameter cpu="0" address="0x20142E7" value="0x01"/>
+		</option>
+		<option desc="日本 温泉乡">
+			<parameter cpu="0" address="0x20142E7" value="0x02"/>
+		</option>
+		<option desc="香港 商业街">
+			<parameter cpu="0" address="0x20142E7" value="0x03"/>
+		</option>
+		<option desc="英国 街道">
+			<parameter cpu="0" address="0x20142E7" value="0x04"/>
+		</option>
+		<option desc="俄罗斯 火车内">
+			<parameter cpu="0" address="0x20142E7" value="0x05"/>
+		</option>
+		<option desc="德国 广场">
+			<parameter cpu="0" address="0x20142E7" value="0x06"/>
+		</option>
+		<option desc="日本 忍者村">
+			<parameter cpu="0" address="0x20142E7" value="0x07"/>
+		</option>
+		<option desc="肯尼亚 丛林">
+			<parameter cpu="0" address="0x20142E7" value="0x08"/>
+		</option>
+		<option desc="亚马逊丛林 隐士岩洞">
+			<parameter cpu="0" address="0x20142E7" value="0x09"/>
+		</option>
+		<option desc="香港 古玩店内">
+			<parameter cpu="0" address="0x20142E7" value="0x0A"/>
+		</option>
+		<option desc="美国 桥下">
+			<parameter cpu="0" address="0x20142E7" value="0x0B"/>
+		</option>
+		<option desc="巴西 公路">
+			<parameter cpu="0" address="0x20142E7" value="0x0C"/>
+		</option>
+		<option desc="埃及 遗迹">
+			<parameter cpu="0" address="0x20142E7" value="0x0D"/>
+		</option>
+		<option desc="日本 隐居处">
+			<parameter cpu="0" address="0x20142E7" value="0x0E"/>
+		</option>
+	</cheat>
+	<cheat desc=""/>
+    <cheat desc="选择体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x200E5A3" value="0xA0"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x200E5A3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择眩晕槽 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="空">
+            <parameter cpu="0" address="0x200ED7D" value="0x00"/>
+        </option>
+        <option desc="满">
+            <parameter cpu="0" address="0x200ED7D" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量槽 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="满">
+            <parameter cpu="0" address="0x200ED35" value="0xA0"/>
+        </option>
+        <option desc="空">
+            <parameter cpu="0" address="0x200ED35" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 先选定的吉尔才能在战斗中有头像 ]"/>
+    <cheat desc="[ 真·豪鬼&吉尔无限打吉尔无法通关 ]"/>
+	<cheat desc="选择隐藏角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0x20142C1" value="0x0D"/>
+		</option>
+		<option desc="真·豪鬼">
+			<parameter cpu="0" address="0x2010177" value="0x0F"/>
+			<parameter cpu="0" address="0x20142C1" value="0x0E"/>
+		</option>
+		<option desc="吉尔">
+			<parameter cpu="0" address="0x20142C1" value="0x1B"/>
+		</option>	
+	</cheat>
+	<cheat desc="[ 吉尔最后两个颜色相同 ]"/>
+	<cheat desc="[ 真·豪鬼无效，按1P|2P定颜色 ]"/>
+	<cheat desc="选择颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="LP">
+            <parameter cpu="0" address="0x2014497" value="0x00"/>
+        </option>
+        <option desc="MP">
+            <parameter cpu="0" address="0x2014497" value="0x01"/>
+        </option>
+        <option desc="HP">
+            <parameter cpu="0" address="0x2014497" value="0x02"/>
+        </option>
+        <option desc="LK">
+            <parameter cpu="0" address="0x2014497" value="0x03"/>
+        </option>
+        <option desc="MK">
+            <parameter cpu="0" address="0x2014497" value="0x04"/>
+        </option>
+        <option desc="HK或非LK+HP组合">
+            <parameter cpu="0" address="0x2014497" value="0x05"/>
+        </option>
+        <option desc="LK+HP">
+            <parameter cpu="0" address="0x2014497" value="0x06"/>
+        </option>
+    </cheat>
+	<cheat desc="[ 无需能量，但能量满时会消耗 ]"/>
+    <cheat desc="吉尔无限复活 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200ED24" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 吉尔勿用! ]"/>
+    <cheat desc="[ 可随时切换，大部分人物对应1|2|3 ]"/>
+    <cheat desc="[ 以下列出个别人物选项对应顺序 ]"/>
+    <cheat desc="[ 隆&尼克罗：1|3|2 ]"/>
+    <cheat desc="[ 欧罗：鬼神力|2|[欧罗/阴/阳]3 ]"/>
+    <cheat desc="[ 阴：3|2|[欧罗/阴/阳]3 ]"/>
+    <cheat desc="[ 阳：2|3|[欧罗/阴/阳]3 ]"/>
+    <cheat desc="[ 伊吹：霞朱雀|2|1 ]"/>
+    <cheat desc="[ (真)豪鬼有专用选项 ]"/>
+    <cheat desc="[ 已知问题： ]"/>
+	<cheat desc="[ 阴&阳正常未选Ⅲ再改持续时间变短 ]"/>
+    <cheat desc="[ 欧罗正常选Ⅰ再改Ⅲ会附加鬼神力 ]"/>
+    <cheat desc="[ 反之，未正常选Ⅲ再改Ⅰ无鬼神力 ]"/>
+    <cheat desc="选择超必杀 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x200ED1E" value="0x14"/>
+            <parameter cpu="0" address="0x200ED1F" value="0x00"/>
+            <parameter cpu="0" address="0x200ED20" value="0x00"/>
+            <parameter cpu="0" address="0x200ED22" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x200ED1E" value="0x15"/>
+            <parameter cpu="0" address="0x200ED1F" value="0x00"/>
+            <parameter cpu="0" address="0x200ED20" value="0x00"/>
+            <parameter cpu="0" address="0x200ED22" value="0x00"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x200ED1E" value="0x16"/>
+            <parameter cpu="0" address="0x200ED1F" value="0x00"/>
+            <parameter cpu="0" address="0x200ED20" value="0x00"/>
+            <parameter cpu="0" address="0x200ED22" value="0x00"/>
+        </option>
+        <option desc="[欧罗/阴/阳]3">
+            <parameter cpu="0" address="0x200ED1E" value="0x14"/>
+            <parameter cpu="0" address="0x200ED1F" value="0x00"/>
+            <parameter cpu="0" address="0x200ED20" value="0x00"/>
+            <parameter cpu="0" address="0x200ED22" value="0x01"/>
+        </option>
+        <option desc="鬼神力">
+            <parameter cpu="0" address="0x200ED1E" value="0x16"/>
+            <parameter cpu="0" address="0x200ED1F" value="0x00"/>
+            <parameter cpu="0" address="0x200ED20" value="0x00"/>
+            <parameter cpu="0" address="0x200ED22" value="0x01"/>
+        </option>
+        <option desc="霞朱雀">
+            <parameter cpu="0" address="0x200ED1E" value="0x00"/>
+            <parameter cpu="0" address="0x200ED1F" value="0x00"/>
+            <parameter cpu="0" address="0x200ED20" value="0x26"/>
+            <parameter cpu="0" address="0x200ED22" value="0x00"/>
+        </option>
+        <option desc="(真)豪鬼1">
+            <parameter cpu="0" address="0x200ED1E" value="0x14"/>
+            <parameter cpu="0" address="0x200ED1F" value="0x18"/>
+            <parameter cpu="0" address="0x200ED20" value="0x26"/>
+            <parameter cpu="0" address="0x200ED22" value="0x00"/>
+        </option>
+        <option desc="(真)豪鬼2">
+            <parameter cpu="0" address="0x200ED1E" value="0x15"/>
+            <parameter cpu="0" address="0x200ED1F" value="0x18"/>
+            <parameter cpu="0" address="0x200ED20" value="0x00"/>  
+            <parameter cpu="0" address="0x200ED22" value="0x00"/>
+        </option>
+        <option desc="(真)豪鬼3">
+            <parameter cpu="0" address="0x200ED1E" value="0x16"/>
+            <parameter cpu="0" address="0x200ED1F" value="0x18"/>
+            <parameter cpu="0" address="0x200ED20" value="0x27"/>    
+            <parameter cpu="0" address="0x200ED22" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="→+P/K或↑+P/K出蓄力技 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="亚历克斯">
+			<parameter cpu="0" address="0x2020FEF" value="0x01"/>
+            <parameter cpu="0" address="0x202100B" value="0x01"/>
+        </option>
+        <option desc="欧罗">
+			<parameter cpu="0" address="0x2020F9B" value="0x01"/>
+            <parameter cpu="0" address="0x2020FD3" value="0x01"/>
+        </option>
+        <option desc="尤里安">
+			<parameter cpu="0" address="0x2020F9B" value="0x01"/>
+			<parameter cpu="0" address="0x2020FB7" value="0x01"/>
+            <parameter cpu="0" address="0x2020FEF" value="0x01"/>
+        </option>
+    </cheat>
+	<cheat desc=""/>
+    <cheat desc="选择体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x200E9AF" value="0xA0"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x200E9AF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择眩晕槽 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="空">
+            <parameter cpu="0" address="0x200ED91" value="0x00"/>
+        </option>
+        <option desc="满">
+            <parameter cpu="0" address="0x200ED91" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量槽 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="满">
+            <parameter cpu="0" address="0x200ED61" value="0xA0"/>
+        </option>
+        <option desc="空">
+            <parameter cpu="0" address="0x200ED61" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 先选定的吉尔才能在战斗中有头像 ]"/>
+    <cheat desc="[ 真·豪鬼&吉尔无限打吉尔无法通关 ]"/>
+	<cheat desc="选择隐藏角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0x20142C3" value="0x0D"/>
+		</option>
+		<option desc="真·豪鬼">
+			<parameter cpu="0" address="0x2010178" value="0x0F"/>
+			<parameter cpu="0" address="0x20142C3" value="0x0E"/>
+		</option>
+		<option desc="吉尔">
+			<parameter cpu="0" address="0x20142C3" value="0x1B"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 吉尔最后两个颜色相同 ]"/>
+	<cheat desc="[ 真·豪鬼无效，按1P|2P定颜色 ]"/>
+	<cheat desc="选择颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="LP">
+            <parameter cpu="0" address="0x2014498" value="0x00"/>
+        </option>
+        <option desc="MP">
+            <parameter cpu="0" address="0x2014498" value="0x01"/>
+        </option>
+        <option desc="HP">
+            <parameter cpu="0" address="0x2014498" value="0x02"/>
+        </option>
+        <option desc="LK">
+            <parameter cpu="0" address="0x2014498" value="0x03"/>
+        </option>
+        <option desc="MK">
+            <parameter cpu="0" address="0x2014498" value="0x04"/>
+        </option>
+        <option desc="HK或非LK+HP组合">
+            <parameter cpu="0" address="0x2014498" value="0x05"/>
+        </option>
+        <option desc="LK+HP">
+            <parameter cpu="0" address="0x2014498" value="0x06"/>
+        </option>
+    </cheat>
+	<cheat desc="[ 无需能量，但能量满时会消耗 ]"/>
+    <cheat desc="吉尔无限复活 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200ED50" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 吉尔勿用! ]"/>
+    <cheat desc="[ 可随时切换，大部分人物对应1|2|3 ]"/>
+    <cheat desc="[ 以下列出个别人物选项对应顺序 ]"/>
+    <cheat desc="[ 隆&尼克罗：1|3|2 ]"/>
+    <cheat desc="[ 欧罗：鬼神力|2|[欧罗/阴/阳]3 ]"/>
+    <cheat desc="[ 阴：3|2|[欧罗/阴/阳]3 ]"/>
+    <cheat desc="[ 阳：2|3|[欧罗/阴/阳]3 ]"/>
+    <cheat desc="[ 伊吹：霞朱雀|2|1 ]"/>
+    <cheat desc="[ (真)豪鬼有专用选项 ]"/>
+    <cheat desc="[ 已知问题： ]"/>
+	<cheat desc="[ 阴&阳正常未选Ⅲ再改持续时间变短 ]"/>
+    <cheat desc="[ 欧罗正常选Ⅰ再改Ⅲ会附加鬼神力 ]"/>
+    <cheat desc="[ 反之，未正常选Ⅲ再改Ⅰ无鬼神力 ]"/>
+    <cheat desc="选择超必杀 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x200ED4A" value="0x14"/>
+            <parameter cpu="0" address="0x200ED4B" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4C" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4E" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x200ED4A" value="0x15"/>
+            <parameter cpu="0" address="0x200ED4B" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4C" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4E" value="0x00"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x200ED4A" value="0x16"/>
+            <parameter cpu="0" address="0x200ED4B" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4C" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4E" value="0x00"/>
+        </option>
+        <option desc="[欧罗/阴/阳]3">
+            <parameter cpu="0" address="0x200ED4A" value="0x14"/>
+            <parameter cpu="0" address="0x200ED4B" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4C" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4E" value="0x01"/>
+        </option>
+        <option desc="鬼神力">
+            <parameter cpu="0" address="0x200ED4A" value="0x16"/>
+            <parameter cpu="0" address="0x200ED4B" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4C" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4E" value="0x01"/>
+        </option>
+        <option desc="霞朱雀">
+            <parameter cpu="0" address="0x200ED4A" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4B" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4C" value="0x26"/>
+            <parameter cpu="0" address="0x200ED4E" value="0x00"/>
+        </option>
+        <option desc="(真)豪鬼1">
+            <parameter cpu="0" address="0x200ED4A" value="0x14"/>
+            <parameter cpu="0" address="0x200ED4B" value="0x18"/>
+            <parameter cpu="0" address="0x200ED4C" value="0x26"/>
+            <parameter cpu="0" address="0x200ED4E" value="0x00"/>
+        </option>
+        <option desc="(真)豪鬼2">
+            <parameter cpu="0" address="0x200ED4A" value="0x15"/>
+            <parameter cpu="0" address="0x200ED4B" value="0x18"/>
+            <parameter cpu="0" address="0x200ED4C" value="0x00"/>
+            <parameter cpu="0" address="0x200ED4E" value="0x00"/>
+        </option>
+        <option desc="(真)豪鬼3">
+            <parameter cpu="0" address="0x200ED4A" value="0x16"/>
+            <parameter cpu="0" address="0x200ED4B" value="0x18"/>
+            <parameter cpu="0" address="0x200ED4C" value="0x27"/>
+            <parameter cpu="0" address="0x200ED4E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="→+P/K或↑+P/K出蓄力技 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="亚历克斯">
+            <parameter cpu="0" address="0x202160F" value="0x01"/>
+            <parameter cpu="0" address="0x202162B" value="0x01"/>
+        </option>
+        <option desc="欧罗">
+            <parameter cpu="0" address="0x20215BB" value="0x01"/>
+            <parameter cpu="0" address="0x20215F3" value="0x01"/>
+        </option>
+        <option desc="尤里安">
+			<parameter cpu="0" address="0x20215BB" value="0x01"/>
+            <parameter cpu="0" address="0x20215D7" value="0x01"/>
+            <parameter cpu="0" address="0x202160F" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2007188" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2012CA9" value="0x79"/>
+        </option>
+    </cheat>
+    <cheat desc="选择对战时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x200EB33" value="0x64"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x200EB33" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择评判结果" default="0">
+        <option desc="关闭"/>
+        <option desc="1P赢">
+            <parameter cpu="0" address="0x200EB3B" value="0x00"/>
+            <parameter cpu="0" address="0x200EB3C" value="0x01"/>
+        </option>
+        <option desc="2P赢">
+            <parameter cpu="0" address="0x200EB3B" value="0x01"/>
+            <parameter cpu="0" address="0x200EB3C" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc="选择背景" default="0">
+		<option desc="关闭"/>
+		<option desc="地中海 秘密组织总部">
+			<parameter cpu="0" address="0x2012CA3" value="0x00"/>
+		</option>
+		<option desc="美国 涂鸦小巷">
+			<parameter cpu="0" address="0x2012CA3" value="0x01"/>
+		</option>
+		<option desc="日本 温泉乡入口">
+			<parameter cpu="0" address="0x2012CA3" value="0x02"/>
+		</option>
+		<option desc="香港 商业街">
+			<parameter cpu="0" address="0x2012CA3" value="0x03"/>
+		</option>
+		<option desc="英国 街道">
+			<parameter cpu="0" address="0x2012CA3" value="0x04"/>
+		</option>
+		<option desc="俄罗斯 火车内">
+			<parameter cpu="0" address="0x2012CA3" value="0x05"/>
+		</option>
+		<option desc="德国 广场">
+			<parameter cpu="0" address="0x2012CA3" value="0x06"/>
+		</option>
+		<option desc="日本 忍者村">
+			<parameter cpu="0" address="0x2012CA3" value="0x07"/>
+		</option>
+		<option desc="肯尼亚 丛林">
+			<parameter cpu="0" address="0x2012CA3" value="0x08"/>
+		</option>
+		<option desc="亚马逊丛林 隐士岩洞">
+			<parameter cpu="0" address="0x2012CA3" value="0x09"/>
+		</option>
+		<option desc="香港 古玩店内">
+			<parameter cpu="0" address="0x2012CA3" value="0x0A"/>
+		</option>
+		<option desc="日本 温泉乡内部">
+			<parameter cpu="0" address="0x2012CA3" value="0x0B"/>
+		</option>
+		<option desc="美国 冬天的街道">
+			<parameter cpu="0" address="0x2012CA3" value="0x0C"/>
+		</option>
+	</cheat>
+	<cheat desc=""/>
+    <cheat desc="选择体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x200D22B" value="0xA0"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x200D22B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择眩晕槽 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="空">
+            <parameter cpu="0" address="0x200D985" value="0x00"/>
+        </option>
+        <option desc="满">
+            <parameter cpu="0" address="0x200D985" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量槽 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="满">
+            <parameter cpu="0" address="0x200D949" value="0xA0"/>
+        </option>
+        <option desc="空">
+            <parameter cpu="0" address="0x200D949" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc="选择吉尔 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2012C7D" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 无需能量，但能量满时会消耗 ]"/>
+    <cheat desc="吉尔无限复活 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200D941" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 吉尔勿用! ]"/>
+    <cheat desc="[ 可随时切换，大部分人物对应1|2|3 ]"/>
+    <cheat desc="[ 以下列出个别人物选项对应顺序 ]"/>
+    <cheat desc="[ 隆&尼克罗：1|3|2 ]"/>
+    <cheat desc="[ 欧罗：鬼神力|2|天狗石/幻影阵 ]"/>
+    <cheat desc="[ 阴/阳：3|2|天狗石/幻影阵 ]"/>
+    <cheat desc="[ 伊吹：霞朱雀|2|1 ]"/>
+    <cheat desc="[ 已知问题： ]"/>
+	<cheat desc="[ 阴/阳正常未选Ⅲ再改持续时间变短 ]"/>
+    <cheat desc="[ 欧罗正常选Ⅰ再改Ⅲ会附加鬼神力 ]"/>
+    <cheat desc="[ 反之，未正常选Ⅲ再改Ⅰ无鬼神力 ]"/>
+    <cheat desc="选择超必杀 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x200D93F" value="0x10"/>
+            <parameter cpu="0" address="0x200D940" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x200D93F" value="0x11"/>
+            <parameter cpu="0" address="0x200D940" value="0x00"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x200D93F" value="0x12"/>
+            <parameter cpu="0" address="0x200D940" value="0x00"/>
+        </option>
+        <option desc="天狗石/幻影阵">
+            <parameter cpu="0" address="0x200D93F" value="0x10"/>
+            <parameter cpu="0" address="0x200D940" value="0x01"/>
+        </option>
+        <option desc="鬼神力">
+            <parameter cpu="0" address="0x200D93F" value="0x12"/>
+            <parameter cpu="0" address="0x200D940" value="0x01"/>
+        </option>
+        <option desc="霞朱雀">
+			<parameter cpu="0" address="0x200D93F" value="0x21"/>
+            <parameter cpu="0" address="0x200D940" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="→+P/K或↑+P/K出蓄力技 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="亚历克斯">
+            <parameter cpu="0" address="0x201AEFF" value="0x01"/>
+        </option>
+        <option desc="欧罗">
+            <parameter cpu="0" address="0x201AEAB" value="0x01"/>
+            <parameter cpu="0" address="0x201AEE3" value="0x01"/>
+        </option>
+    </cheat>
+	<cheat desc=""/>
+    <cheat desc="选择体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x200D603" value="0xA0"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x200D603" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择眩晕槽 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="空">
+            <parameter cpu="0" address="0x200D999" value="0x00"/>
+        </option>
+        <option desc="满">
+            <parameter cpu="0" address="0x200D999" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量槽 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="满">
+            <parameter cpu="0" address="0x200D969" value="0xA0"/>
+        </option>
+        <option desc="空">
+            <parameter cpu="0" address="0x200D949" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc="选择吉尔 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2012C7F" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 无需能量，但能量满时会消耗 ]"/>
+    <cheat desc="吉尔无限复活 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200D961" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 吉尔勿用! ]"/>
+    <cheat desc="[ 可随时切换，大部分人物对应1|2|3 ]"/>
+    <cheat desc="[ 以下列出个别人物选项对应顺序 ]"/>
+    <cheat desc="[ 隆&尼克罗：1|3|2 ]"/>
+    <cheat desc="[ 欧罗：鬼神力|2|天狗石/幻影阵 ]"/>
+    <cheat desc="[ 阴/阳：3|2|天狗石/幻影阵 ]"/>
+    <cheat desc="[ 伊吹：霞朱雀|2|1 ]"/>
+    <cheat desc="[ 已知问题： ]"/>
+	<cheat desc="[ 阴/阳正常未选Ⅲ再改持续时间变短 ]"/>
+    <cheat desc="[ 欧罗正常选Ⅰ再改Ⅲ会附加鬼神力 ]"/>
+    <cheat desc="[ 反之，未正常选Ⅲ再改Ⅰ无鬼神力 ]"/>
+    <cheat desc="选择超必杀 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x200D95F" value="0x10"/>
+            <parameter cpu="0" address="0x200D960" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x200D95F" value="0x11"/>
+            <parameter cpu="0" address="0x200D960" value="0x00"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x200D95F" value="0x12"/>
+            <parameter cpu="0" address="0x200D960" value="0x00"/>
+        </option>
+        <option desc="天狗石/幻影阵">
+            <parameter cpu="0" address="0x200D95F" value="0x10"/>
+            <parameter cpu="0" address="0x200D960" value="0x01"/>
+        </option>
+        <option desc="鬼神力">
+            <parameter cpu="0" address="0x200D95F" value="0x12"/>
+            <parameter cpu="0" address="0x200D960" value="0x01"/>
+        </option>
+        <option desc="霞朱雀">
+            <parameter cpu="0" address="0x200D95F" value="0x21"/>
+            <parameter cpu="0" address="0x200D960" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="→+P/K或↑+P/K出蓄力技 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="亚历克斯">
+            <parameter cpu="0" address="0x201B43F" value="0x01"/>
+        </option>
+        <option desc="欧罗">
+            <parameter cpu="0" address="0x201B3EB" value="0x01"/>
+            <parameter cpu="0" address="0x201B423" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>
