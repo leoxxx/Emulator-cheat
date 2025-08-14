@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303B6D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x301222" value="0x03"/>
+			<parameter cpu="0" address="0x301223" value="0xE7"/>
+            <parameter cpu="0" address="0x301225" value="0x3B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C72" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C73" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 受到一次伤害后生效，过不去的地方须关闭 ]"/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x30002D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C6F" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 过场或死后生效 ]"/>
+    <cheat desc="选择武器 PL1" default="0"> 
+        <option desc="关闭"/>
+        <option desc="刀">
+            <parameter cpu="0" address="0x303C6E" value="0x04"/>
+        </option>
+        <option desc="手枪">
+            <parameter cpu="0" address="0x303C6E" value="0x06"/>
+        </option>
+        <option desc="机枪">
+            <parameter cpu="0" address="0x303C6E" value="0x05"/>
+        </option>
+        <option desc="喷火枪">
+            <parameter cpu="0" address="0x303C6E" value="0x02"/>
+        </option>
+        <option desc="手雷">
+            <parameter cpu="0" address="0x303C6E" value="0x03"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x303C6E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 可能会无法跳起 ]"/>
+    <cheat desc="选择载具 PL1" default="0"> 
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0x300037" value="0x00"/>
+        </option>
+        <option desc="直升机">
+            <parameter cpu="0" address="0x300037" value="0x0D"/>
+        </option>
+        <option desc="摩托艇">
+            <parameter cpu="0" address="0x300037" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+			<parameter cpu="0" address="0x301228" value="0x03"/>
+			<parameter cpu="0" address="0x301229" value="0xE7"/>
+            <parameter cpu="0" address="0x30122B" value="0x3B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C84" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C85" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 受到一次伤害后生效，过不去的地方须关闭 ]"/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x30006D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C81" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 过场或死后生效 ]"/>
+    <cheat desc="选择武器 PL2" default="0"> 
+        <option desc="关闭"/>
+        <option desc="刀">
+            <parameter cpu="0" address="0x303C80" value="0x04"/>
+        </option>
+        <option desc="手枪">
+            <parameter cpu="0" address="0x303C80" value="0x06"/>
+        </option>
+        <option desc="机枪">
+            <parameter cpu="0" address="0x303C80" value="0x05"/>
+        </option>
+        <option desc="喷火枪">
+            <parameter cpu="0" address="0x303C80" value="0x02"/>
+        </option>
+        <option desc="手雷">
+            <parameter cpu="0" address="0x303C80" value="0x03"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x303C80" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 可能会无法跳起 ]"/>
+    <cheat desc="选择载具 PL2" default="0"> 
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0x300077" value="0x00"/>
+        </option>
+        <option desc="直升机">
+            <parameter cpu="0" address="0x300077" value="0x0D"/>
+        </option>
+        <option desc="摩托艇">
+            <parameter cpu="0" address="0x300077" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币(AES)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100088" value="0x99"/>
+            <parameter cpu="0" address="0x100089" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108CC2" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 游戏开始前开启可得到枪 ]"/>
+    <cheat desc="无限枪" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x02780C" value="0x4E"/>
+            <parameter cpu="0" address="0x02780D" value="0x71"/>
+            <parameter cpu="0" address="0x02780E" value="0x4E"/>
+            <parameter cpu="0" address="0x02780F" value="0x71"/>
+            <parameter cpu="0" address="0x02B47C" value="0x60"/>
+            <parameter cpu="0" address="0x02B764" value="0x4E"/>
+            <parameter cpu="0" address="0x02B765" value="0x71"/>
+            <parameter cpu="0" address="0x02B766" value="0x4E"/>
+            <parameter cpu="0" address="0x02B767" value="0xB9"/>
+            <parameter cpu="0" address="0x02B768" value="0x00"/>
+            <parameter cpu="0" address="0x02B769" value="0x07"/>
+            <parameter cpu="0" address="0x02B76A" value="0xF0"/>
+            <parameter cpu="0" address="0x02B76B" value="0x00"/>
+            <parameter cpu="0" address="0x07F000" value="0x19"/>
+            <parameter cpu="0" address="0x07F001" value="0x7C"/>
+            <parameter cpu="0" address="0x07F002" value="0x00"/>
+            <parameter cpu="0" address="0x07F003" value="0x01"/>
+            <parameter cpu="0" address="0x07F004" value="0x00"/>
+            <parameter cpu="0" address="0x07F005" value="0xAC"/>
+            <parameter cpu="0" address="0x07F006" value="0x19"/>
+            <parameter cpu="0" address="0x07F007" value="0x7C"/>
+            <parameter cpu="0" address="0x07F008" value="0x00"/>
+            <parameter cpu="0" address="0x07F009" value="0x04"/>
+            <parameter cpu="0" address="0x07F00A" value="0x00"/>
+            <parameter cpu="0" address="0x07F00B" value="0x67"/>
+            <parameter cpu="0" address="0x07F00C" value="0x4E"/>
+            <parameter cpu="0" address="0x07F00D" value="0x75"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x02780C" value="0x53"/>
+            <parameter cpu="0" address="0x02780D" value="0x2C"/>
+            <parameter cpu="0" address="0x02780E" value="0x00"/>
+            <parameter cpu="0" address="0x02780F" value="0x67"/>
+            <parameter cpu="0" address="0x02B47C" value="0x66"/>
+            <parameter cpu="0" address="0x02B764" value="0x42"/>
+            <parameter cpu="0" address="0x02B765" value="0x2C"/>
+            <parameter cpu="0" address="0x02B766" value="0x00"/>
+            <parameter cpu="0" address="0x02B767" value="0xAC"/>
+            <parameter cpu="0" address="0x02B768" value="0x42"/>
+            <parameter cpu="0" address="0x02B769" value="0x2C"/>
+            <parameter cpu="0" address="0x02B76A" value="0x00"/>
+            <parameter cpu="0" address="0x02B76B" value="0x67"/>
+            <parameter cpu="0" address="0x07F000" value="0xFF"/>
+            <parameter cpu="0" address="0x07F001" value="0xFF"/>
+            <parameter cpu="0" address="0x07F002" value="0xFF"/>
+            <parameter cpu="0" address="0x07F003" value="0xFF"/>
+            <parameter cpu="0" address="0x07F004" value="0xFF"/>
+            <parameter cpu="0" address="0x07F005" value="0xFF"/>
+            <parameter cpu="0" address="0x07F006" value="0xFF"/>
+            <parameter cpu="0" address="0x07F007" value="0xFF"/>
+            <parameter cpu="0" address="0x07F008" value="0xFF"/>
+            <parameter cpu="0" address="0x07F009" value="0xFF"/>
+            <parameter cpu="0" address="0x07F00A" value="0xFF"/>
+            <parameter cpu="0" address="0x07F00B" value="0xFF"/>
+            <parameter cpu="0" address="0x07F00C" value="0xFF"/>
+            <parameter cpu="0" address="0x07F00D" value="0xFF"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108D1D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能力状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1颗能量珠">
+            <parameter cpu="0" address="0x108D0D" value="0x05"/>
+            <parameter cpu="0" address="0x10056B" value="0x01"/>
+        </option>
+        <option desc="2颗能量珠(仅限第1小关)">
+            <parameter cpu="0" address="0x108D0D" value="0x05"/>
+            <parameter cpu="0" address="0x10056B" value="0x02"/>
+        </option>
+        <option desc="3颗能量珠(仅限第1小关)">
+            <parameter cpu="0" address="0x108D0D" value="0x05"/>
+            <parameter cpu="0" address="0x10056B" value="0x03"/>
+        </option>
+        <option desc="4颗能量珠(仅限第1小关)">
+            <parameter cpu="0" address="0x108D0D" value="0x05"/>
+            <parameter cpu="0" address="0x10056B" value="0x04"/>
+        </option>
+        <option desc="5颗能量珠(仅限第1小关)">
+            <parameter cpu="0" address="0x108D0D" value="0x05"/>
+            <parameter cpu="0" address="0x10056B" value="0x05"/>
+            <parameter cpu="0" address="0x10056C" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL1(仅限第1小关)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100507" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有枪 PL1(仅限第1小关)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10054C" value="0x01"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108D21" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能力状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1颗能量珠">
+            <parameter cpu="0" address="0x108D11" value="0x05"/>
+            <parameter cpu="0" address="0x10116B" value="0x01"/>
+        </option>
+        <option desc="2颗能量珠(仅限第1小关)">
+            <parameter cpu="0" address="0x108D11" value="0x05"/>
+            <parameter cpu="0" address="0x10116B" value="0x02"/>
+        </option>
+        <option desc="3颗能量珠(仅限第1小关)">
+            <parameter cpu="0" address="0x108D11" value="0x05"/>
+            <parameter cpu="0" address="0x10116B" value="0x03"/>
+        </option>
+        <option desc="4颗能量珠(仅限第1小关)">
+            <parameter cpu="0" address="0x108D11" value="0x05"/>
+            <parameter cpu="0" address="0x10116B" value="0x04"/>
+        </option>
+        <option desc="5颗能量珠(仅限第1小关)">
+            <parameter cpu="0" address="0x108D11" value="0x05"/>
+            <parameter cpu="0" address="0x10116B" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL2(仅限第1小关)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101107" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有枪 PL2(仅限第1小关)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10114C" value="0x01"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择机种" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (AES)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>
