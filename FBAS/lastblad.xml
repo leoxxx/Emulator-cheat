@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="金手指推荐用unibios自带的"/>
+    <cheat desc="模拟器-游戏-跳线设置-BIOS设置为unibios"/>
+    <cheat desc="游戏中同时按下ABC和开始键"/>
+    <cheat desc="菜单第一行CHEAT DATABASE就是金手指"/>
+    <cheat desc=" "/>
+    <cheat desc="无限投币(AES)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109D92" value="0x99"/>
+            <parameter cpu="0" address="0x109D93" value="0x99"/>
+        </option>
+    </cheat>
+	<cheat desc="无限时间" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10E32B" value="0x61"/>
+		</option>
+	</cheat>
+	<cheat desc="觉醒枫不会自动掉血" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x02CC7C" value="0x4E"/>
+			<parameter cpu="0" address="0x02CC7D" value="0x71"/>
+			<parameter cpu="0" address="0x02CC7E" value="0x4E"/>
+			<parameter cpu="0" address="0x02CC7F" value="0x71"/>
+		</option>
+	</cheat>
+	<cheat desc="根据剑质无条件出奥义" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x032300" value="0x60"/>
+			<parameter cpu="0" address="0x032302" value="0x00"/>
+			<parameter cpu="0" address="0x032303" value="0x02"/>
+			<parameter cpu="0" address="0x03230A" value="0x60"/>
+			<parameter cpu="0" address="0x032318" value="0x60"/>
+			<parameter cpu="0" address="0x032322" value="0x60"/>
+			<parameter cpu="0" address="0x032324" value="0x00"/>
+			<parameter cpu="0" address="0x032325" value="0x02"/>
+			<parameter cpu="0" address="0x032342" value="0x60"/>
+			<parameter cpu="0" address="0x032344" value="0x00"/>
+			<parameter cpu="0" address="0x032345" value="0x02"/>
+			<parameter cpu="0" address="0x03234C" value="0x60"/>
+			<parameter cpu="0" address="0x0324F0" value="0x60"/>
+			<parameter cpu="0" address="0x0324F2" value="0x00"/>
+			<parameter cpu="0" address="0x0324F3" value="0x02"/>
+			<parameter cpu="0" address="0x0324FA" value="0x60"/>
+			<parameter cpu="0" address="0x032524" value="0x60"/>
+			<parameter cpu="0" address="0x03252E" value="0x60"/>
+			<parameter cpu="0" address="0x032530" value="0x00"/>
+			<parameter cpu="0" address="0x032531" value="0x02"/>
+			<parameter cpu="0" address="0x03254E" value="0x60"/>
+			<parameter cpu="0" address="0x032550" value="0x00"/>
+			<parameter cpu="0" address="0x032551" value="0x02"/>
+			<parameter cpu="0" address="0x032558" value="0x60"/>
+			<parameter cpu="0" address="0x0326FC" value="0x60"/>
+			<parameter cpu="0" address="0x0326FE" value="0x00"/>
+			<parameter cpu="0" address="0x0326FF" value="0x02"/>
+			<parameter cpu="0" address="0x032706" value="0x60"/>
+			<parameter cpu="0" address="0x032714" value="0x60"/>
+			<parameter cpu="0" address="0x03271E" value="0x60"/>
+			<parameter cpu="0" address="0x032720" value="0x00"/>
+			<parameter cpu="0" address="0x032721" value="0x02"/>
+			<parameter cpu="0" address="0x03273E" value="0x60"/>
+			<parameter cpu="0" address="0x032740" value="0x00"/>
+			<parameter cpu="0" address="0x032741" value="0x02"/>
+			<parameter cpu="0" address="0x032748" value="0x60"/>
+			<parameter cpu="0" address="0x037DA8" value="0x60"/>
+			<parameter cpu="0" address="0x038A7A" value="0x4E"/>
+			<parameter cpu="0" address="0x038A7B" value="0x71"/>
+			<parameter cpu="0" address="0x038A82" value="0x60"/>
+		</option>
+		<option desc="还原">
+			<parameter cpu="0" address="0x032300" value="0x64"/>
+			<parameter cpu="0" address="0x032302" value="0xFF"/>
+			<parameter cpu="0" address="0x032303" value="0x48"/>
+			<parameter cpu="0" address="0x03230A" value="0x67"/>
+			<parameter cpu="0" address="0x032318" value="0x67"/>
+			<parameter cpu="0" address="0x032322" value="0x65"/>
+			<parameter cpu="0" address="0x032324" value="0xFF"/>
+			<parameter cpu="0" address="0x032325" value="0x22"/>
+			<parameter cpu="0" address="0x032342" value="0x64"/>
+			<parameter cpu="0" address="0x032344" value="0xFF"/>
+			<parameter cpu="0" address="0x032345" value="0x06"/>
+			<parameter cpu="0" address="0x03234C" value="0x67"/>
+			<parameter cpu="0" address="0x0324F0" value="0x64"/>
+			<parameter cpu="0" address="0x0324F2" value="0xFF"/>
+			<parameter cpu="0" address="0x0324F3" value="0x48"/>
+			<parameter cpu="0" address="0x0324FA" value="0x67"/>
+			<parameter cpu="0" address="0x032524" value="0x67"/>
+			<parameter cpu="0" address="0x03252E" value="0x65"/>
+			<parameter cpu="0" address="0x032530" value="0xFF"/>
+			<parameter cpu="0" address="0x032531" value="0x06"/>
+			<parameter cpu="0" address="0x03254E" value="0x64"/>
+			<parameter cpu="0" address="0x032550" value="0xFE"/>
+			<parameter cpu="0" address="0x032551" value="0xEA"/>
+			<parameter cpu="0" address="0x032558" value="0x67"/>
+			<parameter cpu="0" address="0x0326FC" value="0x64"/>
+			<parameter cpu="0" address="0x0326FE" value="0xFF"/>
+			<parameter cpu="0" address="0x0326FF" value="0x48"/>
+			<parameter cpu="0" address="0x032706" value="0x67"/>
+			<parameter cpu="0" address="0x032714" value="0x67"/>
+			<parameter cpu="0" address="0x03271E" value="0x65"/>
+			<parameter cpu="0" address="0x032720" value="0xFF"/>
+			<parameter cpu="0" address="0x032721" value="0x22"/>
+			<parameter cpu="0" address="0x03273E" value="0x64"/>
+			<parameter cpu="0" address="0x032740" value="0xFF"/>
+			<parameter cpu="0" address="0x032741" value="0x06"/>
+			<parameter cpu="0" address="0x032748" value="0x67"/>
+			<parameter cpu="0" address="0x037DA8" value="0x65"/>
+			<parameter cpu="0" address="0x038A7A" value="0x6F"/>
+			<parameter cpu="0" address="0x038A7B" value="0x3A"/>
+			<parameter cpu="0" address="0x038A82" value="0x67"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 守矢→武藏←枫↑觉醒枫 ]"/>
+	<cheat desc="[ &#8199;↑↓&#8195;&#8195;↑↓&#8195;&#8195;↑↓&#8199;&#8199;&#32;&#8195;&#8199;&#8199; ]"/>
+	<cheat desc="[ 示源→嘉神←翁↓觉醒枫 ]"/>
+	<cheat desc="可选Boss及隐藏人物" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x001400" value="0x1B"/>
+			<parameter cpu="0" address="0x001401" value="0x7C"/>
+			<parameter cpu="0" address="0x001402" value="0x00"/>
+			<parameter cpu="0" address="0x001403" value="0xFF"/>
+			<parameter cpu="0" address="0x001404" value="0x6A"/>
+			<parameter cpu="0" address="0x001405" value="0xC0"/>
+			<parameter cpu="0" address="0x001407" value="0x75"/>
+			<parameter cpu="0" address="0x06A05A" value="0x65"/>
+			<parameter cpu="0" address="0x06B2A1" value="0x0E"/>
+			<parameter cpu="0" address="0x06B2AF" value="0x0E"/>
+			<parameter cpu="0" address="0x06B2D8" value="0x02"/>
+			<parameter cpu="0" address="0x06B2D9" value="0x03"/>
+			<parameter cpu="0" address="0x06B2DA" value="0x0C"/>
+			<parameter cpu="0" address="0x06B2DB" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="[ 对战者报名前/后开启仅影响对手，不影响动画 ]"/>
+	<cheat desc="[ 前：是选定关卡的对手； ]"/>
+	<cheat desc="[ 后：下一关是选定关卡的对手（下一关开始前未关闭） ]"/>
+	<cheat desc="[ 七或八是选定关卡的对手，则特定人物会有对话 ]"/>
+	<cheat desc="[ 七与八：枫、雪、御名方守矢 ]"/>
+	<cheat desc="[ 八：神崎十三、一条明、鹫冢庆一郎、紫镜、 ]"/>
+	<cheat desc="[ 玄武之翁、直卫示源 ]"/>
+	<cheat desc="[ 选项不关闭，则一直打选定关（最后一关除外） ]"/>
+	<cheat desc="选关" default="0">
+		<option desc="关闭"/>
+		<option desc="壱">
+			<parameter cpu="0" address="0x10AC43" value="0x00"/>
+		</option>			
+		<option desc="弐">
+			<parameter cpu="0" address="0x10AC43" value="0x01"/>
+		</option>			
+		<option desc="参">
+			<parameter cpu="0" address="0x10AC43" value="0x02"/>
+		</option>			
+		<option desc="四（有动画）">
+			<parameter cpu="0" address="0x10AC43" value="0x03"/>
+		</option>		
+		<option desc="伍">
+			<parameter cpu="0" address="0x10AC43" value="0x04"/>
+		</option>		
+		<option desc="六">
+			<parameter cpu="0" address="0x10AC43" value="0x05"/>
+		</option>		
+		<option desc="七（有对话）">
+			<parameter cpu="0" address="0x10AC43" value="0x06"/>
+		</option>
+		<option desc="八（有对话和动画）">
+			<parameter cpu="0" address="0x10AC43" value="0x07"/>
+		</option>
+		<option desc="中BOSS（有动画）">
+			<parameter cpu="0" address="0x10AC43" value="0x08"/>
+		</option>		
+		<option desc="最后一关（有动画）">
+			<parameter cpu="0" address="0x10AC43" value="0x09"/>
+		</option>				
+	</cheat>	
+	<cheat desc=" "/>
+	<cheat desc="选择游戏角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="枫">
+			<parameter cpu="0" address="0x10EAAD" value="0x00"/>
+		</option>
+		<option desc="御名方守矢">
+			<parameter cpu="0" address="0x10EAAD" value="0x01"/>
+		</option>
+		<option desc="雪">
+			<parameter cpu="0" address="0x10EAAD" value="0x02"/>
+		</option>
+		<option desc="玄武之翁">
+			<parameter cpu="0" address="0x10EAAD" value="0x03"/>
+		</option>
+		<option desc="一条明">
+			<parameter cpu="0" address="0x10EAAD" value="0x04"/>
+		</option>
+		<option desc="神崎十三">
+			<parameter cpu="0" address="0x10EAAD" value="0x05"/>
+		</option>
+		<option desc="鹫冢庆一郎">
+			<parameter cpu="0" address="0x10EAAD" value="0x06"/>
+		</option>
+		<option desc="紫镜">
+			<parameter cpu="0" address="0x10EAAD" value="0x07"/>
+		</option>
+		<option desc="天野漂">
+			<parameter cpu="0" address="0x10EAAD" value="0x08"/>
+		</option>
+		<option desc="李烈火">
+			<parameter cpu="0" address="0x10EAAD" value="0x09"/>
+		</option>
+		<option desc="斩铁">
+			<parameter cpu="0" address="0x10EAAD" value="0x0A"/>
+		</option>
+		<option desc="直卫示源">
+			<parameter cpu="0" address="0x10EAAD" value="0x0B"/>
+		</option>
+		<option desc="晓武藏">
+			<parameter cpu="0" address="0x10EAAD" value="0x0C"/>
+		</option>
+		<option desc="嘉神慎之介">
+			<parameter cpu="0" address="0x10EAAD" value="0x0D"/>
+		</option>
+		<option desc="觉醒后的枫">
+			<parameter cpu="0" address="0x10EAAD" value="0x0E"/>
+		</option>	
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="选择游戏角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="枫">
+			<parameter cpu="0" address="0x10EAAF" value="0x00"/>
+		</option>
+		<option desc="御名方守矢">
+			<parameter cpu="0" address="0x10EAAF" value="0x01"/>
+		</option>
+		<option desc="雪">
+			<parameter cpu="0" address="0x10EAAF" value="0x02"/>
+		</option>
+		<option desc="玄武之翁">
+			<parameter cpu="0" address="0x10EAAF" value="0x03"/>
+		</option>
+		<option desc="一条明">
+			<parameter cpu="0" address="0x10EAAF" value="0x04"/>
+		</option>
+		<option desc="神崎十三">
+			<parameter cpu="0" address="0x10EAAF" value="0x05"/>
+		</option>
+		<option desc="鹫冢庆一郎">
+			<parameter cpu="0" address="0x10EAAF" value="0x06"/>
+		</option>
+		<option desc="紫镜">
+			<parameter cpu="0" address="0x10EAAF" value="0x07"/>
+		</option>
+		<option desc="天野漂">
+			<parameter cpu="0" address="0x10EAAF" value="0x08"/>
+		</option>
+		<option desc="李烈火">
+			<parameter cpu="0" address="0x10EAAF" value="0x09"/>
+		</option>
+		<option desc="斩铁">
+			<parameter cpu="0" address="0x10EAAF" value="0x0A"/>
+		</option>
+		<option desc="直卫示源">
+			<parameter cpu="0" address="0x10EAAF" value="0x0B"/>
+		</option>
+		<option desc="晓武藏">
+			<parameter cpu="0" address="0x10EAAF" value="0x0C"/>
+		</option>
+		<option desc="嘉神慎之介">
+			<parameter cpu="0" address="0x10EAAF" value="0x0D"/>
+		</option>
+		<option desc="觉醒后的枫">
+			<parameter cpu="0" address="0x10EAAF" value="0x0E"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="选择机种" default="0">
+		<option desc="关闭"/>
+		<option desc="街机 (MVS)">
+			<parameter cpu="0" address="0x10FD82" value="0x80"/>
+		</option>
+		<option desc="家用机 (AES)">
+			<parameter cpu="0" address="0x10FD82" value="0x00"/>
+		</option>
+	</cheat>
+</shufflecheat>

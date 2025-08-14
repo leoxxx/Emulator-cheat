@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x400207" value="0x09"/>
+		</option>
+	</cheat>
+    <cheat desc="无限时间" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x407F36" value="0x77"/>
+		</option>
+	</cheat>
+	<cheat desc="总是一击杀BOSS" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x404B50" value="0x00"/>
+			<parameter cpu="0" address="0x4053D0" value="0x00"/>
+			<parameter cpu="0" address="0x405450" value="0x00"/>
+			<parameter cpu="0" address="0x4054D0" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+        <cheat desc="无敌 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C243" value="0x02"/>
+		</option>
+	</cheat>
+    <cheat desc="分数最大 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C248" value="0x99"/>	
+			<parameter cpu="0" address="0x40C249" value="0x99"/>	
+			<parameter cpu="0" address="0x40C24A" value="0x99"/>	
+			<parameter cpu="0" address="0x40C24B" value="0x99"/>	
+		</option>
+	</cheat>
+    <cheat desc="无限生命 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C244" value="0x09"/>
+		</option>
+	</cheat>
+    <cheat desc="无限体力 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x404FD0" value="0x14"/>
+		</option>
+	</cheat>
+    <cheat desc="无限特殊技 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C245" value="0x09"/>
+		</option>
+	</cheat>
+    <cheat desc="蓄力立即到极限 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C235" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 普攻的倒地一击&突进攻击及蓄力攻击的属性 ]"/>
+	<cheat desc="[ 根据角色不同分为两类 ]"/>
+	<cheat desc="[ 普攻的倒地一击&突进攻击：骑士&武士 ]"/>
+	<cheat desc="[ 蓄力攻击：弓手&法师 ]"/>
+	<cheat desc="[ 角色自身的无与霸属性视觉效果相同，值也相同 ]"/>
+	<cheat desc="[ 骑士和其它角色的值不同 ]"/>>
+    <cheat desc="其它攻击属性 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="无（骑士）">
+			<parameter cpu="0" address="0x40C24C" value="0x44"/>
+		</option>		
+		<option desc="无（其它）">
+			<parameter cpu="0" address="0x40C24C" value="0x10"/>
+		</option>
+		<option desc="火">
+			<parameter cpu="0" address="0x40C24C" value="0x41"/>
+		</option>
+		<option desc="雷">
+			<parameter cpu="0" address="0x40C24C" value="0x48"/>
+		</option>
+		<option desc="冰">
+			<parameter cpu="0" address="0x40C24C" value="0x40"/>
+		</option>		
+		<option desc="光">
+			<parameter cpu="0" address="0x40C24C" value="0x49"/>
+		</option>								
+	</cheat>
+	<cheat desc="[ 骑士和武士霸属性值同自身无属性值 ]"/>	
+	<cheat desc="[ 其它角色自身这两个属性的值不同 ]"/>
+	<cheat desc="[ 骑士的无属性的值与其它角色不同 ]"/>
+	<cheat desc="[ 仅骑士和武士的攻击有属性效果 ]"/>
+	<cheat desc="[ 不含倒地一击 ]"/>
+    <cheat desc="普攻属性 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="无（骑士|霸 弓手）">
+			<parameter cpu="0" address="0x40C24D" value="0x0D"/>
+		</option>		
+		<option desc="无（其它）">
+			<parameter cpu="0" address="0x40C24D" value="0x03"/>
+		</option>
+		<option desc="火">
+			<parameter cpu="0" address="0x40C24D" value="0x08"/>
+		</option>
+		<option desc="雷">
+			<parameter cpu="0" address="0x40C24D" value="0x0B"/>
+		</option>
+		<option desc="冰">
+			<parameter cpu="0" address="0x40C24D" value="0x0A"/>
+		</option>		
+		<option desc="光">
+			<parameter cpu="0" address="0x40C24D" value="0x0C"/>
+		</option>
+		<option desc="霸（法师）">
+			<parameter cpu="0" address="0x40C24D" value="0x05"/>
+		</option>											
+	</cheat>
+	<cheat desc="[ 无角色限制，死后会掉落，掉落后捡起同正常游戏 ]"/>
+	<cheat desc="[ 仅持有，无外观变化，不带攻击属性 ]"/>
+	<cheat desc="[ 武器全部效果可能还受到其它地址的影响 ]"/>
+    <cheat desc="[ （除属性效果之外，未找到的地址） ]"/>
+	<cheat desc="[ 建议死后掉落，关闭属性及该功能后再捡起 ]"/>
+	<cheat desc="持有武器 PL1" default="0">		
+        <option desc="关闭"/>
+		<option desc="火剑">
+			<parameter cpu="0" address="0x40C253" value="0x3C"/>
+		</option>
+		<option desc="雷剑">
+			<parameter cpu="0" address="0x40C253" value="0x40"/>
+		</option>
+		<option desc="冰剑">
+			<parameter cpu="0" address="0x40C253" value="0x44"/>
+		</option>
+		<option desc="光剑">
+			<parameter cpu="0" address="0x40C253" value="0x4C"/>
+		</option>
+		<option desc="霸剑">
+			<parameter cpu="0" address="0x40C253" value="0x48"/>
+		</option>
+		<option desc="火腕">
+			<parameter cpu="0" address="0x40C253" value="0x3D"/>
+		</option>
+		<option desc="雷腕">
+			<parameter cpu="0" address="0x40C253" value="0x41"/>
+		</option>
+		<option desc="冰腕">
+			<parameter cpu="0" address="0x40C253" value="0x45"/>
+		</option>
+		<option desc="光腕">
+			<parameter cpu="0" address="0x40C253" value="0x4D"/>
+		</option>
+		<option desc="霸腕">
+			<parameter cpu="0" address="0x40C253" value="0x49"/>
+		</option>
+		<option desc="火弓">
+			<parameter cpu="0" address="0x40C253" value="0x3E"/>
+		</option>
+		<option desc="雷弓">
+			<parameter cpu="0" address="0x40C253" value="0x42"/>
+		</option>
+		<option desc="冰弓">
+			<parameter cpu="0" address="0x40C253" value="0x46"/>
+		</option>
+		<option desc="光弓">
+			<parameter cpu="0" address="0x40C253" value="0x4E"/>
+		</option>
+		<option desc="霸弓">
+			<parameter cpu="0" address="0x40C253" value="0x4A"/>
+		</option>
+		<option desc="火杖">
+			<parameter cpu="0" address="0x40C253" value="0x3F"/>
+		</option>
+		<option desc="雷杖">
+			<parameter cpu="0" address="0x40C253" value="0x43"/>
+		</option>
+		<option desc="冰杖">
+			<parameter cpu="0" address="0x40C253" value="0x47"/>
+		</option>
+		<option desc="光杖">
+			<parameter cpu="0" address="0x40C253" value="0x4F"/>
+		</option>
+		<option desc="霸杖">
+			<parameter cpu="0" address="0x40C253" value="0x4B"/>
+		</option>							
+	</cheat>
+	<cheat desc=" "/>
+        <cheat desc="无敌 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C343" value="0x02"/>
+		</option>
+	</cheat>
+        <cheat desc="分数最大 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C348" value="0x99"/>	
+			<parameter cpu="0" address="0x40C349" value="0x99"/>	
+			<parameter cpu="0" address="0x40C34A" value="0x99"/>	
+			<parameter cpu="0" address="0x40C34B" value="0x99"/>
+		</option>
+	</cheat>
+        <cheat desc="无限生命 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C344" value="0x09"/>
+		</option>
+	</cheat>
+        <cheat desc="无限体力 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x405050" value="0x14"/>
+		</option>
+	</cheat>
+        <cheat desc="无限特殊技 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C345" value="0x09"/>
+		</option>
+	</cheat>
+        <cheat desc="蓄力立即到极限 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C335" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 普攻的倒地一击&突进攻击及蓄力攻击的属性 ]"/>
+	<cheat desc="[ 根据角色不同分为两类 ]"/>
+	<cheat desc="[ 普攻的倒地一击&突进攻击：骑士&武士 ]"/>
+	<cheat desc="[ 蓄力攻击：弓手&法师 ]"/>
+	<cheat desc="[ 角色自身的无与霸属性视觉效果相同，值也相同 ]"/>
+	<cheat desc="[ 骑士和其它角色的值不同 ]"/>>
+    <cheat desc="其它攻击属性 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="无（骑士）">
+			<parameter cpu="0" address="0x40C34C" value="0x44"/>
+		</option>		
+		<option desc="无（其它）">
+			<parameter cpu="0" address="0x40C34C" value="0x10"/>
+		</option>
+		<option desc="火">
+			<parameter cpu="0" address="0x40C34C" value="0x41"/>
+		</option>
+		<option desc="雷">
+			<parameter cpu="0" address="0x40C34C" value="0x48"/>
+		</option>
+		<option desc="冰">
+			<parameter cpu="0" address="0x40C34C" value="0x40"/>
+		</option>		
+		<option desc="光">
+			<parameter cpu="0" address="0x40C34C" value="0x49"/>
+		</option>								
+	</cheat>
+	<cheat desc="[ 骑士和武士霸属性值同自身无属性值 ]"/>	
+	<cheat desc="[ 其它角色自身这两个属性的值不同 ]"/>
+	<cheat desc="[ 骑士的无属性的值与其它角色不同 ]"/>
+	<cheat desc="[ 仅骑士和武士的攻击有属性效果 ]"/>
+	<cheat desc="[ 不含倒地一击 ]"/>
+    <cheat desc="普攻属性 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="无（骑士|霸 弓手）">
+			<parameter cpu="0" address="0x40C34D" value="0x0D"/>
+		</option>		
+		<option desc="无（其它）">
+			<parameter cpu="0" address="0x40C34D" value="0x03"/>
+		</option>
+		<option desc="火">
+			<parameter cpu="0" address="0x40C34D" value="0x08"/>
+		</option>
+		<option desc="雷">
+			<parameter cpu="0" address="0x40C34D" value="0x0B"/>
+		</option>
+		<option desc="冰">
+			<parameter cpu="0" address="0x40C34D" value="0x0A"/>
+		</option>		
+		<option desc="光">
+			<parameter cpu="0" address="0x40C34D" value="0x0C"/>
+		</option>
+		<option desc="霸（法师）">
+			<parameter cpu="0" address="0x40C34D" value="0x05"/>
+		</option>											
+	</cheat>
+	<cheat desc="[ 无角色限制，死后会掉落，掉落后捡起同正常游戏 ]"/>
+	<cheat desc="[ 仅持有，无外观变化，不带攻击属性 ]"/>
+	<cheat desc="[ 武器全部效果可能还受到其它地址的影响 ]"/>
+    <cheat desc="[ （除属性效果之外，未找到的地址） ]"/>
+	<cheat desc="[ 建议死后掉落，关闭属性及该功能后再捡起 ]"/>
+	<cheat desc="持有武器 PL2" default="0">		
+        <option desc="关闭"/>
+		<option desc="火剑">
+			<parameter cpu="0" address="0x40C353" value="0x3C"/>
+		</option>
+		<option desc="雷剑">
+			<parameter cpu="0" address="0x40C353" value="0x40"/>
+		</option>
+		<option desc="冰剑">
+			<parameter cpu="0" address="0x40C353" value="0x44"/>
+		</option>
+		<option desc="光剑">
+			<parameter cpu="0" address="0x40C353" value="0x4C"/>
+		</option>
+		<option desc="霸剑">
+			<parameter cpu="0" address="0x40C353" value="0x48"/>
+		</option>
+		<option desc="火腕">
+			<parameter cpu="0" address="0x40C353" value="0x3D"/>
+		</option>
+		<option desc="雷腕">
+			<parameter cpu="0" address="0x40C353" value="0x41"/>
+		</option>
+		<option desc="冰腕">
+			<parameter cpu="0" address="0x40C353" value="0x45"/>
+		</option>
+		<option desc="光腕">
+			<parameter cpu="0" address="0x40C353" value="0x4D"/>
+		</option>
+		<option desc="霸腕">
+			<parameter cpu="0" address="0x40C353" value="0x49"/>
+		</option>
+		<option desc="火弓">
+			<parameter cpu="0" address="0x40C353" value="0x3E"/>
+		</option>
+		<option desc="雷弓">
+			<parameter cpu="0" address="0x40C353" value="0x42"/>
+		</option>
+		<option desc="冰弓">
+			<parameter cpu="0" address="0x40C353" value="0x46"/>
+		</option>
+		<option desc="光弓">
+			<parameter cpu="0" address="0x40C353" value="0x4E"/>
+		</option>
+		<option desc="霸弓">
+			<parameter cpu="0" address="0x40C353" value="0x4A"/>
+		</option>
+		<option desc="火杖">
+			<parameter cpu="0" address="0x40C353" value="0x3F"/>
+		</option>
+		<option desc="雷杖">
+			<parameter cpu="0" address="0x40C353" value="0x43"/>
+		</option>
+		<option desc="冰杖">
+			<parameter cpu="0" address="0x40C353" value="0x47"/>
+		</option>
+		<option desc="光杖">
+			<parameter cpu="0" address="0x40C353" value="0x4F"/>
+		</option>
+		<option desc="霸杖">
+			<parameter cpu="0" address="0x40C353" value="0x4B"/>
+		</option>							
+	</cheat>
+	<cheat desc=" "/>
+        <cheat desc="无敌 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C443" value="0x02"/>
+		</option>
+	</cheat>
+        <cheat desc="分数最大 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C448" value="0x99"/>	
+			<parameter cpu="0" address="0x40C449" value="0x99"/>	
+			<parameter cpu="0" address="0x40C44A" value="0x99"/>	
+			<parameter cpu="0" address="0x40C44B" value="0x99"/>
+		</option>
+	</cheat>
+        <cheat desc="无限生命 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C444" value="0x09"/>
+		</option>
+	</cheat>
+        <cheat desc="无限体力 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x4050D0" value="0x14"/>
+		</option>
+	</cheat>
+        <cheat desc="无限特殊技 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C445" value="0x09"/>
+		</option>
+	</cheat>
+        <cheat desc="蓄力立即到极限 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C435" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 普攻的倒地一击&突进攻击及蓄力攻击的属性 ]"/>
+	<cheat desc="[ 根据角色不同分为两类 ]"/>
+	<cheat desc="[ 普攻的倒地一击&突进攻击：骑士&武士 ]"/>
+	<cheat desc="[ 蓄力攻击：弓手&法师 ]"/>
+	<cheat desc="[ 角色自身的无与霸属性视觉效果相同，值也相同 ]"/>
+	<cheat desc="[ 骑士和其它角色的值不同 ]"/>>
+    <cheat desc="其它攻击属性 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="无（骑士）">
+			<parameter cpu="0" address="0x40C44C" value="0x44"/>
+		</option>		
+		<option desc="无（其它）">
+			<parameter cpu="0" address="0x40C44C" value="0x10"/>
+		</option>
+		<option desc="火">
+			<parameter cpu="0" address="0x40C44C" value="0x41"/>
+		</option>
+		<option desc="雷">
+			<parameter cpu="0" address="0x40C44C" value="0x48"/>
+		</option>
+		<option desc="冰">
+			<parameter cpu="0" address="0x40C44C" value="0x40"/>
+		</option>		
+		<option desc="光">
+			<parameter cpu="0" address="0x40C44C" value="0x49"/>
+		</option>								
+	</cheat>
+	<cheat desc="[ 骑士和武士霸属性值同自身无属性值 ]"/>	
+	<cheat desc="[ 其它角色自身这两个属性的值不同 ]"/>
+	<cheat desc="[ 骑士的无属性的值与其它角色不同 ]"/>
+	<cheat desc="[ 仅骑士和武士的攻击有属性效果 ]"/>
+	<cheat desc="[ 不含倒地一击 ]"/>
+    <cheat desc="普攻属性 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="无（骑士|霸 弓手）">
+			<parameter cpu="0" address="0x40C44D" value="0x0D"/>
+		</option>		
+		<option desc="无（其它）">
+			<parameter cpu="0" address="0x40C44D" value="0x03"/>
+		</option>
+		<option desc="火">
+			<parameter cpu="0" address="0x40C44D" value="0x08"/>
+		</option>
+		<option desc="雷">
+			<parameter cpu="0" address="0x40C44D" value="0x0B"/>
+		</option>
+		<option desc="冰">
+			<parameter cpu="0" address="0x40C44D" value="0x0A"/>
+		</option>		
+		<option desc="光">
+			<parameter cpu="0" address="0x40C44D" value="0x0C"/>
+		</option>
+		<option desc="霸（法师）">
+			<parameter cpu="0" address="0x40C44D" value="0x05"/>
+		</option>											
+	</cheat>
+	<cheat desc="[ 无角色限制，死后会掉落，掉落后捡起同正常游戏 ]"/>
+	<cheat desc="[ 仅持有，无外观变化，不带攻击属性 ]"/>
+	<cheat desc="[ 武器全部效果可能还受到其它地址的影响 ]"/>
+    <cheat desc="[ （除属性效果之外，未找到的地址） ]"/>
+	<cheat desc="[ 建议死后掉落，关闭属性及该功能后再捡起 ]"/>
+	<cheat desc="持有武器 PL3" default="0">		
+        <option desc="关闭"/>
+		<option desc="火剑">
+			<parameter cpu="0" address="0x40C453" value="0x3C"/>
+		</option>
+		<option desc="雷剑">
+			<parameter cpu="0" address="0x40C453" value="0x40"/>
+		</option>
+		<option desc="冰剑">
+			<parameter cpu="0" address="0x40C453" value="0x44"/>
+		</option>
+		<option desc="光剑">
+			<parameter cpu="0" address="0x40C453" value="0x4C"/>
+		</option>
+		<option desc="霸剑">
+			<parameter cpu="0" address="0x40C453" value="0x48"/>
+		</option>
+		<option desc="火腕">
+			<parameter cpu="0" address="0x40C453" value="0x3D"/>
+		</option>
+		<option desc="雷腕">
+			<parameter cpu="0" address="0x40C453" value="0x41"/>
+		</option>
+		<option desc="冰腕">
+			<parameter cpu="0" address="0x40C453" value="0x45"/>
+		</option>
+		<option desc="光腕">
+			<parameter cpu="0" address="0x40C453" value="0x4D"/>
+		</option>
+		<option desc="霸腕">
+			<parameter cpu="0" address="0x40C453" value="0x49"/>
+		</option>
+		<option desc="火弓">
+			<parameter cpu="0" address="0x40C453" value="0x3E"/>
+		</option>
+		<option desc="雷弓">
+			<parameter cpu="0" address="0x40C453" value="0x42"/>
+		</option>
+		<option desc="冰弓">
+			<parameter cpu="0" address="0x40C453" value="0x46"/>
+		</option>
+		<option desc="光弓">
+			<parameter cpu="0" address="0x40C453" value="0x4E"/>
+		</option>
+		<option desc="霸弓">
+			<parameter cpu="0" address="0x40C453" value="0x4A"/>
+		</option>
+		<option desc="火杖">
+			<parameter cpu="0" address="0x40C453" value="0x3F"/>
+		</option>
+		<option desc="雷杖">
+			<parameter cpu="0" address="0x40C453" value="0x43"/>
+		</option>
+		<option desc="冰杖">
+			<parameter cpu="0" address="0x40C453" value="0x47"/>
+		</option>
+		<option desc="光杖">
+			<parameter cpu="0" address="0x40C453" value="0x4F"/>
+		</option>
+		<option desc="霸杖">
+			<parameter cpu="0" address="0x40C453" value="0x4B"/>
+		</option>							
+	</cheat>
+	<cheat desc=" "/>
+        <cheat desc="无敌 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C543" value="0x02"/>
+		</option>
+	</cheat>
+        <cheat desc="分数最大 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C548" value="0x99"/>	
+			<parameter cpu="0" address="0x40C549" value="0x99"/>	
+			<parameter cpu="0" address="0x40C54A" value="0x99"/>	
+			<parameter cpu="0" address="0x40C54B" value="0x99"/>
+		</option>
+	</cheat>
+        <cheat desc="无限生命 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C544" value="0x09"/>
+		</option>
+	</cheat>
+        <cheat desc="无限体力 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x405150" value="0x14"/>
+		</option>
+	</cheat>
+        <cheat desc="无限特殊技 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C545" value="0x09"/>
+		</option>
+	</cheat>
+        <cheat desc="蓄力立即到极限 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x40C535" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 普攻的倒地一击&突进攻击及蓄力攻击的属性 ]"/>
+	<cheat desc="[ 根据角色不同分为两类 ]"/>
+	<cheat desc="[ 普攻的倒地一击&突进攻击：骑士&武士 ]"/>
+	<cheat desc="[ 蓄力攻击：弓手&法师 ]"/>
+	<cheat desc="[ 角色自身的无与霸属性视觉效果相同，值也相同 ]"/>
+	<cheat desc="[ 骑士和其它角色的值不同 ]"/>>
+    <cheat desc="其它攻击属性 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="无（骑士）">
+			<parameter cpu="0" address="0x40C54C" value="0x44"/>
+		</option>		
+		<option desc="无（其它）">
+			<parameter cpu="0" address="0x40C54C" value="0x10"/>
+		</option>
+		<option desc="火">
+			<parameter cpu="0" address="0x40C54C" value="0x41"/>
+		</option>
+		<option desc="雷">
+			<parameter cpu="0" address="0x40C54C" value="0x48"/>
+		</option>
+		<option desc="冰">
+			<parameter cpu="0" address="0x40C54C" value="0x40"/>
+		</option>		
+		<option desc="光">
+			<parameter cpu="0" address="0x40C54C" value="0x49"/>
+		</option>								
+	</cheat>
+	<cheat desc="[ 骑士和武士霸属性值同自身无属性值 ]"/>	
+	<cheat desc="[ 其它角色自身这两个属性的值不同 ]"/>
+	<cheat desc="[ 骑士的无属性的值与其它角色不同 ]"/>
+	<cheat desc="[ 仅骑士和武士的攻击有属性效果 ]"/>
+	<cheat desc="[ 不含倒地一击 ]"/>
+    <cheat desc="普攻属性 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="无（骑士|霸 弓手）">
+			<parameter cpu="0" address="0x40C54D" value="0x0D"/>
+		</option>		
+		<option desc="无（其它）">
+			<parameter cpu="0" address="0x40C54D" value="0x03"/>
+		</option>
+		<option desc="火">
+			<parameter cpu="0" address="0x40C54D" value="0x08"/>
+		</option>
+		<option desc="雷">
+			<parameter cpu="0" address="0x40C54D" value="0x0B"/>
+		</option>
+		<option desc="冰">
+			<parameter cpu="0" address="0x40C54D" value="0x0A"/>
+		</option>		
+		<option desc="光">
+			<parameter cpu="0" address="0x40C54D" value="0x0C"/>
+		</option>
+		<option desc="霸（法师）">
+			<parameter cpu="0" address="0x40C54D" value="0x05"/>
+		</option>											
+	</cheat>
+	<cheat desc="[ 无角色限制，死后会掉落，掉落后捡起同正常游戏 ]"/>
+	<cheat desc="[ 仅持有，无外观变化，不带攻击属性 ]"/>
+	<cheat desc="[ 武器全部效果可能还受到其它地址的影响 ]"/>
+    <cheat desc="[ （除属性效果之外，未找到的地址） ]"/>
+	<cheat desc="[ 建议死后掉落，关闭属性及该功能后再捡起 ]"/>
+	<cheat desc="持有武器 PL4" default="0">		
+        <option desc="关闭"/>
+		<option desc="火剑">
+			<parameter cpu="0" address="0x40C553" value="0x3C"/>
+		</option>
+		<option desc="雷剑">
+			<parameter cpu="0" address="0x40C553" value="0x40"/>
+		</option>
+		<option desc="冰剑">
+			<parameter cpu="0" address="0x40C553" value="0x44"/>
+		</option>
+		<option desc="光剑">
+			<parameter cpu="0" address="0x40C553" value="0x4C"/>
+		</option>
+		<option desc="霸剑">
+			<parameter cpu="0" address="0x40C553" value="0x48"/>
+		</option>
+		<option desc="火腕">
+			<parameter cpu="0" address="0x40C553" value="0x3D"/>
+		</option>
+		<option desc="雷腕">
+			<parameter cpu="0" address="0x40C553" value="0x41"/>
+		</option>
+		<option desc="冰腕">
+			<parameter cpu="0" address="0x40C553" value="0x45"/>
+		</option>
+		<option desc="光腕">
+			<parameter cpu="0" address="0x40C553" value="0x4D"/>
+		</option>
+		<option desc="霸腕">
+			<parameter cpu="0" address="0x40C553" value="0x49"/>
+		</option>
+		<option desc="火弓">
+			<parameter cpu="0" address="0x40C553" value="0x3E"/>
+		</option>
+		<option desc="雷弓">
+			<parameter cpu="0" address="0x40C553" value="0x42"/>
+		</option>
+		<option desc="冰弓">
+			<parameter cpu="0" address="0x40C553" value="0x46"/>
+		</option>
+		<option desc="光弓">
+			<parameter cpu="0" address="0x40C553" value="0x4E"/>
+		</option>
+		<option desc="霸弓">
+			<parameter cpu="0" address="0x40C553" value="0x4A"/>
+		</option>
+		<option desc="火杖">
+			<parameter cpu="0" address="0x40C553" value="0x3F"/>
+		</option>
+		<option desc="雷杖">
+			<parameter cpu="0" address="0x40C553" value="0x43"/>
+		</option>
+		<option desc="冰杖">
+			<parameter cpu="0" address="0x40C553" value="0x47"/>
+		</option>
+		<option desc="光杖">
+			<parameter cpu="0" address="0x40C553" value="0x4F"/>
+		</option>
+		<option desc="霸杖">
+			<parameter cpu="0" address="0x40C553" value="0x4B"/>
+		</option>							
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="[ 重启游戏后出现提示，按F2 ]"/>
+    <cheat desc="选择区域" default="0">
+		<option desc="关闭"/>
+		<option desc="日本">
+			<parameter cpu="0" address="0x0FFFFF" value="0x01"/>
+		</option>
+		<option desc="美国">
+			<parameter cpu="0" address="0x0FFFFF" value="0x02"/>
+		</option>
+		<option desc="世界">
+			<parameter cpu="0" address="0x0FFFFF" value="0x03"/>
+		</option>
+	</cheat>
+</shufflecheat>
