@@ -258,9 +258,125 @@
             <parameter cpu="0" address="0x80DB77" value="0x3E"/>
         </option>
     </cheat>
-    <cheat desc="敌方被击数总是255" default="0">
+    <cheat desc="[ 0.关羽1.张飞2.赵云3.黄忠4.马超 ]"/>
+    <cheat desc="[ 5.诸葛亮6.张辽7.貂蝉8.陆逊9.许褚 ]"/>
+    <cheat desc="[ 编号后加*表示新人物 ]"/>
+    <cheat desc="[ 编号后加!表示原&新人物 ]"/>
+    <cheat desc="[ 最高得分|低分 ]"/>
+    <cheat desc="[ 9：5*&8*|0!&2!&7!&4*&6* ]"/>
+    <cheat desc="[ 10：5!&9!|0!&7!&2*&4*&6* ]"/>
+    <cheat desc="[ 11：1&3*|0!&7!&4*&5*&6* ]"/>
+    <cheat desc="[ 12：3|7!&0*&3*&4*&5*&6* ]"/>
+    <cheat desc="[ 13：2|5!&7!&9&0*&3*&4*&6* ]"/>
+    <cheat desc="[ 14：1*|1&5!&9&0*&3*&4*&7* ]"/>
+    <cheat desc="[ 15：8|1!&3!&5!&9!&0*&7* ]"/>
+    <cheat desc="[ 19：7!|1!&2&3!&4!&5!&6!&8!&9! ]"/>
+    <cheat desc="[ 51：4&2*|6!&9!&5* ]"/>
+    <cheat desc="[ 134：0!&6!|4!&2*&3*&8*&9* ]"/>
+    <cheat desc="[ 255：4*|1!&6!&8!&0*&3*&7*&9* ]"/>
+    <cheat desc="选择敌方被连击数" default="0">
 		<option desc="关闭"/>
-		<option desc="开启">
+		<option desc="9">
+			<parameter cpu="0" address="0x80D084" value="0x08"/>
+			<parameter cpu="0" address="0x80D23A" value="0x08"/>
+			<parameter cpu="0" address="0x80D3F0" value="0x08"/>
+			<parameter cpu="0" address="0x80D5A6" value="0x08"/>
+			<parameter cpu="0" address="0x80D75C" value="0x08"/>
+			<parameter cpu="0" address="0x80D912" value="0x08"/>
+			<parameter cpu="0" address="0x80DAC8" value="0x08"/>
+			<parameter cpu="0" address="0x80DC7E" value="0x08"/>
+		</option>
+		<option desc="10">
+			<parameter cpu="0" address="0x80D084" value="0x09"/>
+			<parameter cpu="0" address="0x80D23A" value="0x09"/>
+			<parameter cpu="0" address="0x80D3F0" value="0x09"/>
+			<parameter cpu="0" address="0x80D5A6" value="0x09"/>
+			<parameter cpu="0" address="0x80D75C" value="0x09"/>
+			<parameter cpu="0" address="0x80D912" value="0x09"/>
+			<parameter cpu="0" address="0x80DAC8" value="0x09"/>
+			<parameter cpu="0" address="0x80DC7E" value="0x09"/>
+		</option>
+		<option desc="11">
+			<parameter cpu="0" address="0x80D084" value="0x0A"/>
+			<parameter cpu="0" address="0x80D23A" value="0x0A"/>
+			<parameter cpu="0" address="0x80D3F0" value="0x0A"/>
+			<parameter cpu="0" address="0x80D5A6" value="0x0A"/>
+			<parameter cpu="0" address="0x80D75C" value="0x0A"/>
+			<parameter cpu="0" address="0x80D912" value="0x0A"/>
+			<parameter cpu="0" address="0x80DAC8" value="0x0A"/>
+			<parameter cpu="0" address="0x80DC7E" value="0x0A"/>
+		</option>
+		<option desc="12">
+			<parameter cpu="0" address="0x80D084" value="0x0B"/>
+			<parameter cpu="0" address="0x80D23A" value="0x0B"/>
+			<parameter cpu="0" address="0x80D3F0" value="0x0B"/>
+			<parameter cpu="0" address="0x80D5A6" value="0x0B"/>
+			<parameter cpu="0" address="0x80D75C" value="0x0B"/>
+			<parameter cpu="0" address="0x80D912" value="0x0B"/>
+			<parameter cpu="0" address="0x80DAC8" value="0x0B"/>
+			<parameter cpu="0" address="0x80DC7E" value="0x0B"/>
+		</option>
+		<option desc="13">
+			<parameter cpu="0" address="0x80D084" value="0x0C"/>
+			<parameter cpu="0" address="0x80D23A" value="0x0C"/>
+			<parameter cpu="0" address="0x80D3F0" value="0x0C"/>
+			<parameter cpu="0" address="0x80D5A6" value="0x0C"/>
+			<parameter cpu="0" address="0x80D75C" value="0x0C"/>
+			<parameter cpu="0" address="0x80D912" value="0x0C"/>
+			<parameter cpu="0" address="0x80DAC8" value="0x0C"/>
+			<parameter cpu="0" address="0x80DC7E" value="0x0C"/>
+		</option>
+		<option desc="14">
+			<parameter cpu="0" address="0x80D084" value="0x0D"/>
+			<parameter cpu="0" address="0x80D23A" value="0x0D"/>
+			<parameter cpu="0" address="0x80D3F0" value="0x0D"/>
+			<parameter cpu="0" address="0x80D5A6" value="0x0D"/>
+			<parameter cpu="0" address="0x80D75C" value="0x0D"/>
+			<parameter cpu="0" address="0x80D912" value="0x0D"/>
+			<parameter cpu="0" address="0x80DAC8" value="0x0D"/>
+			<parameter cpu="0" address="0x80DC7E" value="0x0D"/>
+		</option>
+		<option desc="15">
+			<parameter cpu="0" address="0x80D084" value="0x0E"/>
+			<parameter cpu="0" address="0x80D23A" value="0x0E"/>
+			<parameter cpu="0" address="0x80D3F0" value="0x0E"/>
+			<parameter cpu="0" address="0x80D5A6" value="0x0E"/>
+			<parameter cpu="0" address="0x80D75C" value="0x0E"/>
+			<parameter cpu="0" address="0x80D912" value="0x0E"/>
+			<parameter cpu="0" address="0x80DAC8" value="0x0E"/>
+			<parameter cpu="0" address="0x80DC7E" value="0x0E"/>
+		</option>
+		<option desc="19">
+			<parameter cpu="0" address="0x80D084" value="0x12"/>
+			<parameter cpu="0" address="0x80D23A" value="0x12"/>
+			<parameter cpu="0" address="0x80D3F0" value="0x12"/>
+			<parameter cpu="0" address="0x80D5A6" value="0x12"/>
+			<parameter cpu="0" address="0x80D75C" value="0x12"/>
+			<parameter cpu="0" address="0x80D912" value="0x12"/>
+			<parameter cpu="0" address="0x80DAC8" value="0x12"/>
+			<parameter cpu="0" address="0x80DC7E" value="0x12"/>
+		</option>
+		<option desc="51">
+			<parameter cpu="0" address="0x80D084" value="0x32"/>
+			<parameter cpu="0" address="0x80D23A" value="0x32"/>
+			<parameter cpu="0" address="0x80D3F0" value="0x32"/>
+			<parameter cpu="0" address="0x80D5A6" value="0x32"/>
+			<parameter cpu="0" address="0x80D75C" value="0x32"/>
+			<parameter cpu="0" address="0x80D912" value="0x32"/>
+			<parameter cpu="0" address="0x80DAC8" value="0x32"/>
+			<parameter cpu="0" address="0x80DC7E" value="0x32"/>
+		</option>
+		<option desc="134">
+			<parameter cpu="0" address="0x80D084" value="0x85"/>
+			<parameter cpu="0" address="0x80D23A" value="0x85"/>
+			<parameter cpu="0" address="0x80D3F0" value="0x85"/>
+			<parameter cpu="0" address="0x80D5A6" value="0x85"/>
+			<parameter cpu="0" address="0x80D75C" value="0x85"/>
+			<parameter cpu="0" address="0x80D912" value="0x85"/>
+			<parameter cpu="0" address="0x80DAC8" value="0x85"/>
+			<parameter cpu="0" address="0x80DC7E" value="0x85"/>
+		</option>
+		<option desc="255">
 			<parameter cpu="0" address="0x80D084" value="0xFE"/>
 			<parameter cpu="0" address="0x80D23A" value="0xFE"/>
 			<parameter cpu="0" address="0x80D3F0" value="0xFE"/>
@@ -19354,3 +19470,4 @@
         </option>
     </cheat>
 </shufflecheat>
+
