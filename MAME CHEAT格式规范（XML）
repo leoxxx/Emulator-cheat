@@ -1,0 +1,24 @@
+https://github.com/mamedev/mame/blob/master/src/frontend/mame/cheat.cpp
+
+script state处表示启用方式。on/off为按下回车后启用，但两这项是对立且独立的。通常情况下，on/off搭配temp用于对ROM区的内存操作。on开启cheat后，数据会写入temp。off关闭对应操作后会将temp的数据还原。on可单独使用，用于直接按下后启用，不需要关闭的情况。
+run为开关式启用，可选择开或关。
+change为多选项切换启用，在多个选项之间按回车启用。
+
+maincpu处表示使用哪个CPU的地址。一些基板不只一个CPU。比如：68K作为主CPU ，Z80作为子CPU，用于处理音频；PGM部分游戏会有ARM CPU。通常情况下用maincpu（在FBAS及FBN的INI的中为0），ARM=prot（在FBAS及FBN的INI的中为2）。
+
+p处表示写入类型。
+p=程序写入（写入RAM）
+m=区域写入（写入ROM）
+r=RAM写入（适用于p或m无法运作时）
+o=操作码写入（适用于r或m无法动作时，常用于加密的内存 ）
+d=数据写入
+i=i/o写入
+3=SPACE3写入
+通常情况下用p。
+
+b处表示值的大小。
+b=字节，8位
+w=字，16位
+d=双字，32位
+q=四字，64位
+注：使用b以外的选项需要注意字节序问题，以免写入错误的数据。
