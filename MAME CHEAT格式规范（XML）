@@ -1,5 +1,17 @@
 https://github.com/mamedev/mame/blob/master/src/frontend/mame/cheat.cpp
 
+  <cheat desc="Infinite Time">
+    <script state="on">
+      <action>temp0 =maincpu.mw@00E082</action>
+    </script>
+    <script state="run">
+      <action>maincpu.mw@00E082=4E71</action>
+    </script>
+    <script state="off">
+      <action>maincpu.mw@00E082=temp0 </action>
+    </script>
+  </cheat>
+
 script state处表示启用方式。on/off为按下回车后启用，但两这项是对立且独立的。通常情况下，on/off搭配temp用于对ROM区的内存操作。on开启cheat后，数据会写入temp。off关闭对应操作后会将temp的数据还原。on可单独使用，用于直接按下后启用，不需要关闭的情况。
 run为开关式启用，可选择开或关。
 change为多选项切换启用，在多个选项之间按回车启用。
