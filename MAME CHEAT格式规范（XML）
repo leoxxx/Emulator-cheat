@@ -13,7 +13,7 @@ https://github.com/mamedev/mame/blob/master/src/frontend/mame/cheat.cpp
   </cheat>
 
 script state处表示启用方式。
-on/off通常情况下搭配temp用于对ROM区的内存操作。开启以上CHEAT时，会先执行on读取目标地址的值，并将值写入temp0。然后再执行run对该地址写入指定的值。关闭时执行off，将temp0保存的值还原到目标地址。
+on/off通常情况下搭配temp用于对ROM区的内存操作。开启以上CHEAT时，会先执行on读取目标地址的值，并将值保存到temp0。然后再执行run对该地址写入指定的值。关闭时执行off，将temp0保存的值还原到目标地址。
 on可单独使用，按下回后一次性生效。
 run为开关式启用，开启后一直生效，直到关为止。
 change为多选项切换启用，在多个选项之间按回车启用。
