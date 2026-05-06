@@ -12,13 +12,13 @@ https://github.com/libretro/mame2003-plus-libretro/blob/master/src/cheat.c
 
 第一段，前三位+后五位 写入类型+参数
 000=标准内存写入=XML版的p（程序写入RAM）
----xx=使用哪个CPU的地址=XML版的maincpu处
+后五位=使用哪个CPU的地址=XML版的maincpu处
 
 001=内存区域=XML版的m（域区写入ROM）
 --xxx=区域偏移偏移量
 
 010=写入映射内存的处理程序
----xx=使用哪个CPU的地址=XML版的maincpu处
+后五位=使用哪个CPU的地址=XML版的maincpu处
 
 011=自定义
 00000=注释
