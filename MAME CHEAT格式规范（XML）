@@ -12,8 +12,10 @@ https://github.com/mamedev/mame/blob/master/src/frontend/mame/cheat.cpp
     </script>
   </cheat>
 
-script state处表示启用方式。on/off为按下回车后启用，但两这项是对立且独立的。通常情况下，on/off搭配temp用于对ROM区的内存操作。on开启cheat后，数据会写入temp。off关闭对应操作后会将temp的数据还原。on可单独使用，用于直接按下后启用，不需要关闭的情况。
-run为开关式启用，可选择开或关。
+script state处表示启用方式。
+on/off通常情况下搭配temp用于对ROM区的内存操作。开启以上CHEAT时，会先执行on读取目标地址的值，并将值写入temp0。然后再执行run对该地址写入指定的值。关闭时执行off，将temp0保存的值还原到目标地址。
+on可单独使用，按下回后一次性生效。
+run为开关式启用，开启后一直生效，直到关为止。
 change为多选项切换启用，在多个选项之间按回车启用。
 
 maincpu处表示使用哪个CPU的地址。一些基板不只一个CPU。比如：68K作为主CPU ，Z80作为子CPU，用于处理音频；PGM部分游戏会有ARM CPU。通常情况下用maincpu（在FBAS及FBN的INI的中为0），ARM=prot（在FBAS及FBN的INI的中为2）。
