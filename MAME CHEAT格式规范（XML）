@@ -12,7 +12,7 @@ https://github.com/mamedev/mame/blob/master/src/frontend/mame/cheat.cpp
     </script>
   </cheat>
 
-script state处表示启用方式。
+script state处表示操作方式。
 on为启用时执行操作。
 off为禁用时执行操作。
 on和off通常情况下搭配temp用于对ROM区的内存操作。开启以上CHEAT时，会先执行on读取目标地址的值，并将值保存到temp0。然后再执行run对该地址写入指定的值。关闭时执行off，将temp0保存的值还原到目标地址。
