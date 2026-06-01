@@ -21,8 +21,8 @@ change为多选项切换启用，在多个选项之间按回车启用。
 maincpu处表示使用哪个CPU的地址。一些基板不只一个CPU。比如：68K作为主CPU ，Z80作为子CPU，用于处理音频；PGM部分游戏会有ARM CPU。通常情况下用maincpu（在FBAS及FBN的INI的中为0），ARM=prot（在FBAS及FBN的INI的中为2）。
 
 p处表示写入类型。
-p=程序写入（写入RAM）
-m=区域写入（写入ROM）
+p=程序写入（写入RAM区）
+m=区域写入（写入ROM区）
 r=RAM写入（适用于p或m无法运作时）
 o=操作码写入（适用于r或m无法动作时，常用于加密的内存 ）
 d=数据写入
