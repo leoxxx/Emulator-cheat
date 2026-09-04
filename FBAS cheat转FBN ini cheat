@@ -1,0 +1,98 @@
+需要用到支持正则替换，增加行号的工具。可以用notepad++或一些网页工具来实现。
+
+1.新建一个ini文件，并设置编码为UTF-8。
+
+以denjinmk的chaet为例
+
+    <cheat desc="[ 选完人后长官说话时再开，然后立即关闭 ]"/>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="高速公路/游乐园">
+            <parameter cpu="0" address="0x110614" value="0x00"/>
+            <parameter cpu="0" address="0x110615" value="0x5C"/>
+        </option>
+        <option desc="高速公路">
+            <parameter cpu="0" address="0x110614" value="0x00"/>
+            <parameter cpu="0" address="0x110615" value="0xA0"/>
+        </option>
+        <option desc="游乐园">
+            <parameter cpu="0" address="0x110614" value="0x00"/>
+            <parameter cpu="0" address="0x110615" value="0x7C"/>
+        </option>
+        <option desc="第三码头/军事基地">
+            <parameter cpu="0" address="0x110614" value="0x00"/>
+            <parameter cpu="0" address="0x110615" value="0xC4"/>
+        </option>
+        <option desc="第三码头">
+            <parameter cpu="0" address="0x110614" value="0x00"/>
+            <parameter cpu="0" address="0x110615" value="0xF8"/>
+        </option>
+        <option desc="军事基地">
+            <parameter cpu="0" address="0x110614" value="0x00"/>
+            <parameter cpu="0" address="0x110615" value="0xE4"/>
+        </option>
+        <option desc="中心城市">
+            <parameter cpu="0" address="0x110614" value="0x01"/>
+            <parameter cpu="0" address="0x110615" value="0x08"/>
+        </option>
+        <option desc="奖励关—打石板">
+            <parameter cpu="0" address="0x110614" value="0x01"/>
+            <parameter cpu="0" address="0x110615" value="0x34"/>
+        </option>
+        <option desc="奖励关—双人对打">
+            <parameter cpu="0" address="0x110614" value="0x01"/>
+            <parameter cpu="0" address="0x110615" value="0x1C"/>
+        </option>
+        <option desc="奖励关—打投影敌">
+            <parameter cpu="0" address="0x110614" value="0x01"/>
+            <parameter cpu="0" address="0x110615" value="0x28"/>
+        </option>
+        <option desc="结局">
+            <parameter cpu="0" address="0x110614" value="0x01"/>
+            <parameter cpu="0" address="0x110615" value="0x40"/>
+        </option>        
+    </cheat>
+
+    将以上内容复制进去并保存。
+ 
+2.去除不需要的字符
+查找目标处正则表达式为 + <\w+ \w+=| +</option>| +</cheat>
+注意第一+前有一个空格。替换为处留空。点击全部替换。
+查找目标处正则表达式为"/>|">
+替换为处填"。点击全部替换。
+
+3.转换格式
+查找目标处正则表达式为"\[ (.*) \]"
+替换为处正则表达式为cheat "※$1"。点击全部替换。
+"选择关卡" default="0"这行手动分成两行。结果如下。
+cheat "选择关卡"
+default 0
+查找目标处正则表达式为"(\d)" address="(0x\w+)" value="(0x\w+)"
+替换为处正则表达式为, $1, $2, $3。点击全部替换。
+查找目标处正则表达式为("|\w)\r\n
+替换为处正则表达式为$1。去掉循环查找前的勾，将光标移到"关闭"下面一行后点击全部替换。
+如果用网页处理上面这条，那么查找目标处正则表达式应为("|\w)\n。这是由于换行符行不同所造成的。notepad++默认是CR+LF,即\r\n。而网页则是LF，即\n
+
+4.添加行号
+按住ALT键后用鼠标左键从"关闭"这行开始纵向选取列，注意不要选到字符。按一下空格后再按下键盘的←。编辑>列编辑器，初始值处为0，增量处为1，开头补齐处选补空格，点击确定。
+编辑>空白字符操作>移除行首空格。
+注：notepad++有三种列模式选取方法，自行选择顺手的操作方法。"关闭"下面的行数小于9时，则明不用在开头补空格及移除空格操作。第4步如果用一些专门添加行号的工具则会简化很多操作。
+
+转换后如下。
+cheat "※选完人后长官说话时再开，然后立即关闭"
+cheat "选择关卡"
+default 0
+0 "关闭"
+1 "高速公路/游乐园", 0, 0x110614, 0x00, 0, 0x110615, 0x5C
+2 "高速公路", 0, 0x110614, 0x00, 0, 0x110615, 0xA0
+3 "游乐园", 0, 0x110614, 0x00, 0, 0x110615, 0x7C
+4 "第三码头/军事基地", 0, 0x110614, 0x00, 0, 0x110615, 0xC4
+5 "第三码头", 0, 0x110614, 0x00, 0, 0x110615, 0xF8
+6 "军事基地", 0, 0x110614, 0x00, 0, 0x110615, 0xE4
+7 "中心城市", 0, 0x110614, 0x01, 0, 0x110615, 0x08
+8 "奖励关—打石板", 0, 0x110614, 0x01, 0, 0x110615, 0x34
+9 "奖励关—双人对打", 0, 0x110614, 0x01, 0, 0x110615, 0x1C
+10 "奖励关—打投影敌", 0, 0x110614, 0x01, 0, 0x110615, 0x28
+11 "结局", 0, 0x110614, 0x01, 0, 0x110615, 0x40
+
+最后记得要将文件名改名为对应的ROM名。
