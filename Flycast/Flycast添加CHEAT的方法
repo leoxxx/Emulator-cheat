@@ -1,0 +1,35 @@
+格式：地址 值（皆为十六进制）
+
+ADD CHEAT界面CODE处填写“00123456 00000080”，则会在DATA文件夹下生成ROM包全名.CHT的文件，如mslug6.zip.cht。用编辑器打开后发现里面的格式是RETROARCH的CHEAT格式，地址和值都是十进制的。
+
+地址开头两位与下文的memory_search_size的关系
+添加	CHT
+00	  3
+01	  4
+02	  5
+
+以下未作说明处为固定条目，不要改动。
+
+cheat0表示第一条代码。
+
+cheat0_address = 1193046                                    //地址，即十六进制的00123456
+cheat0_address_bit_position = 0                            //
+cheat0_big_endian = no                                    //
+cheat0_cheat_type = 1                                    //
+cheat0_code =                                           //
+cheat0_desc =                                          //代码作用说明。
+cheat0_dest_address = 0                               // 
+cheat0_enable = no                                   //是否为开启状态。默认为no，以防游戏开始时报错。
+cheat0_handler = 1                                  //
+cheat0_memory_search_size = 3                      //值的范围。3=8位（FF）；4=16位（FFFF）；5=32位（FFFFFFFF）。
+                                                  //同CE这类修改器中值类型（单字节，双字节，四节字）。
+cheat0_repeat_add_to_address = 0                 //迭代地址间的步进。repeat_count大于1时有效。
+cheat0_repeat_add_to_value = 0                  //迭代值的步进。repeat_count大于1时有效。
+cheat0_repeat_count = 1                        //迭代地址数，默认为1，即只有1个地址。
+cheat0_value = 128                            //值，即十六进制的80。当然，这里填-128也是一样的。请自行用计算器转换。
+cheats = 1                                   //作弊码总整条数。
+                                            //在CHT里删除整条CHEAT后最好不要动这里，改动有可能会造成某整条CHEAT丢失。
+                                           //在FLYCAST里添加CHEAT后，这里会自动变更。 
+
+附：CE扫描FLYCAST的地址范围：开始0000700000000000；停止00007fffffffffff 
+       以精简搜索结果。
