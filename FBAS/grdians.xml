@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
+	<cheat desc="[ 仅刃零、塞尔迪亚、吉尔利安、黑骑士 ]"/>
+    <cheat desc="修正第一关BOSS被抓时头部裂开" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x18E425" value="0x04"/>
+            <parameter cpu="0" address="0x18E427" value="0xEC"/>
+            <parameter cpu="0" address="0x18E55D" value="0x04"/>
+            <parameter cpu="0" address="0x18E55F" value="0xEC"/>
+        </option>
+    </cheat>	
     <cheat desc="[ 作用于开启时的画面最后一个敌人 ]"/>
     <cheat desc="[ 开启无限敌人血量后，无法过版面 ]"/>
     <cheat desc="[ 开启空血后，杀死空血敌人再关闭，即可过版 ]"/>
@@ -29,11 +39,9 @@
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x0A6B44" value="0xFF"/>
-            <parameter cpu="0" address="0x0A6B45" value="0xFE"/>
         </option>
         <option desc="还原">
             <parameter cpu="0" address="0x0A6B44" value="0x0C"/>
-            <parameter cpu="0" address="0x0A6B45" value="0xCB"/>
         </option>
     </cheat>
     <cheat desc="全屏攻击" default="0">
