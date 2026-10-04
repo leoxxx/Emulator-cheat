@@ -9,7 +9,7 @@
             <parameter cpu="0" address="0x18E55D" value="0x04"/>
             <parameter cpu="0" address="0x18E55F" value="0xEC"/>
         </option>
-    </cheat>	
+    </cheat>
     <cheat desc="[ 作用于开启时的画面最后一个敌人 ]"/>
     <cheat desc="[ 开启无限敌人血量后，无法过版面 ]"/>
     <cheat desc="[ 开启空血后，杀死空血敌人再关闭，即可过版 ]"/>
@@ -216,15 +216,13 @@
             <parameter cpu="0" address="0x201625" value="0x7F"/>
         </option>
     </cheat>
-    <cheat desc="选择颜色 PL1" default="0">
+    <cheat desc="使用2P色 PL1" default="0">
         <option desc="关闭"/>
-        <option desc="正常">
-            <parameter cpu="0" address="0x201634" value="0x0F00"/>
-        </option>
-        <option desc="隐藏">
-            <parameter cpu="0" address="0x201634" value="0x1801"/>
-        </option>
-    </cheat>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201634" value="0xFF"/>
+            <parameter cpu="0" address="0x201635" value="0xFF"/>
+        </option>   
+    </cheat>    
 	<cheat desc=" "/>
 	<cheat desc="[ 选择角色在过场景或死命后生效 ]"/>
     <cheat desc="选择角色 PL2" default="0">
@@ -315,14 +313,12 @@
             <parameter cpu="0" address="0x2016A4" value="0x96"/>
             <parameter cpu="0" address="0x2016A5" value="0x7F"/>
         </option>
-    </cheat>
-    <cheat desc="选择颜色 PL2" default="0">
+    </cheat>  
+    <cheat desc="使用1P色 PL2" default="0">
         <option desc="关闭"/>
-        <option desc="正常">
-            <parameter cpu="0" address="0x2016B4" value="0x0F00"/>
-        </option>
-        <option desc="隐藏">
-            <parameter cpu="0" address="0x2016B4" value="0x1801"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2016B4" value="0x00"/>
+            <parameter cpu="0" address="0x2016B5" value="0x00"/>
         </option>
     </cheat>
 </shufflecheat>
