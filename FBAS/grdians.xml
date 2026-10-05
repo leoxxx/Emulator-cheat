@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
-	<cheat desc="[ 仅刃零、塞尔迪亚、吉尔利安、黑骑士 ]"/>
+	<cheat desc="[ 胧天明与斯卡鲁·尤雷无此BUG ]"/>
+	<cheat desc="[ 塔鲁克斯与P.贝尔瓦抓住他后按A ]"/>
+	<cheat desc="[ 及其他人抓住他后有此BUG ]"/>
     <cheat desc="修正第一关BOSS被抓时头部裂开" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -141,16 +143,16 @@
         <option desc="黑骑士">
             <parameter cpu="0" address="0x201603" value="0x03"/>
         </option>
-        <option desc="胧 天明">
+        <option desc="胧天明">
             <parameter cpu="0" address="0x201603" value="0x04"/>
         </option>
-        <option desc="斯卡鲁【刺蜂】">
+        <option desc="斯卡鲁·尤雷【刺蜂】">
             <parameter cpu="0" address="0x201603" value="0x05"/>
         </option>
         <option desc="塔鲁克斯【肌肉男】">
             <parameter cpu="0" address="0x201603" value="0x06"/>
         </option>
-        <option desc="机器人">
+        <option desc="P.贝尔瓦">
             <parameter cpu="0" address="0x201603" value="0x07"/>
         </option>
     </cheat>
@@ -216,9 +218,13 @@
             <parameter cpu="0" address="0x201625" value="0x7F"/>
         </option>
     </cheat>
-    <cheat desc="使用2P色 PL1" default="0">
+    <cheat desc="选择颜色 PL1" default="0">
         <option desc="关闭"/>
-        <option desc="开启">
+        <option desc="1P">
+            <parameter cpu="0" address="0x201634" value="0x00"/>
+            <parameter cpu="0" address="0x201635" value="0x00"/>
+        </option>
+        <option desc="2P">
             <parameter cpu="0" address="0x201634" value="0xFF"/>
             <parameter cpu="0" address="0x201635" value="0xFF"/>
         </option>   
@@ -239,16 +245,16 @@
         <option desc="黑骑士">
             <parameter cpu="0" address="0x201683" value="0x03"/>
         </option>
-        <option desc="胧 天明">
+        <option desc="胧天明">
             <parameter cpu="0" address="0x201683" value="0x04"/>
         </option>
-        <option desc="斯卡鲁【刺蜂】">
+        <option desc="斯卡鲁·尤雷【刺蜂】">
             <parameter cpu="0" address="0x201683" value="0x05"/>
         </option>
         <option desc="塔鲁克斯【肌肉男】">
             <parameter cpu="0" address="0x201683" value="0x06"/>
         </option>
-        <option desc="机器人">
+        <option desc="P.贝尔瓦">
             <parameter cpu="0" address="0x201683" value="0x07"/>
         </option>
     </cheat>
@@ -314,11 +320,15 @@
             <parameter cpu="0" address="0x2016A5" value="0x7F"/>
         </option>
     </cheat>
-    <cheat desc="使用1P色 PL2" default="0">
+    <cheat desc="选择颜色 PL2" default="0">
         <option desc="关闭"/>
-        <option desc="开启">
+        <option desc="1P">
             <parameter cpu="0" address="0x2016B4" value="0x00"/>
             <parameter cpu="0" address="0x2016B5" value="0x00"/>
+        </option>
+        <option desc="2P">
+            <parameter cpu="0" address="0x2016B4" value="0xFF"/>
+            <parameter cpu="0" address="0x2016B5" value="0xFF"/>
         </option>
     </cheat>
 </shufflecheat>
