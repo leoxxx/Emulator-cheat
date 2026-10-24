@@ -320,12 +320,12 @@
 	<cheat desc="武器属性选择" default="0">
 		<option desc="关闭"/>
 		<option desc="无属性">
-			<parameter cpu="0" address="0x122A27" value="0x00"/>
-			<parameter cpu="0" address="0x122A73" value="0x00"/>
-			<parameter cpu="0" address="0x122977" value="0x00"/>
-			<parameter cpu="0" address="0x122ABD" value="0x00"/>
-			<parameter cpu="0" address="0x122B09" value="0x00"/>
-			<parameter cpu="0" address="0x122B79" value="0x00"/>
+			<parameter cpu="0" address="0x122A27" value="0x15"/>
+			<parameter cpu="0" address="0x122A73" value="0x15"/>
+			<parameter cpu="0" address="0x122977" value="0x15"/>
+			<parameter cpu="0" address="0x122ABD" value="0x15"/>
+			<parameter cpu="0" address="0x122B09" value="0x15"/>
+			<parameter cpu="0" address="0x122B79" value="0x15"/>
 		</option>
 		<option desc="冰">
 			<parameter cpu="0" address="0x122A27" value="0x71"/>
