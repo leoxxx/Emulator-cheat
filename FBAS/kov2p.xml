@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
-	<cheat desc="[ 简单任务始终为9人 ]"/>
-	<cheat desc="可选人数" default="0">
+    <cheat desc="[ 简单任务始终为9人 ]"/>
+    <cheat desc="可选人数" default="0">
         <option desc="关闭"/>
         <option desc="9人">
             <parameter cpu="0" address="0x8139F4" value="0x09"/>
@@ -35,7 +35,7 @@
     <cheat desc="[ 简单任务选第三章之后的选项 ]"/>
     <cheat desc="[ 打完第六章后会转到蜀吴争霸 ]"/>
     <cheat desc="[ 之后会一直在这两关间死循环 ]"/>
-	<cheat desc="选关" default="0">
+    <cheat desc="选关" default="0">
         <option desc="关闭"/>
         <option desc="序  章 樊城夺粮">
             <parameter cpu="0" address="0x813AD1" value="0x00"/>
@@ -75,7 +75,7 @@
     <cheat desc="[ 决战赤壁选11角色出不来 ]"/>
     <cheat desc="[ 蜀吴争霸选10无法控制角色 ]"/>
     <cheat desc="[ 第六章选10-12角色出不来 ]"/>
-	<cheat desc="选小关场景" default="0">
+    <cheat desc="选小关场景" default="0">
         <option desc="关闭"/>
         <option desc="1">
             <parameter cpu="0" address="0x813AD2" value="0x00"/>
@@ -105,40 +105,40 @@
             <parameter cpu="0" address="0x813AD2" value="0x08"/>
         </option>
         <option desc="10（第三章&蜀吴争霸可选上限）">
-			<parameter cpu="0" address="0x813AD2" value="0x09"/>
-		</option>
-		<option desc="11（第二章&决战赤壁可选上限）">
-			<parameter cpu="0" address="0x813AD2" value="0x0A"/>
-		</option>
-		<option desc="12（第六章可选上限）">
-			<parameter cpu="0" address="0x813AD2" value="0x0B"/>
-		</option>
-		<option desc="13">
-			<parameter cpu="0" address="0x813AD2" value="0x0C"/>
-		</option>
-		<option desc="14">
-			<parameter cpu="0" address="0x813AD2" value="0x0D"/>
-		</option>
-		<option desc="15">
-			<parameter cpu="0" address="0x813AD2" value="0x0E"/>
-		</option>
-		<option desc="16">
-			<parameter cpu="0" address="0x813AD2" value="0x0F"/>
-		</option>
-		<option desc="17">
-			<parameter cpu="0" address="0x813AD2" value="0x10"/>
-		</option>
-		<option desc="18">
-			<parameter cpu="0" address="0x813AD2" value="0x11"/>
-		</option>
-		<option desc="19">
-			<parameter cpu="0" address="0x813AD2" value="0x12"/>
-		</option>
-		<option desc="20（第四章可选上限）">
-			<parameter cpu="0" address="0x813AD2" value="0x13"/>
-		</option>
+            <parameter cpu="0" address="0x813AD2" value="0x09"/>
+        </option>
+        <option desc="11（第二章&决战赤壁可选上限）">
+            <parameter cpu="0" address="0x813AD2" value="0x0A"/>
+        </option>
+        <option desc="12（第六章可选上限）">
+            <parameter cpu="0" address="0x813AD2" value="0x0B"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0x813AD2" value="0x0C"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0x813AD2" value="0x0D"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0x813AD2" value="0x0E"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0x813AD2" value="0x0F"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0x813AD2" value="0x10"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0x813AD2" value="0x11"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0x813AD2" value="0x12"/>
+        </option>
+        <option desc="20（第四章可选上限）">
+            <parameter cpu="0" address="0x813AD2" value="0x13"/>
+        </option>
     </cheat>
-	<cheat desc="无限场景时间" default="0">
+    <cheat desc="无限场景时间" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x813B16" value="0x65"/>
@@ -155,57 +155,57 @@
         </option>
     </cheat>
     <cheat desc="[ 进场后再开，转场前须关闭 ]"/>
-	<cheat desc="[ 四神兽密室必出慈 ]"/>
-	<cheat desc="无限任务时间" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x809023" value="0xFF"/>
-		</option>
-	</cheat>
-	<cheat desc="北彝陵密道-左 炸药不会消失" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x817F87" value="0xFF"/>
-		</option>
-	</cheat>
-	<cheat desc="[ 对玩家&难民&刘琦&黄盖有效 ]"/>
-	<cheat desc="[ 但玩家还是能攻击到非玩家单位 ]"/>
-	<cheat desc="[ 这也会使某些技能无伤害 ]"/>
-	<cheat desc="敌方攻击不到我方单位" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x8108F0" value="0x00"/>
-			<parameter cpu="0" address="0x8108F1" value="0x00"/>
-		</option>
-	</cheat>
+    <cheat desc="[ 四神兽密室必出慈 ]"/>
+    <cheat desc="无限任务时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x809023" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="北彝陵密道-左 炸药不会消失" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x817F87" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 对玩家&难民&刘琦&黄盖有效 ]"/>
+    <cheat desc="[ 但玩家还是能攻击到非玩家单位 ]"/>
+    <cheat desc="[ 这也会使某些技能无伤害 ]"/>
+    <cheat desc="敌方攻击不到我方单位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8108F0" value="0x00"/>
+            <parameter cpu="0" address="0x8108F1" value="0x00"/>
+        </option>
+    </cheat>
     <cheat desc="江夏刘琦无限体力" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0xD024F5" value="0x09"/>
-		</option>
-	</cheat>
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD024F5" value="0x09"/>
+        </option>
+    </cheat>
     <cheat desc="江陵道黄盖被打不会跑" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x81786D" value="0x02"/>
-		</option>
-	</cheat>
-	<cheat desc="[ 对机关和宝箱也有效 ]"/>
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81786D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 对机关和宝箱也有效 ]"/>
     <cheat desc="障碍物&各种车类一击即毁" default="0">
 		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0xD020F5" value="0x00"/>
-			<parameter cpu="0" address="0xD021F5" value="0x00"/>
-			<parameter cpu="0" address="0xD022F5" value="0x00"/>
-			<parameter cpu="0" address="0xD023F5" value="0x00"/>
-			<parameter cpu="0" address="0xD024F5" value="0x00"/>
-			<parameter cpu="0" address="0xD025F5" value="0x00"/>
-			<parameter cpu="0" address="0xD026F5" value="0x00"/>
-			<parameter cpu="0" address="0xD027F5" value="0x00"/>
-			<parameter cpu="0" address="0xD028F5" value="0x00"/>
-			<parameter cpu="0" address="0xD029F5" value="0x00"/>
-		</option>
-	</cheat>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD020F5" value="0x00"/>
+            <parameter cpu="0" address="0xD021F5" value="0x00"/>
+            <parameter cpu="0" address="0xD022F5" value="0x00"/>
+            <parameter cpu="0" address="0xD023F5" value="0x00"/>
+            <parameter cpu="0" address="0xD024F5" value="0x00"/>
+            <parameter cpu="0" address="0xD025F5" value="0x00"/>
+            <parameter cpu="0" address="0xD026F5" value="0x00"/>
+            <parameter cpu="0" address="0xD027F5" value="0x00"/>
+            <parameter cpu="0" address="0xD028F5" value="0x00"/>
+            <parameter cpu="0" address="0xD029F5" value="0x00"/>
+        </option>
+    </cheat>
     <cheat desc="随意走" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -234,119 +234,128 @@
         </option>
     </cheat>
     <cheat desc="全屏攻击" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x11F558" value="0x4E"/>
-			<parameter cpu="0" address="0x11F559" value="0x71"/>
-			<parameter cpu="0" address="0x11F55A" value="0x4E"/>
-			<parameter cpu="0" address="0x11F55B" value="0x71"/>
-			<parameter cpu="0" address="0x11FC6C" value="0x4E"/>
-			<parameter cpu="0" address="0x11FC6D" value="0x71"/>
-			<parameter cpu="0" address="0x11FC6E" value="0x4E"/>
-			<parameter cpu="0" address="0x11FC6F" value="0x71"/>
-			<parameter cpu="0" address="0x1221BA" value="0x4E"/>
-			<parameter cpu="0" address="0x1221BB" value="0x71"/>
-			<parameter cpu="0" address="0x1221BC" value="0x4E"/>
-			<parameter cpu="0" address="0x1221BD" value="0x71"/>
-			<parameter cpu="0" address="0x12297A" value="0x4E"/>
-			<parameter cpu="0" address="0x12297B" value="0x71"/>
-			<parameter cpu="0" address="0x12297C" value="0x4E"/>
-			<parameter cpu="0" address="0x12297D" value="0x71"/>
-			<parameter cpu="0" address="0x12297E" value="0x4E"/>
-			<parameter cpu="0" address="0x12297F" value="0x71"/>
-			<parameter cpu="0" address="0x122A2A" value="0x4E"/>
-			<parameter cpu="0" address="0x122A2B" value="0x71"/>
-			<parameter cpu="0" address="0x122A2C" value="0x4E"/>
-			<parameter cpu="0" address="0x122A2D" value="0x71"/>
-			<parameter cpu="0" address="0x122A76" value="0x4E"/>
-			<parameter cpu="0" address="0x122A77" value="0x71"/>
-			<parameter cpu="0" address="0x122A78" value="0x4E"/>
-			<parameter cpu="0" address="0x122A79" value="0x71"/>
-			<parameter cpu="0" address="0x122AC0" value="0x4E"/>
-			<parameter cpu="0" address="0x122AC1" value="0x71"/>
-			<parameter cpu="0" address="0x122AC2" value="0x4E"/>
-			<parameter cpu="0" address="0x122AC3" value="0x71"/>
-			<parameter cpu="0" address="0x122B0C" value="0x4E"/>
-			<parameter cpu="0" address="0x122B0D" value="0x71"/>
-			<parameter cpu="0" address="0x122B0E" value="0x4E"/>
-			<parameter cpu="0" address="0x122B0F" value="0x71"/>
-			<parameter cpu="0" address="0x122B7C" value="0x4E"/>
-			<parameter cpu="0" address="0x122B7D" value="0x71"/>
-			<parameter cpu="0" address="0x122B7E" value="0x4E"/>
-			<parameter cpu="0" address="0x122B7F" value="0x71"/>
-		</option>
-		<option desc="还原">
-			<parameter cpu="0" address="0x11F558" value="0x67"/>
-			<parameter cpu="0" address="0x11F559" value="0x00"/>
-			<parameter cpu="0" address="0x11F55A" value="0x13"/>
-			<parameter cpu="0" address="0x11F55B" value="0x68"/>
-			<parameter cpu="0" address="0x11FC6C" value="0x67"/>
-			<parameter cpu="0" address="0x11FC6D" value="0x00"/>
-			<parameter cpu="0" address="0x11FC6E" value="0x0C"/>
-			<parameter cpu="0" address="0x11FC6F" value="0x54"/>
-			<parameter cpu="0" address="0x1221BA" value="0x67"/>
-			<parameter cpu="0" address="0x1221BB" value="0x00"/>
-			<parameter cpu="0" address="0x1221BC" value="0x11"/>
-			<parameter cpu="0" address="0x1221BD" value="0xA4"/>
-			<parameter cpu="0" address="0x12297A" value="0x67"/>
-			<parameter cpu="0" address="0x12297B" value="0x00"/>
-			<parameter cpu="0" address="0x12297C" value="0x00"/>
-			<parameter cpu="0" address="0x12297D" value="0xAA"/>
-			<parameter cpu="0" address="0x12297E" value="0x4A"/>
-			<parameter cpu="0" address="0x12297F" value="0x46"/>
-			<parameter cpu="0" address="0x122A2A" value="0x67"/>
-			<parameter cpu="0" address="0x122A2B" value="0x46"/>
-			<parameter cpu="0" address="0x122A2C" value="0x4A"/>
-			<parameter cpu="0" address="0x122A2D" value="0x46"/>
-			<parameter cpu="0" address="0x122A76" value="0x67"/>
-			<parameter cpu="0" address="0x122A77" value="0x44"/>
-			<parameter cpu="0" address="0x122A78" value="0x4A"/>
-			<parameter cpu="0" address="0x122A79" value="0x46"/>
-			<parameter cpu="0" address="0x122AC0" value="0x67"/>
-			<parameter cpu="0" address="0x122AC1" value="0x46"/>
-			<parameter cpu="0" address="0x122AC2" value="0x4A"/>
-			<parameter cpu="0" address="0x122AC3" value="0x46"/>
-			<parameter cpu="0" address="0x122B0C" value="0x67"/>
-			<parameter cpu="0" address="0x122B0D" value="0x6A"/>
-			<parameter cpu="0" address="0x122B0E" value="0x4A"/>
-			<parameter cpu="0" address="0x122B0F" value="0x46"/>
-			<parameter cpu="0" address="0x122B7C" value="0x67"/>
-			<parameter cpu="0" address="0x122B7D" value="0x46"/>
-			<parameter cpu="0" address="0x122B7E" value="0x4A"/>
-			<parameter cpu="0" address="0x122B7F" value="0x46"/>
-		</option>
-	</cheat>
-    <cheat desc="[ 属性切换前需先使用一次无属性 ]"/>
-	<cheat desc="武器属性选择" default="0">
-		<option desc="关闭"/>
-		<option desc="无属性">
-			<parameter cpu="0" address="0x122A27" value="0x15"/>
-			<parameter cpu="0" address="0x122A73" value="0x15"/>
-			<parameter cpu="0" address="0x122977" value="0x15"/>
-			<parameter cpu="0" address="0x122ABD" value="0x15"/>
-			<parameter cpu="0" address="0x122B09" value="0x15"/>
-			<parameter cpu="0" address="0x122B79" value="0x15"/>
-		</option>
-		<option desc="冰">
-			<parameter cpu="0" address="0x122A27" value="0x71"/>
-		</option>
-		<option desc="火">
-			<parameter cpu="0" address="0x122A73" value="0x71"/>
-		</option>
-		<option desc="晕">
-			<parameter cpu="0" address="0x122977" value="0x71"/>
-		</option>
-		<option desc="电">
-			<parameter cpu="0" address="0x122ABD" value="0x71"/>
-		</option>
-		<option desc="毒">
-			<parameter cpu="0" address="0x122B09" value="0x71"/>
-		</option>
-		<option desc="爆">
-			<parameter cpu="0" address="0x122B79" value="0x71"/>
-		</option>
-	</cheat>
-	<cheat desc="八阵图时间无限" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x11F558" value="0x4E"/>
+            <parameter cpu="0" address="0x11F559" value="0x71"/>
+            <parameter cpu="0" address="0x11F55A" value="0x4E"/>
+            <parameter cpu="0" address="0x11F55B" value="0x71"/>
+            <parameter cpu="0" address="0x11FC6C" value="0x4E"/>
+            <parameter cpu="0" address="0x11FC6D" value="0x71"/>
+            <parameter cpu="0" address="0x11FC6E" value="0x4E"/>
+            <parameter cpu="0" address="0x11FC6F" value="0x71"/>
+            <parameter cpu="0" address="0x1221BA" value="0x4E"/>
+            <parameter cpu="0" address="0x1221BB" value="0x71"/>
+            <parameter cpu="0" address="0x1221BC" value="0x4E"/>
+            <parameter cpu="0" address="0x1221BD" value="0x71"/>
+            <parameter cpu="0" address="0x12297A" value="0x4E"/>
+            <parameter cpu="0" address="0x12297B" value="0x71"/>
+            <parameter cpu="0" address="0x12297C" value="0x4E"/>
+            <parameter cpu="0" address="0x12297D" value="0x71"/>
+            <parameter cpu="0" address="0x12297E" value="0x4E"/>
+            <parameter cpu="0" address="0x12297F" value="0x71"/>
+            <parameter cpu="0" address="0x122A2A" value="0x4E"/>
+            <parameter cpu="0" address="0x122A2B" value="0x71"/>
+            <parameter cpu="0" address="0x122A2C" value="0x4E"/>
+            <parameter cpu="0" address="0x122A2D" value="0x71"/>
+            <parameter cpu="0" address="0x122A76" value="0x4E"/>
+            <parameter cpu="0" address="0x122A77" value="0x71"/>
+            <parameter cpu="0" address="0x122A78" value="0x4E"/>
+            <parameter cpu="0" address="0x122A79" value="0x71"/>
+            <parameter cpu="0" address="0x122AC0" value="0x4E"/>
+            <parameter cpu="0" address="0x122AC1" value="0x71"/>
+            <parameter cpu="0" address="0x122AC2" value="0x4E"/>
+            <parameter cpu="0" address="0x122AC3" value="0x71"/>
+            <parameter cpu="0" address="0x122B0C" value="0x4E"/>
+            <parameter cpu="0" address="0x122B0D" value="0x71"/>
+            <parameter cpu="0" address="0x122B0E" value="0x4E"/>
+            <parameter cpu="0" address="0x122B0F" value="0x71"/>
+            <parameter cpu="0" address="0x122B7C" value="0x4E"/>
+            <parameter cpu="0" address="0x122B7D" value="0x71"/>
+            <parameter cpu="0" address="0x122B7E" value="0x4E"/>
+            <parameter cpu="0" address="0x122B7F" value="0x71"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x11F558" value="0x67"/>
+            <parameter cpu="0" address="0x11F559" value="0x00"/>
+            <parameter cpu="0" address="0x11F55A" value="0x13"/>
+            <parameter cpu="0" address="0x11F55B" value="0x68"/>
+            <parameter cpu="0" address="0x11FC6C" value="0x67"/>
+            <parameter cpu="0" address="0x11FC6D" value="0x00"/>
+            <parameter cpu="0" address="0x11FC6E" value="0x0C"/>
+            <parameter cpu="0" address="0x11FC6F" value="0x54"/>
+            <parameter cpu="0" address="0x1221BA" value="0x67"/>
+            <parameter cpu="0" address="0x1221BB" value="0x00"/>
+            <parameter cpu="0" address="0x1221BC" value="0x11"/>
+            <parameter cpu="0" address="0x1221BD" value="0xA4"/>
+            <parameter cpu="0" address="0x12297A" value="0x67"/>
+            <parameter cpu="0" address="0x12297B" value="0x00"/>
+            <parameter cpu="0" address="0x12297C" value="0x00"/>
+            <parameter cpu="0" address="0x12297D" value="0xAA"/>
+            <parameter cpu="0" address="0x12297E" value="0x4A"/>
+            <parameter cpu="0" address="0x12297F" value="0x46"/>
+            <parameter cpu="0" address="0x122A2A" value="0x67"/>
+            <parameter cpu="0" address="0x122A2B" value="0x46"/>
+            <parameter cpu="0" address="0x122A2C" value="0x4A"/>
+            <parameter cpu="0" address="0x122A2D" value="0x46"/>
+            <parameter cpu="0" address="0x122A76" value="0x67"/>
+            <parameter cpu="0" address="0x122A77" value="0x44"/>
+            <parameter cpu="0" address="0x122A78" value="0x4A"/>
+            <parameter cpu="0" address="0x122A79" value="0x46"/>
+            <parameter cpu="0" address="0x122AC0" value="0x67"/>
+            <parameter cpu="0" address="0x122AC1" value="0x46"/>
+            <parameter cpu="0" address="0x122AC2" value="0x4A"/>
+            <parameter cpu="0" address="0x122AC3" value="0x46"/>
+            <parameter cpu="0" address="0x122B0C" value="0x67"/>
+            <parameter cpu="0" address="0x122B0D" value="0x6A"/>
+            <parameter cpu="0" address="0x122B0E" value="0x4A"/>
+            <parameter cpu="0" address="0x122B0F" value="0x46"/>
+            <parameter cpu="0" address="0x122B7C" value="0x67"/>
+            <parameter cpu="0" address="0x122B7D" value="0x46"/>
+            <parameter cpu="0" address="0x122B7E" value="0x4A"/>
+            <parameter cpu="0" address="0x122B7F" value="0x46"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 切换前须先使用一次无 ]"/>
+    <cheat desc="选择武器属性" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0x122A27" value="0x15"/>
+            <parameter cpu="0" address="0x122A73" value="0x15"/>
+            <parameter cpu="0" address="0x122977" value="0x15"/>
+            <parameter cpu="0" address="0x122ABD" value="0x15"/>
+            <parameter cpu="0" address="0x122B09" value="0x15"/>
+            <parameter cpu="0" address="0x122B79" value="0x15"/>
+        </option>
+        <option desc="冰">
+            <parameter cpu="0" address="0x122A27" value="0x71"/>
+        </option>
+        <option desc="火">
+            <parameter cpu="0" address="0x122A73" value="0x71"/>
+        </option>
+        <option desc="晕">
+            <parameter cpu="0" address="0x122977" value="0x71"/>
+        </option>
+        <option desc="电">
+            <parameter cpu="0" address="0x122ABD" value="0x71"/>
+        </option>
+        <option desc="毒">
+            <parameter cpu="0" address="0x122B09" value="0x71"/>
+        </option>
+        <option desc="爆">
+            <parameter cpu="0" address="0x122B79" value="0x71"/>
+        </option>
+    </cheat>
+    <cheat desc="一击必杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1158C2" value="0x60"/>
+        </option>
+        <option desc="还原">
+            <parameter cpu="0" address="0x1158C2" value="0x6F"/>
+        </option>
+    </cheat>	
+    <cheat desc="八阵图时间无限" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x81100C" value="0x01"/>
@@ -357,7 +366,7 @@
             <parameter cpu="0" address="0x811018" value="0x00"/>
         </option>
     </cheat>
-	<cheat desc="神器时间无限" default="0">
+    <cheat desc="神器时间无限" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x810A1E" value="0x19"/>
@@ -428,17 +437,17 @@
         </option>
     </cheat>
     <cheat desc="[ 序章无效 ]"/>
-	<cheat desc="[ 换场景前选永不逃跑会卡住 ]"/>
-	<cheat desc="[ 选一下不久就跑即可 ]"/>
-	<cheat desc="选择敌兵是否逃跑" default="0">
-		<option desc="关闭"/>
-		<option desc="不久就跑">
-			<parameter cpu="0" address="0x809012" value="0x00"/>
-		</option>
-		<option desc="永不逃跑">
-			<parameter cpu="0" address="0x809012" value="0x09"/>
-		</option>
-	</cheat>
+    <cheat desc="[ 换场景前选永不逃跑会卡住 ]"/>
+    <cheat desc="[ 选一下不久就跑即可 ]"/>
+    <cheat desc="选择敌兵是否逃跑" default="0">
+        <option desc="关闭"/>
+        <option desc="不久就跑">
+            <parameter cpu="0" address="0x809012" value="0x00"/>
+        </option>
+        <option desc="永不逃跑">
+            <parameter cpu="0" address="0x809012" value="0x09"/>
+        </option>
+    </cheat>
 	<cheat desc="选择敌方体力" default="0">
 		<option desc="关闭"/>
 		<option desc="空血">
