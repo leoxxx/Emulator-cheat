@@ -68,11 +68,8 @@ https://github.com/libretro/mame2003-plus-libretro/blob/master/src/cheat.c
             REGION_USER20,
             REGION_DISKS,
             REGION_PLDS,
-            REGION_MAX       ←0x4F   001001111
+            REGION_MAX       ←0x4F   01001111
     };
-
-010=写入映射内存的处理程序
-后五位=使用哪个CPU的地址=XML版的maincpu处
 
 011=自定义
 00000=注释
