@@ -14,8 +14,62 @@ https://github.com/libretro/mame2003-plus-libretro/blob/master/src/cheat.c
 000=标准内存写入=XML版的p（写入RAM区）
 后五位=使用哪个CPU的地址=XML版的maincpu处
 
-001=内存区域=XML版的m（写入ROM区）
---xxx=区域偏移偏移量
+001=内存区域（写入ROM区）
+后五位=域区偏移量
+
+    /* memory region types */
+    enum
+    {
+            REGION_INVALID = 0x80,
+            REGION_CPU1,    ←0x20   00100000
+            REGION_CPU2,
+            REGION_CPU3,
+            REGION_CPU4,
+            REGION_CPU5,
+            REGION_CPU6,
+            REGION_CPU7,
+            REGION_CPU8,
+            REGION_GFX1,
+            REGION_GFX2,
+            REGION_GFX3,
+            REGION_GFX4,
+            REGION_GFX5,
+            REGION_GFX6,
+            REGION_GFX7,
+            REGION_GFX8,
+            REGION_PROMS,
+            REGION_SOUND1,
+            REGION_SOUND2,
+            REGION_SOUND3,
+            REGION_SOUND4,
+            REGION_SOUND5,
+            REGION_SOUND6,
+            REGION_SOUND7,
+            REGION_SOUND8,
+            REGION_USER1,  ←0x39   00111001
+            REGION_USER2,
+            REGION_USER3,
+            REGION_USER4,
+            REGION_USER5,
+            REGION_USER6,
+            REGION_USER7,
+            REGION_USER8,
+            REGION_USER9,
+            REGION_USER10,
+            REGION_USER11,
+            REGION_USER12,
+            REGION_USER13,
+            REGION_USER14,
+            REGION_USER15,
+            REGION_USER16,
+            REGION_USER17,
+            REGION_USER18,
+            REGION_USER19,
+            REGION_USER20,
+            REGION_DISKS,
+            REGION_PLDS,
+            REGION_MAX       ←0x4F   001001111
+    };
 
 010=写入映射内存的处理程序
 后五位=使用哪个CPU的地址=XML版的maincpu处
@@ -175,9 +229,60 @@ xxx--=cpu
 
 00000010 -------- -------- --------
 02000000
-01000010 -------- -------- --------
-42000000
-两种不同的写入方式使用CPU 2的地址。常用于PGM的部分游戏。
+操作CPU1（第2个CPU）的地址。常用于PGM的部分游戏。
+
+00111001 10010000 -------- --------
+39900000
+操作ROM区域USER1的地址。常用于PGM2的部分游戏。
+以kov2nl为例：
+
+    ROM 区域:
+    gsyx_igs036_china.rom     4000 cpu1    4000
+    kov2nl_igs036_oversea.rom     4000 cpu1   18000
+    kov2nl_v302fa.u7   800000 usr1       0
+    ig-a3_text.u4      200000 gfx1       0
+    ig-a3_bgl.u35      800000 gfx2       0
+    ig-a3_bgh.u36      800000 gfx2       2
+    ig-a3_bml.u12     1000000 gfx3       0
+    ig-a3_bmh.u16     1000000 gfx3       2
+    ig-a3_cgl.u18     2000000 gfx4       0
+    ig-a3_cgh.u26     2000000 gfx4       2
+    ig-a3_sp.u37      2000000 snd1       0
+    gsyx_nvram          10000 usr2       0
+    blank_gsyx_china.pg2      108 usr3     108
+    blank_kov2nl_overseas_card.pg2      108 usr3     210
+
+https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm2.cpp
+
+    void pgm2_state::pgm2_rom_map(address_map &map)
+    {
+        pgm2_map(map);
+        map(0x10000000, 0x10ffffff).rom().region("mainrom", 0); // external ROM
+    }
+
+    void pgm2_state::pgm2_ram_rom_map(address_map &map)
+    {
+        pgm2_map(map);
+        map(0x10000000, 0x101fffff).ram().share("romboard_ram"); // we should also probably decrypt writes once the encryption is enabled, but the game never writes with it turned on anyway
+        map(0x10200000, 0x103fffff).rom().region("mainrom", 0); // external ROM
+    }
+
+    void pgm2_state::pgm2_module_rom_map(address_map &map)
+    {
+        pgm2_rom_map(map);
+        map(0x10000000, 0x107fffff).w(FUNC(pgm2_state::module_rom_w));
+        map(0x10000000, 0x1000000f).r(FUNC(pgm2_state::module_rom_r));
+        map(0xfffff430, 0xfffff433).w(FUNC(pgm2_state::pio_sodr_w));
+        map(0xfffff434, 0xfffff437).w(FUNC(pgm2_state::pio_codr_w));
+        map(0xfffff43c, 0xfffff43f).r(FUNC(pgm2_state::pio_pdsr_r));
+    }
+
+    #define KOV2NL_PROGRAM_302(prefix, extension) \
+        ROM_REGION32_LE( 0x1000000, "mainrom", 0 ) \
+        ROM_LOAD( #prefix "_v302" #extension ".u7", 0x00000000, 0x0800000, CRC(b19cf540) SHA1(25da5804bbfd7ef2cdf5cc5aabaa803d18b98929) ) // V302 08-12-03 15:27:34
+
+0x1000000这段映地址对应.u7文件，也就是旧版MAME的usr1（USER1）区域。
+另外旧版MAME的CHEAT的地址不是按映射地址， 而是需要按区域地址写。这里的区域是从0开始的，所以1XXXXXXX要写成0XXXXXXX。
 
 -------- 1------- -------- --------
 00800000
