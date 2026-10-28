@@ -281,8 +281,8 @@ https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm2.cpp
         ROM_REGION32_LE( 0x1000000, "mainrom", 0 ) \
         ROM_LOAD( #prefix "_v302" #extension ".u7", 0x00000000, 0x0800000, CRC(b19cf540) SHA1(25da5804bbfd7ef2cdf5cc5aabaa803d18b98929) ) // V302 08-12-03 15:27:34
 
-0x1000000这段映地址对应.u7文件，也就是旧版MAME的usr1（USER1）区域。
-另外旧版MAME的CHEAT的地址不是按映射地址， 而是需要按区域地址写。这里的区域是从0开始的，所以1XXXXXXX要写成0XXXXXXX。
+0x1000000这段映射地址对应.u7文件，也就是旧版MAME的usr1（USER1）区域。
+另外旧版MAME的CHEAT的地址不是按映射地址，而是需要按区域地址写。这里的区域是从0开始的，所以1XXXXXXX要写成0XXXXXXX。
 
 -------- 1------- -------- --------
 00800000
