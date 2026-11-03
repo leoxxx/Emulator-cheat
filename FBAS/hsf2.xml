@@ -2,7 +2,7 @@
 <shufflecheat>
     <cheat desc="无限投币" default="0">
         <option desc="关闭"/>
-        <option desc="开启">
+        <option desc="开启1">
             <parameter cpu="0" address="0xFF830A" value="0x09"/>
         </option>
     </cheat>
